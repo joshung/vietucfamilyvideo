@@ -35,6 +35,10 @@
     "reference_style": "docs/21-reference-style-breakdown.md",
     "frame_by_frame": "docs/22-frame-by-frame-paper-stop-motion.md",
     "remotion_agent_prompt": "docs/23-remotion-implementation-handoff-prompt.md",
+    "image_generation_prompts": "docs/24-image-generation-prompts.md",
+    "frame_prompt_contract": "docs/25-frame-prompt-contract.md",
+    "image_generation_agent_prompt": "docs/26-image-generation-agent-handoff-prompt.md",
+    "exact_prompt_remotion_handoff": "docs/27-exact-prompt-remotion-handoff.md",
     "director_pack": "docs/FINAL-DIRECTOR-PACK.md"
   },
   "assets": {
@@ -49,6 +53,11 @@
     "animatic_spec": "production/animatic/animatic.json",
     "remotion_scene_plan": "production/remotion/scene-plan.json",
     "remotion_style_tokens": "production/remotion/style-tokens.json",
+    "image_generation_manifest": "production/remotion/image-generation-manifest.json",
+    "hero_frame_prompts": "production/remotion/hero-frame-prompts.json",
+    "frame_actions": "production/remotion/frame-actions.json",
+    "frame_prompt_manifest": "production/remotion/frame-prompt-manifest.jsonl",
+    "frame_prompt_index": "production/remotion/frame-prompt-index.json",
     "render_plan": "production/render/render-plan.json",
     "manifest": "production/production-manifest.json",
     "render_execution_deferred_by_owner": true
@@ -86,6 +95,9 @@
     "remotion_style_system": true,
     "remotion_scene_plan": true,
     "remotion_agent_handoff_prompt": true,
+    "exact_image_prompt_pack": true,
+    "hero_frame_prompt_pack": true,
+    "per_frame_prompt_manifest_2880": true,
     "dad_identity_refs": true,
     "archive_catalog": true,
     "archive_shortlist_qc": true,

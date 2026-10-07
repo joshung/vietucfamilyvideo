@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "project_id": "VUF_DAD_001",
+  "composition_id": "DadJourneyMaster",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "frame_count": 2880,
+  "first_frame": 0,
+  "last_frame": 2879,
+  "jsonl_path": "production/remotion/frame-prompt-manifest.jsonl",
+  "bytes": 7048427,
+  "generator": "scripts/build-frame-prompt-manifest.mjs"
+}

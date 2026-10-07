@@ -90,6 +90,20 @@ Implementation-agent prompt:
 
 `docs/23-remotion-implementation-handoff-prompt.md`
 
+Exact prompt layer:
+
+- `docs/24-image-generation-prompts.md`
+- `docs/25-frame-prompt-contract.md`
+- `docs/26-image-generation-agent-handoff-prompt.md`
+- `docs/27-exact-prompt-remotion-handoff.md`
+- `production/remotion/image-generation-manifest.json`
+- `production/remotion/hero-frame-prompts.json`
+- `production/remotion/frame-actions.json`
+- `production/remotion/frame-prompt-manifest.jsonl`
+- `production/remotion/frame-prompt-index.json`
+
+The exact frame manifest contains one prompt record for every frame `F0000 → F2879`. Regenerate it with `node scripts/build-frame-prompt-manifest.mjs` and validate with `node scripts/validate-frame-prompts.mjs`.
+
 ## Story lock
 
 ```
@@ -179,4 +193,8 @@ Deferred:
 - `docs/21-reference-style-breakdown.md`
 - `docs/22-frame-by-frame-paper-stop-motion.md`
 - `docs/23-remotion-implementation-handoff-prompt.md`
+- `docs/24-image-generation-prompts.md`
+- `docs/25-frame-prompt-contract.md`
+- `docs/26-image-generation-agent-handoff-prompt.md`
+- `docs/27-exact-prompt-remotion-handoff.md`
 - `docs/FINAL-DIRECTOR-PACK.md`
