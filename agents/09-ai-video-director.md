@@ -156,6 +156,31 @@ For must-have clips:
 
 If a 10-second generation contains only 4 excellent seconds, use the 4 excellent seconds.
 
+## Structural and identity conditioning
+
+When a local/image-diffusion stack supports structural conditioning:
+- use edge/Canny for edge/layout adherence;
+- use depth for relative spatial structure;
+- use pose/OpenPose-style conditioning for body pose guidance;
+- use segmentation/masks when region-level structure matters.
+
+These are constraints, not guarantees. They do **not** by themselves guarantee:
+- correct hands;
+- consistent identity;
+- physically correct interaction;
+- temporal continuity.
+
+Use the minimum set of controls needed. Multiple controls can compete with style/identity references.
+
+For identity/reference adapters:
+- test the exact adapter + base-model combination;
+- maintain approved character references;
+- inspect profile, 3/4, occlusion and extreme-expression cases;
+- never describe the result as a perfect or permanent face lock;
+- verify dependency and commercial-use/license requirements before production.
+
+If an identity adapter or structural control is maintenance-only, deprecated, or version-fragile, record that operational risk and provide a fallback.
+
 ## Prompt discipline
 
 Default:

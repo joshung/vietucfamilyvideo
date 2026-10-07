@@ -78,7 +78,11 @@ For live action:
 For AI:
 - verify whether dialogue/audio generation is supported by the actual model/workflow;
 - keep dialogue length plausible for clip duration;
-- separate picture generation and voice production when control matters more than one-pass convenience.
+- separate picture generation and voice production when control matters more than one-pass convenience;
+- treat lip-sync as a distinct technical stage when needed: approved voice → picture/performance → lip-sync → facial QC → dialogue edit → mix;
+- do not claim "zero latency" or perfect sync; measure actual offset and inspect mouth/teeth/chin artifacts;
+- record source FPS, audio sample rate, dialogue duration and any shot changes inside the lip-sync clip;
+- a locked/static camera can reduce difficulty for some lip-sync workflows, but must remain a creative fallback rather than a universal visual rule.
 
 ## Music
 

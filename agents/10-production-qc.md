@@ -92,6 +92,19 @@ You do not rewrite the project according to personal taste. If a choice is uncon
 - Is there a fallback if extension/keyframing fails?
 - Is an attractive but wrong generation likely to be accepted accidentally?
 
+### Pipeline / automation
+- Does every queued job have a stable project/scene/shot/attempt ID?
+- Is the execution schema versioned and validated?
+- Are model/checkpoint/custom-node versions recorded?
+- Are retries bounded and failure classes distinguished?
+- Is idempotency preventing accidental duplicate deliveries?
+- Can every approved artifact be traced back to inputs/workflow/prompt/version?
+- Is batch output held for QC instead of auto-published?
+- Are API/credit, local GPU, electricity, storage, engineering and licensing costs distinguished?
+- Are commercial-use rights checked for base models, LoRAs, adapters, face models, voice models and custom nodes?
+- Are secrets excluded from workflow files/logs?
+- Has a representative sample passed before scale-up?
+
 ### Production
 - Is the shot physically/logistically feasible?
 - Safety?

@@ -1,12 +1,12 @@
 # VietUcFamilyVideo — Agent Operating Manual
 
-> Version: 1.1
+> Version: 1.2
 > Research baseline: 2026-10-07
 > Scope: live-action video, documentary/educational/social video, cinematic narrative, and AI-generated video.
 
 ## 1. Mission
 
-This repository uses a **Chief Director + 10 specialist subagents** workflow.
+This repository uses a **Chief Director + 11 specialist subagents** workflow.
 
 The goal is not to produce a generic script and then decorate it with camera terms. The goal is to create a production-ready chain:
 
@@ -56,6 +56,7 @@ Do not use drone, orbit, crash zoom, shallow depth of field, anamorphic, handhel
 | 08 | Sound Director | `agents/08-sound-director.md` | dialogue, ambience, SFX, music, silence, sonic transitions |
 | 09 | AI Video Director / Generative TD | `agents/09-ai-video-director.md` | model-neutral shot → model-specific generation plan |
 | 10 | Production QC / Red Team | `agents/10-production-qc.md` | independent quality gate, feasibility, continuity, risk |
+| 11 | Pipeline & Automation Engineer | `agents/11-pipeline-automation.md` | machine-readable schema, render queue, reproducibility, cost/ops, artifact lineage |
 
 The **Chief Director / Orchestrator** is the parent agent reading this file. It owns synthesis and resolves disagreements. No specialist may silently override another specialist's domain.
 
@@ -184,6 +185,28 @@ For recurring subjects/locations, prepare reusable continuity assets before bulk
 References should be **purpose-specific**. Do not overload a generation with every available reference.
 
 For detailed implementation, use `docs/ai-video-short-clip-continuity.md`.
+
+### 4.8 Structured production, local pipelines and automation
+
+Treat automation as a **production system**, not a pile of prompts.
+
+- Keep a **canonical machine-readable project schema** (JSON/YAML) with stable IDs for project → scene → shot → generation attempt → selected take.
+- Human-readable Markdown remains the editorial source; JSON/YAML is the execution contract.
+- Version the schema. Never silently change field meaning after jobs have been queued.
+- Validate every job before render: required references exist, aspect ratio/duration are legal for the selected model, dependencies are present, and continuity anchors are resolved.
+- A tool such as ComfyUI may be an execution adapter, not the creative source of truth.
+- Control systems such as edge/depth/pose conditioning can constrain spatial structure, but **do not guarantee anatomy, identity, physics or temporal continuity**.
+- Face/identity adapters can improve similarity, but **do not claim they "lock a face perfectly."** Treat identity as a scored QC target with references and fallbacks.
+- Lip-sync is a separate production problem. Prefer a stable face shot when using post lip-sync, but do not make "static camera" a universal creative rule.
+- Separate speech generation/recording, picture generation, lip-sync and final audio mix when that gives more control.
+- Batch queues must support job IDs, dependency graph, status, retry count, timeout, cancel, idempotency, logs and artifact hashes.
+- Pin model/checkpoint/custom-node versions for reproducibility. Save prompt/workflow JSON, seeds when exposed, inputs, outputs and software versions with each accepted take.
+- Never describe local generation as "free" or "zero cost." Separate **API/token cost**, **GPU time**, **electricity**, **storage**, **engineering/operations**, and **license/commercial-use** cost.
+- Do not deliver overnight/batch outputs automatically. Every batch must pass technical QC and editorial QC before publish/export.
+- Custom nodes/models are supply-chain dependencies: review source, license, maintenance status and version compatibility before production use.
+- Private/self-hosted inference can reduce per-call API spend and improve control, but it creates operational responsibility.
+
+For detailed implementation, use `docs/ai-production-pipeline.md`.
 
 ## 5. Pipeline and quality gates
 
@@ -408,6 +431,7 @@ Do not fill fields that do not matter. Specificity is valuable only when it chan
 - **Agent 08** may request room tone, clean dialogue, wild lines or sonic transitions.
 - **Agent 09** may simplify/split AI shots for reliability but may not change story intent without approval.
 - **Agent 10** may block finalization for objective defects, but does not rewrite the project by taste alone.
+- **Agent 11** owns execution schema, queues, retries, artifact lineage and infrastructure validation; it may not accept a creative take on behalf of Director/Editor/QC.
 - **Chief Director** resolves cross-domain conflicts and owns final approval.
 
 ## 9. Conflict resolution

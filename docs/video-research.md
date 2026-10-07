@@ -266,7 +266,80 @@ Applied here:
 - handles, action phase, camera velocity, subject velocity, sound bridge and shared-frame trimming are planned explicitly;
 - detailed implementation lives in `docs/ai-video-short-clip-continuity.md`.
 
-## 9. Research conclusions encoded in the system
+## 9. Structured local pipelines, ControlNet, identity adapters and lip-sync
+
+### ControlNet paper
+https://arxiv.org/abs/2302.05543
+
+Primary-paper takeaway:
+- ControlNet adds spatial conditioning to diffusion models using controls such as edges, depth, segmentation and human pose.
+
+Applied here:
+- structural controls are treated as constraints on spatial structure, not as guarantees of anatomy, identity, temporal consistency or physics;
+- multiple controls are used only when their benefit outweighs conflict/rigidity.
+
+### ComfyUI official repository API example
+https://github.com/comfyanonymous/ComfyUI/blob/master/script_examples/websockets_api_example.py
+
+Key implementation takeaways:
+- a workflow can be submitted as structured JSON;
+- prompt execution is queued through the server API;
+- WebSocket progress can be tracked;
+- history/output can be fetched after completion.
+
+Applied here:
+- ComfyUI can be an execution adapter behind a canonical project/shot schema;
+- production queues add their own stable IDs, idempotency, retries, artifact lineage and QC states rather than relying only on raw queue position.
+
+### ComfyUI IPAdapter Plus
+https://github.com/cubiq/ComfyUI_IPAdapter_plus
+
+Key takeaways:
+- IP-Adapter can transfer subject/style information from reference images;
+- FaceID workflows require InsightFace and, for many variants, model-specific LoRA support;
+- the repository reports maintenance-only status as of 2025.
+
+Applied here:
+- identity adapters are useful tools but never described as perfect face locks;
+- production must record compatibility, maintenance and license risk.
+
+### Wav2Lip reference implementation
+https://github.com/Rudrabha/Wav2Lip
+
+Key takeaways:
+- lip-sync can be performed as a separate stage using target video plus audio;
+- output quality depends on face detection/crop and source characteristics;
+- the original open-source/pretrained ecosystem has commercial-use restrictions that must be checked before client/monetized use.
+
+Applied here:
+- lip-sync is treated as an independent technical stage;
+- static/locked camera is only a simplifying fallback;
+- actual sync offset and facial artifacts require QC;
+- licensing is a delivery gate.
+
+### Claim audit from the social-media workflow
+
+**Keep / strengthen**
+- structured storyboard/shot JSON;
+- API/local workflow execution;
+- reference-based identity conditioning;
+- structural conditioning;
+- separate lip-sync when useful;
+- queued/batch rendering.
+
+**Reject as blanket rules**
+- "FaceID locks one face perfectly";
+- "ControlNet prevents malformed hands/limbs";
+- "locked camera + lip-sync has zero delay";
+- "local pipeline costs zero";
+- "overnight batch equals finished client-ready episodes."
+
+The stronger production rule is:
+> automate deterministic execution, not creative acceptance.
+
+Detailed implementation lives in `docs/ai-production-pipeline.md`.
+
+## 10. Research conclusions encoded in the system
 
 1. Keep **screenplay**, **director intent**, **shot design** and **model prompt** as separate layers.
 2. Keep the master shot list short enough to use; store detail in shot cards.
@@ -280,4 +353,10 @@ Applied here:
 10. For different shots, prefer motivated editing (action, eyeline, sound, graphic or conceptual match) over synthetic morphing.
 11. Use reference assets, character plates and environment plates for continuity when supported.
 12. Plan usable in/out handles and trim unstable boundary frames.
-13. Judge every shot by story function and editability before visual spectacle.
+13. Use versioned machine-readable execution data for automation, while keeping creative intent vendor-neutral.
+14. Treat ControlNet/pose/depth/edge controls as structural constraints, not quality guarantees.
+15. Treat identity adapters as aids that require angle-by-angle QC, compatibility checks and license review.
+16. Separate picture, voice, lip-sync and mix when decomposition improves control.
+17. Scale batch rendering only after representative shots pass; unattended output still requires QC.
+18. Optimize cost per **accepted shot/second**, not cost per raw generation.
+19. Judge every shot by story function and editability before visual spectacle.
