@@ -1,7 +1,7 @@
 # Video Production Research Notes
 
 > Baseline research date: 2026-10-07
-> Purpose: document the evidence behind the operating rules in `agent.md`.
+> Purpose: document the evidence behind the operating rules in `AGENTS.md`.
 > This file is not a substitute for checking current model documentation at execution time.
 
 ## 1. Pre-production: script → storyboard → shooting script → shot list
