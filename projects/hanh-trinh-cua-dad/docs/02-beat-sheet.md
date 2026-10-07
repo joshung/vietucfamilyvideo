@@ -1,107 +1,143 @@
-# 02 — Beat Sheet
+# 02 — Beat Sheet v02
 
 ## Working title
 
-**Ông bố Úc định chinh phục Việt Nam — rồi Việt Nam chinh phục lại ông**
+**Dad Stevenson: định chinh phục Việt Nam, rồi Việt Nam chinh phục lại Dad**
 
 ## Runtime architecture — 120 seconds
 
-### Beat 1 — Hook: "Australia produced this man" — 0:00–0:13
+### Beat 1 — Serious Dad. Very serious kangaroo. — 0:00–0:14
 
-Show Dad's real face as the hero image.
+Dad's real face.
 
-Australia map slams in.
+Australia map.
 
-Narrator establishes that this is Dad — Australian origin, future Vietnam connection — then immediately undercuts the expected serious biography with a kangaroo-training joke.
+Narrator starts like a prestigious documentary.
 
-**Question created:** How did this guy end up connected so deeply with Vietnam?
-
-### Beat 2 — The entirely unreliable legend of Young Dad — 0:13–0:36
-
-Stylized comedy montage:
-- young Dad;
-- kangaroo boxing card;
-- fake score;
-- mock sports commentary.
-
-A title explicitly marks this as dramatization.
+Then a kangaroo in boxing gloves interrupts.
 
 Purpose:
-- earn attention;
-- establish Dad as adventurous;
-- signal that the film can joke without claiming fantasy as fact.
+- immediate hook;
+- establish affectionate deadpan humor;
+- clearly mark fiction.
 
-### Beat 3 — Vietnam appears on the map — 0:36–0:52
+### Beat 2 — “Next target: Vietnam” — 0:14–0:24
 
-Graphic map links Australia → Vietnam.
+Map pushes toward Vietnam.
 
-Narration pivots:
-at some point, Vietnam becomes more than a point on the map.
+A buffalo appears like a retro-game final boss.
 
-If verified later, insert year/reason here.
+Dad's imagined mission: conquer the buffalo.
 
-### Beat 4 — "New final boss: con trâu" — 0:52–1:08
+Before the gag goes too far, narration pivots:
 
-Dad imagines arriving like a cowboy/explorer.
+> “May mắn là câu chuyện thật hay hơn.”
 
-Buffalo graphic enters like a fighting-game opponent.
+### Beat 3 — The real beginning is in Adelaide — 0:24–0:38
 
-Before the confrontation can happen, smash cut to:
-coffee / street / people / landscape / daily life.
+Adelaide appears.
 
-**Reversal starts.**
+Dad talks with Sơ Nien about a much less cinematic but much more important challenge:
+students in Vietnam with ability and determination but not enough financial support to continue studying.
 
-### Beat 5 — Vietnam fights back... with affection — 1:08–1:34
+This is the real inciting incident.
 
-Instead of action combat, Dad gets overwhelmed by:
-- hospitality;
-- everyday rhythms;
-- food/coffee;
-- places;
-- human connection.
+### Beat 4 — 1996: the trip that creates a key relationship — 0:38–0:51
 
-Narrator:
-the mission changed.
+Animated route through Northeast Vietnam:
+Cao Bằng → Bắc Cạn → Lạng Sơn → Hạ Long.
 
-This is the heart of the film.
+Dad meets tour guide Đoàn Minh Nam.
 
-### Beat 6 — From a trip to a life/story — 1:34–1:52
+Humor:
+tiny label under anh Nam:
 
-Use real Dad photos, family/community imagery if approved.
+**“Tour guide. Soon to receive a much bigger assignment.”**
 
-Introduce the idea of **VietUcFamily** as the bridge between two worlds.
+### Beat 5 — 1997: Dad comes back — 0:51–1:05
 
-Do not fabricate family chronology; let real images carry the meaning.
+Dad returns.
 
-### Beat 7 — Dad to camera / website payoff — 1:52–2:00
+SunWay Hotel, Hà Nội.
 
-Present-day Dad, real footage preferred.
+Dad and anh Nam discuss:
+- who needs help;
+- how much support;
+- how to choose students fairly.
 
-Website appears.
+The adventure story becomes a system.
 
-Short closing line that Dad can actually speak or approve.
+### Beat 6 — The first 8 — 1:05–1:20
 
-End card:
-**vietucfamily.org**
+Church meeting in Ho Chi Minh City.
+
+Cha Nguyễn Văn Tuyến helps connect students.
+
+Anh Nam interprets and records:
+- study;
+- family;
+- hometown;
+- plans.
+
+Number counter lands on:
+
+**8**
+
+This is the first group.
+
+### Beat 7 — Stevenson Scholarship Programme grows — 1:20–1:38
+
+Show the original program name.
+
+Timeline:
+**1997 → 2006**
+
+Student nodes multiply.
+
+The program grows through referrals and wider networks.
+
+No need to cram every name; show the mechanism.
+
+### Beat 8 — 2006: Viet Uc Family — 1:38–1:51
+
+Đoàn Minh Nam hands the work to Nguyễn Hoàng Cung.
+
+Program name changes to:
+
+**VIET UC FAMILY**
+
+Graphic bridge:
+Australia + Vietnam → one family mark.
+
+### Beat 9 — What Dad was really building — 1:51–2:00
+
+Fast principle cards:
+- support;
+- confidence;
+- hope;
+- no repayment.
+
+Final line:
+
+**Dream – Believe – Do**
+
+Website.
 
 ## Emotional curve
 
 ```
-curiosity
-→ absurd confidence
-→ adventure
-→ comic reversal
-→ warmth
-→ belonging
+surprise
+→ comedy
+→ curiosity
+→ purpose
+→ trust
+→ impact
+→ continuity
 → invitation
 ```
 
 ## Humor rule
 
-The joke is never:
-"Vietnam is strange."
+The absurdity belongs to Dad's fictional action-hero persona.
 
-The joke is:
-"Dad dramatically overestimates how prepared he is."
-
-That keeps the comedy affectionate and culturally respectful.
+The scholarship recipients, hardship, religion and Vietnamese culture are never the butt of the joke.

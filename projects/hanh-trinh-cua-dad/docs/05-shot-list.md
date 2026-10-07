@@ -1,52 +1,58 @@
-# 05 — Shot List v01
+# 05 — Shot List v02
 
 Total target: **120 seconds**
 
 | ID | Time | Dur | Function | Picture | Execution | Transition |
 |---|---:|---:|---|---|---|---|
-| S01_SH01 | 00:00 | 6s | Introduce Dad | Real approved Dad portrait, title | Real photo + motion graphics | punch cut |
-| S01_SH02 | 00:06 | 7s | Break serious tone | Australia map → kangaroo gloves | motion graphics/collage | record-scratch cut |
-| S01_SH03 | 00:13 | 7s | Comedy escalation | Dad vs kangaroo fight poster | stylized collage, approved Dad face | graphic match |
-| S01_SH04 | 00:20 | 8s | Punchline | fake stats + freeze-frame non-fight | graphics | whip/slide |
-| S01_SH05 | 00:28 | 8s | Launch journey | Australia→Vietnam animated route | motion graphics | map zoom |
-| S02_SH01 | 00:36 | 8s | Travel fact slot | ticket/passport/archive | real/approved assets | hard cut |
-| S02_SH02 | 00:44 | 8s | Arrive in Vietnam | Vietnam montage | real footage preferred | audio bridge |
-| S02_SH03 | 00:52 | 8s | Buffalo gag | retro final-boss buffalo | stylized collage | bell cut |
-| S02_SH04 | 01:00 | 8s | Reversal | face-off → coffee pour | collage → real macro | match impact/sound |
-| S03_SH01 | 01:08 | 8s | Vietnam wins emotionally | people/food/everyday details | real footage/photos | L-cut narration |
-| S03_SH02 | 01:16 | 8s | Deepen emotional turn | Dad in real environments | real photos/I2V subtle | dissolve only if earned |
-| S03_SH03 | 01:24 | 10s | Belonging | Australia + Vietnam labels converge | graphics + archive | match graphic |
-| S04_SH01 | 01:34 | 10s | VietUcFamily reveal | real family/community images | real photos | rhythmic montage |
-| S04_SH02 | 01:44 | 8s | Present day | Dad portrait/footage + site | real footage + screen capture | J-cut Dad voice |
-| S04_SH03 | 01:52 | 8s | Dad CTA | Dad to camera | live action preferred | end card |
+| S01_SH01 | 00:00 | 6s | Introduce Dad | Real Dad portrait + Australia | real photo + motion graphics | punch cut |
+| S01_SH02 | 00:06 | 8s | Comedy hook | kangaroo fight-card gag | collage / graphic animation | record-scratch |
+| S01_SH03 | 00:14 | 10s | Second gag + pivot | Australia→Vietnam + buffalo boss | motion graphics/collage | freeze → hard cut |
+| S02_SH01 | 00:24 | 7s | Real inciting idea | Adelaide map + Dad | archive/graphics | hard contrast |
+| S02_SH02 | 00:31 | 7s | Define mission | Sơ Nien + student problem | typography/diagram | match text |
+| S02_SH03 | 00:38 | 7s | 1996 journey | NE Vietnam route | animated map | route continuation |
+| S02_SH04 | 00:45 | 6s | Meet anh Nam | Dad + Nam introduction | archive/graphic | label pop |
+| S03_SH01 | 00:51 | 7s | 1997 return | timeline + route | motion graphics | timeline cut |
+| S03_SH02 | 00:58 | 7s | Scholarship planning | SunWay hotel + criteria notebook | diagram/archival | page turn |
+| S03_SH03 | 01:05 | 8s | First meeting | church / people / Nam translating | archive first | audio bridge |
+| S03_SH04 | 01:13 | 7s | First 8 | student cards + counter to 8 | motion graphics | count hit |
+| S04_SH01 | 01:20 | 6s | Original name | Stevenson Scholarship Programme | kinetic typography | node grow |
+| S04_SH02 | 01:26 | 5s | Show operating network | Dad↔Nam↔students | diagram | timeline expand |
+| S04_SH03 | 01:31 | 6s | Growth 1997–2006 | timeline + multiplying nodes | data motion graphic | continuous |
+| S04_SH04 | 01:37 | 5s | Wider referrals | friends/community/student orgs | network graphic | cut |
+| S05_SH01 | 01:42 | 5s | 2006 handoff | Nam→Nguyễn Hoàng Cung | archival/graphic | handoff match |
+| S05_SH02 | 01:47 | 4s | Rename | Stevenson → Viet Uc Family | logo/type morph | resolve |
+| S05_SH03 | 01:51 | 7s | Principles | finance/trust/hope/no repayment | bold editorial cards | rhythmic cuts |
+| S05_SH04 | 01:58 | 2s | Motto/website | Dad + site + Dream Believe Do | real Dad + clean end card | end |
 
-## Shot-priority rule
+## Coverage priorities
 
-**Must-have documentary assets:**
-- one strong present-day Dad portrait or talking-head;
-- at least 3–5 approved Dad/family photos across time;
-- one or more genuine Vietnam-context images;
-- real website screen capture.
+Must-have:
+- approved Dad portrait(s);
+- any authentic image of Dad with program members;
+- images of Đoàn Minh Nam if available;
+- early scholarship/student meeting photos if available;
+- current Viet Uc Family images;
+- real website screen capture;
+- logos/program naming assets if available.
 
-Without these, do not compensate by creating fake documentary imagery.
+## AI use priority
 
-## AI use
+Use AI primarily for:
+- kangaroo gag;
+- buffalo gag;
+- non-factual transition artwork;
+- stylized map/graphic support.
 
-Best AI candidates:
-- stylized kangaroo gag;
-- stylized buffalo gag;
-- non-photoreal supporting transitions;
-- subtle I2V on approved stills.
+Use real/archive material for:
+- Dad;
+- Nam;
+- students;
+- church meeting;
+- scholarship history;
+- Viet Uc Family.
 
-Weak AI candidates:
-- factual historical reconstructions presented as real;
-- long dialogue close-ups;
-- exact website UI;
-- complex kangaroo fight choreography;
-- photoreal younger Dad without an approved younger reference.
+## Short-generation design
 
-## 10-second constraint
+No single planned AI source shot exceeds 10 seconds.
 
-No planned source shot requires more than 10 seconds.
-
-Shots at 8–10 seconds may still be generated as multiple options and edited shorter.
+Most factual shots should be motion-design assemblies rather than generated photoreal video.

@@ -3,8 +3,8 @@
   "project_id": "VUF_DAD_001",
   "slug": "hanh-trinh-cua-dad",
   "title": "Hành Trình Của Dad",
-  "working_title": "Ông bố Úc định chinh phục Việt Nam — rồi Việt Nam chinh phục lại ông",
-  "stage": "SCRIPT",
+  "working_title": "Dad Stevenson: định chinh phục Việt Nam, rồi Việt Nam chinh phục lại Dad",
+  "stage": "SCRIPT_V02",
   "target_runtime_seconds": 120,
   "primary_aspect_ratio": "16:9",
   "language": "vi",
@@ -24,5 +24,6 @@
   "active_edit_version": null,
   "approved_master_artifact_id": null,
   "facts_pending_verification": true,
-  "dad_reference_assets_ready": false
+  "dad_reference_assets_ready": false,
+  "known_fact_issue": "Website line claiming over 1000 students by 2027 is future-dated relative to current project date 2026-10-07."
 }

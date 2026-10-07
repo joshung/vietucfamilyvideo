@@ -1,81 +1,119 @@
-# 11 — QC / Red-Team Report — v01
+# 11 — QC / Red-Team Report — v02
 
-## Review process
+## Review model
 
-Harness subagent execution was requested but is currently unavailable in this environment (`agent execution is not configured`).
+The Chief Director performs the specialist subagent roles itself as separate review passes.
 
-To avoid pretending that independent agents ran, this draft was reviewed in six explicit role-separated passes by the primary agent:
+Runtime child agents are not required.
 
-1. Creative Strategy
-2. Story Architecture
-3. Director / Cinematography
-4. Editor / Sound
-5. AI Production / Continuity
-6. Red Team / Fact Integrity
+Review passes for this version:
+1. Creative Strategist — audience/hook/purpose
+2. Story Architect — 120-second causality
+3. Screenwriter — VO clarity and humor
+4. Director/DP — visual grammar and Dad likeness
+5. Continuity/Editor/Sound — timing, transitions, information load
+6. AI Video Director — what should and should not be generated
+7. Red Team — fact integrity, dignity, future-dated claims
 
 ## Status
 
-**HOLD — FACT INPUTS + DAD ASSETS REQUIRED BEFORE FINAL LOCK**
+**HOLD — DAD/ARCHIVE ASSETS REQUIRED; STORY FACTS SUBSTANTIALLY UNLOCKED**
 
-The concept and 120-second structure are ready for review.
+The first-party website content now supports the main historical spine.
 
-## BLOCKERS
+## Resolved blocker
 
-### B01 — Biography source not retrieved
+### Previous B01 — biography source missing
 
-The supplied `vietucfamily.org/gioi_thieu` page could not be fetched from the current environment.
+**RESOLVED.**
 
-**Consequence:** Exact life facts cannot be responsibly narrated.
+Project owner supplied the website history text.
 
-**Fix:** obtain accessible page content, export, screenshot/text, or direct fact list/interview.
+The script now uses:
+- Adelaide;
+- Sơ Nien;
+- 1996 Dad meets Đoàn Minh Nam;
+- 1997 return;
+- SunWay Hotel discussion;
+- first 8 students;
+- Stevenson Scholarship Programme;
+- growth 1997–2006;
+- 2006 handover/rename;
+- program principles and motto.
 
-### B02 — No approved Dad reference image in project
+## Remaining BLOCKER
 
-**Consequence:** identity-preserving shot generation cannot begin.
+### B01 — Dad and archive visual assets not yet approved
 
-**Fix:** add approved Dad photos/footage to project assets or approved external storage.
+Without real images, the film risks becoming an illustrated history instead of Dad's story.
+
+**Needed:**
+- Dad portrait;
+- younger Dad photos if available;
+- Dad + anh Nam;
+- first student/early program images;
+- later Viet Uc Family images;
+- current Dad.
 
 ## MAJOR
 
-### M01 — Present-day CTA must sound like Dad
+### M01 — 2027 “over 1000 students” line is future-dated
 
-Scripted line is currently placeholder copy.
+Current date is 2026-10-07.
 
-**Fix:** Dad/project owner approves wording or records a natural version.
+Do not use as current fact until clarified.
 
-### M02 — Real Vietnam/family images will determine emotional credibility
+### M02 — density
 
-The second minute should not become generic stock tourism.
+The factual history is rich. A 2-minute film can become a timeline dump.
 
-**Fix:** prioritize actual VietUcFamily archive.
+**Mitigation:** keep only:
+Adelaide → 1996 → 1997 → first 8 → 1997–2006 → 2006 → principles.
 
-## MINOR
+### M03 — religion context must remain factual, not comedic
 
-### N01 — Working title is intentionally punchy
+Church relationships and Cha Nguyễn Văn Tuyến are part of the history.
 
-May be shortened for platform packaging.
+Do not place punchlines on religious or hardship-related beats.
 
-Alternatives:
-- "Dad đã đến Việt Nam như thế nào?"
-- "Từ Kangaroo đến Việt Nam"
-- "Dad: Australia, Việt Nam, và một kế hoạch thất bại rất đẹp"
+## Humor QC
 
-## What passed review
+PASS:
+- kangaroo/buffalo joke is explicitly fictional;
+- joke targets Dad's imagined action-hero persona;
+- real scholarship story becomes more serious after 0:24.
 
-- humor targets Dad's exaggerated confidence, not Vietnam;
-- kangaroo and buffalo beats are clearly fictional;
-- each source clip fits short-generation planning;
-- real Dad likeness is protected as authoritative reference;
-- website is treated as real screen capture, not AI UI;
-- emotional reversal occurs around minute one;
-- final 30 seconds are grounded in real imagery;
-- no unverified dates/professions/relationships are invented.
+## Narrative QC
 
-## Next approval gate
+PASS:
+- hook arrives immediately;
+- real inciting idea appears by 0:24;
+- first concrete outcome (“8”) appears by 1:13;
+- program identity appears by 1:20;
+- Viet Uc Family name arrives by 1:47;
+- motto closes the film.
 
-Before generating:
-- approve script tone;
-- provide Dad reference;
-- verify biography facts;
-- choose voice strategy;
-- identify 5–10 real archive images.
+## Fact QC
+
+PASS WITH ONE HOLD:
+- 1996/1997/2006 supported by supplied first-party page;
+- first 8 supported;
+- Adelaide/Sơ Nien supported;
+- SunWay Hotel supported;
+- program principles supported;
+- 2027/1000+ held pending clarification.
+
+## AI QC
+
+PASS:
+- historical events are not recreated photorealistically as if archival;
+- Dad identity remains real-reference-led;
+- most history is better served by motion graphics + real photos than generative video.
+
+## Next production gate
+
+Before animatic:
+- add Dad reference;
+- add archive images;
+- confirm whether exact names/locations may appear on screen as written;
+- decide whether the final 2 seconds use Dad's real voice for “Dream. Believe. Do.”

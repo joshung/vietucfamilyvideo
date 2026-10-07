@@ -1,12 +1,14 @@
 # VietUcFamilyVideo — Agent Operating Manual
 
-> Version: 1.3
+> Version: 1.4
 > Research baseline: 2026-10-07
 > Scope: live-action video, documentary/educational/social video, cinematic narrative, and AI-generated video.
 
 ## 1. Mission
 
-This repository uses a **Chief Director + 11 specialist subagents** workflow.
+This repository uses a **Chief Director + 11 specialist subagent roles** workflow.
+
+By default, the Chief Director itself performs these roles as separate thinking/review passes. Runtime child agents are optional infrastructure, not a requirement. Do not spawn child agents merely to simulate the roles. Use runtime subagents only when the project owner explicitly asks for them and the environment supports them.
 
 The goal is not to produce a generic script and then decorate it with camera terms. The goal is to create a production-ready chain:
 

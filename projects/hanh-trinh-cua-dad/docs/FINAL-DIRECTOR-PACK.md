@@ -1,102 +1,139 @@
-# FINAL DIRECTOR PACK — Working v01
-
-> This is a **working director lock**, not final factual lock.
+# FINAL DIRECTOR PACK — Working v02
 
 ## Film
 
-**Title:** Ông bố Úc định chinh phục Việt Nam — rồi Việt Nam chinh phục lại ông  
+**Title:** Dad Stevenson: định chinh phục Việt Nam, rồi Việt Nam chinh phục lại Dad  
 **Runtime:** 2:00  
 **Format:** editorial visual essay / mini-documentary  
-**Tone:** warm, deadpan, fast, affectionate  
+**Tone:** witty → purposeful → warm  
 **Language:** Vietnamese
 
 ## One-sentence story
 
-Dad seems to arrive from Australia ready for an absurd adventure — kangaroos behind him, buffalo ahead — only to discover that the real story is not about conquering Vietnam, but about Vietnam becoming a place he loves and a bridge between two worlds.
+Dad Stevenson appears to be heading from Australia to Vietnam for an absurd kangaroo-to-buffalo adventure, but the real journey is bigger: an idea formed in Adelaide becomes a scholarship program that starts with 8 students and grows into Viet Uc Family.
+
+## Story spine
+
+```
+DAD / AUSTRALIA
+↓
+fictional kangaroo gag
+↓
+fictional buffalo gag
+↓
+ADELAIDE — real idea
+↓
+1996 — Dad meets Đoàn Minh Nam
+↓
+1997 — Dad returns; scholarship plan is defined
+↓
+first 8 students
+↓
+Stevenson Scholarship Programme
+↓
+1997–2006 growth
+↓
+2006 — Viet Uc Family
+↓
+Dream – Believe – Do
+```
+
+## Directing principle
+
+The first 24 seconds earn attention.
+
+The remaining 96 seconds earn trust.
+
+Do not let the comedy consume the documentary.
 
 ## Central joke
 
-Dad believes he is the hero of an action movie.
+Dad's imaginary plan:
+- survive kangaroo;
+- travel to Vietnam;
+- conquer buffalo.
 
-Reality turns it into a love story with a country.
+The reality:
+he ends up confronting a much bigger question — how to help students continue studying.
 
-## Non-negotiable truth boundary
+## Factual anchors
 
-Kangaroo fight and buffalo conquest are jokes.
+Approved from supplied first-party site content:
+- Adelaide;
+- Sơ Nien / University of Adelaide;
+- 1996 meeting with Đoàn Minh Nam;
+- 1997 return;
+- SunWay Hotel discussion in Hà Nội;
+- first 8 students;
+- Stevenson Scholarship Programme;
+- 1997–2006 growth;
+- 2006 handover to Nguyễn Hoàng Cung and renaming;
+- unconditional support/no repayment;
+- Dream – Believe – Do.
 
-They must never be presented as biography.
+## Do not use yet
 
-All real chronology waits for verified sources.
+**“By 2027 over 1000 students”**
 
-## Visual structure
+Reason:
+current project date is 2026-10-07 and the source line is future-dated.
 
-```
-0:00–0:36
-COMEDY MYTH
-Dad + Australia + kangaroo
+## Best humor line
 
-0:36–1:08
-JOURNEY
-Australia → Vietnam + buffalo setup
+> “Lúc đó, anh Nam là hướng dẫn viên du lịch. Một năm sau, công việc bắt đầu hơi... vượt khỏi mô tả tuyển dụng.”
 
-1:08–1:34
-REVERSAL
-Vietnam "wins" through real life and people
+This is safer and more connected to the real story than adding more animal jokes.
 
-1:34–1:52
-BELONGING
-Viet + Úc → VietUcFamily
+## Best emotional line
 
-1:52–2:00
-DAD DIRECT
-website invitation
-```
+> “Không còn là một ý tưởng trong một cuộc trò chuyện nữa. Nó đã thành một chương trình.”
 
-## Best line
+## Best visual transition
 
-> "Dad chưa kịp chinh phục Việt Nam... thì Việt Nam đã ra tay trước."
+Buffalo fight bell → hard cut to Adelaide / scholarship question.
 
-Follow immediately with coffee / warmth, not violence.
+The action-movie myth stops.
 
-## Best visual punchline
-
-Buffalo introduced as a final boss.
-
-Fight bell rings.
-
-Hard cut to quiet coffee pouring.
+The actual mission begins.
 
 ## Dad face strategy
 
-Documentary truth:
-- real Dad assets.
+Authoritative identity:
+- real Dad photos/video.
 
-Comedy:
-- Dad photo cutout / approved face reference inside an obviously stylized graphic world.
+Fantasy layer:
+- Dad photo cutout;
+- stylized graphic/collage body;
+- no fake photoreal younger Dad without a reference.
 
-Never make a synthetic photoreal Dad the sole source of identity.
+## Archive strategy
 
-## Website payoff
-
-End on real Dad + real website capture + `vietucfamily.org`.
+The historical middle should prioritize:
+1. real photos from the website/archive;
+2. maps/timelines;
+3. typography;
+4. diagrams;
+5. AI only as non-factual visual support.
 
 ## Generation readiness
 
-**NOT READY FOR FINAL GENERATION** until:
-- Dad reference images are supplied;
-- biography facts are verified;
-- website can be captured;
-- script tone is approved.
+**READY FOR ANIMATIC / NOT READY FOR FINAL RENDER**
 
-## Current recommended production order
+Need:
+- Dad reference images;
+- early program archive;
+- website assets;
+- optional Dad voice.
 
-1. approve story/script;
-2. collect Dad archive;
-3. verify bio facts;
-4. cut animatic from stills;
-5. record temporary VO;
-6. test kangaroo/buffalo graphics;
+## Production order
+
+1. ingest Dad/archive assets;
+2. map each real image to factual beats;
+3. build 120s animatic;
+4. record temp VO;
+5. test pacing;
+6. create kangaroo/buffalo graphic gags;
 7. replace placeholders with real archive;
-8. record Dad final line;
-9. generate only the shots that genuinely need AI motion;
-10. edit + sound + QC.
+8. record final VO/Dad motto;
+9. generate only the shots that benefit from AI;
+10. final edit + sound + QC.
