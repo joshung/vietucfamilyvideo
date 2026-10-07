@@ -1,6 +1,6 @@
 # VietUcFamilyVideo — Agent Operating Manual
 
-> Version: 1.2
+> Version: 1.3
 > Research baseline: 2026-10-07
 > Scope: live-action video, documentary/educational/social video, cinematic narrative, and AI-generated video.
 
@@ -315,28 +315,417 @@ Chief Director merges only after checking:
 - factual integrity;
 - final runtime.
 
-## 6. Canonical deliverables
+## 6. Project directory and storage contract
 
-Use these names unless a project requires another structure:
+Every video is one self-contained project under:
 
 ```
 projects/<project-slug>/
-  00-brief.md
-  01-research.md
-  02-beat-sheet.md
-  03-screenplay.md
-  04-directors-treatment.md
-  05-shot-list.md
-  06-shot-cards.md
-  07-continuity-bible.md
-  08-paper-edit.md
-  09-sound-plan.md
-  10-ai-generation-plan.md
-  11-qc-report.md
-  FINAL-DIRECTOR-PACK.md
 ```
 
-Do not create empty placeholder files merely to satisfy this list.
+A project must keep **creative documents, source assets, generated material, edit work, and approved finals physically and conceptually separate**.
+
+Canonical layout:
+
+```
+projects/<project-slug>/
+  README.md
+  project.json
+
+  docs/
+    00-brief.md
+    01-research.md
+    02-beat-sheet.md
+    03-screenplay.md
+    04-directors-treatment.md
+    05-shot-list.md
+    06-shot-cards.md
+    07-continuity-bible.md
+    08-paper-edit.md
+    09-sound-plan.md
+    10-ai-generation-plan.md
+    11-qc-report.md
+    FINAL-DIRECTOR-PACK.md
+
+  assets/
+    characters/
+    locations/
+    props/
+    storyboard/
+    references/
+    audio/
+    music/
+
+  production/
+    shots/
+      <shot-id>/
+        shot.json
+        references/
+        attempts/
+        SELECT.json
+    audio/
+    lipsync/
+    generations.json
+
+  edit/
+    proxies/
+    timeline/
+    v01/
+    v02/
+    review/
+
+  final/
+    masters/
+    youtube/
+    reels/
+    tiktok/
+    subtitles/
+    thumbnails/
+```
+
+Do not create empty folders or placeholder documents only to satisfy this tree. Create a folder when the project actually needs it.
+
+### 6.1 Meaning of each top-level project folder
+
+**`docs/` = decisions and instructions**
+
+This is where the project explains **what to make and why**.
+
+It contains:
+- brief;
+- research;
+- beat sheet;
+- screenplay;
+- director treatment;
+- shot list;
+- shot cards;
+- continuity bible;
+- paper edit;
+- sound plan;
+- AI generation plan;
+- QC reports;
+- final director pack.
+
+If someone asks "what is the approved script / shot plan / continuity rule?", the answer must come from `docs/`.
+
+**`assets/` = reusable source material**
+
+This is where approved source/reference material belongs:
+- character references;
+- location references;
+- hero props;
+- storyboard images;
+- logos/brand assets;
+- approved reference audio/music;
+- other inputs used by production.
+
+An asset is not a render attempt. It is an input or reference.
+
+**`production/` = generated or captured source material**
+
+This is raw production material:
+- AI generations;
+- live-action takes;
+- image sequences;
+- lip-sync outputs;
+- generated dialogue/audio;
+- alternate takes;
+- intermediate render outputs.
+
+`production/` answers: **"What material was created or captured?"**
+
+It is not the final film.
+
+**`edit/` = assembly in progress**
+
+This contains:
+- editing project/timeline metadata;
+- proxies;
+- rough cuts;
+- review exports;
+- work-in-progress versions;
+- temporary editorial assemblies.
+
+`edit/` answers: **"What is currently being cut/reviewed?"**
+
+Nothing inside `edit/` should be treated as a release master unless it is explicitly promoted to `final/`.
+
+**`final/` = approved deliverables only**
+
+This contains only outputs that have passed the required approval/QC gates:
+- master video;
+- platform-specific derivatives;
+- final subtitles;
+- final thumbnails;
+- approved distribution exports.
+
+`final/` answers: **"What are we allowed to deliver or publish?"**
+
+A file is not final merely because its filename contains `final`.
+
+### 6.2 GitHub vs external media storage
+
+The Git repository is the **source of truth for text, metadata, decisions, and reproducibility**, not the primary warehouse for heavy video media.
+
+**Push to GitHub by default:**
+- `AGENTS.md`;
+- all Markdown documentation;
+- JSON/YAML schemas and manifests;
+- shot metadata;
+- prompts;
+- workflow definitions when reasonably small;
+- generation settings;
+- selected-take metadata;
+- QC reports;
+- continuity data;
+- edit decision metadata;
+- scripts and code;
+- checksums/hashes;
+- storage URIs/relative media references.
+
+**Do not push large binary media to normal Git by default:**
+- `.mp4`;
+- `.mov`;
+- `.mkv`;
+- large image sequences;
+- large `.wav` / multitrack audio;
+- raw camera media;
+- hundreds of AI generation attempts;
+- proxy caches;
+- rendered edit versions;
+- final delivery masters.
+
+Store heavy media on the project's approved media storage: local disk, NAS, object storage, VPS storage, cloud bucket, or another explicit media backend.
+
+Git LFS is an **explicit exception**, not the default. Use it only when the project deliberately chooses Git LFS and storage/bandwidth implications are understood.
+
+### 6.3 Media references from Git-tracked metadata
+
+When a binary is stored outside Git, its metadata must still be traceable from the repository.
+
+For important media, record at minimum:
+
+```yaml
+artifact_id: ART_S03_SH05_A04
+project_id: <project-id>
+scene_id: S03
+shot_id: S03_SH05
+attempt_id: A04
+kind: video
+storage_uri: <backend-specific-uri-or-path>
+filename: S03_SH05_A04.mp4
+sha256: <hash-if-available>
+bytes: <size-if-available>
+duration_seconds: <duration>
+created_at: <timestamp>
+source_workflow_version: <version>
+qc_status: PENDING | APPROVED | REJECTED
+```
+
+Never rely on a human-readable filename alone to identify an important production artifact.
+
+### 6.4 Per-shot production contract
+
+Each production shot should use:
+
+```
+production/shots/<shot-id>/
+  shot.json
+  references/
+  attempts/
+  SELECT.json
+```
+
+Example:
+
+```
+production/shots/S03_SH05/
+  shot.json
+  attempts/
+    S03_SH05_A01.mp4
+    S03_SH05_A02.mp4
+    S03_SH05_A03.mp4
+  SELECT.json
+```
+
+The binary attempts may physically live in external media storage; this directory may contain metadata/links/manifests rather than the binaries themselves.
+
+**`shot.json`** describes the approved execution spec.
+
+**`attempts/`** contains or references every generation/take worth retaining for traceability.
+
+**`SELECT.json`** points to the currently approved source take for editorial use.
+
+Do not name a source file `SELECT.mp4` and lose its original attempt identity. Preserve the original attempt ID and select it through metadata.
+
+Example:
+
+```json
+{
+  "shot_id": "S03_SH05",
+  "selected_attempt_id": "A03",
+  "artifact_id": "ART_S03_SH05_A03",
+  "qc_status": "APPROVED",
+  "selected_for": "editorial",
+  "reason": "best identity, motion and clean exit handle"
+}
+```
+
+### 6.5 Production → edit → final promotion rule
+
+Files move through **state**, not merely folders:
+
+```
+GENERATED / CAPTURED
+        ↓
+production/
+        ↓ technical + creative QC
+SELECTED
+        ↓
+edit/
+        ↓ editorial review + sound/color/subtitle QC
+APPROVED MASTER
+        ↓
+final/
+        ↓
+platform derivatives / delivery
+```
+
+Rules:
+- raw attempts never become final directly;
+- Editor should primarily work from selected/approved source takes, not browse all failed generations during normal assembly;
+- rejected attempts remain traceable but must not silently re-enter the edit;
+- review exports remain in `edit/review/`;
+- only approved masters and approved derivatives enter `final/`;
+- if a final is revised, create a new explicit version rather than silently overwriting an already delivered master.
+
+### 6.6 Edit versioning
+
+Use explicit edit versions:
+
+```
+edit/v01/
+edit/v02/
+edit/v03/
+```
+
+A version should record:
+- parent version;
+- timeline/project file;
+- review export;
+- change summary;
+- reviewer status.
+
+Do not use names such as:
+
+```
+final.mp4
+final2.mp4
+final_final.mp4
+final_really_final.mp4
+```
+
+Use stable version names and approval metadata.
+
+### 6.7 Final deliverables
+
+The approved high-quality source master belongs under:
+
+```
+final/masters/
+```
+
+Platform-specific outputs are derivatives:
+
+```
+final/youtube/
+final/reels/
+final/tiktok/
+final/subtitles/
+final/thumbnails/
+```
+
+Example:
+
+```
+final/masters/tet-dau-tien-o-uc_MASTER_v03.mp4
+final/youtube/tet-dau-tien-o-uc_YOUTUBE_16x9_v03.mp4
+final/reels/tet-dau-tien-o-uc_REELS_9x16_v03.mp4
+final/subtitles/tet-dau-tien-o-uc_vi_v03.srt
+final/subtitles/tet-dau-tien-o-uc_en_v03.srt
+```
+
+The master is the authoritative finished picture/audio source. Platform exports derive from the approved master unless a platform-specific editorial version is intentionally approved.
+
+### 6.8 Project README and project manifest
+
+Every active project should have a short `README.md` that lets a human orient quickly:
+
+```
+Title:
+Project ID:
+Status:
+Current approved script:
+Current selected edit:
+Current approved master:
+Media storage root:
+Primary aspect ratio:
+Target runtime:
+Owner:
+Last major decision:
+```
+
+`project.json` is the machine-readable project manifest. At minimum, it should identify:
+- project ID;
+- project slug;
+- schema version;
+- current stage;
+- current approved document versions;
+- media storage backend/root;
+- master delivery format;
+- active edit version;
+- current approved master artifact ID.
+
+### 6.9 Source-of-truth hierarchy
+
+When two files disagree, use this hierarchy unless a later approval explicitly supersedes it:
+
+1. `AGENTS.md` — repository-wide operating rules.
+2. Project `FINAL-DIRECTOR-PACK.md` — approved project-level creative/production decisions.
+3. Individual approved docs in `projects/<slug>/docs/`.
+4. Canonical `project.json`, `shot.json`, `SELECT.json` execution metadata.
+5. Render workflow/prompt metadata.
+6. Raw media/render outputs.
+
+A beautiful render does not override an approved story/continuity decision merely because the model produced it.
+
+### 6.10 Deletion and cleanup rule
+
+Do not delete source/attempt media merely because it was not selected while the project is active, unless storage policy requires cleanup.
+
+If cleanup is needed:
+- preserve metadata;
+- preserve selected/approved artifacts;
+- preserve hashes/IDs of removed attempts when practical;
+- mark an artifact as purged rather than pretending it never existed.
+
+Caches, temporary proxies and regenerable intermediates may be deleted more aggressively than approved source or final masters.
+
+### 6.11 One-line rule
+
+Remember this separation:
+
+```
+docs/       = what and why
+assets/     = approved inputs
+production/ = created/captured source material
+edit/       = work in progress
+final/      = approved deliverables
+```
+
+Detailed examples and storage policy live in `docs/project-storage-contract.md`.
+
+Do not create empty placeholder files merely to satisfy this contract.
 
 ## 7. Canonical shot specification
 
