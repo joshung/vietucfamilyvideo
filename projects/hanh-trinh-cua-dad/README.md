@@ -197,4 +197,5 @@ Deferred:
 - `docs/25-frame-prompt-contract.md`
 - `docs/26-image-generation-agent-handoff-prompt.md`
 - `docs/27-exact-prompt-remotion-handoff.md`
+- `docs/28-MASTER-EXECUTION-AGENT-PROMPT.md`
 - `docs/FINAL-DIRECTOR-PACK.md`
