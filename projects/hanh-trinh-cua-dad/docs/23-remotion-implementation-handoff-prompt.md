@@ -1,4 +1,6 @@
-# 23 — Remotion Implementation Handoff Prompt
+# 23 — Remotion Implementation Handoff Prompt — LEGACY V1
+
+> **SUPERSEDED.** Use `docs/34-VOX-V2-MASTER-IMPLEMENTATION-PROMPT.md` for new implementation.
 
 ## Copy-paste prompt for the Remotion coding agent
 

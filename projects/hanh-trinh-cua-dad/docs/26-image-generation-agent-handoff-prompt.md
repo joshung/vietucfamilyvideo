@@ -1,4 +1,6 @@
-# 26 — Image Generation Agent Handoff Prompt
+# 26 — Image Generation Agent Handoff Prompt — LEGACY V1
+
+> **SUPERSEDED.** V2 agents use `docs/34-VOX-V2-MASTER-IMPLEMENTATION-PROMPT.md` plus `production/vox-v2/shot-prompts.json`.
 
 ```text
 You are the controlled asset-generation operator for VUF_DAD_001.

@@ -1,0 +1,13 @@
+{
+  "schema_version": "2.0",
+  "project_id": "VUF_DAD_001",
+  "frame_count": 2880,
+  "first": "VOXV2_F0000",
+  "last": "VOXV2_F2879",
+  "beats": 12,
+  "shots": 24,
+  "audio_cues": 24,
+  "actions": 168,
+  "style_block_sha256": "292393e088e2ae21b3a75c551d45cf419a6317b74db0b282aadf7a1baea29efc",
+  "manifest_sha256": "a552f1acd600552872e2c77e014996ed4d49e0f0b74db94e0e20fd5278d0fc2e"
+}

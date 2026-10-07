@@ -1,4 +1,6 @@
-# 24 — Exact Image-Generation Prompt Pack
+# 24 — Exact Image-Generation Prompt Pack — LEGACY V1
+
+> **SUPERSEDED.** V2 exact keyframe prompts live in `production/vox-v2/shot-prompts.json` and `docs/33-VOX-V2-24-shot-prompts.md`.
 
 > Version: 1.0  
 > Project: VUF_DAD_001  

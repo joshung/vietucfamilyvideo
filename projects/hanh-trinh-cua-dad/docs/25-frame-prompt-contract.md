@@ -1,4 +1,6 @@
-# 25 — Exact Per-Frame Prompt Contract
+# 25 — Exact Per-Frame Prompt Contract — LEGACY V1
+
+> **SUPERSEDED.** V2 per-frame authority is `production/vox-v2/frame-manifest.jsonl`.
 
 The canonical machine-readable frame prompt file is:
 
