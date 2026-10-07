@@ -1,6 +1,6 @@
 # VietUcFamilyVideo — Agent Operating Manual
 
-> Version: 1.0
+> Version: 1.1
 > Research baseline: 2026-10-07
 > Scope: live-action video, documentary/educational/social video, cinematic narrative, and AI-generated video.
 
@@ -100,6 +100,90 @@ Current official guidance converges on these practical rules:
 - Never assume a model capability from memory; check current official documentation when a task becomes model-specific.
 
 **Default generative rule:** one generation ≈ one camera setup + one primary dramatic action. Break this only when a deliberate continuous take is central to the idea and the selected model can support it.
+
+### 4.5 Short-clip production and seamless assembly
+
+Treat **short generations as the default production unit**. Do not hard-code "10 seconds" as a universal model limit; current models differ and change over time. As of this research baseline, examples include Runway Gen-4.5 at 2–10s, Runway Gen-4 at 5/10s, and Veo 3.1 at 4/6/8s. Therefore:
+
+- design the film as shots that can usually fit inside **≤10 seconds** until the selected model's current docs prove otherwise;
+- choose the **shortest duration that comfortably contains the action**, rather than filling the model maximum;
+- reserve extra duration for clean starts/ends and edit handles;
+- if a narrative shot needs longer than the model window, decide explicitly between:
+  1. **editorial cut** into multiple camera setups;
+  2. **continuous extension** of the same setup;
+  3. **first/last-frame or keyframe bridge**;
+  4. **hidden transition** behind occlusion/motion/object wipe;
+  5. **restructure** the action.
+
+Do not confuse two different goals:
+
+**A. Seamless continuation of the same shot**
+- reuse the previous clip's last frame as the next clip's first frame when supported;
+- preserve camera trajectory, subject velocity, pose, eyeline, lighting direction and environment state;
+- remove the duplicate shared frame in edit;
+- allow a tiny blend only when it improves continuity and does not create ghosting;
+- prefer official extend/keyframe/first-last-frame workflows when they preserve motion better.
+
+**B. Smooth cut between different shots**
+- do **not** force visual continuity by making the frames identical;
+- cut on motivated action, reaction, eyeline, sound, graphic shape, lighting/color, or conceptual match;
+- use J-cuts/L-cuts and ambient sound bridges to make scene changes feel continuous;
+- preserve screen direction and action phase when continuity matters;
+- intentionally change shot size/angle enough to avoid an accidental jump cut.
+
+For every adjacent AI clip pair, define a **transition contract**:
+
+```yaml
+from_shot:
+to_shot:
+transition_type: hard_cut | match_action | eyeline | graphic_match | sound_bridge | j_cut | l_cut | occlusion | shared_frame | extend | keyframe_bridge | dissolve | other
+continuity_must_match:
+  - character_identity
+  - wardrobe_state
+  - prop_state
+  - location
+  - time_light
+  - screen_direction
+motion_handoff:
+  subject_velocity:
+  camera_velocity:
+  action_phase:
+audio_handoff:
+  outgoing:
+  incoming:
+  overlap:
+edit_handle_target:
+risk:
+fallback:
+```
+
+### 4.6 AI clip handles and boundary discipline
+
+The first and last moments of a generated clip are production assets, not disposable leftovers.
+
+For important shots:
+- avoid starting the essential action on frame 1 unless the cut requires it;
+- avoid completing the only important action on the final frame;
+- aim for a short **settle/hold or readable motion state** at both boundaries when model behavior allows;
+- for match-action cuts, record the exact action phase used for the handoff;
+- for continuation, record the exact final state of subject, camera, background motion and hero props;
+- if a model creates unstable first/last frames, plan to trim them rather than forcing them into the cut;
+- generation duration and final edited duration are different numbers.
+
+The editor may use only the strongest 2–6 seconds from a 10-second generation. Never keep weak seconds merely because they were paid for.
+
+### 4.7 Continuity assets for longer AI films
+
+For recurring subjects/locations, prepare reusable continuity assets before bulk generation:
+- neutral character plates: front, 3/4, profile, full-body and relevant wardrobe;
+- environment plates from the angles the shot list actually needs;
+- hero-prop plates;
+- palette / material / lighting reference;
+- approved start/end frames for difficult transitions.
+
+References should be **purpose-specific**. Do not overload a generation with every available reference.
+
+For detailed implementation, use `docs/ai-video-short-clip-continuity.md`.
 
 ## 5. Pipeline and quality gates
 

@@ -91,6 +91,71 @@ Focus text primarily on:
 ### Reference/character workflows
 Use only if the selected model currently supports them and continuity benefit is material.
 
+## Clip duration and sequence design
+
+Assume the final film will usually be assembled from **short generated clips**, often no longer than roughly 10 seconds per generation, but never claim 10 seconds is universal.
+
+At implementation time:
+1. verify the exact selected model/version duration choices;
+2. choose the shortest duration that contains the intended action naturally;
+3. distinguish **generation duration** from **edited screen duration**;
+4. plan a clean boundary state at the start and end;
+5. allocate longer windows only when multiple motion beats truly need the time.
+
+Current baseline examples (must be rechecked before production):
+- Runway Gen-4.5: 2–10 seconds;
+- Runway Gen-4: 5 or 10 seconds;
+- Veo 3.1: 4, 6 or 8 seconds.
+
+## Long-shot continuation protocol
+
+When one dramatic camera setup must continue beyond one generation:
+
+1. First prefer a model-native **extend** workflow when current docs confirm it and motion continuity is acceptable.
+2. Otherwise extract the strongest final frame from Clip A and use it as the first frame/input for Clip B.
+3. Record at the handoff:
+   - subject pose;
+   - gaze/eyeline;
+   - exact action phase;
+   - subject direction and approximate velocity;
+   - camera direction and approximate velocity;
+   - focus state;
+   - lighting direction;
+   - weather/particles/background motion;
+   - hero-prop state.
+4. Prompt Clip B for **continuation**, not a re-description of the whole scene.
+5. In edit, align the shared state and remove a duplicate shared frame when present.
+6. Use a tiny dissolve/blend only if it improves the join without creating double edges/ghosting.
+7. If motion repeatedly resets or changes physics, stop extending and redesign as an intentional cut.
+
+## Adjacent-shot transition protocol
+
+For every pair of important generated shots, choose one transition strategy before generation:
+
+- **hard motivated cut**;
+- **match on action**;
+- **eyeline / look-match**;
+- **graphic / shape / color match**;
+- **sound bridge / J-cut / L-cut**;
+- **foreground occlusion / object wipe**;
+- **shared-frame continuation**;
+- **model-native extension**;
+- **first/last-frame keyframe bridge**;
+- **dissolve** only when time/emotion calls for it.
+
+A "smooth transition" does not mean hiding every cut. A clear, well-motivated cut is often smoother than a synthetic morph.
+
+## Boundary handles
+
+For must-have clips:
+- seek usable frames before and after the core action;
+- do not require the model to perform a critical reveal exactly on the final frame;
+- avoid uncontrolled pose resets at clip start;
+- save approved first/last frames as continuity assets;
+- note if the editor should trim unstable opening/closing frames.
+
+If a 10-second generation contains only 4 excellent seconds, use the 4 excellent seconds.
+
 ## Prompt discipline
 
 Default:

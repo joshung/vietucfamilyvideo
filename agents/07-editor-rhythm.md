@@ -105,6 +105,33 @@ Do not copy platform trends blindly.
 
 Prefer generating modular shots that can be replaced independently.
 
+Treat generated clip length as **source duration**, not final screen duration. A 5–10 second source may become a 1.5–6 second edited shot.
+
+Before generation, annotate every must-have shot with:
+- minimum usable action duration;
+- preferred edited duration;
+- desired pre-action handle;
+- desired post-action handle;
+- transition-in;
+- transition-out.
+
+For adjacent clips, select the smoothest **story-motivated** handoff rather than defaulting to dissolves:
+- match action when movement naturally crosses the cut;
+- cut on gaze then reveal POV;
+- carry ambience/dialogue/music with J/L cuts;
+- use graphic/color/shape match for stylized transitions;
+- use foreground occlusion or motion blur only when composition supports it;
+- use shared-frame/extension only for a true continuation of the same camera setup.
+
+When Clip B starts from Clip A's last frame:
+- align the shared frame/state;
+- normally remove one duplicate frame;
+- inspect for motion-speed discontinuity;
+- inspect background particles, hair, clothing and camera velocity;
+- try a very short blend only if necessary and artifact-free.
+
+Do not use AI morphing to conceal a cut if it creates identity drift, geometry warping or story confusion.
+
 If an AI clip contains one excellent moment and one broken moment:
 - plan trims;
 - cover the defect;

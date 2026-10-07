@@ -196,7 +196,77 @@ Key takeaway:
 Applied here:
 - Agent 06 and Agent 07 jointly review action continuity and coverage.
 
-## 8. Research conclusions encoded in the system
+## 8. Short-clip duration and long-form assembly
+
+### Runway Gen-4.5
+https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5
+
+Checked 2026-10-07:
+- supported duration is 2–10 seconds;
+- both text-to-video and image-to-video are documented;
+- longer/more sequential actions may benefit from longer duration.
+
+### Runway Gen-4
+https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video
+
+Checked 2026-10-07:
+- supported durations are 5 or 10 seconds;
+- the input image establishes the first frame;
+- image-to-video prompt should focus heavily on motion.
+
+### Runway — longer videos and films
+https://help.runwayml.com/hc/en-us/articles/26871350018835-How-to-create-longer-videos-and-films
+
+Key takeaways:
+- longer narratives are built from multiple shorter generated clips;
+- storyboard frames can map to generations commonly around 5–10 seconds;
+- character plates and environment plates help reduce consistency drift.
+
+### Runway — Last Frame workflow
+https://help.runwayml.com/hc/en-us/articles/47184761711379-Using-Utility-Nodes-in-Workflows
+
+Key takeaway:
+- the last frame of one generation can be extracted and used as the first-frame input of the next generation for longer continuity.
+
+### Runway — image-to-video longer sequences
+https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide
+
+Key takeaways:
+- longer sequences can be created by using a completed generation's last frame as a new image input;
+- after assembly, the duplicate shared frame can be removed;
+- sequential action timing should fit the selected generation duration.
+
+### Google Vertex AI — Veo 3.1
+https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-1-generate-preview
+
+Checked 2026-10-07:
+- documented duration choices for Veo 3.1 variants include 4, 6 and 8 seconds;
+- exact feature support differs by specific model/version and deployment state.
+
+### Google Vertex AI — first and last frames
+https://docs.cloud.google.com/vertex-ai/generative-ai/docs/video/generate-videos-from-first-and-last-frames
+
+Key takeaway:
+- first/last-frame generation is documented and can constrain the endpoints of a shot;
+- duration rules remain model-specific.
+
+### Adobe — match cuts
+https://www.adobe.com/in/creativecloud/video/discover/match-cut.html
+
+Key takeaways:
+- action match cuts can preserve flow across a cut;
+- graphic and audio matching can create continuity;
+- J/L cuts overlap audio across picture changes.
+
+Applied here:
+- **10 seconds is treated as a common planning ceiling, not a universal truth**;
+- generated duration is separated from final edited duration;
+- the system distinguishes true same-shot continuation from a motivated editorial cut;
+- every important adjacent AI clip pair gets a transition/continuity contract;
+- handles, action phase, camera velocity, subject velocity, sound bridge and shared-frame trimming are planned explicitly;
+- detailed implementation lives in `docs/ai-video-short-clip-continuity.md`.
+
+## 9. Research conclusions encoded in the system
 
 1. Keep **screenplay**, **director intent**, **shot design** and **model prompt** as separate layers.
 2. Keep the master shot list short enough to use; store detail in shot cards.
@@ -204,5 +274,10 @@ Applied here:
 4. Use one model-neutral shot specification across live action and AI.
 5. Treat AI generation as production, not as authorship of the story.
 6. Use short, modular AI shots by default for recoverability.
-7. Use reference assets for continuity when the current model supports them.
-8. Judge every shot by story function and editability before visual spectacle.
+7. Treat ≤10 seconds as a broad compatibility planning assumption, never as a universal model limit.
+8. Separate **source generation duration** from **edited screen duration**.
+9. For same-shot continuation, preserve boundary state and use extension / shared last-first frame / keyframes when currently supported.
+10. For different shots, prefer motivated editing (action, eyeline, sound, graphic or conceptual match) over synthetic morphing.
+11. Use reference assets, character plates and environment plates for continuity when supported.
+12. Plan usable in/out handles and trim unstable boundary frames.
+13. Judge every shot by story function and editability before visual spectacle.

@@ -80,10 +80,16 @@ You do not rewrite the project according to personal taste. If a choice is uncon
 - Are rights/consent issues flagged?
 
 ### AI
-- Is the shot too complex for a single generation?
+- Is the shot too complex or too long for a single generation?
+- Is the current model's exact duration range verified?
+- Is final edited duration distinguished from generated duration?
+- Does every important clip have usable in/out handles?
+- For every continuation: do pose, action phase, subject velocity, camera velocity, lighting and environment state hand off?
+- For every intentional cut: is the transition motivated and continuity readable?
 - Is model capability verified?
-- Are references sufficient?
-- Is there a fallback?
+- Are references sufficient and purpose-specific?
+- Are first/last frames or extension workflows being used when they materially reduce drift?
+- Is there a fallback if extension/keyframing fails?
 - Is an attractive but wrong generation likely to be accepted accidentally?
 
 ### Production

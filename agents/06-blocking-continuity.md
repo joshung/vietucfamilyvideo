@@ -100,9 +100,33 @@ Provide Agent 09:
 - environment anchors;
 - prop anchors;
 - start/end state of each shot;
-- continuity-critical details ranked MUST / NICE.
+- continuity-critical details ranked MUST / SHOULD / FLEX.
 
-When a model supports reference images or character references, use them according to current official documentation.
+For recurring characters, build **character plates** for the angles/framing actually required by the shot plan. For recurring locations, build **environment plates** from useful viewpoints. Store hero props separately when their shape/state matters.
+
+For every adjacent AI clip pair, record:
+
+```
+End of A:
+- character pose + facing
+- eyeline
+- prop hand/state
+- action phase
+- screen position
+- subject motion vector
+- camera motion vector
+- light direction / time / weather
+- important background motion
+
+Start of B:
+- required matching state
+- intentional differences
+- transition type
+```
+
+For a true seamless continuation, these values should match closely enough to survive frame-by-frame inspection. For an intentional cut, continuity needs only to remain narratively readable.
+
+When a model supports reference images, first/last frames, keyframes or extension, use them according to current official documentation.
 
 ## Failure modes
 

@@ -73,8 +73,14 @@ Use one card per important shot. Keep fields blank when they do not affect execu
 
 - **Entry reason:**
 - **Exit/cut motivation:**
-- **Transition:**
-- **Needed handles:**
+- **Transition in:**
+- **Transition out:**
+- **Generated source duration:**
+- **Preferred edited duration:**
+- **Pre-action handle target:**
+- **Post-action handle target:**
+- **Match-action phase / shared state:**
+- **Audio bridge / J-L cut:**
 - **Coverage dependency:**
 
 ## Live-action execution
