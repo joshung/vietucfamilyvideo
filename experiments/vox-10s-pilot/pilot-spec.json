@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "VUF_DAD_PILOT_10S_001",
+  "branch": "experiment/vox-10s-pilot-v01",
+  "composition_id": "DadJourneyPilot10s",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration_in_frames": 240,
+  "duration_seconds": 10,
+  "scope": "FIRST_10_SECONDS_ONLY",
+  "visual_anchor": "DAD_REF_01 + accurate Australia SVG + Adelaide marker",
+  "fact_lock": {
+    "country": "Australia",
+    "city": "Adelaide",
+    "forbidden_origin_terms": ["America","American","USA","United States","Mỹ","Hoa Kỳ"]
+  },
+  "narration": [
+    {
+      "id": "PILOT_VO_A",
+      "start_frame": 0,
+      "max_end_frame": 104,
+      "text": "Đây là Dad Stevenson, một người Úc sống ở Adelaide."
+    },
+    {
+      "id": "PILOT_VO_B",
+      "start_frame": 136,
+      "max_end_frame": 232,
+      "text": "Và tất nhiên, phải có một con kangaroo."
+    }
+  ],
+  "review_frames": [0,100,190,239],
+  "full_master_changes_allowed": false
+}
