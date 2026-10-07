@@ -1,0 +1,31 @@
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*credentials*.json
+
+# Local caches / temporary media
+.cache/
+tmp/
+temp/
+*.tmp
+
+# Heavy media: canonical binaries live in external media storage
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.mxf
+*.wav
+*.aif
+*.aiff
+*.flac
+*.exr
+
+# Editor/generated caches
+**/proxies/
+**/render-cache/
+**/.DS_Store

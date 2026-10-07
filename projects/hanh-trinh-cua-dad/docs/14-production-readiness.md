@@ -1,96 +1,87 @@
-# 14 — Production Readiness v01
+# 14 — Production Readiness v02
 
-## Current project state
+## Current state
 
-**READY_FOR_ANIMATIC**
+**PREPRODUCTION_LOCKED_RENDER_DEFERRED**
 
-The storytelling/documentation package is complete enough to build a timed animatic.
+The owner explicitly deferred render-flow implementation.
 
-It is **not yet FINAL_RENDER_READY** because external media storage and selected archive downloads are not configured.
+Everything that should be decided before render execution has been prepared.
 
-## Completed
+## Complete
 
-- 2-minute factual narrative spine;
-- humor/fact boundary;
-- Dad identity references;
-- 728-image archive catalog;
-- normalized asset IDs;
+### Story / fact
+- factual scholarship-history spine;
+- comedy/fact separation;
+- 2027 claim hold;
+- 2-minute structure;
+- locked VO.
+
+### Visual
+- Dad identity refs;
+- 728-image source catalog;
+- 12-image visually QC'd animatic shortlist;
+- archive chronology rules;
 - asset-to-shot map;
-- v02 screenplay;
-- v02 shot list;
-- v03 director treatment;
-- v03 critical shot cards;
-- v03 continuity bible;
-- v03 paper edit;
-- v03 sound plan;
-- v03 AI generation plan;
-- QC rules;
-- source-of-truth structure.
+- storyboard/animatic spec;
+- shot plan;
+- continuity plan.
 
-## Remaining before animatic
+### Editorial / sound
+- 120s paper edit;
+- 1920×1080 / 24fps animatic timeline;
+- transition logic;
+- sound arc;
+- narration performance direction.
 
-No storytelling blocker remains.
+### AI
+- primary routing: Runway Gen-4.5 I2V;
+- fallback routing: Veo 3.1;
+- model-neutral prompts;
+- factual-history no-fake-archive rule.
 
-Animatic may use:
-- Dad stills;
-- placeholder maps;
-- catalog thumbnails/selected archive;
-- text cards;
-- temporary VO;
-- still kangaroo/buffalo comps.
+### Infrastructure contract
+- `.gitignore`;
+- `.env.example`;
+- production manifest;
+- heavy-media external-storage rule.
 
-## Remaining before final render
+## Deferred by owner
 
-### Storage
-Configure:
-- primary media storage;
-- archive download location;
-- Dad-reference durable URIs.
+The following are execution, not creative-preproduction tasks:
+- implement render worker;
+- make provider API calls;
+- upload/download automation;
+- create final edit;
+- export final master.
 
-### Archive selection
-From 728 records:
-- shortlist 20–40 candidates;
-- visually inspect;
-- select approximately 8–15 for final 2-minute cut;
-- hash/register them.
+These are intentionally **not blockers to preproduction lock**.
 
-### Person verification
-Confirm portraits for:
-- Đoàn Minh Nam;
-- Nguyễn Hoàng Cung;
-- Sơ Nien if used.
+## Remaining factual/person holds
 
-### Website capture
-Capture current real site/page.
+These remain explicit rather than prompting the owner again:
+- 2027 / 1000+ claim remains unused;
+- Nguyễn Hoàng Cung image label should be owner-confirmed before on-screen name;
+- Đoàn Minh Nam portrait should be explicitly confirmed before face/name caption;
+- Sơ Nien portrait should be explicitly confirmed before face/name caption.
 
-### Voice
-Choose:
-- human narrator;
-- synthetic narration with rights;
-- optional Dad real voice for motto.
+If confirmation never arrives, the edit already has safe fallbacks:
+**text/name cards + graphics, no unverified portrait.**
 
-### AI vendor
-Only then lock:
-- model/version;
-- duration;
-- I2V/reference features;
-- generation settings.
+## Website
 
-## Fact hold
+The biography page still times out from the current retrieval environment.
 
-Do not use:
-**“Đến năm 2027 trên 1000 sinh viên”**
+Safe plan is already locked:
+- use real website capture at execution time;
+- if inaccessible during edit, use clean domain text `vietucfamily.org`, not AI-generated UI.
 
-until project owner clarifies the future-dated claim.
+## Release logic
 
-## Definition of final render readiness
+Preproduction: **PASS**
 
-Project becomes `FINAL_RENDER_READY` only when:
-- all selected real assets have durable URIs;
-- Dad references have durable URIs;
-- voice plan is approved;
-- website capture exists;
-- archive/person identity is checked;
-- AI model is chosen and current docs verified;
-- animatic timing passes ~120s;
-- no BLOCKER remains in QC.
+Render execution: **DEFERRED**
+
+Final master: **NOT RENDERED**
+
+No further creative clarification is required to proceed when the render pipeline is implemented.

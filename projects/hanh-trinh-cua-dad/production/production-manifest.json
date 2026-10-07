@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "project_id": "VUF_DAD_001",
+  "status": "PREPRODUCTION_LOCKED_RENDER_DEFERRED",
+  "source_of_truth": {
+    "director_pack": "docs/FINAL-DIRECTOR-PACK.md",
+    "screenplay": "docs/03-screenplay.md",
+    "voiceover": "docs/17-voiceover-lock.md",
+    "animatic": "production/animatic/animatic.json",
+    "archive_selection": "assets/catalog/selected_for_animatic.json",
+    "model_routing": "docs/18-model-routing.md"
+  },
+  "deliverables_planned": {
+    "master": "final/masters/hanh-trinh-cua-dad_MASTER_v01.mp4",
+    "youtube": "final/youtube/hanh-trinh-cua-dad_YOUTUBE_16x9_v01.mp4",
+    "reels": "final/reels/hanh-trinh-cua-dad_REELS_9x16_v01.mp4",
+    "subtitles_vi": "final/subtitles/hanh-trinh-cua-dad_vi_v01.srt",
+    "subtitles_en": "final/subtitles/hanh-trinh-cua-dad_en_v01.srt"
+  },
+  "render_execution": {
+    "deferred_by_owner": true,
+    "worker_implemented": false,
+    "auto_publish": false
+  },
+  "storage": {
+    "configured": false,
+    "config_template": "/.env.example"
+  },
+  "fact_holds": [
+    "Do not present the future-dated 2027 / over-1000-students statement as a current 2026 fact."
+  ],
+  "person_confirmation_holds": [
+    "Confirm ARCH_0476/ARCH_0479 subject is Nguyễn Hoàng Cung before using his name on screen.",
+    "Use an approved portrait of Đoàn Minh Nam before showing his face with a name caption.",
+    "Use an approved portrait of Sơ Nien before showing her face with a name caption."
+  ]
+}

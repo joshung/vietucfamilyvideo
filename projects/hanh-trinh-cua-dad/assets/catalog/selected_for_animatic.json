@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.1",
+  "project_id": "VUF_DAD_001",
+  "selection_status": "VISUALLY_QC_D_FOR_ANIMATIC",
+  "notes": [
+    "These images were visually inspected from the source API where technically retrievable.",
+    "They represent recent/community impact, not archival proof of 1996/1997/2006.",
+    "SHA-256 values below are for the fetched source bytes used during this QC pass.",
+    "Before final mastering, selected files should be copied into durable canonical media storage."
+  ],
+  "selected": [
+    {
+      "asset_id": "ARCH_0407",
+      "description": "Dad phát biểu tại lễ trao bằng khen Việt Úc Hà Nội",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-53-4Z9A4359.jpg",
+      "sha256": "ed72cf20a61c9304b014cec2910ef1b24def4cd3c716995aaf9f8633941d2167",
+      "visual_qc": "PASS",
+      "best_use": ["Dad authority", "program impact", "late-film archive montage"],
+      "observed_context": "Dad speaking on stage; Viet Uc Family award/gathering banner visible; banner date 11/10/2025."
+    },
+    {
+      "asset_id": "ARCH_0411",
+      "description": "Toàn đại diện cho sinh viên Việt Úc tốt nghiệp phát biểu tại Hà Nội",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-58-4Z9A4287.jpg",
+      "sha256": "8c9098040d20d7e08975183adf53ec93c99e732d060d1a830ec6a936044df5a2",
+      "visual_qc": "PASS",
+      "best_use": ["graduate outcome", "student voice", "impact montage"],
+      "observed_context": "Graduate in cap and gown speaking at lectern against Viet Uc Family award/gathering banner."
+    },
+    {
+      "asset_id": "ARCH_0426",
+      "description": "Khanh Tam dịch cho Dad tại lễ phát bằng khen Viet Uc HCM",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-75-T4N_0321.jpg",
+      "sha256": "86a40fd7152796d145aeede89b61fbe527361d2a1d94711240866dd56d4b51d0",
+      "visual_qc": "PASS",
+      "best_use": ["Dad with Vietnamese collaborator", "translation/community bridge", "impact montage"],
+      "observed_context": "Dad stands beside a younger woman reading/speaking with microphone; strong visual for cross-language collaboration."
+    },
+    {
+      "asset_id": "ARCH_0428",
+      "description": "Niềm vui và tự hào của Dad ở HCMC",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-77-T4N_0172.jpg",
+      "sha256": "22a844c27f6504c2f8b1c65d140a3d663669cb65a5c0e212fc188386afa650a0",
+      "visual_qc": "PASS_STRONG",
+      "best_use": ["emotional payoff", "Dad personality", "pre-ending montage"],
+      "observed_context": "Dad raises both arms/thumbs in a joyful celebratory gesture with applauding people behind him."
+    },
+    {
+      "asset_id": "ARCH_0448",
+      "description": "Ms Mừng tặng hoa chúc mừng Dad",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-100-4Z9A3886.jpg",
+      "sha256": "27fa02e9fbbdb68014fd635c5e71a7b3bbaf38bd41cf6022b9559aba24d8feec",
+      "visual_qc": "PASS",
+      "best_use": ["recognition", "community gratitude", "impact montage"],
+      "observed_context": "Dad poses with a woman and bouquet in front of Viet Uc Family event banner."
+    },
+    {
+      "asset_id": "ARCH_0460",
+      "description": "Con gái Việt Úc chúc mừng Dad",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-105-4Z9A3981.jpg",
+      "sha256": "f5da29cc0130fa2a7bdc938e0d192d3a5572a3652ff340446306048b4af13a10",
+      "visual_qc": "PASS",
+      "best_use": ["community/family identity", "Dad with members", "late montage"],
+      "observed_context": "Dad centered with four younger women at Viet Uc Family event; strong symmetrical group composition."
+    },
+    {
+      "asset_id": "ARCH_0471",
+      "description": "Chúc mừng Toàn tốt nghiệp ở Hà Nội",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-118-4Z9A4464.JPG",
+      "sha256": "cf41893561193ee0aef4e1b48c09fc674f0e4f5ce0d0dd6138940ccbe321240a",
+      "visual_qc": "PASS_STRONG",
+      "best_use": ["graduation outcome", "Dad + student + family/support network"],
+      "observed_context": "Dad and another adult stand with a graduate holding a certificate; direct visual evidence of education outcome."
+    },
+    {
+      "asset_id": "ARCH_0476",
+      "description": "Anh Cung phát biểu tại buổi lễ in Ha Noi",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-123-4Z9A4259.jpg",
+      "sha256": "d8e38a1c55f85fa961cf48e85419c3dabe834e8e4e2519a6f47f9f0e3132ee5f",
+      "visual_qc": "PASS_IDENTITY_CONFIRMATION_REQUIRED",
+      "best_use": ["Nguyễn Hoàng Cung present-day portrait/context"],
+      "observed_context": "Man speaking at Viet Uc Family lectern; catalog labels him anh Cung. Person identity should be owner-confirmed before name caption."
+    },
+    {
+      "asset_id": "ARCH_0479",
+      "description": "Anh Cung phát biểu tại buổi lễ HCMC",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-126-T4N_0203.jpg",
+      "sha256": "78340cdf6b247c4170181165ac6ed1a90524091ea5d014ea9198ba1692f0d301",
+      "visual_qc": "PASS_IDENTITY_CONFIRMATION_REQUIRED",
+      "best_use": ["alternate Cung portrait/context"],
+      "observed_context": "Same/similar male speaker at lectern in a different event setting; useful alternate after owner identity confirmation."
+    },
+    {
+      "asset_id": "ARCH_0521",
+      "description": "Trao bằng khen cho Thế Anh, Phương, Toàn và Thành ở Hà Nội",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-175-4Z9A4430.JPG",
+      "sha256": "cfbb2fbe72fd1d53d77836cdd420a26e399a91930103baedd379feada809287c",
+      "visual_qc": "PASS_STRONG",
+      "best_use": ["multiple graduates", "program impact", "closing montage"],
+      "observed_context": "Dad and another adult stand with multiple graduates holding certificates; strong group outcome image."
+    },
+    {
+      "asset_id": "ARCH_0527",
+      "description": "Thế Anh chụp hình lưu niệm với Dad",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-183-4Z9A4127.jpg",
+      "sha256": "9df0b60a57c6278f681a4971623311a2998704aac5b829c698c9528aaccbd8bb",
+      "visual_qc": "PASS_STRONG",
+      "best_use": ["Dad + graduate intimate human beat", "emotional hold"],
+      "observed_context": "Tight two-person portrait of graduate and Dad; excellent for a slower 1–1.5 second emotional beat."
+    },
+    {
+      "asset_id": "ARCH_0529",
+      "description": "Các thành viên Viet Uc ở HCMC",
+      "source_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-185-T4N_0531.jpg",
+      "sha256": "7992227f94deb4c845f629f63de78350e9ef12d08919cfd5bae343f4d3ebbdeb",
+      "visual_qc": "PASS",
+      "best_use": ["community scale", "family/gathering atmosphere"],
+      "observed_context": "Large social table scene; useful as community texture rather than a historical milestone image."
+    }
+  ],
+  "not_selected": [
+    {
+      "asset_id": "ARCH_0329",
+      "reason": "Visual decode showed a large blank/gray lower area in the retrieved source; do not rely on it until re-fetched and integrity checked."
+    }
+  ]
+}

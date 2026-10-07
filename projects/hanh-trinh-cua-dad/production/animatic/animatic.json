@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "project_id": "VUF_DAD_001",
+  "timeline": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "target_duration_seconds": 120,
+    "aspect_ratio": "16:9"
+  },
+  "shots": [
+    {"shot_id":"S01_SH01","in":0,"out":6,"method":"dad_still_motion","assets":["DAD_REF_01"]},
+    {"shot_id":"S01_SH02","in":6,"out":14,"method":"fictional_collage","assets":["DAD_REF_01"],"ai_optional":true},
+    {"shot_id":"S01_SH03","in":14,"out":24,"method":"map_plus_fictional_collage","assets":["DAD_REF_01"],"ai_optional":true},
+    {"shot_id":"S02_SH01","in":24,"out":31,"method":"map_typography","assets":["DAD_REF_02"]},
+    {"shot_id":"S02_SH02","in":31,"out":38,"method":"diagram_typography","assets":[]},
+    {"shot_id":"S02_SH03","in":38,"out":45,"method":"animated_map","assets":[]},
+    {"shot_id":"S02_SH04","in":45,"out":51,"method":"portrait_cards","assets":[]},
+    {"shot_id":"S03_SH01","in":51,"out":58,"method":"timeline_map","assets":[]},
+    {"shot_id":"S03_SH02","in":58,"out":65,"method":"notebook_diagram","assets":[]},
+    {"shot_id":"S03_SH03","in":65,"out":73,"method":"network_diagram","assets":[]},
+    {"shot_id":"S03_SH04","in":73,"out":80,"method":"counter_cards","assets":[]},
+    {"shot_id":"S04_SH01","in":80,"out":86,"method":"kinetic_typography","assets":[]},
+    {"shot_id":"S04_SH02","in":86,"out":91,"method":"network_diagram","assets":[]},
+    {"shot_id":"S04_SH03","in":91,"out":97,"method":"timeline_archive","assets":["ARCH_0411","ARCH_0471","ARCH_0527"]},
+    {"shot_id":"S04_SH04","in":97,"out":102,"method":"archive_network","assets":["ARCH_0521","ARCH_0529","ARCH_0426"]},
+    {"shot_id":"S05_SH01","in":102,"out":107,"method":"handoff_graphic","assets":["ARCH_0476","ARCH_0479"],"identity_confirmation_required":true},
+    {"shot_id":"S05_SH02","in":107,"out":111,"method":"name_transform","assets":[]},
+    {"shot_id":"S05_SH03","in":111,"out":118,"method":"values_archive_montage","assets":["ARCH_0407","ARCH_0448","ARCH_0460","ARCH_0428"]},
+    {"shot_id":"S05_SH04","in":118,"out":120,"method":"dad_end_card","assets":["DAD_REF_02"]}
+  ],
+  "audio": {
+    "voiceover_doc":"docs/17-voiceover-lock.md",
+    "sound_plan":"docs/09-sound-plan.md",
+    "dad_final_voice_preferred":true
+  },
+  "status":"SPEC_LOCKED_NOT_RENDERED"
+}
