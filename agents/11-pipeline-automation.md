@@ -319,6 +319,18 @@ Before production:
 - keep secrets out of workflows/logs;
 - restrict filesystem/network permissions where possible.
 
+## Render-execution contract
+
+When the task moves from planning into provider/API execution, read and obey:
+
+`docs/render-execution-pipeline.md`
+
+For project-specific handoff, also read that project's render-execution docs and machine-readable render plan.
+
+A render agent must not infer "generate every shot." It must generate only shots explicitly routed to a generative provider.
+
+Provider completion is an acquisition event, not approval.
+
 ## Definition of done
 
 The pipeline can process a representative batch with:

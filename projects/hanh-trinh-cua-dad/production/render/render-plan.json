@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "project_id": "VUF_DAD_001",
+  "status": "SPEC_ONLY_NOT_EXECUTED",
+  "defaults": {
+    "render_concurrency": 2,
+    "max_attempts_per_ai_shot": 4,
+    "auto_select": false,
+    "auto_publish": false,
+    "canonical_storage_required": true
+  },
+  "providers": {
+    "primary": "runway",
+    "fallback": "veo"
+  },
+  "jobs": [
+    {
+      "shot_id": "S01_SH02",
+      "enabled": true,
+      "mode": "image_to_video",
+      "primary_provider": "runway",
+      "model": "gen4.5",
+      "ratio": "1280:720",
+      "duration_seconds": 6,
+      "first_frame_asset_id": "COMP_S01_SH02_START",
+      "prompt_id": "PROMPT_S01_SH02_RUNWAY_V01",
+      "max_attempts": 4,
+      "selection": "explicit_qc"
+    },
+    {
+      "shot_id": "S01_SH03",
+      "enabled": true,
+      "mode": "image_to_video",
+      "primary_provider": "runway",
+      "fallback_provider": "veo",
+      "model": "gen4.5",
+      "ratio": "1280:720",
+      "duration_seconds": 8,
+      "first_frame_asset_id": "COMP_S01_SH03_START",
+      "prompt_id": "PROMPT_S01_SH03_RUNWAY_V01",
+      "max_attempts": 4,
+      "selection": "explicit_qc"
+    }
+  ],
+  "excluded_from_ai_video_generation": [
+    "S01_SH01",
+    "S02_SH01",
+    "S02_SH02",
+    "S02_SH03",
+    "S02_SH04",
+    "S03_SH01",
+    "S03_SH02",
+    "S03_SH03",
+    "S03_SH04",
+    "S04_SH01",
+    "S04_SH02",
+    "S04_SH03",
+    "S04_SH04",
+    "S05_SH01",
+    "S05_SH02",
+    "S05_SH03",
+    "S05_SH04"
+  ],
+  "notes": [
+    "S01_SH01 and S05_SH04 may use editor-driven still motion; AI micro-motion is optional and disabled by default.",
+    "The worker must fail preflight if required first-frame composites are missing.",
+    "This file defines intent. Provider adapters must revalidate current capabilities at execution time."
+  ]
+}

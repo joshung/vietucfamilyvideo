@@ -11,7 +11,7 @@
 
 ## What is locked
 
-The entire non-render production package is now defined:
+The entire non-render production package is defined:
 
 - factual story spine;
 - 2-minute screenplay;
@@ -27,11 +27,15 @@ The entire non-render production package is now defined:
 - sound plan;
 - continuity rules;
 - model routing;
+- render execution architecture;
+- concrete Runway prompts for AI shots;
+- render job plan;
+- coding-agent handoff prompt;
 - storage/env template;
 - production manifest;
 - QC and truth holds.
 
-The render/upload worker is intentionally deferred by the project owner.
+The actual render/upload worker remains intentionally deferred by the project owner.
 
 ## Story lock
 
@@ -95,6 +99,26 @@ Fallback:
 
 Most factual shots use no AI video.
 
+## Render execution handoff
+
+Repository-wide execution contract:
+- `/docs/render-execution-pipeline.md`
+
+Project-specific pipeline:
+- `docs/19-render-execution-pipeline.md`
+
+Copy-paste coding-agent prompt:
+- `docs/20-render-agent-handoff-prompt.md`
+
+Machine-readable render intent:
+- `production/render/render-plan.json`
+
+The v1 execution worker should generate only:
+- S01_SH02 — kangaroo;
+- S01_SH03 — buffalo.
+
+It must not send the factual history boards to an AI-video provider.
+
 ## Storage / secrets
 
 Use:
@@ -110,10 +134,10 @@ Do not present **“by 2027 over 1000 students”** as a current 2026 fact until
 
 ## Render status
 
-Everything before execution/rendering is prepared.
+Everything required to hand the execution work to a specialist coding agent is prepared.
 
 Deferred:
-- render worker;
+- implementation of render worker;
 - provider API calls;
 - canonical media upload;
 - final assembly/master export.
@@ -139,4 +163,6 @@ Deferred:
 - `docs/16-storyboard-animatic-spec.md`
 - `docs/17-voiceover-lock.md`
 - `docs/18-model-routing.md`
+- `docs/19-render-execution-pipeline.md`
+- `docs/20-render-agent-handoff-prompt.md`
 - `docs/FINAL-DIRECTOR-PACK.md`

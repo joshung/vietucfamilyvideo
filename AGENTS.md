@@ -1,6 +1,6 @@
 # VietUcFamilyVideo — Agent Operating Manual
 
-> Version: 1.4
+> Version: 1.5
 > Research baseline: 2026-10-07
 > Scope: live-action video, documentary/educational/social video, cinematic narrative, and AI-generated video.
 
@@ -316,6 +316,28 @@ Chief Director merges only after checking:
 - AI feasibility where applicable;
 - factual integrity;
 - final runtime.
+
+### Gate I — Render execution handoff
+
+Owner: Agent 11.
+
+Render execution starts only after the project has:
+- a locked project manifest;
+- explicit render/model routing;
+- resolvable input/reference assets;
+- per-shot execution intent;
+- storage configuration contract;
+- retry/idempotency policy;
+- technical QC policy;
+- explicit creative selection policy.
+
+Agent 11 must treat provider output as temporary acquisition media until it is downloaded, hashed, technically checked, and uploaded to canonical project storage.
+
+Provider success is **not** creative approval.
+
+Every render-execution implementation must follow `docs/render-execution-pipeline.md`.
+
+Project-specific execution docs may further restrict which shots may be generated.
 
 ## 6. Project directory and storage contract
 
