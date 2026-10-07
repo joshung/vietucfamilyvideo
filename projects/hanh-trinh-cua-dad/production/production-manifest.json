@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "project_id": "VUF_DAD_001",
   "status": "PREPRODUCTION_LOCKED_RENDER_DEFERRED",
   "source_of_truth": {
@@ -8,10 +8,25 @@
     "voiceover": "docs/17-voiceover-lock.md",
     "animatic": "production/animatic/animatic.json",
     "archive_selection": "assets/catalog/selected_for_animatic.json",
+    "reference_style": "docs/21-reference-style-breakdown.md",
+    "frame_by_frame": "docs/22-frame-by-frame-paper-stop-motion.md",
+    "remotion_style_system": "/docs/editorial-remotion-style-system.md",
+    "remotion_scene_plan": "production/remotion/scene-plan.json",
+    "remotion_style_tokens": "production/remotion/style-tokens.json",
+    "remotion_agent_prompt": "docs/23-remotion-implementation-handoff-prompt.md",
     "model_routing": "docs/18-model-routing.md",
     "render_execution": "docs/19-render-execution-pipeline.md",
     "render_plan": "production/render/render-plan.json",
     "render_agent_prompt": "docs/20-render-agent-handoff-prompt.md"
+  },
+  "master_timeline": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "duration_in_frames": 2880,
+    "duration_seconds": 120,
+    "master_compositor": "Remotion",
+    "paper_stop_motion_cadence_frames": 2
   },
   "deliverables_planned": {
     "master": "final/masters/hanh-trinh-cua-dad_MASTER_v01.mp4",
@@ -24,7 +39,9 @@
     "deferred_by_owner": true,
     "specification_complete": true,
     "worker_implemented": false,
+    "remotion_implementation_complete": false,
     "enabled_ai_shots": ["S01_SH02", "S01_SH03"],
+    "ai_video_required_for_master": false,
     "primary_provider": "runway",
     "fallback_provider": "veo",
     "auto_select": false,

@@ -1,6 +1,6 @@
 # VietUcFamilyVideo — Agent Operating Manual
 
-> Version: 1.5
+> Version: 1.6
 > Research baseline: 2026-10-07
 > Scope: live-action video, documentary/educational/social video, cinematic narrative, and AI-generated video.
 
@@ -209,6 +209,26 @@ Treat automation as a **production system**, not a pile of prompts.
 - Private/self-hosted inference can reduce per-call API spend and improve control, but it creates operational responsibility.
 
 For detailed implementation, use `docs/ai-production-pipeline.md`.
+
+### 4.9 Editorial Remotion + paper stop-motion
+
+When a project uses editorial motion graphics or paper-stop-motion:
+
+- Remotion (or another deterministic compositor) owns the timeline, typography, maps, cards, factual labels and transitions.
+- AI-generated video is an optional source layer, not the timeline editor.
+- Design one strong hero still before animating a scene.
+- Every scene must define its physical layer stack and exact transition to the next scene.
+- For paper-stop-motion, use stepped authored motion by default: typically **on twos** at a 24fps master, with occasional on-threes for heavier/comedic placements.
+- Camera motion may remain smooth while paper layers step.
+- Jitter must be deterministic/authored; never use uncontrolled render-time randomness.
+- Real faces and factual archive receive less jitter and no facial deformation.
+- Every scene must have a frame schedule that accounts for the full scene range; vague instructions such as "add parallax", "animate the map" or "Vox style" are not sufficient.
+- Transitions should physically or conceptually hand an element into the next scene.
+- Before full render, export hero stills plus start/25%/50%/75%/end trajectory previews.
+- A scene is not complete if it is only background + centered text + slow zoom.
+- All factual text must remain deterministic editable compositor text; do not depend on AI-rendered typography.
+
+Detailed visual/motion rules live in `docs/editorial-remotion-style-system.md`.
 
 ## 5. Pipeline and quality gates
 

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "project_id": "VUF_DAD_001",
   "slug": "hanh-trinh-cua-dad",
   "title": "Hành Trình Của Dad",
@@ -8,6 +8,7 @@
   "target_runtime_seconds": 120,
   "primary_aspect_ratio": "16:9",
   "timeline_fps": 24,
+  "duration_in_frames": 2880,
   "language": "vi",
   "approved_docs": {
     "brief": "docs/00-brief.md",
@@ -31,6 +32,9 @@
     "model_routing": "docs/18-model-routing.md",
     "render_execution": "docs/19-render-execution-pipeline.md",
     "render_agent_prompt": "docs/20-render-agent-handoff-prompt.md",
+    "reference_style": "docs/21-reference-style-breakdown.md",
+    "frame_by_frame": "docs/22-frame-by-frame-paper-stop-motion.md",
+    "remotion_agent_prompt": "docs/23-remotion-implementation-handoff-prompt.md",
     "director_pack": "docs/FINAL-DIRECTOR-PACK.md"
   },
   "assets": {
@@ -43,6 +47,8 @@
   },
   "production": {
     "animatic_spec": "production/animatic/animatic.json",
+    "remotion_scene_plan": "production/remotion/scene-plan.json",
+    "remotion_style_tokens": "production/remotion/style-tokens.json",
     "render_plan": "production/render/render-plan.json",
     "manifest": "production/production-manifest.json",
     "render_execution_deferred_by_owner": true
@@ -51,6 +57,13 @@
     "backend": null,
     "root": null,
     "config_template": "/.env.example"
+  },
+  "visual_system": {
+    "master_compositor": "Remotion",
+    "paper_stop_motion": true,
+    "paper_cadence_frames": 2,
+    "ai_video_optional": true,
+    "ai_video_required_for_master": false
   },
   "ai_routing": {
     "primary": "Runway Gen-4.5 Image to Video",
@@ -69,13 +82,17 @@
     "voiceover": true,
     "shot_plan": true,
     "storyboard_spec": true,
+    "frame_by_frame_motion_spec": true,
+    "remotion_style_system": true,
+    "remotion_scene_plan": true,
+    "remotion_agent_handoff_prompt": true,
     "dad_identity_refs": true,
     "archive_catalog": true,
     "archive_shortlist_qc": true,
     "model_routing": true,
     "render_execution_spec": true,
-    "render_agent_handoff_prompt": true,
     "render_worker": false,
+    "remotion_implementation": false,
     "final_render": false
   }
 }

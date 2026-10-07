@@ -2,40 +2,93 @@
 
 **Project ID:** VUF_DAD_001  
 **Working title:** *Dad Stevenson: định chinh phục Việt Nam, rồi Việt Nam chinh phục lại Dad*  
-**Format:** 2-minute editorial mini-documentary / visual essay  
+**Format:** 2-minute editorial mini-documentary / paper-stop-motion visual essay  
 **Language:** Vietnamese  
 **Target runtime:** 120 seconds  
-**Master timeline:** 1920×1080 / 24fps / 16:9  
+**Master timeline:** 1920×1080 / 24fps / 2880 frames / 16:9  
 **Current stage:** PREPRODUCTION_LOCKED_RENDER_DEFERRED  
 **Approved master:** none
 
-## What is locked
+## Visual production model
 
-The entire non-render production package is defined:
+This project is now locked as:
+
+**Remotion editorial documentary + deterministic paper stop-motion.**
+
+The rule is:
+
+```
+design the still
+→ define paper layers
+→ define exact poses/keyframes
+→ animate stepped paper motion
+→ compose in Remotion
+→ insert optional AI motion only where useful
+```
+
+AI does not control the timeline.
+
+## What is locked
 
 - factual story spine;
 - 2-minute screenplay;
 - locked narration;
 - directing treatment;
-- shot list and critical shot cards;
-- 19-board animatic specification;
-- 120-second machine-readable animatic timeline;
+- 19-scene animatic;
+- exact 2880-frame master timeline;
+- frame-by-frame paper-motion blueprint;
+- transition chain between every adjacent scene;
+- Remotion style tokens;
 - Dad identity references;
 - 728-image archive catalog;
 - 12-image visually QC'd shortlist;
-- archive-to-shot mapping;
 - sound plan;
-- continuity rules;
 - model routing;
 - render execution architecture;
-- concrete Runway prompts for AI shots;
-- render job plan;
-- coding-agent handoff prompt;
-- storage/env template;
-- production manifest;
+- Remotion implementation handoff prompt;
+- storage/env contract;
 - QC and truth holds.
 
-The actual render/upload worker remains intentionally deferred by the project owner.
+## Primary frame-by-frame spec
+
+Read this before implementing motion:
+
+`docs/22-frame-by-frame-paper-stop-motion.md`
+
+It accounts for the complete frame range:
+
+`F0000 → F2879`
+
+and specifies:
+- exact layer actions;
+- coordinates;
+- frame ranges;
+- stepped cadence;
+- holds;
+- transitions;
+- hero frames.
+
+## Paper stop-motion system
+
+Repository-wide rule:
+
+`/docs/editorial-remotion-style-system.md`
+
+Reference breakdown:
+
+`docs/21-reference-style-breakdown.md`
+
+Machine-readable tokens:
+
+`production/remotion/style-tokens.json`
+
+Scene timeline:
+
+`production/remotion/scene-plan.json`
+
+Implementation-agent prompt:
+
+`docs/23-remotion-implementation-handoff-prompt.md`
 
 ## Story lock
 
@@ -71,62 +124,21 @@ Visual-QC shortlist:
 - `assets/catalog/selected_for_animatic.json`
 - `docs/15-archive-shortlist-qc.md`
 
-## Animatic
+## Render execution
 
-Human-readable:
-- `docs/16-storyboard-animatic-spec.md`
-
-Machine-readable:
-- `production/animatic/animatic.json`
-
-## Voice
-
-Locked narration:
-- `docs/17-voiceover-lock.md`
-
-Preferred final 2 seconds:
-Dad's real voice saying **“Dream. Believe. Do.”**
-
-## Model routing
-
-`docs/18-model-routing.md`
-
-Primary AI video:
-**Runway Gen-4.5 Image to Video**
-
-Fallback:
-**Google Veo 3.1**
-
-Most factual shots use no AI video.
-
-## Render execution handoff
-
-Repository-wide execution contract:
+General:
 - `/docs/render-execution-pipeline.md`
 
-Project-specific pipeline:
+AI-shot execution:
 - `docs/19-render-execution-pipeline.md`
-
-Copy-paste coding-agent prompt:
 - `docs/20-render-agent-handoff-prompt.md`
 
-Machine-readable render intent:
-- `production/render/render-plan.json`
+Remotion master assembly:
+- `docs/23-remotion-implementation-handoff-prompt.md`
 
-The v1 execution worker should generate only:
-- S01_SH02 — kangaroo;
-- S01_SH03 — buffalo.
+Only S01_SH02 and S01_SH03 may use optional AI-video source layers.
 
-It must not send the factual history boards to an AI-video provider.
-
-## Storage / secrets
-
-Use:
-`.env.example`
-
-Never commit the real `.env`.
-
-Heavy media remains outside normal Git.
+The master must render without AI video.
 
 ## Truth hold
 
@@ -134,13 +146,12 @@ Do not present **“by 2027 over 1000 students”** as a current 2026 fact until
 
 ## Render status
 
-Everything required to hand the execution work to a specialist coding agent is prepared.
+Creative and deterministic motion specifications are prepared.
 
 Deferred:
-- implementation of render worker;
-- provider API calls;
-- canonical media upload;
-- final assembly/master export.
+- Remotion implementation code;
+- provider API execution;
+- final media assembly/export.
 
 ## Core docs
 
@@ -165,4 +176,7 @@ Deferred:
 - `docs/18-model-routing.md`
 - `docs/19-render-execution-pipeline.md`
 - `docs/20-render-agent-handoff-prompt.md`
+- `docs/21-reference-style-breakdown.md`
+- `docs/22-frame-by-frame-paper-stop-motion.md`
+- `docs/23-remotion-implementation-handoff-prompt.md`
 - `docs/FINAL-DIRECTOR-PACK.md`

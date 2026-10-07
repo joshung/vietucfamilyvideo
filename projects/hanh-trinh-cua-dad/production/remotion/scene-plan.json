@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "project_id": "VUF_DAD_001",
+  "composition_id": "DadJourneyMaster",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "duration_in_frames": 2880,
+  "paper_motion_cadence_frames": 2,
+  "scenes": [
+    {"scene_id":"S01_SH01","component":"DadHeroIntro","from":0,"duration":144,"end":143},
+    {"scene_id":"S01_SH02","component":"KangarooPosterScene","from":144,"duration":192,"end":335},
+    {"scene_id":"S01_SH03","component":"BuffaloPivotScene","from":336,"duration":240,"end":575},
+    {"scene_id":"S02_SH01","component":"AdelaideMapScene","from":576,"duration":168,"end":743},
+    {"scene_id":"S02_SH02","component":"ScholarshipQuestionScene","from":744,"duration":168,"end":911},
+    {"scene_id":"S02_SH03","component":"Route1996Scene","from":912,"duration":168,"end":1079},
+    {"scene_id":"S02_SH04","component":"MeetNamScene","from":1080,"duration":144,"end":1223},
+    {"scene_id":"S03_SH01","component":"Year1997ReturnScene","from":1224,"duration":168,"end":1391},
+    {"scene_id":"S03_SH02","component":"SunwayCriteriaScene","from":1392,"duration":168,"end":1559},
+    {"scene_id":"S03_SH03","component":"FirstStudentsNetworkScene","from":1560,"duration":192,"end":1751},
+    {"scene_id":"S03_SH04","component":"FirstEightScene","from":1752,"duration":168,"end":1919},
+    {"scene_id":"S04_SH01","component":"StevensonProgrammeTitle","from":1920,"duration":144,"end":2063},
+    {"scene_id":"S04_SH02","component":"ProgrammeNetworkScene","from":2064,"duration":120,"end":2183},
+    {"scene_id":"S04_SH03","component":"GrowthTimelineScene","from":2184,"duration":144,"end":2327},
+    {"scene_id":"S04_SH04","component":"CommunityMapScene","from":2328,"duration":120,"end":2447},
+    {"scene_id":"S05_SH01","component":"Handoff2006Scene","from":2448,"duration":120,"end":2567},
+    {"scene_id":"S05_SH02","component":"VietUcNameRevealScene","from":2568,"duration":96,"end":2663},
+    {"scene_id":"S05_SH03","component":"ValuesImpactScene","from":2664,"duration":168,"end":2831},
+    {"scene_id":"S05_SH04","component":"DadEndCard","from":2832,"duration":48,"end":2879}
+  ],
+  "assertions": {
+    "scene_count": 19,
+    "first_frame": 0,
+    "last_frame": 2879,
+    "exact_runtime_seconds": 120,
+    "no_gaps": true,
+    "no_unplanned_overlaps": true
+  }
+}

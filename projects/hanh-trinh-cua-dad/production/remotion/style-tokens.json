@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "project_id": "VUF_DAD_001",
+  "master": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "duration_in_frames": 2880
+  },
+  "paper": {
+    "motion_cadence_default_frames": 2,
+    "motion_cadence_heavy_frames": 3,
+    "background": "#F3EBDD",
+    "ink": "#111111",
+    "muted_ink": "#5A554E",
+    "highlight": "#F4E300",
+    "dark_map": "#171715",
+    "warm_archive": "#C9B99F",
+    "shadow": {
+      "x_px": 5,
+      "y_px": 11,
+      "blur_px": 12,
+      "opacity": 0.23
+    },
+    "micro_jitter": {
+      "max_x_px": 3,
+      "max_y_px": 2,
+      "max_rotation_deg": 0.35,
+      "dad_multiplier": 0.25,
+      "archive_multiplier": 0.35
+    }
+  },
+  "motion": {
+    "cutout_slide_poses": 6,
+    "hand_place_poses": 5,
+    "paper_pop_poses": 3,
+    "highlight_swipe_frames": 12,
+    "route_draw_frames_default": 36,
+    "photo_drift_scale_max": 1.035,
+    "freeze_hit_frames": 3
+  },
+  "rules": {
+    "paper_on_twos_default": true,
+    "camera_may_be_smooth_24fps": true,
+    "authored_jitter_only": true,
+    "math_random_forbidden": true,
+    "ai_text_forbidden": true,
+    "hero_still_required_per_scene": true,
+    "trajectory_preview_required_for_moving_cutouts": true,
+    "all_frame_intervals_documented": true
+  }
+}
