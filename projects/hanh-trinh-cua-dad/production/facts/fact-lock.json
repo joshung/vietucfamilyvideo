@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "project_id": "VUF_DAD_001",
+  "identity": {
+    "subject_id": "DAD_STEVENSON",
+    "nationality_en": "Australian",
+    "nationality_vi": "người Úc",
+    "country": "Australia",
+    "known_residence_work_context": "Adelaide, South Australia"
+  },
+  "critical_first_10_seconds": {
+    "required_visual_geography": ["Australia"],
+    "required_audio_claims": ["Dad Stevenson", "người Úc", "Adelaide"],
+    "forbidden_visual_geography": ["United States", "USA", "America"],
+    "forbidden_audio_terms": ["Mỹ", "Hoa Kỳ", "USA", "America", "American", "United States"],
+    "required_frame_labels": {
+      "F0000_F0143": "Dad + Australia only",
+      "F0144_F0239": "Australian kangaroo comedy; no US imagery"
+    }
+  },
+  "scene_constraints": {
+    "S01_SH01": [
+      "Dad is Australian / người Úc.",
+      "Use Australia / Adelaide geography only.",
+      "Never use USA, America, United States, Mỹ or Hoa Kỳ as Dad origin."
+    ],
+    "S01_SH02": [
+      "Kangaroo comedy is explicitly Australian.",
+      "No United States map, flag, landmark or origin label."
+    ],
+    "S01_SH03": [
+      "Travel route begins in Australia and goes to Vietnam.",
+      "Buffalo beat is fictional comedy, not biography."
+    ],
+    "S02_SH01": [
+      "Factual origin section begins in Adelaide, South Australia."
+    ]
+  },
+  "timeline_facts": [
+    {"id":"FACT_ADELAIDE","claim":"Dad was living and working in Adelaide, South Australia when discussing the scholarship idea with Sơ Nien.","status":"LOCKED"},
+    {"id":"FACT_1996","claim":"In 1996 Dad met Đoàn Minh Nam during a trip through Cao Bằng, Bắc Cạn, Lạng Sơn and Hạ Long.","status":"LOCKED"},
+    {"id":"FACT_1997","claim":"In 1997 Dad returned to Vietnam and discussed scholarship details with Đoàn Minh Nam at SunWay Hotel in Hanoi.","status":"LOCKED"},
+    {"id":"FACT_FIRST_8","claim":"The first supported group consisted of 8 students.","status":"LOCKED"},
+    {"id":"FACT_FIRST_NAME","claim":"The first program name was Stevenson Scholarship Programme.","status":"LOCKED"},
+    {"id":"FACT_2006","claim":"In 2006 Đoàn Minh Nam transferred the work to Nguyễn Hoàng Cung and the program changed to the Viet Uc Family name.","status":"LOCKED"},
+    {"id":"FACT_NO_REPAYMENT","claim":"Support is unconditional and carries no repayment obligation.","status":"LOCKED"}
+  ],
+  "fictional_only": [
+    "Dad fighting a kangaroo",
+    "Dad going to Vietnam to conquer a buffalo",
+    "action-hero/game framing"
+  ],
+  "forbidden_as_current_fact": [
+    "By 2027 over 1000 students have already been supported"
+  ],
+  "render_fail_conditions": [
+    "Dad is labeled or narrated as American, from America, from the USA, or from the United States.",
+    "A United States map, flag, landmark or label is used to establish Dad's origin.",
+    "Recent archive imagery is presented as if photographed in 1996, 1997 or 2006.",
+    "The fictional kangaroo/buffalo beats are presented as biography rather than clearly fictional comedy."
+  ]
+}

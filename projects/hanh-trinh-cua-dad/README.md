@@ -47,7 +47,9 @@ AI does not control the timeline.
 - render execution architecture;
 - Remotion implementation handoff prompt;
 - storage/env contract;
-- QC and truth holds.
+- QC and truth holds;
+- hard fact-lock regression gates for Dad = Australian / Adelaide;
+- frame-locked narration cue sheet with 35 independent WAV cues.
 
 ## Primary frame-by-frame spec
 
@@ -103,6 +105,18 @@ Exact prompt layer:
 - `production/remotion/frame-prompt-index.json`
 
 The exact frame manifest contains one prompt record for every frame `F0000 → F2879`. Regenerate it with `node scripts/build-frame-prompt-manifest.mjs` and validate with `node scripts/validate-frame-prompts.mjs`.
+
+Before any preview/master also run:
+
+- `node scripts/validate-audio-cues.mjs`
+- `node scripts/validate-fact-lock.mjs`
+
+Fact/audio contracts:
+
+- `docs/29-fact-lock-and-regression.md`
+- `docs/30-audio-sync-cue-sheet.md`
+- `production/facts/fact-lock.json`
+- `production/audio/voiceover-cues.json`
 
 ## Story lock
 
@@ -198,4 +212,6 @@ Deferred:
 - `docs/26-image-generation-agent-handoff-prompt.md`
 - `docs/27-exact-prompt-remotion-handoff.md`
 - `docs/28-MASTER-EXECUTION-AGENT-PROMPT.md`
+- `docs/29-fact-lock-and-regression.md`
+- `docs/30-audio-sync-cue-sheet.md`
 - `docs/FINAL-DIRECTOR-PACK.md`

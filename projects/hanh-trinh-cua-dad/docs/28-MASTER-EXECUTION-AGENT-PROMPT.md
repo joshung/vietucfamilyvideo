@@ -61,19 +61,30 @@ Project:
 23. projects/hanh-trinh-cua-dad/docs/22-frame-by-frame-paper-stop-motion.md
 24. projects/hanh-trinh-cua-dad/docs/24-image-generation-prompts.md
 25. projects/hanh-trinh-cua-dad/docs/25-frame-prompt-contract.md
+26. projects/hanh-trinh-cua-dad/docs/29-fact-lock-and-regression.md
+27. projects/hanh-trinh-cua-dad/docs/30-audio-sync-cue-sheet.md
 
 Machine-readable contracts:
 
-26. projects/hanh-trinh-cua-dad/production/remotion/style-tokens.json
-27. projects/hanh-trinh-cua-dad/production/remotion/scene-plan.json
-28. projects/hanh-trinh-cua-dad/production/remotion/image-generation-manifest.json
-29. projects/hanh-trinh-cua-dad/production/remotion/hero-frame-prompts.json
-30. projects/hanh-trinh-cua-dad/production/remotion/frame-actions.json
-31. projects/hanh-trinh-cua-dad/production/remotion/frame-prompt-index.json
-32. projects/hanh-trinh-cua-dad/production/remotion/frame-prompt-manifest.jsonl
-33. projects/hanh-trinh-cua-dad/production/render/render-plan.json
-34. projects/hanh-trinh-cua-dad/production/production-manifest.json
-35. .env.example
+28. projects/hanh-trinh-cua-dad/production/facts/fact-lock.json
+29. projects/hanh-trinh-cua-dad/production/audio/voiceover-cues.json
+30. projects/hanh-trinh-cua-dad/production/remotion/style-tokens.json
+31. projects/hanh-trinh-cua-dad/production/remotion/scene-plan.json
+32. projects/hanh-trinh-cua-dad/production/remotion/image-generation-manifest.json
+33. projects/hanh-trinh-cua-dad/production/remotion/hero-frame-prompts.json
+34. projects/hanh-trinh-cua-dad/production/remotion/frame-actions.json
+35. projects/hanh-trinh-cua-dad/production/remotion/frame-prompt-index.json
+36. projects/hanh-trinh-cua-dad/production/remotion/frame-prompt-manifest.jsonl
+37. projects/hanh-trinh-cua-dad/production/render/render-plan.json
+38. projects/hanh-trinh-cua-dad/production/production-manifest.json
+39. .env.example
+
+Mandatory validators:
+
+40. scripts/build-frame-prompt-manifest.mjs
+41. scripts/validate-frame-prompts.mjs
+42. scripts/validate-audio-cues.mjs
+43. scripts/validate-fact-lock.mjs
 
 Helper prompts 20/23/26/27 are subordinate to this master prompt.
 If they conflict, this file plus the machine-readable contracts above win.
@@ -107,6 +118,48 @@ The intended result must NOT resemble:
 The master compositor is REMOTION.
 
 AI image/video tools provide optional source assets only.
+
+======================================================================
+B1. ZERO-TOLERANCE FACT REGRESSION GATE
+======================================================================
+
+Before rendering ANY preview:
+
+run:
+
+node scripts/build-frame-prompt-manifest.mjs
+node scripts/validate-frame-prompts.mjs
+node scripts/validate-audio-cues.mjs
+node scripts/validate-fact-lock.mjs
+
+All four must pass.
+
+Critical opening fact:
+
+Dad Stevenson is AUSTRALIAN — một người Úc.
+
+Scholarship-origin context:
+
+Adelaide, South Australia.
+
+The first 10 seconds MUST NOT:
+- call Dad American;
+- say he comes from America, USA, United States, Mỹ or Hoa Kỳ;
+- use a United States map, flag, Statue of Liberty, stars-and-stripes origin treatment or USA label;
+- replace Australia geography with another country.
+
+Required opening VO is sourced only from production/audio/voiceover-cues.json:
+
+VO_C001 = "Đây là Dad Stevenson."
+VO_C002 = "Một người Úc."
+VO_C003 = "Sống và làm việc tại Adelaide."
+
+If the implementation contradicts production/facts/fact-lock.json:
+
+the render MUST fail.
+
+Do not "fix it in edit later".
+Fix the implementation before rendering.
 
 ======================================================================
 C. MASTER VIDEO CONTRACT
@@ -641,16 +694,70 @@ Never send factual middle scenes to AI video.
 R. AUDIO
 ======================================================================
 
+Audio is frame-locked.
+
+Source-of-truth:
+
+projects/hanh-trinh-cua-dad/production/audio/voiceover-cues.json
+
+Narration editorial reference:
+
+projects/hanh-trinh-cua-dad/docs/17-voiceover-lock.md
+
+Audio sync contract:
+
+projects/hanh-trinh-cua-dad/docs/30-audio-sync-cue-sheet.md
+
+MANDATORY RULE:
+
+Do NOT synthesize one continuous 120-second TTS narration track.
+
+There are exactly 35 independent narration cues.
+
+For each cue:
+1. synthesize that cue only;
+2. acquire provider output;
+3. decode to 48kHz PCM WAV;
+4. trim only head/tail silence or encoder padding;
+5. preserve internal intended pauses;
+6. ffprobe exact duration;
+7. place WAV at exact start_frame in Remotion;
+8. verify it ends before end_frame_exclusive.
+
+Internal narration format:
+WAV PCM
+48kHz
+mono
+
+Internal MP3 narration is forbidden.
+
+global_audio_offset_frames MUST equal 0.
+
+If one cue overflows:
+- fail that cue;
+- regenerate that cue or create an approved shorter version;
+- do NOT shift later cues;
+- do NOT introduce a global delay;
+- do NOT time-drift the rest of the film.
+
+The following opening cues are immutable unless the project owner explicitly changes the fact:
+
+VO_C001:
+"Đây là Dad Stevenson."
+
+VO_C002:
+"Một người Úc."
+
+VO_C003:
+"Sống và làm việc tại Adelaide."
+
+VO_C004:
+"Kangaroo. Người Úc khó tránh."
+
 Support:
 - narration;
 - music;
 - SFX.
-
-Use frame-based timing.
-
-Follow:
-docs/09-sound-plan.md
-docs/17-voiceover-lock.md
 
 Key sound beats:
 - record scratch entering kangaroo;
@@ -662,6 +769,20 @@ Key sound beats:
 - optional real Dad voice for "Dream. Believe. Do."
 
 Do not add whooshes to every movement.
+
+Before the full 120-second preview, render:
+
+review/previews/DadJourneyMaster_SYNC_DEBUG_0-30s.mp4
+
+The debug render must visibly burn in:
+- global frame;
+- 24fps timecode;
+- scene ID;
+- active VO cue ID;
+- cue start frame;
+- cue end frame.
+
+Do not proceed to full review render until the first 30 seconds are factually correct and audibly synchronized.
 
 ======================================================================
 S. RENDER EXECUTION INFRASTRUCTURE
@@ -751,6 +872,13 @@ At minimum test:
 24. all 7 generation asset prompts resolve.
 25. no generated factual portrait is required.
 26. low-resolution master render completes.
+27. fact-lock validator passes.
+28. audio-cue validator passes.
+29. first 10 seconds contain Australia/Australian facts and no US/America origin content.
+30. VO_C002 is exactly "Một người Úc."
+31. narration global offset is exactly 0 frames.
+32. all 35 narration cues fit their frame windows after synthesis/ffprobe.
+33. no narration cue is allowed to shift later cues when it overflows.
 
 ======================================================================
 V. REQUIRED REVIEW OUTPUTS
@@ -768,7 +896,10 @@ review/contact-sheets/
   contact sheets for critical moving layers
 
 review/previews/
+  DadJourneyMaster_SYNC_DEBUG_0-30s.mp4
   DadJourneyMaster_540p_v01.mp4
+
+The sync-debug render must be reviewed first.
 
 Also provide:
 - rendered frame lookup by prompt ID;
@@ -789,8 +920,11 @@ PHASE 0 — REPOSITORY AUDIT
 
 PHASE 1 — CONTRACT VALIDATION
 - run frame prompt generator;
-- run validator;
-- validate project JSON.
+- run frame validator;
+- run audio cue validator;
+- run fact-lock validator;
+- validate project JSON;
+- STOP if any validator fails.
 
 PHASE 2 — REMOTION SCAFFOLD
 - install/pin exact Remotion packages;
@@ -829,8 +963,14 @@ PHASE 8 — OPTIONAL AI VIDEO
 - otherwise keep still-layer animation fallback.
 
 PHASE 9 — AUDIO
-- integrate narration/music/SFX manifests or placeholders;
-- enforce exact frame timing.
+- synthesize/integrate the 35 exact narration cues from production/audio/voiceover-cues.json;
+- use one 48kHz PCM WAV per cue;
+- trim head/tail silence only;
+- ffprobe each cue;
+- place each cue at exact start_frame;
+- fail any cue that exceeds end_frame_exclusive;
+- enforce global_audio_offset_frames = 0;
+- integrate music/SFX after narration sync is verified.
 
 PHASE 10 — TESTS
 - run unit/integration tests;

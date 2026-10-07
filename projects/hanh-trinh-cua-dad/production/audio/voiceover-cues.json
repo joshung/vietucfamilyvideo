@@ -1,0 +1,69 @@
+{
+  "schema_version": "2.0",
+  "project_id": "VUF_DAD_001",
+  "composition_id": "DadJourneyMaster",
+  "fps": 24,
+  "sample_rate_hz": 48000,
+  "internal_audio_format": "wav_pcm_s16le_mono",
+  "audio_policy": {
+    "one_file_per_cue": true,
+    "trim_head_tail_silence": true,
+    "preserve_internal_pauses": true,
+    "mp3_for_internal_master_forbidden": true,
+    "global_audio_offset_frames": 0,
+    "max_estimated_wpm": 170,
+    "overflow_behavior": "FAIL_CUE_DO_NOT_SHIFT_LATER_CUES",
+    "sync_rule": "Each cue starts at its exact start_frame in Remotion. Never concatenate TTS clips and hope they stay in sync."
+  },
+  "cues": [
+    {"id":"VO_C001","scene_id":"S01_SH01","start_frame":0,"end_frame_exclusive":42,"text":"Đây là Dad Stevenson.","file":"VO_C001_S01_SH01.wav"},
+    {"id":"VO_C002","scene_id":"S01_SH01","start_frame":48,"end_frame_exclusive":84,"text":"Một người Úc.","file":"VO_C002_S01_SH01.wav"},
+    {"id":"VO_C003","scene_id":"S01_SH01","start_frame":84,"end_frame_exclusive":138,"text":"Sống và làm việc tại Adelaide.","file":"VO_C003_S01_SH01.wav"},
+
+    {"id":"VO_C004","scene_id":"S01_SH02","start_frame":164,"end_frame_exclusive":216,"text":"Kangaroo. Người Úc khó tránh.","file":"VO_C004_S01_SH02.wav"},
+    {"id":"VO_C005","scene_id":"S01_SH02","start_frame":216,"end_frame_exclusive":288,"text":"Phiên bản điện ảnh bảo Dad thắng luôn.","file":"VO_C005_S01_SH02.wav"},
+    {"id":"VO_C006","scene_id":"S01_SH02","start_frame":288,"end_frame_exclusive":328,"text":"Tái hiện này bịa.","file":"VO_C006_S01_SH02.wav"},
+
+    {"id":"VO_C007","scene_id":"S01_SH03","start_frame":344,"end_frame_exclusive":390,"text":"Rồi Dad sang Việt Nam.","file":"VO_C007_S01_SH03.wav"},
+    {"id":"VO_C008","scene_id":"S01_SH03","start_frame":408,"end_frame_exclusive":470,"text":"Mục tiêu tiếp theo: con trâu.","file":"VO_C008_S01_SH03.wav"},
+    {"id":"VO_C009","scene_id":"S01_SH03","start_frame":540,"end_frame_exclusive":564,"text":"May mà...","file":"VO_C009_S01_SH03.wav"},
+    {"id":"VO_C010","scene_id":"S01_SH03","start_frame":564,"end_frame_exclusive":604,"text":"chuyện thật hay hơn.","file":"VO_C010_S01_SH03.wav","audio_bridge_into_next_scene":true},
+
+    {"id":"VO_C011","scene_id":"S02_SH01","start_frame":604,"end_frame_exclusive":684,"text":"Chuyện thật bắt đầu ở Adelaide, Nam Úc.","file":"VO_C011_S02_SH01.wav"},
+    {"id":"VO_C012","scene_id":"S02_SH01","start_frame":684,"end_frame_exclusive":744,"text":"Nơi Dad sống và làm việc.","file":"VO_C012_S02_SH01.wav"},
+
+    {"id":"VO_C013","scene_id":"S02_SH02","start_frame":756,"end_frame_exclusive":792,"text":"Dad hỏi Sơ Nien:","file":"VO_C013_S02_SH02.wav"},
+    {"id":"VO_C014","scene_id":"S02_SH02","start_frame":796,"end_frame_exclusive":900,"text":"Làm sao để sinh viên không phải bỏ học vì nghèo?","file":"VO_C014_S02_SH02.wav"},
+
+    {"id":"VO_C015","scene_id":"S02_SH03","start_frame":924,"end_frame_exclusive":1070,"text":"Năm 1996, Dad đi qua Cao Bằng, Bắc Cạn, Lạng Sơn và Hạ Long.","file":"VO_C015_S02_SH03.wav"},
+    {"id":"VO_C016","scene_id":"S02_SH04","start_frame":1088,"end_frame_exclusive":1210,"text":"Dad gặp anh Đoàn Minh Nam, lúc đó là hướng dẫn viên.","file":"VO_C016_S02_SH04.wav"},
+
+    {"id":"VO_C017","scene_id":"S03_SH01","start_frame":1232,"end_frame_exclusive":1304,"text":"Năm 1997, Dad quay lại Việt Nam.","file":"VO_C017_S03_SH01.wav"},
+    {"id":"VO_C018","scene_id":"S03_SH01","start_frame":1310,"end_frame_exclusive":1380,"text":"Học bổng bắt đầu thành hình.","file":"VO_C018_S03_SH01.wav"},
+
+    {"id":"VO_C019","scene_id":"S03_SH02","start_frame":1400,"end_frame_exclusive":1456,"text":"Tại SunWay, Hà Nội,","file":"VO_C019_S03_SH02.wav"},
+    {"id":"VO_C020","scene_id":"S03_SH02","start_frame":1456,"end_frame_exclusive":1560,"text":"Dad và anh Nam bàn: giúp ai, bao nhiêu, chọn thế nào.","file":"VO_C020_S03_SH02.wav"},
+
+    {"id":"VO_C021","scene_id":"S03_SH03","start_frame":1560,"end_frame_exclusive":1664,"text":"Qua Cha Nguyễn Văn Tuyến, sinh viên khó khăn được giới thiệu.","file":"VO_C021_S03_SH03.wav"},
+    {"id":"VO_C022","scene_id":"S03_SH03","start_frame":1664,"end_frame_exclusive":1742,"text":"Anh Nam phiên dịch, ghi chép.","file":"VO_C022_S03_SH03.wav"},
+
+    {"id":"VO_C023","scene_id":"S03_SH04","start_frame":1760,"end_frame_exclusive":1848,"text":"Nhóm đầu tiên Dad hỗ trợ có tám sinh viên.","file":"VO_C023_S03_SH04.wav"},
+    {"id":"VO_C024","scene_id":"S03_SH04","start_frame":1852,"end_frame_exclusive":1908,"text":"Không phải tám nghìn. Tám.","file":"VO_C024_S03_SH04.wav"},
+
+    {"id":"VO_C025","scene_id":"S04_SH01","start_frame":1930,"end_frame_exclusive":2048,"text":"Tên đầu tiên là Stevenson Scholarship Programme.","file":"VO_C025_S04_SH01.wav"},
+    {"id":"VO_C026","scene_id":"S04_SH02","start_frame":2070,"end_frame_exclusive":2126,"text":"Dad ở Australia.","file":"VO_C026_S04_SH02.wav"},
+    {"id":"VO_C027","scene_id":"S04_SH02","start_frame":2130,"end_frame_exclusive":2184,"text":"Anh Nam ở Việt Nam.","file":"VO_C027_S04_SH02.wav"},
+
+    {"id":"VO_C028","scene_id":"S04_SH03","start_frame":2190,"end_frame_exclusive":2316,"text":"Từ 1997 đến 2006, số sinh viên được hỗ trợ tăng dần.","file":"VO_C028_S04_SH03.wav"},
+    {"id":"VO_C029","scene_id":"S04_SH04","start_frame":2334,"end_frame_exclusive":2436,"text":"Bạn bè và cộng đồng nối thêm những cánh tay.","file":"VO_C029_S04_SH04.wav"},
+
+    {"id":"VO_C030","scene_id":"S05_SH01","start_frame":2448,"end_frame_exclusive":2564,"text":"Năm 2006, anh Nam chuyển giao công việc cho Nguyễn Hoàng Cung.","file":"VO_C030_S05_SH01.wav"},
+    {"id":"VO_C031","scene_id":"S05_SH02","start_frame":2568,"end_frame_exclusive":2664,"text":"Cũng năm đó, chương trình mang tên Viet Uc Family.","file":"VO_C031_S05_SH02.wav"},
+
+    {"id":"VO_C032","scene_id":"S05_SH03","start_frame":2664,"end_frame_exclusive":2710,"text":"Không chỉ tiền.","file":"VO_C032_S05_SH03.wav"},
+    {"id":"VO_C033","scene_id":"S05_SH03","start_frame":2710,"end_frame_exclusive":2768,"text":"Còn niềm tin và hi vọng.","file":"VO_C033_S05_SH03.wav"},
+    {"id":"VO_C034","scene_id":"S05_SH03","start_frame":2768,"end_frame_exclusive":2832,"text":"Vô điều kiện. Không phải trả nợ.","file":"VO_C034_S05_SH03.wav"},
+
+    {"id":"VO_C035","scene_id":"S05_SH04","start_frame":2832,"end_frame_exclusive":2880,"text":"Dream. Believe. Do.","file":"VO_C035_S05_SH04.wav"}
+  ]
+}

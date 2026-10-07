@@ -39,6 +39,9 @@
     "frame_prompt_contract": "docs/25-frame-prompt-contract.md",
     "image_generation_agent_prompt": "docs/26-image-generation-agent-handoff-prompt.md",
     "exact_prompt_remotion_handoff": "docs/27-exact-prompt-remotion-handoff.md",
+    "master_execution_prompt": "docs/28-MASTER-EXECUTION-AGENT-PROMPT.md",
+    "fact_lock_regression": "docs/29-fact-lock-and-regression.md",
+    "audio_sync_cue_sheet": "docs/30-audio-sync-cue-sheet.md",
     "director_pack": "docs/FINAL-DIRECTOR-PACK.md"
   },
   "assets": {
@@ -58,6 +61,8 @@
     "frame_actions": "production/remotion/frame-actions.json",
     "frame_prompt_manifest": "production/remotion/frame-prompt-manifest.jsonl",
     "frame_prompt_index": "production/remotion/frame-prompt-index.json",
+    "fact_lock": "production/facts/fact-lock.json",
+    "voiceover_cues": "production/audio/voiceover-cues.json",
     "render_plan": "production/render/render-plan.json",
     "manifest": "production/production-manifest.json",
     "render_execution_deferred_by_owner": true
@@ -98,6 +103,8 @@
     "exact_image_prompt_pack": true,
     "hero_frame_prompt_pack": true,
     "per_frame_prompt_manifest_2880": true,
+    "fact_lock_regression_gate": true,
+    "audio_cue_manifest_35": true,
     "dad_identity_refs": true,
     "archive_catalog": true,
     "archive_shortlist_qc": true,

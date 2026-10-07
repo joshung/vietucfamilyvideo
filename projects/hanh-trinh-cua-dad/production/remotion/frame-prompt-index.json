@@ -9,6 +9,6 @@
   "first_frame": 0,
   "last_frame": 2879,
   "jsonl_path": "production/remotion/frame-prompt-manifest.jsonl",
-  "bytes": 7048427,
+  "bytes": 7281803,
   "generator": "scripts/build-frame-prompt-manifest.mjs"
 }

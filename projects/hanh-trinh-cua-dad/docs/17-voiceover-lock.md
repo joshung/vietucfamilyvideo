@@ -1,115 +1,141 @@
-# 17 — Voice-over Lock v01
+# 17 — Voice-over Lock v02
+
+> This version supersedes v01.
+> Exact timing lives in `production/audio/voiceover-cues.json`.
 
 ## Voice direction
 
 Vietnamese narrator:
 - warm;
 - intelligent;
-- lightly deadpan;
-- jokes delivered seriously;
-- factual half increasingly sincere;
-- no exaggerated “trailer voice”.
+- lightly deadpan during the first 24 seconds;
+- factual and increasingly sincere after 0:24;
+- no exaggerated trailer voice;
+- no rushed delivery.
 
-Target read:
-approximately **120 seconds** including pauses.
+## Critical fact lock
 
-## Locked narration
+Opening identity:
 
-### 00:00–00:06
+**Dad Stevenson is Australian — một người Úc.**
+
+Scholarship-origin context:
+
+**Adelaide, South Australia.**
+
+Never narrate Dad as American / from America / USA / Mỹ / Hoa Kỳ / United States.
+
+## Locked narration by scene
+
+### 00:00–00:06 — S01_SH01
 
 Đây là Dad Stevenson.
 
 Một người Úc.
 
-Và như mọi phim tài liệu cực kỳ nghiêm túc về người Úc...
+Sống và làm việc tại Adelaide.
 
-### 00:06–00:14
+### 00:06–00:14 — S01_SH02
 
-...chúng ta bắt buộc phải nhắc đến kangaroo.
+Kangaroo. Người Úc khó tránh.
 
-Theo phiên bản điện ảnh của câu chuyện này, Dad đã xử lý xong đối thủ ở quê nhà.
+Phiên bản điện ảnh bảo Dad thắng luôn.
 
-Chi tiết này hoàn toàn không có trong hồ sơ.
+Tái hiện này bịa.
 
-### 00:14–00:24
+### 00:14–00:24 — S01_SH03
 
-Nên khi sang Việt Nam, mục tiêu tiếp theo quá rõ.
+Rồi Dad sang Việt Nam.
 
-Con trâu.
+Mục tiêu tiếp theo: con trâu.
 
-May mắn là...
+May mà...
 
-câu chuyện thật hay hơn nhiều.
+chuyện thật hay hơn.
 
-### 00:24–00:38
+### 00:24–00:31 — S02_SH01
 
-Khi đang sống và làm việc ở Adelaide, Dad nói chuyện với Sơ Nien, giảng viên Đại học Adelaide.
+Chuyện thật bắt đầu ở Adelaide, Nam Úc.
 
-Điều Dad nghĩ đến là những sinh viên Việt Nam có năng lực, có quyết tâm...
+Nơi Dad sống và làm việc.
 
-nhưng có thể phải dừng việc học chỉ vì hoàn cảnh quá khó khăn.
+### 00:31–00:38 — S02_SH02
 
-### 00:38–00:51
+Dad hỏi Sơ Nien:
 
-Năm 1996, trong chuyến đi qua Cao Bằng, Bắc Cạn, Lạng Sơn và Hạ Long, Dad gặp anh Đoàn Minh Nam.
+Làm sao để sinh viên không phải bỏ học vì nghèo?
 
-Lúc đó, anh Nam là hướng dẫn viên du lịch.
+### 00:38–00:45 — S02_SH03
 
-Một năm sau, công việc bắt đầu hơi... vượt khỏi mô tả tuyển dụng.
+Năm 1996, Dad đi qua Cao Bằng, Bắc Cạn, Lạng Sơn và Hạ Long.
 
-### 00:51–01:05
+### 00:45–00:51 — S02_SH04
+
+Dad gặp anh Đoàn Minh Nam, lúc đó là hướng dẫn viên.
+
+### 00:51–00:58 — S03_SH01
 
 Năm 1997, Dad quay lại Việt Nam.
 
-Tại khách sạn SunWay ở Hà Nội, Dad và anh Nam bắt đầu biến ý tưởng thành một chương trình:
+Học bổng bắt đầu thành hình.
 
-ai thực sự cần giúp, hỗ trợ bao nhiêu, và lựa chọn thế nào cho công bằng.
+### 00:58–01:05 — S03_SH02
 
-### 01:05–01:20
+Tại SunWay, Hà Nội,
 
-Qua các mối quan hệ nhà thờ, Cha Nguyễn Văn Tuyến giúp kết nối những sinh viên khó khăn ở Thành phố Hồ Chí Minh.
+Dad và anh Nam bàn: giúp ai, bao nhiêu, chọn thế nào.
 
-Anh Nam phiên dịch và ghi lại chuyện học hành, gia đình, quê quán, dự định.
+### 01:05–01:13 — S03_SH03
 
-Nhóm đầu tiên Dad hỗ trợ:
+Qua Cha Nguyễn Văn Tuyến, sinh viên khó khăn được giới thiệu.
 
-tám sinh viên.
+Anh Nam phiên dịch, ghi chép.
+
+### 01:13–01:20 — S03_SH04
+
+Nhóm đầu tiên Dad hỗ trợ có tám sinh viên.
 
 Không phải tám nghìn.
 
 Tám.
 
-### 01:20–01:42
+### 01:20–01:26 — S04_SH01
 
-Tên đầu tiên của chương trình là Stevenson Scholarship Programme.
+Tên đầu tiên là Stevenson Scholarship Programme.
 
-Dad ở Australia, anh Nam cộng tác tại Việt Nam.
+### 01:26–01:31 — S04_SH02
 
-Từ 1997 đến 2006, mạng lưới lớn dần qua bạn bè, thành viên, cộng đồng và các kết nối với sinh viên, trường đại học.
+Dad ở Australia.
 
-Một ý tưởng trong một cuộc trò chuyện...
+Anh Nam ở Việt Nam.
 
-đã thành một chương trình.
+### 01:31–01:37 — S04_SH03
 
-### 01:42–01:51
+Từ 1997 đến 2006, số sinh viên được hỗ trợ tăng dần.
 
-Năm 2006, anh Đoàn Minh Nam chuyển giao công việc cho anh Nguyễn Hoàng Cung.
+### 01:37–01:42 — S04_SH04
 
-Cũng từ đó, chương trình mang cái tên quen thuộc hôm nay:
+Bạn bè và cộng đồng nối thêm những cánh tay.
 
-Viet Uc Family.
+### 01:42–01:47 — S05_SH01
 
-### 01:51–01:58
+Năm 2006, anh Nam chuyển giao công việc cho Nguyễn Hoàng Cung.
 
-Điều Dad muốn trao không chỉ là tiền.
+### 01:47–01:51 — S05_SH02
 
-Mà còn là niềm tin và hi vọng.
+Cũng năm đó, chương trình mang tên Viet Uc Family.
 
-Sự hỗ trợ là vô điều kiện.
+### 01:51–01:58 — S05_SH03
 
-Không có nghĩa vụ trả nợ.
+Không chỉ tiền.
 
-### 01:58–02:00
+Còn niềm tin và hi vọng.
+
+Vô điều kiện.
+
+Không phải trả nợ.
+
+### 01:58–02:00 — S05_SH04
 
 Dream.
 
@@ -117,24 +143,29 @@ Believe.
 
 Do.
 
-## Recording notes
+## Timing policy
 
-Pause intentionally after:
-- “kangaroo”
-- “Con trâu”
-- “Tám”
-- “một cuộc trò chuyện...”
+Do not synthesize this as one long audio file.
 
-If the timed read exceeds 122 seconds:
-1. remove “qua bạn bè, thành viên, cộng đồng...” detail;
-2. shorten the Adelaide sentence;
-3. never speed-read the final values.
+Use the exact 35 cue windows in:
 
-## Final two seconds
+`production/audio/voiceover-cues.json`
+
+This prevents cumulative drift.
+
+Do not speed-read to force a long paragraph into a scene.
+
+If a generated cue is too long:
+- regenerate that cue;
+- or create an explicitly approved shorter cue version;
+- never move later cues.
+
+## Final motto
 
 Preferred:
-Dad's authentic voice says:
-**“Dream. Believe. Do.”**
+Dad's authentic voice.
 
 Fallback:
-narrator says it cleanly.
+narrator.
+
+Both must use the same exact cue window.

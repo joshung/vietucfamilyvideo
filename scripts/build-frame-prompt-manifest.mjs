@@ -6,12 +6,15 @@ const docPath = path.join(root, 'projects/hanh-trinh-cua-dad/docs/22-frame-by-fr
 const actionsPath = path.join(root, 'projects/hanh-trinh-cua-dad/production/remotion/frame-actions.json');
 const scenePlanPath = path.join(root, 'projects/hanh-trinh-cua-dad/production/remotion/scene-plan.json');
 const heroPath = path.join(root, 'projects/hanh-trinh-cua-dad/production/remotion/hero-frame-prompts.json');
+const factLockPath = path.join(root, 'projects/hanh-trinh-cua-dad/production/facts/fact-lock.json');
 const outPath = path.join(root, 'projects/hanh-trinh-cua-dad/production/remotion/frame-prompt-manifest.jsonl');
 const indexPath = path.join(root, 'projects/hanh-trinh-cua-dad/production/remotion/frame-prompt-index.json');
 
 const scenePlan = JSON.parse(fs.readFileSync(scenePlanPath, 'utf8'));
 const heroData = JSON.parse(fs.readFileSync(heroPath, 'utf8'));
+const factLock = JSON.parse(fs.readFileSync(factLockPath, 'utf8'));
 const heroByScene = new Map(heroData.prompts.map((p) => [p.scene_id, p]));
+const factConstraintsByScene = new Map(Object.entries(factLock.scene_constraints || {}));
 const planByScene = new Map(scenePlan.scenes.map((s) => [s.scene_id, s]));
 const sceneTitleById = new Map([
   ['S01_SH01','DAD HERO'],['S01_SH02','KANGAROO POSTER'],['S01_SH03','BUFFALO FINAL BOSS → TRUTH PIVOT'],
@@ -111,6 +114,7 @@ for (let frame = 0; frame < scenePlan.duration_in_frames; frame++) {
   const poseProgress = clamp01((poseFrame - a.start) / denom);
   const localFrame = frame - scene.from;
   const refs = [...new Set(hero.refs || [])];
+  const factConstraints = [...(factConstraintsByScene.get(scene.scene_id) || [])];
   const prompt = [
     `FRAME F${pad4(frame)} (${tc(frame, scenePlan.fps)}) of DadJourneyMaster.`,
     `Scene ${scene.scene_id}: ${a.scene_title}. Component ${scene.component}.`,
@@ -118,8 +122,9 @@ for (let frame = 0; frame < scenePlan.duration_in_frames; frame++) {
     `Current documented state for F${pad4(a.start)}–F${pad4(a.end)}: ${a.action}`,
     `This exact frame is ${(progress * 100).toFixed(2)}% through that action range; cadence=${cadence.name}; paper pose frame=F${pad4(poseFrame)}; stepped pose progress=${(poseProgress * 100).toFixed(2)}%.`,
     `Reference assets: ${refs.length ? refs.join(', ') : 'none beyond deterministic SVG/text/paper assets'}.`,
+    factConstraints.length ? `Scene fact constraints: ${factConstraints.join('; ')}.` : '',
     `Preserve these invariants: ${invariants.join('; ')}.`
-  ].join(' ');
+  ].filter(Boolean).join(' ');
 
   lines.push(JSON.stringify({
     schema_version: '1.0',
@@ -144,6 +149,7 @@ for (let frame = 0; frame < scenePlan.duration_in_frames; frame++) {
     hero_frame: hero.hero_frame,
     generation_policy: hero.policy,
     reference_assets: refs,
+    fact_constraints: factConstraints,
     prompt_id: `FRAME_F${pad4(frame)}_V01`,
     prompt,
     invariants

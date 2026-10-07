@@ -1,22 +1,30 @@
-# 03 — Screenplay v02
+# 03 — Screenplay v03
 
-> Target: ~120 seconds  
-> Narration: Vietnamese, dry/warm editorial delivery  
-> Style: fast visual essay, animated maps, archival images, bold typography, deadpan comedy
+> Supersedes v02.  
+> Target: exactly 120 seconds / 2880 frames / 24fps.  
+> Narration source-of-truth: `production/audio/voiceover-cues.json`.
+
+## Fact lock
+
+Dad Stevenson is Australian — **một người Úc**.
+
+Scholarship-origin context: **Adelaide, South Australia**.
+
+Never establish Dad as American / from America / USA / Mỹ / Hoa Kỳ / United States.
 
 ---
 
-## 0:00–0:06 — DAD
+## S01_SH01 — 00:00–00:06 — DAD / AUSTRALIA
 
 **PICTURE**
 
-Real approved portrait of Dad.
+Real approved Dad portrait.
 
-Text:
+Australia paper geography.
 
-**DAD STEVENSON**
-
-Australia map appears behind him.
+Editable text:
+- DAD STEVENSON
+- AUSTRALIA → VIỆT NAM
 
 **VO**
 
@@ -24,312 +32,307 @@ Australia map appears behind him.
 
 Một người Úc.
 
-Và như mọi phim tài liệu cực kỳ nghiêm túc về người Úc...
+Sống và làm việc tại Adelaide.
 
 ---
 
-## 0:06–0:14 — KANGAROO
+## S01_SH02 — 00:06–00:14 — KANGAROO
 
 **PICTURE**
 
-Record scratch.
+Paper sports-poster gag.
 
-Kangaroo in boxing gloves enters like a heavyweight contender.
+Dad real cutout left.
+
+Kangaroo paper cutout right.
 
 Label:
-
 **TÁI HIỆN HOÀN TOÀN KHÔNG ĐÁNG TIN**
 
-Fake stat:
-
-**KANGAROO — lợi thế: hai chân rất đáng ngại**
-
 **VO**
 
-...chúng ta bắt buộc phải nhắc đến kangaroo.
+Kangaroo. Người Úc khó tránh.
 
-Theo phiên bản điện ảnh của câu chuyện này, Dad đã xử lý xong đối thủ ở quê nhà.
+Phiên bản điện ảnh bảo Dad thắng luôn.
 
-Chi tiết này hoàn toàn không có trong hồ sơ.
+Tái hiện này bịa.
 
 ---
 
-## 0:14–0:24 — VIETNAM FINAL BOSS
+## S01_SH03 — 00:14–00:24 — BUFFALO / TRUTH PIVOT
 
 **PICTURE**
 
-Map swoops Australia → Vietnam.
+Australia → Vietnam route.
 
-Buffalo appears as a retro game boss.
+Paper buffalo appears as a fake final boss.
 
-Text:
+Freeze before any fight.
 
-**NEXT BOSS: CON TRÂU**
-
-Dad cutout adjusts gloves.
-
-Fight bell.
-
-Freeze before anything happens.
+Then the game poster physically leaves to reveal Adelaide underneath.
 
 **VO**
 
-Nên khi sang Việt Nam, mục tiêu tiếp theo quá rõ.
+Rồi Dad sang Việt Nam.
 
-Con trâu.
+Mục tiêu tiếp theo: con trâu.
 
-May mắn là...
+May mà...
 
-câu chuyện thật hay hơn nhiều.
+chuyện thật hay hơn.
 
 ---
 
-## 0:24–0:38 — ADELAIDE: THE REAL BEGINNING
+## S02_SH01 — 00:24–00:31 — ADELAIDE
 
 **PICTURE**
 
-Hard cut from buffalo to Adelaide map / archival texture.
+Factual map.
 
-Dad real photo.
+ADELAIDE — SOUTH AUSTRALIA.
 
-Sơ Nien label appears.
+Real Dad photo card.
 
-On-screen words:
-
-**ADELAIDE — SOUTH AUSTRALIA**
-
-Then:
-
-**“Làm sao để một sinh viên giỏi không phải bỏ học chỉ vì thiếu tiền?”**
+No game/comedy UI.
 
 **VO**
 
-Khi đang sống và làm việc ở Adelaide, Dad nói chuyện với Sơ Nien, giảng viên Đại học Adelaide.
+Chuyện thật bắt đầu ở Adelaide, Nam Úc.
 
-Điều Dad nghĩ đến không phải là một chuyến phiêu lưu.
-
-Mà là những sinh viên Việt Nam có năng lực, có quyết tâm...
-
-nhưng có thể phải dừng việc học vì hoàn cảnh quá khó khăn.
+Nơi Dad sống và làm việc.
 
 ---
 
-## 0:38–0:51 — 1996: DAD MEETS NAM
+## S02_SH02 — 00:31–00:38 — THE QUESTION
 
 **PICTURE**
 
-Timeline locks on:
+Sơ Nien text card only unless an approved portrait exists.
 
-**1996**
+Central question / education diagram.
 
-Animated route:
+**VO**
+
+Dad hỏi Sơ Nien:
+
+Làm sao để sinh viên không phải bỏ học vì nghèo?
+
+---
+
+## S02_SH03 — 00:38–00:45 — 1996 ROUTE
+
+**PICTURE**
+
+1996.
+
 Cao Bằng → Bắc Cạn → Lạng Sơn → Hạ Long.
 
-Photo/graphic placeholder for Đoàn Minh Nam.
-
-Small deadpan caption:
-
-**ĐOÀN MINH NAM**  
-*Hướng dẫn viên du lịch.*  
-*Chưa biết sắp nhận thêm việc.*
-
 **VO**
 
-Năm 1996, trong một chuyến đi qua Đông Bắc, Cao Bằng, Bắc Cạn, Lạng Sơn và Hạ Long...
-
-Dad gặp anh Đoàn Minh Nam.
-
-Lúc đó, anh Nam là hướng dẫn viên du lịch.
-
-Một năm sau, công việc bắt đầu hơi... vượt khỏi mô tả tuyển dụng.
+Năm 1996, Dad đi qua Cao Bằng, Bắc Cạn, Lạng Sơn và Hạ Long.
 
 ---
 
-## 0:51–1:05 — 1997: THE PLAN BECOMES REAL
+## S02_SH04 — 00:45–00:51 — MEET ĐOÀN MINH NAM
 
 **PICTURE**
 
-Timeline:
+Verified Nam portrait only if identity is confirmed.
 
-**1997 — DAD QUAY LẠI VIỆT NAM**
+Otherwise use name card + neutral guide icon.
 
-Hotel icon:
+**VO**
 
-**SUNWAY HOTEL — HÀ NỘI**
+Dad gặp anh Đoàn Minh Nam, lúc đó là hướng dẫn viên.
 
-Simple notebook graphics:
-- Ai cần giúp?
-- Hỗ trợ bao nhiêu?
-- Chọn thế nào?
+---
+
+## S03_SH01 — 00:51–00:58 — 1997 RETURN
+
+**PICTURE**
+
+1997 becomes the active timeline year.
+
+Australia → Vietnam route.
 
 **VO**
 
 Năm 1997, Dad quay lại Việt Nam.
 
-Tại khách sạn SunWay ở Hà Nội, Dad và anh Nam ngồi xuống bàn chuyện học bổng.
-
-Ai thực sự cần giúp?
-
-Hỗ trợ bao nhiêu?
-
-Và làm sao để chọn những sinh viên vừa khó khăn, vừa có quyết tâm học tập?
+Học bổng bắt đầu thành hình.
 
 ---
 
-## 1:05–1:20 — THE FIRST 8
+## S03_SH02 — 00:58–01:05 — SUNWAY
 
 **PICTURE**
 
-Church silhouette / real archive if available.
+SUNWAY HOTEL — HÀ NỘI.
 
-Labels:
-**Cha Nguyễn Văn Tuyến**
-**Anh Nam — phiên dịch & ghi chép**
+Three criteria cards:
+- giúp ai;
+- bao nhiêu;
+- chọn thế nào.
 
-Student cards appear one by one.
-
-Counter:
-
-**1 → 2 → 3 → ... → 8**
+No fake meeting photograph.
 
 **VO**
 
-Qua các mối quan hệ nhà thờ, Cha Nguyễn Văn Tuyến giúp giới thiệu sinh viên ở Thành phố Hồ Chí Minh.
+Tại SunWay, Hà Nội,
 
-Anh Nam phiên dịch, ghi lại chuyện học hành, gia đình, quê quán và dự định của từng người.
+Dad và anh Nam bàn: giúp ai, bao nhiêu, chọn thế nào.
 
-Nhóm đầu tiên Dad hỗ trợ:
+---
 
-tám sinh viên.
+## S03_SH03 — 01:05–01:13 — CONNECTION NETWORK
+
+**PICTURE**
+
+Sơ Nien → Cha Nguyễn Văn Tuyến → students.
+
+Anh Nam = translation / notes.
+
+**VO**
+
+Qua Cha Nguyễn Văn Tuyến, sinh viên khó khăn được giới thiệu.
+
+Anh Nam phiên dịch, ghi chép.
+
+---
+
+## S03_SH04 — 01:13–01:20 — FIRST 8
+
+**PICTURE**
+
+Student cards count to 8.
+
+Hold on 8.
+
+**VO**
+
+Nhóm đầu tiên Dad hỗ trợ có tám sinh viên.
 
 Không phải tám nghìn.
 
 Tám.
 
-Nhưng mọi hành trình dài đều phải bắt đầu bằng một con số cụ thể.
-
 ---
 
-## 1:20–1:31 — STEVENSON SCHOLARSHIP PROGRAMME
+## S04_SH01 — 01:20–01:26 — FIRST PROGRAM NAME
 
 **PICTURE**
 
-Type builds:
-
-**STEVENSON SCHOLARSHIP PROGRAMME**
-
-Then Vietnamese caption:
-
-**Chương trình học bổng Stevenson**
-
-Nodes connect Dad ↔ Nam ↔ students.
+STEVENSON SCHOLARSHIP PROGRAMME.
 
 **VO**
 
-Chương trình mang tên đầu tiên:
+Tên đầu tiên là Stevenson Scholarship Programme.
 
-Stevenson Scholarship Programme.
+---
+
+## S04_SH02 — 01:26–01:31 — AUSTRALIA ↔ VIETNAM
+
+**PICTURE**
+
+Dad / Australia ↔ Nam / Vietnam ↔ student network.
+
+**VO**
 
 Dad ở Australia.
 
-Anh Nam cộng tác tại Việt Nam.
-
-Và mạng lưới bắt đầu lớn dần.
+Anh Nam ở Việt Nam.
 
 ---
 
-## 1:31–1:42 — 1997–2006: GROWTH
+## S04_SH03 — 01:31–01:37 — GROWTH
 
 **PICTURE**
 
-Timeline sweeps:
+1997 → 2006 timeline.
 
-**1997 → 2006**
-
-Student dots multiply.
-
-Referral arrows:
-friends → former students → communities → student organizations.
+Real recent archive appears only as continuation/impact evidence, not as period photography.
 
 **VO**
 
-Từ 1997 đến 2006, số sinh viên tăng dần qua giới thiệu của bạn bè, các thành viên, cộng đồng...
-
-và cả những kết nối rộng hơn với các tổ chức sinh viên, trường đại học.
-
-Không còn là một ý tưởng trong một cuộc trò chuyện nữa.
-
-Nó đã thành một chương trình.
+Từ 1997 đến 2006, số sinh viên được hỗ trợ tăng dần.
 
 ---
 
-## 1:42–1:51 — 2006: VIET UC FAMILY
+## S04_SH04 — 01:37–01:42 — COMMUNITY
 
 **PICTURE**
 
-**2006**
-
-Handoff graphic:
-Đoàn Minh Nam → Nguyễn Hoàng Cung
-
-Then name transformation:
-
-**STEVENSON SCHOLARSHIP PROGRAMME**  
-↓  
-**VIET UC FAMILY**
-
-Australia and Vietnam shapes settle side by side.
+Vietnam map + community connections.
 
 **VO**
 
-Năm 2006, anh Đoàn Minh Nam chuyển giao công việc cho anh Nguyễn Hoàng Cung.
-
-Cũng từ đó, chương trình mang cái tên quen thuộc hôm nay:
-
-Viet Uc Family.
+Bạn bè và cộng đồng nối thêm những cánh tay.
 
 ---
 
-## 1:51–1:58 — WHAT IT MEANS
+## S05_SH01 — 01:42–01:47 — 2006 HANDOFF
 
 **PICTURE**
 
-Four fast cards:
+2006.
 
-**TÀI CHÍNH**  
-**NIỀM TIN**  
-**HI VỌNG**  
-**KHÔNG PHẢI TRẢ NỢ**
+Đoàn Minh Nam → Nguyễn Hoàng Cung.
 
-Then:
-
-**ƯỚC MƠ – TIN TƯỞNG – THỰC HIỆN**
+Portraits only when owner-confirmed.
 
 **VO**
 
-Điều Dad muốn hỗ trợ không chỉ là tiền.
-
-Mà còn là niềm tin và hi vọng.
-
-Sự giúp đỡ là vô điều kiện.
-
-Không có nghĩa vụ trả nợ.
+Năm 2006, anh Nam chuyển giao công việc cho Nguyễn Hoàng Cung.
 
 ---
 
-## 1:58–2:00 — END
+## S05_SH02 — 01:47–01:51 — VIET UC FAMILY
 
 **PICTURE**
 
-Dad real face.
+STEVENSON SCHOLARSHIP PROGRAMME becomes archival/smaller.
 
-Website:
+VIET UC FAMILY becomes current title.
 
-**vietucfamily.org**
+**VO**
 
-Final text:
+Cũng năm đó, chương trình mang tên Viet Uc Family.
 
-**DREAM – BELIEVE – DO**
+---
+
+## S05_SH03 — 01:51–01:58 — PRINCIPLES / IMPACT
+
+**PICTURE**
+
+Real archive.
+
+Values:
+- NIỀM TIN
+- HI VỌNG
+- VÔ ĐIỀU KIỆN
+- KHÔNG PHẢI TRẢ NỢ
+
+**VO**
+
+Không chỉ tiền.
+
+Còn niềm tin và hi vọng.
+
+Vô điều kiện.
+
+Không phải trả nợ.
+
+---
+
+## S05_SH04 — 01:58–02:00 — END
+
+**PICTURE**
+
+Real Dad portrait.
+
+vietucfamily.org
+
+DREAM — BELIEVE — DO
 
 **VO**
 
@@ -341,10 +344,12 @@ Do.
 
 ---
 
-## Optional Dad-to-camera ending
+## Audio rule
 
-If Dad can record a real line, replace the final VO with:
+The screenplay text above is editorial reference.
 
-> “Dream. Believe. Do.”
+Actual audio placement is controlled by the exact 35 cue entries in:
 
-Short, authentic, and directly tied to the program motto.
+`production/audio/voiceover-cues.json`
+
+Never synthesize the screenplay as one long TTS track.
