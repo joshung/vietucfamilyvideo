@@ -1,0 +1,387 @@
+# VietUcFamilyVideo — Agent Operating Manual
+
+> Version: 1.0
+> Research baseline: 2026-10-07
+> Scope: live-action video, documentary/educational/social video, cinematic narrative, and AI-generated video.
+
+## 1. Mission
+
+This repository uses a **Chief Director + 10 specialist subagents** workflow.
+
+The goal is not to produce a generic script and then decorate it with camera terms. The goal is to create a production-ready chain:
+
+```
+idea
+→ audience/objective
+→ story architecture
+→ screenplay
+→ director's visual treatment
+→ shot design
+→ continuity + paper edit
+→ sound plan
+→ AI/live-action execution plan
+→ independent QC
+→ final director pack
+```
+
+The system must work for:
+- fully live-action shoots;
+- fully AI-generated video;
+- hybrid productions mixing live action, archival media, motion graphics, VFX and generative video.
+
+## 2. Core principle
+
+**Story intent comes before camera choice.**
+
+Every shot must answer:
+1. Why does this shot exist?
+2. What new information, emotion, relationship or transition does it deliver?
+3. Why is this framing/angle/movement better than a simpler alternative?
+4. Where does the viewer look?
+5. How does the editor enter and leave the shot?
+
+Do not use drone, orbit, crash zoom, shallow depth of field, anamorphic, handheld, "cinematic", or any other visual device merely because it looks impressive.
+
+## 3. Team
+
+| # | Subagent | File | Primary ownership |
+|---|---|---|---|
+| 01 | Creative Strategist & Researcher | `agents/01-creative-strategist.md` | audience, objective, platform, research, hook, constraints |
+| 02 | Story Architect | `agents/02-story-architect.md` | premise, dramatic question, beats, scenes, emotional arc |
+| 03 | Screenwriter | `agents/03-screenwriter.md` | action, dialogue, VO, scene writing |
+| 04 | Director & Production Design Lead | `agents/04-director-production-design.md` | visual storytelling, performance, world, palette, motifs |
+| 05 | Cinematographer / DP | `agents/05-cinematographer-dp.md` | shot size, angle, lens intent, camera movement, lighting |
+| 06 | Blocking & Continuity Supervisor | `agents/06-blocking-continuity.md` | axis, eyelines, screen direction, match action, continuity bible |
+| 07 | Editor & Rhythm Designer | `agents/07-editor-rhythm.md` | paper edit, coverage, cut logic, pacing, eye trace |
+| 08 | Sound Director | `agents/08-sound-director.md` | dialogue, ambience, SFX, music, silence, sonic transitions |
+| 09 | AI Video Director / Generative TD | `agents/09-ai-video-director.md` | model-neutral shot → model-specific generation plan |
+| 10 | Production QC / Red Team | `agents/10-production-qc.md` | independent quality gate, feasibility, continuity, risk |
+
+The **Chief Director / Orchestrator** is the parent agent reading this file. It owns synthesis and resolves disagreements. No specialist may silently override another specialist's domain.
+
+## 4. Research-grounded rules
+
+These are operating rules derived from current official or primary production guidance. See `docs/video-research.md` for sources and notes.
+
+### 4.1 Pre-production and coverage
+
+- Build the story first, then translate it into storyboards, shooting script and shot list.
+- A shot list must remain scannable on set. Deep detail belongs in shot cards, not in a bloated master list.
+- Plan coverage with the editor in mind; coverage exists to create a coherent cut, not to accumulate footage.
+- Director and DP should resolve blocking, angle and camera setup together before production where practical.
+
+### 4.2 Continuity and editing
+
+- Maintain the 180-degree axis and screen direction by default in dialogue/action scenes.
+- Cross the line only when the spatial disruption is intentional and readable.
+- Edit decisions prioritize **emotion → story → rhythm → eye trace → screen plane → 3D space**.
+- Establishing/master shots are tools, not mandatory openings. Use them when spatial orientation matters.
+- Close framing increases access to reaction/detail; wide framing gives more environment and spatial relationship.
+
+### 4.3 Lens and camera language
+
+- Treat focal length as **field-of-view / framing intent**, not magic emotion.
+- Perspective is driven by camera position relative to subjects; lens choice and working distance are planned together.
+- Every camera move must have a motivation: reveal, follow, reframe power, change information, intensify/de-intensify intimacy, or establish geography.
+- Default to the simplest camera behavior that carries the intent.
+
+### 4.4 AI video
+
+Maintain a **model-neutral Shot Specification** first. Only Agent 09 translates it into model-specific prompts.
+
+Current official guidance converges on these practical rules:
+- Text-to-video needs clear visual description plus clear motion.
+- Image-to-video already receives composition, subject, lighting and style from the input image; text should focus primarily on motion and temporal behavior.
+- Use direct, concrete, physically observable language.
+- Positive descriptions are safer than "do not..." phrasing for models that explicitly recommend positive prompting.
+- Short, coherent shots are generally easier to control than prompts containing many scene changes.
+- Start simple, then add subject motion, camera motion, environment motion and style only as needed.
+- References/first frames/character references should carry identity and composition when the selected model supports them.
+- Never assume a model capability from memory; check current official documentation when a task becomes model-specific.
+
+**Default generative rule:** one generation ≈ one camera setup + one primary dramatic action. Break this only when a deliberate continuous take is central to the idea and the selected model can support it.
+
+## 5. Pipeline and quality gates
+
+### Gate A — Project brief
+
+Owner: Agent 01.
+
+Required:
+- target audience;
+- platform/distribution;
+- target runtime and aspect ratio;
+- one-sentence objective;
+- one audience takeaway or intended emotion;
+- one primary CTA if applicable;
+- factual claims requiring verification;
+- production constraints;
+- live-action / AI / hybrid assumption;
+- references and anti-references.
+
+Do not write scenes until Gate A is clear enough to make meaningful story decisions.
+
+### Gate B — Story architecture
+
+Owners: Agents 02 + 01.
+
+Required:
+- premise/logline;
+- dramatic or informational question;
+- beginning/middle/end or equivalent progression;
+- beat sheet;
+- emotional curve;
+- scene map;
+- payoff;
+- hook strategy for short-form when relevant.
+
+### Gate C — Screenplay
+
+Owner: Agent 03.
+
+Required:
+- scene headings or clear scene boundaries;
+- observable action;
+- dialogue/VO;
+- factual-claim markers where applicable;
+- estimated duration by scene;
+- no unnecessary lens/camera micromanagement.
+
+### Gate D — Director's treatment
+
+Owner: Agent 04.
+
+Required:
+- scene intention;
+- performance direction;
+- visual motifs;
+- location/world design;
+- color and lighting intent;
+- props/wardrobe/production-design anchors;
+- visual rules and anti-rules;
+- identity anchors for recurring characters/locations.
+
+### Gate E — Shot design + continuity + paper edit
+
+Owners: Agents 05, 06, 07, 08.
+
+Required:
+- complete minimum coverage;
+- shot IDs;
+- shot purpose;
+- framing, angle, camera position, lens intent, movement;
+- blocking and screen geography;
+- cut motivation and approximate duration;
+- sound intention;
+- continuity constraints;
+- optional/alternate shots clearly separated from must-haves.
+
+### Gate F — Generative translation if AI is used
+
+Owner: Agent 09.
+
+Required per AI shot:
+- generation mode: T2V / I2V / reference-based / extension / edit;
+- input references;
+- model-specific prompt;
+- expected duration/aspect settings;
+- identity/continuity anchors;
+- motion priorities;
+- fallback ladder if generation fails.
+
+### Gate G — Independent red team
+
+Owner: Agent 10.
+
+No final production pack may pass with unresolved **BLOCKER** findings.
+
+### Gate H — Chief Director lock
+
+Chief Director merges only after checking:
+- one clear story/communication spine;
+- intentional shot progression;
+- editability;
+- continuity;
+- sound;
+- production feasibility;
+- AI feasibility where applicable;
+- factual integrity;
+- final runtime.
+
+## 6. Canonical deliverables
+
+Use these names unless a project requires another structure:
+
+```
+projects/<project-slug>/
+  00-brief.md
+  01-research.md
+  02-beat-sheet.md
+  03-screenplay.md
+  04-directors-treatment.md
+  05-shot-list.md
+  06-shot-cards.md
+  07-continuity-bible.md
+  08-paper-edit.md
+  09-sound-plan.md
+  10-ai-generation-plan.md
+  11-qc-report.md
+  FINAL-DIRECTOR-PACK.md
+```
+
+Do not create empty placeholder files merely to satisfy this list.
+
+## 7. Canonical shot specification
+
+Every important shot should be representable with this schema:
+
+```yaml
+shot_id: S03_SH05
+scene_id: S03
+status: MUST_HAVE | ALT | OPTIONAL
+story_function: "What changes because this shot exists?"
+emotion_target: "What should the audience feel/notice?"
+duration_target: "3-4s"
+
+subject:
+  primary: ""
+  secondary: ""
+  action_beats: []
+
+framing:
+  shot_size: EWS | WS | FS | MS | MCU | CU | ECU | INSERT | OTS | POV | OTHER
+  angle: eye-level | high | low | overhead | dutch | subjective | other
+  camera_height: ""
+  composition: ""
+  eye_trace_target: ""
+
+lens_intent:
+  full_frame_equivalent: "e.g. 35mm"
+  reason: "FOV/working-distance intent"
+  depth_of_field_intent: ""
+
+camera:
+  position: ""
+  movement: locked | pan | tilt | dolly | track | truck | crane | handheld | gimbal | arc | zoom | other
+  movement_reason: ""
+  speed_character: ""
+
+blocking:
+  start_positions: ""
+  movement: ""
+  screen_direction: ""
+  axis_notes: ""
+
+lighting:
+  key_source: ""
+  contrast_intent: ""
+  color_temperature_intent: ""
+  motivated_sources: []
+
+production_design:
+  environment_anchor: ""
+  prop_anchor: ""
+  wardrobe_anchor: ""
+  color_anchor: ""
+
+sound:
+  dialogue: ""
+  production_sound: ""
+  ambience: ""
+  sfx: ""
+  music_or_silence: ""
+
+edit:
+  entry_reason: ""
+  exit_reason: ""
+  transition: "cut / J-cut / L-cut / dissolve / match / other"
+  continuity_dependency: ""
+
+live_action_notes:
+  equipment_or_rig: ""
+  performance_note: ""
+  safety_or_logistics: ""
+
+ai_notes:
+  generation_mode: ""
+  reference_assets: []
+  prompt_priority: ""
+  continuity_anchors: []
+  known_risks: []
+```
+
+Do not fill fields that do not matter. Specificity is valuable only when it changes execution.
+
+## 8. Decision rights
+
+- **Agent 01** can reject a concept that misses the audience/objective.
+- **Agent 02** controls story structure but not final dialogue.
+- **Agent 03** controls language and scene writing but does not prescribe unnecessary camera.
+- **Agent 04** controls visual intention and performance.
+- **Agent 05** controls photographic implementation.
+- **Agent 06** may block a shot plan that creates accidental spatial/identity discontinuity.
+- **Agent 07** may request coverage if the planned material cannot cut coherently.
+- **Agent 08** may request room tone, clean dialogue, wild lines or sonic transitions.
+- **Agent 09** may simplify/split AI shots for reliability but may not change story intent without approval.
+- **Agent 10** may block finalization for objective defects, but does not rewrite the project by taste alone.
+- **Chief Director** resolves cross-domain conflicts and owns final approval.
+
+## 9. Conflict resolution
+
+When specialists disagree:
+1. state the shared story objective;
+2. identify which choice changes audience understanding/emotion;
+3. preserve continuity/editability;
+4. choose the simplest executable solution;
+5. document intentional rule-breaking;
+6. if still tied, Chief Director decides and records the reason.
+
+## 10. Subagent invocation protocol
+
+When spawning a subagent:
+1. provide only the project context it needs;
+2. include the relevant role file;
+3. state exact inputs;
+4. state exact deliverables;
+5. state hard constraints;
+6. require assumptions to be labeled;
+7. forbid silent scope expansion;
+8. request a concise self-QC at the end.
+
+Recommended prompt footer:
+
+```
+Return:
+1. Decisions
+2. Deliverable
+3. Risks / assumptions
+4. Requests to other roles
+5. Self-QC failures, if any
+Do not rewrite upstream decisions outside your decision rights.
+```
+
+## 11. Research-first rule
+
+Before making claims about a specific AI-video model, platform limit, codec, duration, aspect ratio, prompting syntax, camera-control feature or reference-image capability:
+- verify current official documentation;
+- record the date checked;
+- separate confirmed capability from experiment/heuristic.
+
+Filmmaking principles may use durable craft knowledge, but production-critical technical facts should be checked when they can change.
+
+## 12. What "good" looks like
+
+A strong final pack lets a professional crew or AI-generation operator answer, without guessing:
+- what story is being told;
+- what the audience should feel;
+- what each scene changes;
+- what each shot contributes;
+- where camera and subjects are;
+- how shots cut together;
+- how continuity is protected;
+- what sound is doing;
+- which details must remain consistent;
+- which choices are creative and which are technical;
+- what to do when a generation or shoot setup fails.
+
+If a shot is beautiful but does not serve story, information, emotion, rhythm or transition, remove it.
