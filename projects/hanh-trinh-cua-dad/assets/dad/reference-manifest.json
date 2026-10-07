@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "project_id": "VUF_DAD_001",
+  "subject_id": "DAD_STEVENSON",
+  "status": "APPROVED_REFERENCE_INPUTS",
+  "references": [
+    {
+      "reference_id": "DAD_REF_01",
+      "source": "conversation_upload",
+      "original_file_id": "file_00000000adac8211b887b3b11f092b0e",
+      "sha256": "f0bda6cee2e8ae5084fc7f518917899734830e688e272913aabb89fdd5f5f67d",
+      "width": 940,
+      "height": 1032,
+      "description": "Dad portrait, formal black suit, light blue shirt, dark dotted tie, glasses, friendly smile; useful as hero/intro/outro cutout reference.",
+      "preferred_uses": ["hero intro", "editorial cutout", "end card", "identity reference"],
+      "storage_uri": null
+    },
+    {
+      "reference_id": "DAD_REF_02",
+      "source": "conversation_upload",
+      "original_file_id": "file_00000000f5b882119b7e0f3a28865563",
+      "sha256": "4ccb30aa4fcff0281ac483920b0cdbe8f8144fe1031efdd898e89b943f788fd6",
+      "width": 1328,
+      "height": 1568,
+      "description": "Dad close portrait, light blue shirt, dark dotted tie, glasses, neutral warm background, friendly smile; preferred face identity reference because facial detail is stronger.",
+      "preferred_uses": ["primary face identity reference", "close-up crop", "subtle image-to-video", "face QC"],
+      "storage_uri": null
+    }
+  ],
+  "rules": [
+    "DAD_REF_02 is the primary facial-identity reference.",
+    "DAD_REF_01 is the preferred full/upper-body editorial cutout.",
+    "Do not fabricate a photoreal younger Dad without a verified younger reference.",
+    "Before render automation, upload both approved references to durable project media storage and replace null storage_uri values."
+  ]
+}

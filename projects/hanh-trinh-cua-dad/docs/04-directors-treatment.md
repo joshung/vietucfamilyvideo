@@ -1,115 +1,196 @@
-# 04 — Director's Treatment
+# 04 — Director's Treatment v03
 
-## Directing idea
+## Creative thesis
 
-The film begins like a serious micro-documentary, immediately explodes into absurd visual mythology, then gradually becomes more real and emotionally grounded.
+The film behaves like a witty modern editorial explainer: it earns attention with a ridiculous action-movie myth, then pivots into a factual human story.
 
-The visual transition mirrors the story:
+The transition is deliberate:
 
 ```
-MYTH / COMEDY
-paper collage, labels, fake stats, fast cuts
+0:00–0:24
+COMEDY MYTH
+Dad / Australia / kangaroo / buffalo
         ↓
-JOURNEY
-maps, archive, typography
+0:24–1:20
+THE REAL ORIGIN
+Adelaide / 1996 / 1997 / first 8
         ↓
-REAL LIFE
-real photographs, slower motion, warmer sound
+1:20–1:51
+THE SYSTEM GROWS
+Stevenson Scholarship Programme / 1997–2006 / 2006
         ↓
-PRESENT
-Dad directly addresses viewer
+1:51–2:00
+THE IDEA
+support / trust / hope / no repayment / Dream Believe Do
 ```
 
-## Visual grammar
+The first 24 seconds earn attention. The remaining 96 seconds earn trust.
 
-### Documentary layer
+## Editorial visual grammar
+
+Use a **Vox-like editorial grammar**, not copied Vox branding:
+- clean map animation;
+- paper/photo cutouts;
+- bold sans-serif text;
+- information hierarchy;
+- timeline graphics;
+- diagrams and counters;
+- dry visual annotations;
+- fast hard cuts where jokes land;
+- slower, cleaner framing when the story becomes emotional.
+
+Do not copy another publisher's exact colors, lower-thirds, fonts, logo treatment, music package, or proprietary graphic identity.
+
+## Dad identity system
+
+Two approved references are now registered in:
+
+`assets/dad/reference-manifest.json`
+
+### DAD_REF_02 — primary face reference
+
+Use for:
+- face identity;
+- close crop;
+- subtle I2V;
+- facial QC.
+
+### DAD_REF_01 — primary editorial cutout
+
+Use for:
+- intro hero;
+- kangaroo/buffalo collage;
+- end card;
+- upper-body compositions.
+
+Rules:
+- preserve glasses, facial shape, skin tone and recognizable expression;
+- do not aggressively beautify;
+- no fake younger photoreal Dad without an approved younger photo;
+- comedy can exaggerate the **world around Dad**, not mutate Dad into a caricature.
+
+## Archive strategy
+
+The owner supplied a catalog of **728 image URLs + descriptions**.
+
+Canonical catalog:
+- `assets/catalog/image_urls_descriptions.csv`
+- `assets/catalog/image_catalog.json`
+
+Discovery/usage docs:
+- `docs/12-image-asset-catalog.md`
+- `docs/13-asset-to-shot-map.md`
+
+Use the archive primarily for:
+- Dad with students/community;
+- awards/graduation;
+- Viet Uc gatherings;
+- geographic breadth;
+- real human impact.
+
+Do not imply a modern image was photographed in 1996/1997/2006 unless date/context is independently confirmed.
+
+## Comedy layer
+
+### Kangaroo
+
+Visual:
+- Dad cutout;
+- serious sports-poster treatment;
+- kangaroo as a deliberately absurd challenger;
+- annotation: **TÁI HIỆN HOÀN TOÀN KHÔNG ĐÁNG TIN**.
+
+No realistic violence. The humor is the premise, not injury.
+
+### Buffalo
+
+Visual:
+- retro "final boss" introduction;
+- Dad adjusts imaginary gloves;
+- freeze before any fight;
+- smash cut into the factual Adelaide origin.
+
+The buffalo is the **last joke before the truth starts**.
+
+## Factual layer
+
+### Adelaide
+
+Calm the graphics:
+- map;
+- Dad real image;
+- Sơ Nien name;
+- the core question of keeping capable students in education.
+
+### 1996 / 1997
 
 Use:
-- real Dad photographs;
-- real family/project photos;
-- map graphics;
-- actual website/browser capture;
-- simple parallax;
-- restrained image-to-video motion.
+- maps;
+- route lines;
+- timeline;
+- verified portraits where available;
+- notebooks/criteria diagrams.
 
-Dad's real face is the authority.
+Do not generate fake archival photographs.
 
-### Comedy layer
+### First 8
+
+Make the number visually memorable.
 
 Use:
-- obvious cutout collage;
-- freeze frames;
-- fake sports cards;
-- absurd annotation arrows;
-- retro game UI;
-- oversized labels;
-- punch-in zooms;
-- 2D kangaroo/buffalo elements.
+- individual-card motif;
+- counter 1→8;
+- real early archive if verified;
+- otherwise neutral graphic cards, not invented faces.
 
-This visual separation makes it clear that the joke is fictional.
+### Growth
 
-## Dad likeness
+The archive becomes visually richer here:
+- awards;
+- graduations;
+- Dad with members;
+- Viet Uc groups;
+- Hanoi / HCMC / Kon Tum.
 
-For real-life beats:
-- preserve facial proportions;
-- avoid aggressive AI beautification;
-- do not alter age unless the shot explicitly represents a past period and there is an approved younger reference;
-- if only a present-day reference exists, do not fabricate a photorealistic younger Dad as documentary truth.
+This is where real images prove the program became a living network.
 
-For comedy beats:
-- safest strategy is Dad's approved real face/photo as a cutout integrated into a stylized body/scene;
-- alternatively use silhouette/back-of-head if no suitable younger reference exists.
+## Camera / motion language
 
-## Camera philosophy
+Most shots are editorial assemblies, not fake cinema.
 
-This film is primarily editorial motion design, not fake handheld cinema.
+Preferred:
+- digital push-in;
+- 2.5D parallax;
+- map pan/zoom;
+- type scale;
+- line drawing;
+- crop/reveal;
+- split-screen;
+- photo stack.
 
-Use camera movement sparingly:
-- digital push-in on a still when attention narrows;
-- 2.5D parallax for archival photos;
-- map moves for geography;
-- hard editorial cuts for punchlines.
+AI video is reserved for shots that gain something from temporal motion.
 
-Do not make every AI shot orbit/dolly.
+## Color progression
 
-## Color
+**Comedy:** bolder, graphic, slightly poster-like.
 
-Comedy:
-- slightly bolder graphic colors;
-- newspaper/paper texture;
-- high-contrast labels.
+**History:** neutral paper/archival palette.
 
-Reality:
-- natural photo color;
-- warmer, calmer treatment;
-- avoid over-saturating Vietnam into a travel-ad stereotype.
+**Impact/ending:** warmer photographs, less graphic noise.
 
-## Typography
+## Typography hierarchy
 
-Bold sans-serif editorial labels.
+1. **Headline:** 1–5 words.
+2. **Fact:** year/name/location.
+3. **Annotation:** dry humorous aside.
+4. **Footnote:** disclaimer/source context.
 
-Hierarchy:
-- 1–4 word headline;
-- small factual annotation;
-- tiny comedy footnote.
+Facts must visually outrank jokes once the history begins.
 
-Never let motion typography compete with Dad's face.
+## Final image
 
-## Humor direction
+Real Dad face + real website + motto.
 
-Deadpan > slapstick.
+No synthetic website UI.
 
-Example:
-show ridiculous kangaroo stats with completely serious narration.
-
-Avoid:
-- humiliating Dad;
-- jokes about Vietnamese accents;
-- jokes implying Vietnam is primitive;
-- fake facts that are not clearly labeled as gags.
-
-## Website ending
-
-Do not AI-generate the website UI.
-
-Use a real screen capture or browser capture of the actual site when accessible so the domain and design are accurate.
+No visual gag after the final factual/emotional statement.

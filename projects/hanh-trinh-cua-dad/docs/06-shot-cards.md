@@ -1,101 +1,215 @@
-# 06 — Critical Shot Cards
+# 06 — Critical Shot Cards v03
 
-## S01_SH03 — Dad vs Kangaroo Poster
+## S01_SH01 — Dad hero intro
 
-**Story function:** Establish absurd confidence and signal fictional humor.
+**Edited duration:** 6s  
+**Story function:** establish Dad as the central real person before any gag.
 
-**Target edited duration:** 7s  
-**Source generation:** preferably still/collage animation, not full photoreal video.
+**Source:** DAD_REF_01 preferred; DAD_REF_02 fallback.
 
-**Composition:**
-- Dad left;
-- kangaroo right;
-- boxing-poster symmetry;
-- center title area.
+**Frame:** MCU/portrait crop, eye-level.
 
-**Dad identity:**
-- use approved Dad photo/cutout;
-- do not invent a younger photoreal face without reference.
+**Motion:** 3–5% slow digital push.
+
+**Graphics:** DAD STEVENSON / AUSTRALIA.
+
+**Sound:** restrained documentary opening.
+
+**Acceptance:**
+- Dad instantly recognizable;
+- no face warping;
+- readable title;
+- enough negative space for map/title.
+
+---
+
+## S01_SH02 — Kangaroo interruption
+
+**Edited duration:** 8s  
+**Story function:** hook through clearly fictional humor.
+
+**Source:** Dad cutout from DAD_REF_01 + stylized kangaroo.
+
+**Composition:** Dad left, kangaroo right, sports-poster symmetry.
 
 **Motion:**
-- tiny paper-cutout bounce;
-- stat cards slide;
-- no complex fight.
+- tiny cutout bounce;
+- stat card slides;
+- no full-body photoreal fight.
 
-**Sound:**
-- sports bell;
-- crowd swell;
-- sudden dry silence.
+**On-screen disclaimer:** TÁI HIỆN HOÀN TOÀN KHÔNG ĐÁNG TIN.
+
+**Sound:** record scratch → sports bell → tiny crowd swell.
 
 **Acceptance:**
-- Dad recognizable;
-- gag clearly fictional;
-- no grotesque face deformation;
-- no actual injury/violent realism.
+- gag is obvious;
+- Dad identity holds;
+- no injury;
+- no ambiguity that this is fiction.
 
 ---
 
-## S02_SH03 — Buffalo Final Boss
+## S01_SH03 — Buffalo final boss / truth pivot
 
-**Story function:** Set up the false objective before emotional reversal.
+**Edited duration:** 10s  
+**Function:** second joke, then terminate the joke universe.
 
-**Target edited duration:** 8s.
+**Start:** animated Australia→Vietnam route.
 
-**Composition:**
-- buffalo introduced with retro-game title;
-- Dad cutout prepares dramatically;
-- Vietnam environment stylized, not mocked.
+**Middle:** retro-game buffalo boss enters.
 
-**Motion:**
-- buffalo slow head turn;
-- tiny dust motion;
-- Dad adjusts gloves.
+**Dad:** cutout adjusts gloves.
 
-**Cut out:**
-Bell → immediately cut to coffee pour before confrontation.
+**End:** fight bell → freeze → hard cut to Adelaide.
 
-**Acceptance:**
-Viewer understands the joke is Dad's imagined adventure, not a real event.
+**VO pivot:** “May mắn là... câu chuyện thật hay hơn nhiều.”
+
+**Acceptance:** viewer understands we are leaving fantasy and entering fact.
 
 ---
 
-## S02_SH04 — Coffee Reversal
+## S02_SH01 — Adelaide real beginning
 
-**Story function:** Pivot from "conquest" to affection.
+**Edited duration:** 7s.
 
-**Start:** fighting bell / face-off energy.  
-**Cut:** hard to quiet coffee pour.
+**Function:** reveal the true inciting incident.
 
-**Camera:** macro/close detail, locked or slow micro push.
+**Visual:**
+- Adelaide map;
+- Dad real portrait;
+- simple text: ADELAIDE — SOUTH AUSTRALIA.
 
-**Sound:** bell tail ends; coffee sound becomes foreground.
+**Camera:** mostly locked; map motion only.
 
-**Narration:** "Dad chưa kịp chinh phục Việt Nam... thì Việt Nam đã ra tay trước."
+**No AI reenactment** of the conversation.
 
-This shot should be visually calmer than everything before it.
+**Acceptance:** visual tone immediately becomes credible/cleaner.
 
 ---
 
-## S04_SH03 — Dad CTA
+## S02_SH03 — 1996 route
 
-**Story function:** Convert biography into a personal invitation.
+**Edited duration:** 7s.
 
-**Execution priority:**
-1. real Dad talking-head;
-2. real Dad recorded audio over approved portrait;
-3. lip-sync only as fallback with explicit project approval.
+**Function:** establish the real journey where Dad meets Đoàn Minh Nam.
 
-**Frame:** MCU/CU, eye-level.
+**Map route:** Cao Bằng → Bắc Cạn → Lạng Sơn → Hạ Long.
 
-**Performance:** relaxed; tiny smile after the line.
+**Visual:** route trace + year 1996 + Dad thumbnail.
 
-**No fake quotation:** final copy must be approved by Dad/project owner.
+**If verified Nam photo exists:** introduce as a portrait card, not fake event photo.
 
-**Website:** real URL shown cleanly.
+**Sound:** travel pulse + subtle map ticks.
+
+---
+
+## S03_SH02 — SunWay scholarship planning
+
+**Edited duration:** 7s.
+
+**Function:** convert compassion into criteria/system.
+
+**Visual:** notebook/diagram.
+
+Cards:
+- Ai cần giúp?
+- Hỗ trợ bao nhiêu?
+- Chọn thế nào?
+
+**Location text:** SUNWAY HOTEL — HÀ NỘI.
+
+**No fake hotel meeting reenactment.**
+
+---
+
+## S03_SH04 — First 8
+
+**Edited duration:** 7s.
+
+**Function:** first concrete result.
+
+**Visual:** counter 1→8.
+
+**If verified early photos exist:** use them.
+
+**If not:** neutral silhouette/card system, avoiding fabricated faces.
+
+**VO punch:** “Không phải tám nghìn. Tám.”
+
+**Sound:** each count small tick; 8 gets a stronger resolved hit.
+
+---
+
+## S04_SH03 — Growth 1997–2006
+
+**Edited duration:** 6s.
+
+**Function:** show program becomes network.
+
+**Visual source:** archive catalog.
+
+Use 4–7 fast crops:
+- student groups;
+- awards;
+- family visits;
+- Dad/member interactions.
+
+**Date rule:** do not stamp a specific image “1999” etc. without date verification.
+
+**Motion:** photo-stack / grid expansion.
+
+---
+
+## S05_SH01 — 2006 handoff
+
+**Edited duration:** 5s.
+
+**Function:** continuity of stewardship.
+
+**Need:** verified portraits of Đoàn Minh Nam and Nguyễn Hoàng Cung.
+
+**Graphic:** Nam → Cung.
+
+**Archive caution:** catalog has images mentioning “anh Cung”, but visual identity must be manually confirmed.
+
+---
+
+## S05_SH03 — Principles + impact
+
+**Edited duration:** 7s.
+
+**Function:** show what the program stands for.
+
+**Text cards:**
+- TÀI CHÍNH
+- NIỀM TIN
+- HI VỌNG
+- KHÔNG PHẢI TRẢ NỢ
+
+**Background archive:** use approved catalog images of Dad, students, graduations, gatherings.
+
+**Editorial speed:** 0.4–1.2s per image.
+
+**Do not joke here.**
+
+---
+
+## S05_SH04 — Dad / website / motto
+
+**Edited duration:** 2s minimum; can steal 1–2 seconds from previous shot if readability needs it.
+
+**Primary image:** DAD_REF_02 close face or DAD_REF_01 formal hero.
+
+**Text:**
+vietucfamily.org
+
+**Final motto:**
+DREAM – BELIEVE – DO
+
+**Preferred audio:** Dad's real voice saying the motto.
 
 **Acceptance:**
-- natural face;
-- natural voice;
-- intelligible Vietnamese;
-- no uncanny mouth motion;
-- no heavy visual effects during the line.
+- Dad real/recognizable;
+- website legible;
+- clean finish;
+- no AI mouth movement unless explicitly needed.

@@ -1,63 +1,92 @@
-# 08 — Paper Edit v01
+# 08 — Paper Edit v03
 
 ```
-00:00-00:06  S01_SH01  Dad hero intro
-CUT ON: "Đây là Dad"
+00:00-00:06  S01_SH01  Dad hero
+VO: Đây là Dad Stevenson...
+MUSIC: mock-serious documentary
 
-00:06-00:13  S01_SH02  Australia → kangaroo interruption
-SFX: record scratch at ~00:08
+00:06-00:14  S01_SH02  kangaroo interruption
+SFX: record scratch / bell
+CUT: on “kangaroo”
 
-00:13-00:20  S01_SH03  fight poster
-00:20-00:28  S01_SH04  fake stats / non-fight punchline
-CUT OUT on narrator: "ba mươi phần trăm"
+00:14-00:24  S01_SH03  Australia→Vietnam / buffalo final boss
+SFX: retro boss sting / bell
+CUT: freeze on pre-fight
+VO OUT: “May mắn là... câu chuyện thật hay hơn nhiều.”
 
-00:28-00:36  S01_SH05  map pivot Australia → Vietnam
+00:24-00:31  S02_SH01  Adelaide
+VISUAL CLEANUP: remove comedy UI
+00:31-00:38  S02_SH02  Sơ Nien / student problem
 
-00:36-00:44  S02_SH01  real journey asset / fact slot
-00:44-00:52  S02_SH02  Vietnam arrival montage
+00:38-00:45  S02_SH03  1996 Northeast route
+00:45-00:51  S02_SH04  Dad meets Đoàn Minh Nam
+PUNCHLINE: “vượt khỏi mô tả tuyển dụng”
 
-00:52-01:00  S02_SH03  buffalo final boss
-SFX: fight bell
+00:51-00:58  S03_SH01  1997 Dad returns
+00:58-01:05  S03_SH02  SunWay criteria
+GRAPHIC: 3 questions
 
-01:00-01:08  S02_SH04  smash cut coffee pour
-AUDIO: fight bell tail → coffee foreground
+01:05-01:13  S03_SH03  church / connecting students / interpreting
+01:13-01:20  S03_SH04  counter → 8
+PAUSE after “Tám.”
 
-01:08-01:16  S03_SH01  people/food/everyday montage
-01:16-01:24  S03_SH02  real Dad archive
-01:24-01:34  S03_SH03  Việt + Úc graphic convergence
+01:20-01:26  S04_SH01  Stevenson Scholarship Programme
+01:26-01:31  S04_SH02  Dad ↔ Nam ↔ students
+01:31-01:37  S04_SH03  growth 1997–2006
+ARCHIVE: quick montage
+01:37-01:42  S04_SH04  wider referral/network
 
-01:34-01:44  S04_SH01  VietUcFamily / real family/community
-01:44-01:52  S04_SH02  Dad present + real website capture
-J-CUT Dad voice begins ~01:50
+01:42-01:47  S05_SH01  2006 handoff Nam → Cung
+01:47-01:51  S05_SH02  rename → VIET UC FAMILY
 
-01:52-02:00  S04_SH03  Dad direct CTA
-END CARD on final 1.5–2s
+01:51-01:58  S05_SH03  principles + impact archive
+TEXT: tài chính / niềm tin / hi vọng / không phải trả nợ
+
+01:58-02:00  S05_SH04  Dad + website + motto
+OPTION: Dad voice “Dream. Believe. Do.”
 ```
 
-## Rhythm design
+## Runtime pressure
 
-First minute:
-- dense;
-- 5–8 second ideas;
-- jokes land with hard cuts.
+The VO must be read at a natural editorial pace. If v03 runs long, trim in this order:
+1. one kangaroo line;
+2. one location in the 1996 route VO while keeping all locations on screen;
+3. one explanatory sentence in growth section;
+4. shorten principle wording.
 
-Second minute:
-- slightly longer breath;
-- real photos replace gag graphics;
-- music opens emotionally.
+Never cut:
+- 1996;
+- 1997;
+- first 8;
+- 2006;
+- no repayment;
+- motto.
 
-## Trim hierarchy if over runtime
+## Archive pacing
 
-1. shorten kangaroo fake-stat beat;
-2. shorten arrival montage;
-3. reduce repeated Vietnam detail shots;
-4. never cut the emotional reversal;
-5. preserve Dad CTA.
+Do not create a slideshow.
 
-## Test
+For archive montage:
+- crop around faces/action;
+- use 0.4–1.2s image beats;
+- alternate scale/direction;
+- avoid repeating same composition;
+- let at least one Dad/community image hold ~1.5s for emotional recognition.
 
-If muted:
-- map and graphic story should still be understandable.
+## Eye-trace
 
-If audio-only:
-- the kangaroo/buffalo gags must still sound clearly exaggerated rather than factual.
+Keep headline/year in a stable region across timeline sequences.
+
+When photo montage begins, place faces near prior text focus to reduce eye jumps.
+
+## Audio edit
+
+Use J/L cuts to carry narration across:
+- maps;
+- archive cuts;
+- name transitions.
+
+Hard cuts are reserved for:
+- kangaroo interruption;
+- buffalo → Adelaide truth pivot;
+- “Tám.”

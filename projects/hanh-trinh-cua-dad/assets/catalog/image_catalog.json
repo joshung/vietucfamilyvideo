@@ -1,0 +1,4376 @@
+{
+  "schema_version": "1.0",
+  "project_id": "VUF_DAD_001",
+  "source_filename": "image_urls_descriptions.csv",
+  "record_count": 728,
+  "records": [
+    {
+      "asset_id": "ARCH_0001",
+      "source_row": 1,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 1.JPG",
+      "description": "Trao bằng khen cho A Hil"
+    },
+    {
+      "asset_id": "ARCH_0002",
+      "source_row": 2,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 2.JPG",
+      "description": "Trao bằng khen cho sinh viên ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0003",
+      "source_row": 3,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 3.JPG",
+      "description": "Trao bằng khen cho A Nam"
+    },
+    {
+      "asset_id": "ARCH_0004",
+      "source_row": 4,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 4.JPG",
+      "description": "Trao bằng khen cho A Triều"
+    },
+    {
+      "asset_id": "ARCH_0005",
+      "source_row": 5,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 5.JPG",
+      "description": "Trao bằng khen  cho Y Bông"
+    },
+    {
+      "asset_id": "ARCH_0006",
+      "source_row": 6,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 6.JPG",
+      "description": "Trao bằng khen cho A Quư"
+    },
+    {
+      "asset_id": "ARCH_0007",
+      "source_row": 7,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 8.JPG",
+      "description": "Trao bằng khen cho Y Rưm"
+    },
+    {
+      "asset_id": "ARCH_0008",
+      "source_row": 8,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 10.JPG",
+      "description": "Trao bằng khen cho A Âm"
+    },
+    {
+      "asset_id": "ARCH_0009",
+      "source_row": 9,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 11.JPG",
+      "description": "Trao bằng khen cho A Thoăk"
+    },
+    {
+      "asset_id": "ARCH_0010",
+      "source_row": 10,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 13.JPG",
+      "description": "Trao bằng khen cho sinh viên ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0011",
+      "source_row": 11,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 14.JPG",
+      "description": "Trao bằng khen cho Siu Truyền"
+    },
+    {
+      "asset_id": "ARCH_0012",
+      "source_row": 12,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 15.JPG",
+      "description": "Trao bằng khen cho Siu Toại"
+    },
+    {
+      "asset_id": "ARCH_0013",
+      "source_row": 13,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 16.JPG",
+      "description": "Trao bằng khen cho Siu Diệu"
+    },
+    {
+      "asset_id": "ARCH_0014",
+      "source_row": 14,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 17.JPG",
+      "description": "Trao bằng khen cho A Thoat"
+    },
+    {
+      "asset_id": "ARCH_0015",
+      "source_row": 15,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 18.JPG",
+      "description": "Trao bằng khen cho sinh viên ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0016",
+      "source_row": 16,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 19.JPG",
+      "description": "Trao bằng khen cho Y Tăi"
+    },
+    {
+      "asset_id": "ARCH_0017",
+      "source_row": 17,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 20.jpg",
+      "description": "Đám cưới Hà Anh ở Bắc Giang"
+    },
+    {
+      "asset_id": "ARCH_0018",
+      "source_row": 18,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 23.jpg",
+      "description": "Gặp lại Ất ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0019",
+      "source_row": 19,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 24.jpg",
+      "description": "Gặp lại Lợi ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0020",
+      "source_row": 20,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 27.jpg",
+      "description": "Gặp Trang và Ngọc Ánh ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0021",
+      "source_row": 21,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 28.jpg",
+      "description": "Gặp Hạnh và Phúc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0022",
+      "source_row": 22,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 29.jpg",
+      "description": "Gặp gia đình Linh và Tiên ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0023",
+      "source_row": 23,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 30.jpg",
+      "description": "Gặp lại Tuân ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0024",
+      "source_row": 24,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 31.jpg",
+      "description": "Gặp lại Tâm ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0025",
+      "source_row": 25,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 32.jpg",
+      "description": "Gặp Thảo ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0026",
+      "source_row": 26,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 33.jpg",
+      "description": "Gặp lại Hùng và Nhiên ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0027",
+      "source_row": 27,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 34.jpg",
+      "description": "Gặp Thành ở tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0028",
+      "source_row": 28,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 35.jpg",
+      "description": "Gặp Phương ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0029",
+      "source_row": 29,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 37.JPG",
+      "description": "Thúy và hằng tham dự tiệc họp mặt Ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0030",
+      "source_row": 30,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 38.JPG",
+      "description": "Bình và Ánh tham dự tiệc họp mặt ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0031",
+      "source_row": 31,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 39.JPG",
+      "description": "Ánh và chồng sắp cưới ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0032",
+      "source_row": 32,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 40.jpg",
+      "description": "Đám cưới Minh ỏ Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0033",
+      "source_row": 33,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 41.jpg",
+      "description": "Dad tham dự đám cưới Minh ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0034",
+      "source_row": 34,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 42.jpg",
+      "description": "Gặp Đởn ỏ Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0035",
+      "source_row": 35,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 43.jpg",
+      "description": "Gap Thao o TP Ho chi minh"
+    },
+    {
+      "asset_id": "ARCH_0036",
+      "source_row": 36,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 44.jpg",
+      "description": "Hà gửi lời cảm ơn đến dad"
+    },
+    {
+      "asset_id": "ARCH_0037",
+      "source_row": 37,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 45.jpg",
+      "description": "Gặp Liên và Tuấn ở Bắc Giang"
+    },
+    {
+      "asset_id": "ARCH_0038",
+      "source_row": 38,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 46.jpg",
+      "description": "Gặp Hai chị em Hà và Nam ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0039",
+      "source_row": 39,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 47.jpg",
+      "description": "Gia đình Việt Úc chia sẻ niềm vui với tuân"
+    },
+    {
+      "asset_id": "ARCH_0040",
+      "source_row": 40,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 48.jpg",
+      "description": "Anh Trần Nam chia sẻ niềm vui với Tuân"
+    },
+    {
+      "asset_id": "ARCH_0041",
+      "source_row": 41,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 49.jpg",
+      "description": "gia đình Việt Úc chia sẻ niềm vui với Ánh"
+    },
+    {
+      "asset_id": "ARCH_0042",
+      "source_row": 42,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 50.jpg",
+      "description": "Đám cưới Ánh ở long Thành Đồng Nai"
+    },
+    {
+      "asset_id": "ARCH_0043",
+      "source_row": 43,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 51.jpg",
+      "description": "Thăm gia đình Ước ở Gia Lai"
+    },
+    {
+      "asset_id": "ARCH_0044",
+      "source_row": 44,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 52.jpg",
+      "description": "Gặp gia đình Kiên và Sơn ở Gia Lai"
+    },
+    {
+      "asset_id": "ARCH_0045",
+      "source_row": 45,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 53.jpg",
+      "description": "Gặp gia đình Nguyện ở Gia Lai"
+    },
+    {
+      "asset_id": "ARCH_0046",
+      "source_row": 46,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 54.jpg",
+      "description": "Chuyến thăm Kontum ,hè 2024"
+    },
+    {
+      "asset_id": "ARCH_0047",
+      "source_row": 47,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 55.jpg",
+      "description": "Thăm gia đình O.Ri ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0048",
+      "source_row": 48,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 56.jpg",
+      "description": "Thăm gia đình Duy Toàn ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0049",
+      "source_row": 49,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 57.jpg",
+      "description": "Thăm gia đình Siu Toại ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0050",
+      "source_row": 50,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 58.jpg",
+      "description": "Thăm gia đình A Lai ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0051",
+      "source_row": 51,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 59.jpg",
+      "description": "Thăm gia đinh A Maika ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0052",
+      "source_row": 52,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 60.jpg",
+      "description": "Thăm gia đình A Huk ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0053",
+      "source_row": 53,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 61.JPG",
+      "description": "Trao bằng khen cho A Nguyên"
+    },
+    {
+      "asset_id": "ARCH_0054",
+      "source_row": 54,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 62.JPG",
+      "description": "Trao bằng khen cho A Trà"
+    },
+    {
+      "asset_id": "ARCH_0055",
+      "source_row": 55,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 64.JPG",
+      "description": "Trao bằng khen cho A Khên"
+    },
+    {
+      "asset_id": "ARCH_0056",
+      "source_row": 56,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 65.JPG",
+      "description": "Trao bằng khen cho A Kiện"
+    },
+    {
+      "asset_id": "ARCH_0057",
+      "source_row": 57,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 66.JPG",
+      "description": "Trao bằng khen cho A Lai"
+    },
+    {
+      "asset_id": "ARCH_0058",
+      "source_row": 58,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 67.JPG",
+      "description": "Trao bằng khen cho A Min"
+    },
+    {
+      "asset_id": "ARCH_0059",
+      "source_row": 59,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 68.JPG",
+      "description": "Trao bằng khen choi A Phai"
+    },
+    {
+      "asset_id": "ARCH_0060",
+      "source_row": 60,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 69.JPG",
+      "description": "Trao bằng khen cho A Ngọc Tuyến"
+    },
+    {
+      "asset_id": "ARCH_0061",
+      "source_row": 61,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 70.JPG",
+      "description": "Trao bằng khen cho sinh viên ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0062",
+      "source_row": 62,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 71.JPG",
+      "description": "Trao bằng khen c ho sinh viên ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0063",
+      "source_row": 63,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 72.JPG",
+      "description": "Trao bằng khen cho Y Dung"
+    },
+    {
+      "asset_id": "ARCH_0064",
+      "source_row": 64,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 73.JPG",
+      "description": "Trao bằng khen cho Y Duyên"
+    },
+    {
+      "asset_id": "ARCH_0065",
+      "source_row": 65,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 74.JPG",
+      "description": "Trao bằng khen cho Siu Nhung"
+    },
+    {
+      "asset_id": "ARCH_0066",
+      "source_row": 66,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 75.JPG",
+      "description": "Trao bằng khen cho Y Nụ"
+    },
+    {
+      "asset_id": "ARCH_0067",
+      "source_row": 67,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 76.JPG",
+      "description": "Trao bằng khen cho Diệu Khánh"
+    },
+    {
+      "asset_id": "ARCH_0068",
+      "source_row": 68,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 77.JPG",
+      "description": "Trao bằng khen cho sinh viên ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0069",
+      "source_row": 69,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 78.JPG",
+      "description": "Trao bằng khen cho A Hên"
+    },
+    {
+      "asset_id": "ARCH_0070",
+      "source_row": 70,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 79.JPG",
+      "description": "Trao bằng khen cho A Thoắt"
+    },
+    {
+      "asset_id": "ARCH_0071",
+      "source_row": 71,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 80.JPG",
+      "description": "Trao bằng khen cho A Bảo"
+    },
+    {
+      "asset_id": "ARCH_0072",
+      "source_row": 72,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 81.JPG",
+      "description": "Trao bằng khen cho A Huk"
+    },
+    {
+      "asset_id": "ARCH_0073",
+      "source_row": 73,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 82.JPG",
+      "description": "Trao bằng khen cho Y Ka Ly"
+    },
+    {
+      "asset_id": "ARCH_0074",
+      "source_row": 74,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 83.JPG",
+      "description": "Trao bằng khen cho sinh viên ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0075",
+      "source_row": 75,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 84.JPG",
+      "description": "Trao bằng khenm cho Y Nguyệt"
+    },
+    {
+      "asset_id": "ARCH_0076",
+      "source_row": 76,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 85.JPG",
+      "description": "Trao bằng khen cho Y Cô Viên"
+    },
+    {
+      "asset_id": "ARCH_0077",
+      "source_row": 77,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 86.JPG",
+      "description": "Trao bằng khen cho Thanh Long"
+    },
+    {
+      "asset_id": "ARCH_0078",
+      "source_row": 78,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 87.jpg",
+      "description": "Trao bằng khen cho Thanh Lâm"
+    },
+    {
+      "asset_id": "ARCH_0079",
+      "source_row": 79,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 88.jpg",
+      "description": "Trao bằng khen cho Tuấn Đạt"
+    },
+    {
+      "asset_id": "ARCH_0080",
+      "source_row": 80,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 89.jpg",
+      "description": "Trao bằng khen cho Đinh Linh"
+    },
+    {
+      "asset_id": "ARCH_0081",
+      "source_row": 81,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 90.jpg",
+      "description": "Trao băng khen cho Trọng Minh"
+    },
+    {
+      "asset_id": "ARCH_0082",
+      "source_row": 82,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 91.jpg",
+      "description": "Trao bằng khen cho sinh viên ở Ha Nội"
+    },
+    {
+      "asset_id": "ARCH_0083",
+      "source_row": 83,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 92.jpg",
+      "description": "Phúc tặng hoa chúc mừng Dad"
+    },
+    {
+      "asset_id": "ARCH_0084",
+      "source_row": 84,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 94.jpg",
+      "description": "Thành viên Viet Uc Family ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0085",
+      "source_row": 85,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 95.jpg",
+      "description": "Gặp gỡ gia đình Đinh Linh và Đinh Tiên"
+    },
+    {
+      "asset_id": "ARCH_0086",
+      "source_row": 86,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 96.jpg",
+      "description": "Gặp Quân và Thanh ở tiệc Viet Uc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0087",
+      "source_row": 87,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 97.jpg",
+      "description": "Trao bằng khen cho Trần Lợi"
+    },
+    {
+      "asset_id": "ARCH_0088",
+      "source_row": 88,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 98.jpg",
+      "description": "Phấn , Công và Tâm chụp hình chung với Dad"
+    },
+    {
+      "asset_id": "ARCH_0089",
+      "source_row": 89,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 99.jpg",
+      "description": "Các thành viên Việt Úc tham dự party tại Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0090",
+      "source_row": 90,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 100.jpg",
+      "description": "Thành viên Viet Úc dự tiệc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0091",
+      "source_row": 91,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 102.jpg",
+      "description": "Gặp Đức và Tài ở Viet Uc party Ha noi"
+    },
+    {
+      "asset_id": "ARCH_0092",
+      "source_row": 92,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 103.jpg",
+      "description": "Thành viên Việt Úc chúc mưng Dad"
+    },
+    {
+      "asset_id": "ARCH_0093",
+      "source_row": 93,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 104.jpg",
+      "description": "Gặp Thanh Lâm và mẹ anh ta ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0094",
+      "source_row": 94,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 105.JPG",
+      "description": "Khoảnh khắc Ba của Huyen sau lời phát biểu cảm ơn ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0095",
+      "source_row": 95,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 106.JPG",
+      "description": "Gia đình Huyền chụp hình lưu niệm với Dad ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0096",
+      "source_row": 96,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 108.jpg",
+      "description": "Gặp An ở Thành Phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0097",
+      "source_row": 97,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 109.jpg",
+      "description": "Gặp gia đình Chú Nam ở Thành Phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0098",
+      "source_row": 98,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 110.jpg",
+      "description": "Gặp Nhật và Kiên ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0099",
+      "source_row": 99,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 111.JPG",
+      "description": "O.Ri dịch cho Dad phát biểu tại buổi lễ ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0100",
+      "source_row": 100,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 112.jpg",
+      "description": "Thăm gia đình Công ở Bắc Giang"
+    },
+    {
+      "asset_id": "ARCH_0101",
+      "source_row": 101,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 113.JPG",
+      "description": "Chào đón Toàn và Việt toiwis Kontum"
+    },
+    {
+      "asset_id": "ARCH_0102",
+      "source_row": 102,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 114.JPG",
+      "description": "O.Ri phát biểu tại buổi lễ của Việt Úc ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0103",
+      "source_row": 103,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 115.JPG",
+      "description": "Dad tham dự buổi lễ ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0104",
+      "source_row": 104,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 116.JPG",
+      "description": "Trao Bằng khen cho PuHey"
+    },
+    {
+      "asset_id": "ARCH_0105",
+      "source_row": 105,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 117.JPG",
+      "description": "Trao bằng khen cho A Quý"
+    },
+    {
+      "asset_id": "ARCH_0106",
+      "source_row": 106,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 118.JPG",
+      "description": "Trao bằng khen cho A Thìn"
+    },
+    {
+      "asset_id": "ARCH_0107",
+      "source_row": 107,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 119.JPG",
+      "description": "Trao bằng khen cho A Thú"
+    },
+    {
+      "asset_id": "ARCH_0108",
+      "source_row": 108,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 120.JPG",
+      "description": "Trao bằng khên cho A Tiếng"
+    },
+    {
+      "asset_id": "ARCH_0109",
+      "source_row": 109,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 121.JPG",
+      "description": "Trao bằng khen cho A Tuyền"
+    },
+    {
+      "asset_id": "ARCH_0110",
+      "source_row": 110,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 122.JPG",
+      "description": "Trao bằng khen cho A Tuốn"
+    },
+    {
+      "asset_id": "ARCH_0111",
+      "source_row": 111,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 123.JPG",
+      "description": "Trao bằng khen cho A Tú"
+    },
+    {
+      "asset_id": "ARCH_0112",
+      "source_row": 112,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 124.JPG",
+      "description": "Trao bằng khen cho A Trâm"
+    },
+    {
+      "asset_id": "ARCH_0113",
+      "source_row": 113,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 125.JPG",
+      "description": "Trao bằng khen cho O.Ri"
+    },
+    {
+      "asset_id": "ARCH_0114",
+      "source_row": 114,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 126.JPG",
+      "description": "TRao bằng khen cho A Bul"
+    },
+    {
+      "asset_id": "ARCH_0115",
+      "source_row": 115,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 128.JPG",
+      "description": "Trao bằng khen cho A Diệu"
+    },
+    {
+      "asset_id": "ARCH_0116",
+      "source_row": 116,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 129.JPG",
+      "description": "Trao bằng khen cho A Cương"
+    },
+    {
+      "asset_id": "ARCH_0117",
+      "source_row": 117,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 130.JPG",
+      "description": "Trao bằng khen cho A Dự"
+    },
+    {
+      "asset_id": "ARCH_0118",
+      "source_row": 118,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 131.JPG",
+      "description": "Trao bằng khen cho A Dương"
+    },
+    {
+      "asset_id": "ARCH_0119",
+      "source_row": 119,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 133.JPG",
+      "description": "Trao bằng khen cho sinh viên ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0120",
+      "source_row": 120,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 137.JPG",
+      "description": "Trao bằng khen cho Ho Ky Khảo"
+    },
+    {
+      "asset_id": "ARCH_0121",
+      "source_row": 121,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 138.JPG",
+      "description": "Chúc mừng các sinh viên đã tốt nghiệp ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0122",
+      "source_row": 122,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 140.jpg",
+      "description": "Thành viên Viêt uc family ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0123",
+      "source_row": 123,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 141.JPG",
+      "description": "Trao bằng khen cho Y Ly Wừng"
+    },
+    {
+      "asset_id": "ARCH_0124",
+      "source_row": 124,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 142.JPG",
+      "description": "Trao bằng khen cho Khảo và Wừng"
+    },
+    {
+      "asset_id": "ARCH_0125",
+      "source_row": 125,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 143.JPG",
+      "description": "Trao bằng khen cho A Lis và A Ta"
+    },
+    {
+      "asset_id": "ARCH_0126",
+      "source_row": 126,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 144.jpg",
+      "description": "Đinh Linh khai mạc lễ trao bằng khên tại Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0127",
+      "source_row": 127,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 145.jpg",
+      "description": "Trao bằng khen cho Ngọc Chiến tại Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0128",
+      "source_row": 128,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 146.jpg",
+      "description": "Trao bằng khen cho Lợi ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0129",
+      "source_row": 129,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 147.JPG",
+      "description": "Trao bằng khen cho Hiếu Tại thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0130",
+      "source_row": 130,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 148.JPG",
+      "description": "Gặp gia đình Hải ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0131",
+      "source_row": 131,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 149.JPG",
+      "description": "Mai gửi lời yêu thương đến dad"
+    },
+    {
+      "asset_id": "ARCH_0132",
+      "source_row": 132,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 150.JPG",
+      "description": "Hoài và bình Tặng Dad món quà kỷ niệm"
+    },
+    {
+      "asset_id": "ARCH_0133",
+      "source_row": 133,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 151.JPG",
+      "description": "Gặp Huyền và bình ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0134",
+      "source_row": 134,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File152.jpg",
+      "description": "Phương Thảo phát biểu cảm ơn Việt Úc trong lễ tốt nghiệp"
+    },
+    {
+      "asset_id": "ARCH_0135",
+      "source_row": 135,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File154.jpg",
+      "description": "Lâm và mẹ anh ấy tại tiệc Việt Úc"
+    },
+    {
+      "asset_id": "ARCH_0136",
+      "source_row": 136,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File155.jpg",
+      "description": "Gặp Hoàng Nụ tại lễ gặp mặt ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0137",
+      "source_row": 137,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File156.jpg",
+      "description": "Đởn chụp ảnh lưu niệm với Dad"
+    },
+    {
+      "asset_id": "ARCH_0138",
+      "source_row": 138,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File158.jpg",
+      "description": "Thu Diễm lần đầu tham dưj Viet Úc party"
+    },
+    {
+      "asset_id": "ARCH_0139",
+      "source_row": 139,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File160.jpg",
+      "description": "Tâm chụp ảnh chung với Dad"
+    },
+    {
+      "asset_id": "ARCH_0140",
+      "source_row": 140,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File163.jpg",
+      "description": "Phương Thảo phát biểu cảm ơn Dad ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0141",
+      "source_row": 141,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File164.jpg",
+      "description": "Trao bằng khen cho Phương Thảo"
+    },
+    {
+      "asset_id": "ARCH_0142",
+      "source_row": 142,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File165.jpg",
+      "description": "Gặp lại Độ ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0143",
+      "source_row": 143,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File166.jpg",
+      "description": "Gặp lại Duyên ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0144",
+      "source_row": 144,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File167.jpg",
+      "description": "Gặp gia đình Thành ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0145",
+      "source_row": 145,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File168.jpg",
+      "description": "Bố của Đinh Linh và Dad"
+    },
+    {
+      "asset_id": "ARCH_0146",
+      "source_row": 146,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File169.jpg",
+      "description": "Dad và Dương chụp hình chung ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0147",
+      "source_row": 147,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File170.jpg",
+      "description": "Dad gặp Huy tại buổi tiệc Viet Uc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0148",
+      "source_row": 148,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File171.jpg",
+      "description": "Dad gặp Khoái ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0149",
+      "source_row": 149,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File172.jpg",
+      "description": "Gặp Minh ở Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0150",
+      "source_row": 150,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File173.jpg",
+      "description": "Gặp Long ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0151",
+      "source_row": 151,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File174.jpg",
+      "description": "Gặp Sơn ở Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0152",
+      "source_row": 152,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File175.JPG",
+      "description": "Các Con trai việt uc ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0153",
+      "source_row": 153,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File176.JPG",
+      "description": "Các con trai VietUc Family ở Thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0154",
+      "source_row": 154,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File177.JPG",
+      "description": "Sơ hoa gặp lại dad Sau nhiều năm đi tu"
+    },
+    {
+      "asset_id": "ARCH_0155",
+      "source_row": 155,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File178.JPG",
+      "description": "Các chàng trai tranh thủ chụp hình"
+    },
+    {
+      "asset_id": "ARCH_0156",
+      "source_row": 156,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File179.JPG",
+      "description": "Gặp kim và Phú ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0157",
+      "source_row": 157,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File180.JPG",
+      "description": "Gặp Trang ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0158",
+      "source_row": 158,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File181.JPG",
+      "description": "Gặp Anh Triệu và chị gái bạn của Dad"
+    },
+    {
+      "asset_id": "ARCH_0159",
+      "source_row": 159,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File182.JPG",
+      "description": "Gặp Cường Nhật về Kiên ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0160",
+      "source_row": 160,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File183.JPG",
+      "description": "Bình,Hằng,Yến và Thuý Tham dự tiệc Việt Úc Ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0161",
+      "source_row": 161,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File184.JPG",
+      "description": "Gặp hoài và bình ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0162",
+      "source_row": 162,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File185.JPG",
+      "description": "Các em sinh viên nữ ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0163",
+      "source_row": 163,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File186.JPG",
+      "description": "Gặp nhật và Kiên ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0164",
+      "source_row": 164,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File187.JPG",
+      "description": "Gặp cảnh ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0165",
+      "source_row": 165,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File188.JPG",
+      "description": "Gặp Hà ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0166",
+      "source_row": 166,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File189.JPG",
+      "description": "Hiếu tặng dad bó hoa để tỏ lòng biết ơn"
+    },
+    {
+      "asset_id": "ARCH_0167",
+      "source_row": 167,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File190.JPG",
+      "description": "Ba của Huyền phát biểu cảm nghĩ trong buổi lễ trao bằng khen ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0168",
+      "source_row": 168,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File191.JPG",
+      "description": "Chúc mừng đến Minh Trong buổi lễ bằng khen ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0169",
+      "source_row": 169,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File192.JPG",
+      "description": "Trao giấy khen cho sinh viên tốt nghiệp ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0170",
+      "source_row": 170,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File193.JPG",
+      "description": "Buổi họp mặt gia đình Việt Úc ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0171",
+      "source_row": 171,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File194.JPG",
+      "description": "Chúc mừng buổi họp mặt Việt Úc ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0172",
+      "source_row": 172,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File195.JPG",
+      "description": "Gia đình Hưng Loan hạnh phúc khi gặp lại cha tại tiệc việt úc 2024"
+    },
+    {
+      "asset_id": "ARCH_0173",
+      "source_row": 173,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File196.JPG",
+      "description": "Gặp đạo ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0174",
+      "source_row": 174,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File197.JPG",
+      "description": "Gặp vân ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0175",
+      "source_row": 175,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File198.JPG",
+      "description": "Gặp Dần ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0176",
+      "source_row": 176,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File199.JPG",
+      "description": "Gặp Sơn ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0177",
+      "source_row": 177,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File200.JPG",
+      "description": "Duy, Nên tại buổi gặp mặt ở Thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0178",
+      "source_row": 178,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File201.JPG",
+      "description": "Con trai con gái Việt Úc vui Hát"
+    },
+    {
+      "asset_id": "ARCH_0179",
+      "source_row": 179,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 202.JPG",
+      "description": "Cường và Dad ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0180",
+      "source_row": 180,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 203.JPG",
+      "description": "Gặp Tuấn ở Tp HCM"
+    },
+    {
+      "asset_id": "ARCH_0181",
+      "source_row": 181,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 204.JPG",
+      "description": "Đám cưới hằng ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0182",
+      "source_row": 182,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 205.JPG",
+      "description": "Gặp gia đinh Sơn và Kiên ở Gia Lai"
+    },
+    {
+      "asset_id": "ARCH_0183",
+      "source_row": 183,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 206.JPG",
+      "description": "Chào mừng đến Kontum"
+    },
+    {
+      "asset_id": "ARCH_0184",
+      "source_row": 184,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 207.JPG",
+      "description": "Thăm gia đình Siu Liêm ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0185",
+      "source_row": 185,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 208.JPG",
+      "description": "Thăm gia đình A Triều ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0186",
+      "source_row": 186,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 209.JPG",
+      "description": "Thăm gia đình Duy Toàn ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0187",
+      "source_row": 187,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 210.JPG",
+      "description": "Thăm gia đình A Pháp ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0188",
+      "source_row": 188,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 211.JPG",
+      "description": "Thăm cửa hàng hàng kinh doanh của A Nhật"
+    },
+    {
+      "asset_id": "ARCH_0189",
+      "source_row": 189,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 213.JPG",
+      "description": "Thăm gia đình A MaiKa ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0190",
+      "source_row": 190,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 214.JPG",
+      "description": "Thăm gia đình A Hiệp và A Sĩ ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0191",
+      "source_row": 191,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 215.JPG",
+      "description": "Thăm gia đình Y Lưng ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0192",
+      "source_row": 192,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 216.JPG",
+      "description": "Thăm gia đình A Huk ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0193",
+      "source_row": 193,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 217.jpg",
+      "description": "Gia đình Ân sống tại thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0194",
+      "source_row": 194,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 218.jpg",
+      "description": "Niềm vui của gia đình Lan với con dau lòng"
+    },
+    {
+      "asset_id": "ARCH_0195",
+      "source_row": 195,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 219.jpg",
+      "description": "Gia đình Y Siu Long ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0196",
+      "source_row": 196,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 220.jpg",
+      "description": "Đám cưới Y Ka Ly ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0197",
+      "source_row": 197,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 221.jpg",
+      "description": "Thăm gia đình A Bảo ở Kon tum"
+    },
+    {
+      "asset_id": "ARCH_0198",
+      "source_row": 198,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 223.jpg",
+      "description": "Lương hạnh phúc bên chồng và hai con"
+    },
+    {
+      "asset_id": "ARCH_0199",
+      "source_row": 199,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 224.jpg",
+      "description": "Triệu tham gia chơi bóng đá Viet Úc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0200",
+      "source_row": 200,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 225.jpg",
+      "description": "Gia đình Tình thăm lăng chủ tịch Hồ chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0201",
+      "source_row": 201,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 226.jpg",
+      "description": "Gia đình Quân và Thanh , Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0202",
+      "source_row": 202,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 227.jpg",
+      "description": "Gia đình Phạm Phương (Hà Nội ) thăm thác Bản Dốc"
+    },
+    {
+      "asset_id": "ARCH_0203",
+      "source_row": 203,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 228.jpg",
+      "description": "Gia đình Tiện và bố ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0204",
+      "source_row": 204,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 229.jpg",
+      "description": "Gia đình Hơ Ky Khảo ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0205",
+      "source_row": 205,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 230.jpg",
+      "description": "Gia đình Dương ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0206",
+      "source_row": 206,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 231.jpg",
+      "description": "Gia đình Phúc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0207",
+      "source_row": 207,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 232.jpg",
+      "description": "Gia đinh Y Ngoại và A Sroih ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0208",
+      "source_row": 208,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 233.jpg",
+      "description": "Liên và con gái cô ấy ở Bắc Giang"
+    },
+    {
+      "asset_id": "ARCH_0209",
+      "source_row": 209,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 234.jpg",
+      "description": "Hai anh em Cha Hùng và Sơ Hằng trong ngày lễ khấn"
+    },
+    {
+      "asset_id": "ARCH_0210",
+      "source_row": 210,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 235.jpg",
+      "description": "Gia đình Huy Ất"
+    },
+    {
+      "asset_id": "ARCH_0211",
+      "source_row": 211,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 236.jpg",
+      "description": "Thúy cùng gia đình du xuân ở Đà Nẵng"
+    },
+    {
+      "asset_id": "ARCH_0212",
+      "source_row": 212,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 238.jpg",
+      "description": "Gia đình hoài sống ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0213",
+      "source_row": 213,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 240.jpg",
+      "description": "Gia đình Nguyễn Lan ở Bà Rịa"
+    },
+    {
+      "asset_id": "ARCH_0214",
+      "source_row": 214,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 241.jpg",
+      "description": "Gia đình Phương tham dự lễ cưới của em gái"
+    },
+    {
+      "asset_id": "ARCH_0215",
+      "source_row": 215,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 243.jpg",
+      "description": "Gia đình Trần Viễn ở Thái Bình"
+    },
+    {
+      "asset_id": "ARCH_0216",
+      "source_row": 216,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 244.jpg",
+      "description": "Gia đình Sơn ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0217",
+      "source_row": 217,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 245.jpg",
+      "description": "Gia đình Thuận ở HCM"
+    },
+    {
+      "asset_id": "ARCH_0218",
+      "source_row": 218,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 246.jpg",
+      "description": "Gia đình Lệ ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0219",
+      "source_row": 219,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 247.jpg",
+      "description": "uy komtum rạng rỡ trong mùa giáng sinh"
+    },
+    {
+      "asset_id": "ARCH_0220",
+      "source_row": 220,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 248.jpg",
+      "description": "Đám cưới Hoài ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0221",
+      "source_row": 221,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 251.jpg",
+      "description": "Gia đình Tiên ở HCM"
+    },
+    {
+      "asset_id": "ARCH_0222",
+      "source_row": 222,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 252.jpg",
+      "description": "Gia đình Nhân ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0223",
+      "source_row": 223,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 253.jpg",
+      "description": "Gia đình Hoán ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0224",
+      "source_row": 224,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 254.jpg",
+      "description": "Gia đình Việt sống ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0225",
+      "source_row": 225,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 255.jpg",
+      "description": "Thái cùng gia đình đi tham quan công viên chim"
+    },
+    {
+      "asset_id": "ARCH_0226",
+      "source_row": 226,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 256.jpg",
+      "description": "Gia đình Hồng ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0227",
+      "source_row": 227,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 257.jpg",
+      "description": "Thành và linh cùng gia đình đón tết 2022"
+    },
+    {
+      "asset_id": "ARCH_0228",
+      "source_row": 228,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 258.jpg",
+      "description": "Gia đình Hải đang sống ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0229",
+      "source_row": 229,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 259.jpg",
+      "description": "Gia đình Lan sống ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0230",
+      "source_row": 230,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 260.jpg",
+      "description": "Gia đình Hoàng ở Nhật"
+    },
+    {
+      "asset_id": "ARCH_0231",
+      "source_row": 231,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 261.jpg",
+      "description": "Gia đình O.Ri ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0232",
+      "source_row": 232,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 262.jpg",
+      "description": "Đám cưới Diệu Khánh ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0233",
+      "source_row": 233,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 263.jpg",
+      "description": "Gia đình Trịnh Dũng ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0234",
+      "source_row": 234,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 264.jpg",
+      "description": "Gia đình Thanh ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0235",
+      "source_row": 235,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 266.jpg",
+      "description": "Mừng thôi nôi con trai của Y Ly Wững ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0236",
+      "source_row": 236,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 267.jpg",
+      "description": "Gia đình Xuân ở Gia Lai"
+    },
+    {
+      "asset_id": "ARCH_0237",
+      "source_row": 237,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 268.jpg",
+      "description": "Gia đình Đặng ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0238",
+      "source_row": 238,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 269.jpg",
+      "description": "Gia đình Thiên ở Phúc Thọ, Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0239",
+      "source_row": 239,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 270.jpg",
+      "description": "Gia đình Y Yến ở HCM"
+    },
+    {
+      "asset_id": "ARCH_0240",
+      "source_row": 240,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 271.jpg",
+      "description": "Gia đình Tin ở Phú Quốc"
+    },
+    {
+      "asset_id": "ARCH_0241",
+      "source_row": 241,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 274.jpg",
+      "description": "Gia đình Phúc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0242",
+      "source_row": 242,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 275.jpg",
+      "description": "Niềm vui của Huyền bên gia đình nhỏ"
+    },
+    {
+      "asset_id": "ARCH_0243",
+      "source_row": 243,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 276.jpg",
+      "description": "Gia đình Cúc ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0244",
+      "source_row": 244,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 277.jpg",
+      "description": "Gia đình Cúc ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0245",
+      "source_row": 245,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 278.jpg",
+      "description": "Gia đình Cúc ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0246",
+      "source_row": 246,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 279.jpg",
+      "description": "Bác sĩ Triệu Cùng gia đình đi Du lịch"
+    },
+    {
+      "asset_id": "ARCH_0247",
+      "source_row": 247,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 280.jpg",
+      "description": "Gia đình Thùy ở Hà Nam"
+    },
+    {
+      "asset_id": "ARCH_0248",
+      "source_row": 248,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 281.jpg",
+      "description": "Gia đình Trần Viễn ở Thái Bình"
+    },
+    {
+      "asset_id": "ARCH_0249",
+      "source_row": 249,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 282.jpg",
+      "description": "Gia đình Chuyền ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0250",
+      "source_row": 250,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 283.jpg",
+      "description": "Gia đình Hiên ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0251",
+      "source_row": 251,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 284.jpg",
+      "description": "Khoảnh khắc hài hước của Thắng"
+    },
+    {
+      "asset_id": "ARCH_0252",
+      "source_row": 252,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 285.jpg",
+      "description": "Gia đình Tho sống ở Bà Rịa Vũng Tàu"
+    },
+    {
+      "asset_id": "ARCH_0253",
+      "source_row": 253,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 286.jpg",
+      "description": "Mai sống ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0254",
+      "source_row": 254,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 287.jpg",
+      "description": "Gặp Tuấn ở Bắc Giang"
+    },
+    {
+      "asset_id": "ARCH_0255",
+      "source_row": 255,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 288.jpg",
+      "description": "KaLy Tran và con trai ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0256",
+      "source_row": 256,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 289.jpg",
+      "description": "Y Dung và con gái ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0257",
+      "source_row": 257,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 290.jpg",
+      "description": "Bác sĩ Nhuệ Giang cùng vợ và hai con"
+    },
+    {
+      "asset_id": "ARCH_0258",
+      "source_row": 258,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 291.jpg",
+      "description": "Thăm gia đình A Duyệt ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0259",
+      "source_row": 259,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 292.jpg",
+      "description": "Gia đình Mai ở Yên Đồng, Ý Yên, Nam Định "
+    },
+    {
+      "asset_id": "ARCH_0260",
+      "source_row": 260,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 293.jpg",
+      "description": "hà cùng chồng say đắm tại Hà Giang"
+    },
+    {
+      "asset_id": "ARCH_0261",
+      "source_row": 261,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 294.jpg",
+      "description": "Trình, gia đình Lành và em gái"
+    },
+    {
+      "asset_id": "ARCH_0262",
+      "source_row": 262,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 295.jpg",
+      "description": "Gia đình Long , Lợi ở Nga Sơn, Thanh Hóa "
+    },
+    {
+      "asset_id": "ARCH_0263",
+      "source_row": 263,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 296.jpg",
+      "description": "Gia đình Hoa ở tp Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0264",
+      "source_row": 264,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 297.jpg",
+      "description": "Gia đình Hòe ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0265",
+      "source_row": 265,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 298.jpg",
+      "description": "Đám cưới Dung ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0266",
+      "source_row": 266,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 299.jpg",
+      "description": "Toàn và gia đình ở ở Vĩnh Long"
+    },
+    {
+      "asset_id": "ARCH_0267",
+      "source_row": 267,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 300.jpg",
+      "description": "Sr Hòa ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0268",
+      "source_row": 268,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 301.jpg",
+      "description": "Việt và Toàn thăm Kontum"
+    },
+    {
+      "asset_id": "ARCH_0269",
+      "source_row": 269,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 302.jpg",
+      "description": "Bảo và đại gia đình ở Thái Nguyên"
+    },
+    {
+      "asset_id": "ARCH_0270",
+      "source_row": 270,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 303.jpg",
+      "description": "Gia đình A Lis ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0271",
+      "source_row": 271,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 304.jpg",
+      "description": "Hương và vợ ở Đà Nẵng"
+    },
+    {
+      "asset_id": "ARCH_0272",
+      "source_row": 272,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 305.jpg",
+      "description": "Gia đình Lương ở Xuân Hòa , Vĩnh Phúc"
+    },
+    {
+      "asset_id": "ARCH_0273",
+      "source_row": 273,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 306.jpg",
+      "description": "Siu Bal gặp Dad ở HCM"
+    },
+    {
+      "asset_id": "ARCH_0274",
+      "source_row": 274,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 307.jpg",
+      "description": "Thăm gia đình Ước ở Gia Lai"
+    },
+    {
+      "asset_id": "ARCH_0275",
+      "source_row": 275,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 308.jpg",
+      "description": "Gia đình Nên sống ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0276",
+      "source_row": 276,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 309.jpg",
+      "description": "Gia đình Thúy hằng Chiến ở thanh hóa"
+    },
+    {
+      "asset_id": "ARCH_0277",
+      "source_row": 277,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 310.jpg",
+      "description": "Diễm tây ninh rạng rỡ bên cây thông noel"
+    },
+    {
+      "asset_id": "ARCH_0278",
+      "source_row": 278,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 311.jpg",
+      "description": "Niềm vui Đạt và Xinh mừng con được rửa tội ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0279",
+      "source_row": 279,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 312.jpg",
+      "description": "Gia đình Hằng ở HCM"
+    },
+    {
+      "asset_id": "ARCH_0280",
+      "source_row": 280,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 313.jpg",
+      "description": "Gia đình A Lis ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0281",
+      "source_row": 281,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 314.jpg",
+      "description": "Gia đình đậu ở thanh hóa"
+    },
+    {
+      "asset_id": "ARCH_0282",
+      "source_row": 282,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 315.jpg",
+      "description": "Gia đinh A Dep ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0283",
+      "source_row": 283,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 316.jpg",
+      "description": "Gia đình Cường ở Biên Hòa"
+    },
+    {
+      "asset_id": "ARCH_0284",
+      "source_row": 284,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 317.jpg",
+      "description": "Gia đình A Nglunh ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0285",
+      "source_row": 285,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 318.jpg",
+      "description": "Gia đình A Nam ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0286",
+      "source_row": 286,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 319.jpg",
+      "description": "Gia đình em Hảo ở Thái Nguyên"
+    },
+    {
+      "asset_id": "ARCH_0287",
+      "source_row": 287,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 320.jpg",
+      "description": "Gia đình MiRa ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0288",
+      "source_row": 288,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 321.jpg",
+      "description": "Gia đình Y Gòn ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0289",
+      "source_row": 289,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 322.jpg",
+      "description": "Gia đình Oanh ở Kontum"
+    },
+    {
+      "asset_id": "ARCH_0290",
+      "source_row": 290,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 323.jpg",
+      "description": "Cô giáo Thuý dạy học ở Nghe em"
+    },
+    {
+      "asset_id": "ARCH_0291",
+      "source_row": 291,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 324.jpg",
+      "description": "Nhung in Kontum"
+    },
+    {
+      "asset_id": "ARCH_0292",
+      "source_row": 292,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 325.jpg",
+      "description": "Gia đình Hà Anh ở Bắc Giang"
+    },
+    {
+      "asset_id": "ARCH_0293",
+      "source_row": 293,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 326.jpg",
+      "description": "Gặp gia đình Dũng ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0294",
+      "source_row": 294,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 327.jpg",
+      "description": "Gia đình Thương ở Quảng Bình"
+    },
+    {
+      "asset_id": "ARCH_0295",
+      "source_row": 295,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 328.jpg",
+      "description": "Niềm vui của Tuyết sau giờ làm việc ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0296",
+      "source_row": 296,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 329.jpg",
+      "description": "Gia đình Khảm ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0297",
+      "source_row": 297,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 330.jpg",
+      "description": "Gia đình Duy ở HCM"
+    },
+    {
+      "asset_id": "ARCH_0298",
+      "source_row": 298,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 331.jpg",
+      "description": "Gia đình Hà ở Hà Tĩnh"
+    },
+    {
+      "asset_id": "ARCH_0299",
+      "source_row": 299,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 332.jpg",
+      "description": "Gia đình Tế ở Sài Gòn"
+    },
+    {
+      "asset_id": "ARCH_0300",
+      "source_row": 300,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 333.jpg",
+      "description": "Gia đình Nhân ở HCM"
+    },
+    {
+      "asset_id": "ARCH_0301",
+      "source_row": 301,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 334.jpg",
+      "description": "Gia đình Tưởng ở Nam định"
+    },
+    {
+      "asset_id": "ARCH_0302",
+      "source_row": 302,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 336.jpg",
+      "description": "Đám cưới Thủy ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0303",
+      "source_row": 303,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 337.jpg",
+      "description": "Bình cùng gia đình đón giáng sinh ở Thanh hoa"
+    },
+    {
+      "asset_id": "ARCH_0304",
+      "source_row": 304,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 338.jpg",
+      "description": "Gia đình Nhiên ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0305",
+      "source_row": 305,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 339.jpg",
+      "description": "Gia đình long sống ở Quảng Bình"
+    },
+    {
+      "asset_id": "ARCH_0306",
+      "source_row": 306,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 340.jpg",
+      "description": "Đám cưới Đat ở Oslo Nauy"
+    },
+    {
+      "asset_id": "ARCH_0307",
+      "source_row": 307,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 341.jpg",
+      "description": "Son cùng con gái ở Bình Phước"
+    },
+    {
+      "asset_id": "ARCH_0308",
+      "source_row": 308,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 342.jpg",
+      "description": "Thăm Phú ở phòng trọ ở Tp hcm sau khi tái khám bệnh"
+    },
+    {
+      "asset_id": "ARCH_0309",
+      "source_row": 309,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 343.jpg",
+      "description": "Đám cưới Hường ở thành phố Hồ Chí Minh"
+    },
+    {
+      "asset_id": "ARCH_0310",
+      "source_row": 310,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 344.jpg",
+      "description": "Sương Đón giáng sinh ở Seoul Hàn Quốc"
+    },
+    {
+      "asset_id": "ARCH_0311",
+      "source_row": 311,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 345.jpg",
+      "description": "Thức cùng gia đình leo núi ở Bà Rịa"
+    },
+    {
+      "asset_id": "ARCH_0312",
+      "source_row": 312,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 346.jpg",
+      "description": "Ánh cùng con đi dã ngoại"
+    },
+    {
+      "asset_id": "ARCH_0313",
+      "source_row": 313,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 347.jpg",
+      "description": "Bác sĩ Hiền cùng gia đình đi dã ngoại"
+    },
+    {
+      "asset_id": "ARCH_0314",
+      "source_row": 314,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 348.jpg",
+      "description": "Hương và Thảo tổ chức sinh nhật mẹ 54 tuổi"
+    },
+    {
+      "asset_id": "ARCH_0315",
+      "source_row": 315,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 349.jpg",
+      "description": "Gia đình Lai đi lễ nhà thờ Ở Mỹ"
+    },
+    {
+      "asset_id": "ARCH_0316",
+      "source_row": 316,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 350.jpg",
+      "description": "Linh sống ở bảo lộc Lâm đồng"
+    },
+    {
+      "asset_id": "ARCH_0317",
+      "source_row": 317,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 351.jpg",
+      "description": "Thuỷ cùng gia đình ở Thái Nguyên"
+    },
+    {
+      "asset_id": "ARCH_0318",
+      "source_row": 318,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 352.jpg",
+      "description": "Gia đình Lương ở Australia"
+    },
+    {
+      "asset_id": "ARCH_0319",
+      "source_row": 319,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 353.jpg",
+      "description": "Thoi và con trai ở Nam định"
+    },
+    {
+      "asset_id": "ARCH_0320",
+      "source_row": 320,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 354.jpg",
+      "description": "Anh Nam tham quan Sydney"
+    },
+    {
+      "asset_id": "ARCH_0321",
+      "source_row": 321,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 355.jpg",
+      "description": "Gia đình Phượng ở thanh hóa"
+    },
+    {
+      "asset_id": "ARCH_0322",
+      "source_row": 322,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 357.jpg",
+      "description": "Quỳnh hạnh phúc với hai con ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0323",
+      "source_row": 323,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 358.jpg",
+      "description": "Niềm vui ba mẹ khi Nhựt trở về từ Phần Lan"
+    },
+    {
+      "asset_id": "ARCH_0324",
+      "source_row": 324,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 359.jpg",
+      "description": "Thành tốt nghiệp tại trường chính trị tỉnh bến tre"
+    },
+    {
+      "asset_id": "ARCH_0325",
+      "source_row": 325,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/File 360.jpg",
+      "description": "Gia đình Sa ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0326",
+      "source_row": 326,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/IMG_0966.jpeg",
+      "description": "Mai cùng gia đình đi du lịch"
+    },
+    {
+      "asset_id": "ARCH_0327",
+      "source_row": 327,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/DSC_7615.JPG",
+      "description": "Gặp Ba Mẹ của Nhựt ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0328",
+      "source_row": 328,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/DSC_7692.JPG",
+      "description": "Các con gái thả tym chụp hình cùng Dad và anh Cung"
+    },
+    {
+      "asset_id": "ARCH_0329",
+      "source_row": 329,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/DSC_8030.JPG",
+      "description": "Đại gia đình Kim, Phú, Ân, Mai và Tuấn chụp hình lưu niệm cùng Dad o TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0330",
+      "source_row": 330,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/DSC_8084.JPG",
+      "description": "Các con gái xinh đẹp tạo dáng chụp hình ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0331",
+      "source_row": 331,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/DSC_8088.JPG",
+      "description": "Con trai và con gái Viet Uc tạo kiểu chụp hình đáng yêu"
+    },
+    {
+      "asset_id": "ARCH_0332",
+      "source_row": 332,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0816.JPG",
+      "description": "Niềm vui Ba của Hiếu khi đến tham dự Lễ Trao Bằng Khen ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0333",
+      "source_row": 333,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0831.JPG",
+      "description": "Lễ và Hoàng trò chuyện thân mật với Dad"
+    },
+    {
+      "asset_id": "ARCH_0334",
+      "source_row": 334,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0834.JPG",
+      "description": "Các em sinh viên Viet Uc ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0335",
+      "source_row": 335,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0896.JPG",
+      "description": "Cảnh, Trí, Tú và Lan tại buổi tiệc họp mặt ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0336",
+      "source_row": 336,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0911.JPG",
+      "description": "Ánh và Y Uy vui cười tại buổi tiệc họp mặt ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0337",
+      "source_row": 337,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0927.JPG",
+      "description": "Gặp Nhị ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0338",
+      "source_row": 338,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0929.JPG",
+      "description": "Gặp Tú ở TP HCM"
+    },
+    {
+      "asset_id": "ARCH_0339",
+      "source_row": 339,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0940.JPG",
+      "description": "Niêm vui của Tuấn khi gặp lại Dad"
+    },
+    {
+      "asset_id": "ARCH_0340",
+      "source_row": 340,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0964.JPG",
+      "description": "Gia đình VIet Uc múa hát cùng nhau vui vẻ trong buổi họp mặt ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0341",
+      "source_row": 341,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0978.JPG",
+      "description": "Viet Uc hân hạnh đón tiếp anh Sơn và công ty STD&S"
+    },
+    {
+      "asset_id": "ARCH_0342",
+      "source_row": 342,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_0995.JPG",
+      "description": "Những nụ cười trong buổi tiệc họp mặt ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0343",
+      "source_row": 343,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_1204.JPG",
+      "description": "Một Hai Ba Zô, chúng ta là 1 gia đình"
+    },
+    {
+      "asset_id": "ARCH_0344",
+      "source_row": 344,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_1250.JPG",
+      "description": "Nào cùng hát lên cho quả tim nối kết trái tim"
+    },
+    {
+      "asset_id": "ARCH_0345",
+      "source_row": 345,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_1282.JPG",
+      "description": "Các con gửi lời cảm ơn đến Dad"
+    },
+    {
+      "asset_id": "ARCH_0346",
+      "source_row": 346,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_1284 (1).JPG",
+      "description": "Các con gửi lời cảm ơn đến Dad"
+    },
+    {
+      "asset_id": "ARCH_0347",
+      "source_row": 347,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_1327.JPG",
+      "description": "Các con vui nhảy cùng Cha tại buổi tiệc"
+    },
+    {
+      "asset_id": "ARCH_0348",
+      "source_row": 348,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_1336.JPG",
+      "description": "Gia đình Viet Uc Nối vòng tay lớn"
+    },
+    {
+      "asset_id": "ARCH_0349",
+      "source_row": 349,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/LOV_1342.JPG",
+      "description": "Các con gửi cử chỉ yêu thương đến Cha của mình"
+    },
+    {
+      "asset_id": "ARCH_0350",
+      "source_row": 350,
+      "image_url": "https://api.vietucfamily.org/storage/v1/render/image/public/VUF/images/IMG_0972.jpeg",
+      "description": "Chanh tham quan danh lam thắng cảnh miền Bắc"
+    },
+    {
+      "asset_id": "ARCH_0351",
+      "source_row": 351,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/11.jpg",
+      "description": "Gia đình Huyền chia sẻ niềm vui Hồng Ân Vĩnh Khấn với chị Gái"
+    },
+    {
+      "asset_id": "ARCH_0352",
+      "source_row": 352,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_7550.JPG",
+      "description": "Áo đồng phục Việt Úc năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0353",
+      "source_row": 353,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_7573.JPG",
+      "description": "Gặp Lan ở Tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0354",
+      "source_row": 354,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_7578.JPG",
+      "description": "Gặp gia đình Lành ở tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0355",
+      "source_row": 355,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_7584.JPG",
+      "description": "Gặp Hà ở tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0356",
+      "source_row": 356,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_7602.JPG",
+      "description": "Gặp gia đình Ân ở tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0357",
+      "source_row": 357,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_7603.JPG",
+      "description": "Gặp Duy ở tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0358",
+      "source_row": 358,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_7606.JPG",
+      "description": "Gặp Ánh ở tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0359",
+      "source_row": 359,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_7638.JPG",
+      "description": "Gặp gia đình Yến ở tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0360",
+      "source_row": 360,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_7681.JPG",
+      "description": "Gặp gia đình Hải ở tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0361",
+      "source_row": 361,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_8043.JPG",
+      "description": "Gặp vợ chồng Đạt Xinh ở tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0362",
+      "source_row": 362,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_8050.JPG",
+      "description": "Gặp Diễm và vợ chồng Hà ở tphcm năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0363",
+      "source_row": 363,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/DSC_8052.JPG",
+      "description": "Gặp Tuân, Trình và Dũng ở Sài gòn năm 2023"
+    },
+    {
+      "asset_id": "ARCH_0364",
+      "source_row": 364,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-2-zalo11.jpg",
+      "description": "Mẹ của Ước và các cháu ở Pleiku"
+    },
+    {
+      "asset_id": "ARCH_0365",
+      "source_row": 365,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-3-T4N_9585.jpg",
+      "description": "Hào, Hà, Hoàng và Duy ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0366",
+      "source_row": 366,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-4-T4N_0238.jpg",
+      "description": "Nam phát biểu cảm nghĩ tại buổi lễ ờ HCMC"
+    },
+    {
+      "asset_id": "ARCH_0367",
+      "source_row": 367,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-6-4Z9A4555.JPG",
+      "description": "Chúc mừng thành viên Viet Uc Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0368",
+      "source_row": 368,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-8-T4N_0872.jpg",
+      "description": "Ánh, Vân và Cường ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0369",
+      "source_row": 369,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-9-T4N_0398.jpg",
+      "description": "Trao bằng khen cho Nam ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0370",
+      "source_row": 370,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-10-4Z9A4414.JPG",
+      "description": "Trao bằng khen cho Thế Anh ở Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0371",
+      "source_row": 371,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-11-4Z9A4470.JPG",
+      "description": "Hình lưu niệm với khcahs mời đến từ Phú Thái CAT"
+    },
+    {
+      "asset_id": "ARCH_0372",
+      "source_row": 372,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-12-T4N_0387.jpg",
+      "description": "Chúc mừng Nam và Y Linh nhận bằng khen tốt nghiệp ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0373",
+      "source_row": 373,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-13-zalo46.jpg",
+      "description": "Đám cưới Thêu ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0374",
+      "source_row": 374,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-14-4Z9A3889.jpg",
+      "description": "Gặp Việt ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0375",
+      "source_row": 375,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-15-T4N_0002.jpg",
+      "description": "Chụp hình lưu niệm cùng Vũ ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0376",
+      "source_row": 376,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-16-4Z9A4279.jpg",
+      "description": "Tiệc Việt Úc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0377",
+      "source_row": 377,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-17-zalo49.jpg",
+      "description": "Gặp gia đình Trang ở Đà nẵng"
+    },
+    {
+      "asset_id": "ARCH_0378",
+      "source_row": 378,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-18-4Z9A4475.JPG",
+      "description": "Gặp lại Thỉnh và Thảo ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0379",
+      "source_row": 379,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-19-A BUN.jpg",
+      "description": "Trao bằng khen cho A Bun ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0380",
+      "source_row": 380,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-20-4Z9A4045.jpg",
+      "description": "Giới thiệu Mr Tiệp về Việt Uc Family"
+    },
+    {
+      "asset_id": "ARCH_0381",
+      "source_row": 381,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-22-T4N_9998.jpg",
+      "description": "Chụp hình lưu niệm cùng Ân ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0382",
+      "source_row": 382,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-23-zalo32.jpg",
+      "description": "Thăm gia đinh Best Ly ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0383",
+      "source_row": 383,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-24-zalo9.jpg",
+      "description": "Thế Anh và Chức thăm Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0384",
+      "source_row": 384,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-25-T4N_0261.jpg",
+      "description": "Chụp hình lưu niệm cùng Nam sau bài phát biểu cảm nghĩ"
+    },
+    {
+      "asset_id": "ARCH_0385",
+      "source_row": 385,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-26-T4N_0039.jpg",
+      "description": "gặp lại Tùng ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0386",
+      "source_row": 386,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-27-zalo35.jpg",
+      "description": "Thăm gia đình A Điệp ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0387",
+      "source_row": 387,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-28-zalo24.jpg",
+      "description": "Thăm gia đình Toàn ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0388",
+      "source_row": 388,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-30-T4N_0518.jpg",
+      "description": "Tiệc Việt Úc ở TP HCMC"
+    },
+    {
+      "asset_id": "ARCH_0389",
+      "source_row": 389,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-31-4Z9A4710.JPG",
+      "description": "Việt hát ở tiệc Viet Uc Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0390",
+      "source_row": 390,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-33-4Z9A4741.JPG",
+      "description": "Gặp lại Tuấn ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0391",
+      "source_row": 391,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-35-T4N_0843.jpg",
+      "description": "Gặp Tuân và Trình ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0392",
+      "source_row": 392,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-36-add6.jpg",
+      "description": "Thăm các anh em của Bảy ở Vĩnh Phúc"
+    },
+    {
+      "asset_id": "ARCH_0393",
+      "source_row": 393,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-37-4Z9A4860.JPG",
+      "description": "Gặp lại Đặng ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0394",
+      "source_row": 394,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-38-4Z9A4807.JPG",
+      "description": "Gặp lại Việt ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0395",
+      "source_row": 395,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-40-T4N_0737.jpg",
+      "description": "Cháu trai của chú Huy Nam tại buổi tiệc việt úc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0396",
+      "source_row": 396,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-41-T4N_9681.jpg",
+      "description": "Y Linh và Y Uy ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0397",
+      "source_row": 397,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-42-4Z9A4925.JPG",
+      "description": "Thành viên Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0398",
+      "source_row": 398,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-43-4Z9A4915.JPG",
+      "description": "Huệ chụp hình lưu niệm với Dad"
+    },
+    {
+      "asset_id": "ARCH_0399",
+      "source_row": 399,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-44-4Z9A4730.JPG",
+      "description": "Saxophonist cho tiệc Việt Úc Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0400",
+      "source_row": 400,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-46-zalo20.jpg",
+      "description": "Thăm gia đình A Lis ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0401",
+      "source_row": 401,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-47-4Z9A3892.jpg",
+      "description": "Gặp lại Phúc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0402",
+      "source_row": 402,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-48-4Z9A4763.JPG",
+      "description": "Thái hát ở tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0403",
+      "source_row": 403,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-49-4Z9A4483.JPG",
+      "description": "Gặp lại gia đình Sung ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0404",
+      "source_row": 404,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-50-zalo16.jpg",
+      "description": "Chúc mừng MC Y Rưm ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0405",
+      "source_row": 405,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-51-zalo30.jpg",
+      "description": "Thăm gia đình Siu Nhung ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0406",
+      "source_row": 406,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-52-zalo14.jpg",
+      "description": "Gặp lại Wưng and Khảo ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0407",
+      "source_row": 407,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-53-4Z9A4359.jpg",
+      "description": "Dad phát biểu tại lễ trao bằng khen Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0408",
+      "source_row": 408,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-54-zalo36.jpg",
+      "description": "Thăm A Khách ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0409",
+      "source_row": 409,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-56-zalo2.jpg",
+      "description": "Gặp Dr Hiền ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0410",
+      "source_row": 410,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-57-T4N_9790.jpg",
+      "description": "Gặp lại Hà ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0411",
+      "source_row": 411,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-58-4Z9A4287.jpg",
+      "description": "Toàn đại diện cho sinh viên Việt Úc tốt nghiệp phát biểu tại Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0412",
+      "source_row": 412,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-59-4Z9A4923.JPG",
+      "description": "Gặp lại Đạt ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0413",
+      "source_row": 413,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-60-T4N_0145.jpg",
+      "description": "Phúc và Nguyện ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0414",
+      "source_row": 414,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-61-T4N_9625.jpg",
+      "description": "Bình hỗ trợ công tác tặng áo cho các thành viên"
+    },
+    {
+      "asset_id": "ARCH_0415",
+      "source_row": 415,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-63-zalo41.jpg",
+      "description": "Chức và Thế Anh ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0416",
+      "source_row": 416,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-64-T4N_0490.jpg",
+      "description": "Tiệc Việt Úc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0417",
+      "source_row": 417,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-65-4Z9A3928.jpg",
+      "description": "Gặp lại  Mừng và Chuyền ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0418",
+      "source_row": 418,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-66-4Z9A4839.JPG",
+      "description": "Gặp lại Hùng và Độ ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0419",
+      "source_row": 419,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-67-4Z9A4941.JPG",
+      "description": "Gặp lại Vân Hằng ở Hà Nội sau nhiều năm"
+    },
+    {
+      "asset_id": "ARCH_0420",
+      "source_row": 420,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-68-4Z9A4007.jpg",
+      "description": "Gặp lại Đặng ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0421",
+      "source_row": 421,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-69-4Z9A4827.JPG",
+      "description": "Gặp lại Phúc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0422",
+      "source_row": 422,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-70-4Z9A4456.JPG",
+      "description": "Gia đình Thành và Đạt tham dự lễ trao bằng khen của Viet Uc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0423",
+      "source_row": 423,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-72-4Z9A3917.jpg",
+      "description": "Gặp lại Thế Anh ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0424",
+      "source_row": 424,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-73-zalo31.jpg",
+      "description": "Thăm gia đình Siu Liêm ở KOn Tum"
+    },
+    {
+      "asset_id": "ARCH_0425",
+      "source_row": 425,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-74-T4N_0284.jpg",
+      "description": "Mẹ của Minh phát biểu cảm nghĩ tại buổi lễ ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0426",
+      "source_row": 426,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-75-T4N_0321.jpg",
+      "description": "Khanh Tam dịch cho Dad tại lễ  phát bằng khen Viet Uc HCM"
+    },
+    {
+      "asset_id": "ARCH_0427",
+      "source_row": 427,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-76-4Z9A4955.JPG",
+      "description": "Chúc mừng Linh và con gái Sung tại tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0428",
+      "source_row": 428,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-77-T4N_0172.jpg",
+      "description": "Niềm vui và tự hào của Dad ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0429",
+      "source_row": 429,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-78-zalo1.jpg",
+      "description": "Thăm gia đình Tuấn ở Bắc Giang"
+    },
+    {
+      "asset_id": "ARCH_0430",
+      "source_row": 430,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-79-T4N_0065.jpg",
+      "description": "Gặp lại Tú ở Tp HCM"
+    },
+    {
+      "asset_id": "ARCH_0431",
+      "source_row": 431,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-80-4Z9A4561.JPG",
+      "description": "Viet Uc party in Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0432",
+      "source_row": 432,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-81-4Z9A4905.JPG",
+      "description": "Gặp lại Huệ , Phương và Tiện ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0433",
+      "source_row": 433,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-83-4Z9A4695.JPG",
+      "description": "Chúc mừng buổi lễ gặp mặt Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0434",
+      "source_row": 434,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-84-4Z9A3938.jpg",
+      "description": "Gặp lại Linh ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0435",
+      "source_row": 435,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-85-T4N_9814.jpg",
+      "description": "Gặp Kiên và minh ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0436",
+      "source_row": 436,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-86-4Z9A4074.jpg",
+      "description": "Mr Quang tham dư tiệc Việt Úc Hà Mội"
+    },
+    {
+      "asset_id": "ARCH_0437",
+      "source_row": 437,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-88-4Z9A4569.JPG",
+      "description": "Chúc mừng đến phụ huynh và các vị khách mời Viet Uc Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0438",
+      "source_row": 438,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-89-4Z9A4736.JPG",
+      "description": "Gặp lại Độ ở tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0439",
+      "source_row": 439,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-90-4Z9A4572.JPG",
+      "description": "Chúc mừng các vị khách mời Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0440",
+      "source_row": 440,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-91-4Z9A4551.JPG",
+      "description": "Gặp lại Luân ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0441",
+      "source_row": 441,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-92-zalo8.jpg",
+      "description": "Thăm gia đình Best Ly ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0442",
+      "source_row": 442,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-93-T4N_0537.jpg",
+      "description": "Các chị em Việt úc tại buổi tiệc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0443",
+      "source_row": 443,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-94-T4N_0123.jpg",
+      "description": "Gặp An ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0444",
+      "source_row": 444,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-96-4Z9A4502.JPG",
+      "description": "Gặp lại Kiên và Tâm ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0445",
+      "source_row": 445,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-97-T4N_9964.jpg",
+      "description": "Gặp Trình và Tông ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0446",
+      "source_row": 446,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-98-4Z9A3899.jpg",
+      "description": "Gặp lại Chức ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0447",
+      "source_row": 447,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-99-4Z9A4935.JPG",
+      "description": "Chúc mừng con gái của Sung đỗ đại học"
+    },
+    {
+      "asset_id": "ARCH_0448",
+      "source_row": 448,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-100-4Z9A3886.jpg",
+      "description": "Ms Mừng tặng hoa chúc mừng Dad"
+    },
+    {
+      "asset_id": "ARCH_0449",
+      "source_row": 449,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-1-A vuongky.jpg",
+      "description": "Trao bằng khen cho A Vương Kỳ  ở Kon Tum Trao bằn"
+    },
+    {
+      "asset_id": "ARCH_0450",
+      "source_row": 450,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-7-A TRac.jpg",
+      "description": "Trao bằng khen cho A Trắc ở Kon Tum Trao bằn"
+    },
+    {
+      "asset_id": "ARCH_0451",
+      "source_row": 451,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-21-A TRi.jpg",
+      "description": "Trao bằng khen cho A Trí ở Kon Tum Trao bằn"
+    },
+    {
+      "asset_id": "ARCH_0452",
+      "source_row": 452,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-29-A Phao.jpg",
+      "description": "Trao bằng khen cho A Pháo ở Kon Tum Trao bằn"
+    },
+    {
+      "asset_id": "ARCH_0453",
+      "source_row": 453,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-62-A Quoc.jpg",
+      "description": "Trao bằng khen cho A Quốc ở Kon Tum Trao bằn"
+    },
+    {
+      "asset_id": "ARCH_0454",
+      "source_row": 454,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-71-A Bien.jpg",
+      "description": "Trao bằng khen cho A Biển ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0455",
+      "source_row": 455,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-95-A THi.jpg",
+      "description": "Trao bằng khen cho A .Thị ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0456",
+      "source_row": 456,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-101-zalo43.jpg",
+      "description": "Gặp gia đình Kiên và Sơn ở Pleiku"
+    },
+    {
+      "asset_id": "ARCH_0457",
+      "source_row": 457,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-102-4Z9A4439.JPG",
+      "description": "Thành viên Việt Úc ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0458",
+      "source_row": 458,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-103-T4N_0107.jpg",
+      "description": "Gặp trường ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0459",
+      "source_row": 459,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-104-zalo18.jpg",
+      "description": "Thăm gia đình KaLy Tran ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0460",
+      "source_row": 460,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-105-4Z9A3981.jpg",
+      "description": "Con gái Việt Úc chúc mừng Dad"
+    },
+    {
+      "asset_id": "ARCH_0461",
+      "source_row": 461,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-106-T4N_0133.jpg",
+      "description": "Chào đón anh Sơn đến tham dự tiệc việt úc in HCMC"
+    },
+    {
+      "asset_id": "ARCH_0462",
+      "source_row": 462,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-108-4Z9A4845.JPG",
+      "description": "Gặp lại Nụ ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0463",
+      "source_row": 463,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-109-zalo13.jpg",
+      "description": "Bữa tiệc nhỏ ngày thăm lại gia đình Ước Pleiku"
+    },
+    {
+      "asset_id": "ARCH_0464",
+      "source_row": 464,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-110-A mot bay.jpg",
+      "description": "Trao bằng khen cho Một Bảy ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0465",
+      "source_row": 465,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-111-A BA.jpg",
+      "description": "Trao bằng khen cho A Ba ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0466",
+      "source_row": 466,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-112-add4.jpg",
+      "description": "Thăm gia đình Tuấn ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0467",
+      "source_row": 467,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-113-zalo33.jpg",
+      "description": "Thăm gia đình Hoàng Lan và Diệu Khánh ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0468",
+      "source_row": 468,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-114-T4N_0716.jpg",
+      "description": "Phỏng vấn em Kiên tại buổi tiệc Việt Úc ở TP.HCM"
+    },
+    {
+      "asset_id": "ARCH_0469",
+      "source_row": 469,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-115-4Z9A4064.jpg",
+      "description": "Gặp lại Tuấn ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0470",
+      "source_row": 470,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-116-T4N_0871.jpg",
+      "description": "Ánh, Vân và Cường tham dự tiệc Việt Úc in HCMC"
+    },
+    {
+      "asset_id": "ARCH_0471",
+      "source_row": 471,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-118-4Z9A4464.JPG",
+      "description": "Chúc mừng Toàn tốt nghiệp ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0472",
+      "source_row": 472,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-119-4Z9A4794.JPG",
+      "description": "Lâm chúc mừng Dad ngày gặp mặt"
+    },
+    {
+      "asset_id": "ARCH_0473",
+      "source_row": 473,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-120-T4N_9880.jpg",
+      "description": "Các bạn lễ tân chào đón các thành viên tham dự tiệc Việt Úc in HCMC"
+    },
+    {
+      "asset_id": "ARCH_0474",
+      "source_row": 474,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-121-T4N_9903.jpg",
+      "description": "Chụp hình cùng Duy và Hoài HCMC"
+    },
+    {
+      "asset_id": "ARCH_0475",
+      "source_row": 475,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-122-4Z9A4230.jpg",
+      "description": "Linh dẫn chương trình buổi họp mặt ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0476",
+      "source_row": 476,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-123-4Z9A4259.jpg",
+      "description": "nh Cung phát biểu tại buổi lễ in Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0477",
+      "source_row": 477,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-124-4Z9A4619.JPG",
+      "description": "Nâng ly cùng các thành viên Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0478",
+      "source_row": 478,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-125-4Z9A4059.jpg",
+      "description": "Mr Tiệp cùng bố mẹ Thành dự tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0479",
+      "source_row": 479,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-126-T4N_0203.jpg",
+      "description": "Anh Cung phát biểu tại buổi lễ HCMC"
+    },
+    {
+      "asset_id": "ARCH_0480",
+      "source_row": 480,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-127-T4N_0863.jpg",
+      "description": "Gặp lại gia đình Hưng và Loan"
+    },
+    {
+      "asset_id": "ARCH_0481",
+      "source_row": 481,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-128-4Z9A4141.jpg",
+      "description": "Gia đình Thanh , Thư , Thế Anh và mẹ tại tiệc Việt Úc Hà Nội "
+    },
+    {
+      "asset_id": "ARCH_0482",
+      "source_row": 482,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-131-4Z9A4098.jpg",
+      "description": "Gặp Thảo ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0483",
+      "source_row": 483,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-132-T4N_9784.jpg",
+      "description": "Gặp Yến và Hưng ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0484",
+      "source_row": 484,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-134-zalo48.jpg",
+      "description": "Các thành viên Việt úc ở Đà Nẵng"
+    },
+    {
+      "asset_id": "ARCH_0485",
+      "source_row": 485,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-135-T4N_0070.jpg",
+      "description": "Gặp lại Mai ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0486",
+      "source_row": 486,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-136-A Lone.jpg",
+      "description": "Trao bằng khen cho Lơ Ne ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0487",
+      "source_row": 487,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-137-4Z9A4029.jpg",
+      "description": "Thêu , Tâm và Huệ dự tiệc Viêt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0488",
+      "source_row": 488,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-138-zalo40.jpg",
+      "description": "Thăm Y Liên và A Phi ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0489",
+      "source_row": 489,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-139-4Z9A4559.JPG",
+      "description": "Nhóm nhạc biểu diễn ở tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0490",
+      "source_row": 490,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-140-zalo7.jpg",
+      "description": "Thăm gia đình Si Ngôn và Rơ Ne ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0491",
+      "source_row": 491,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-141-T4N_0437.jpg",
+      "description": "Gặp lại Trang ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0492",
+      "source_row": 492,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-142-4Z9A4203.jpg",
+      "description": "Gặp lại Sơn ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0493",
+      "source_row": 493,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-143-T4N_0827.jpg",
+      "description": "Những vị khách quý tham dự tiệc Viet Uc HCMC"
+    },
+    {
+      "asset_id": "ARCH_0494",
+      "source_row": 494,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-144-4Z9A4494.JPG",
+      "description": "Chụp hình lưu niệm cùng Thảo ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0495",
+      "source_row": 495,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-145-T4N_0898.jpg",
+      "description": "Các thành viên Việt Úc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0496",
+      "source_row": 496,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-146-T4N_0471.jpg",
+      "description": "Chú Nam và anh Sơn tham dự tiệc việt úc HCMC"
+    },
+    {
+      "asset_id": "ARCH_0497",
+      "source_row": 497,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-147-zalo28.jpg",
+      "description": "Thăm gia đình Y Hoành ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0498",
+      "source_row": 498,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-148-4Z9A4421.JPG",
+      "description": "Trao bằng khen cho Phương ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0499",
+      "source_row": 499,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-149-4Z9A4950.JPG",
+      "description": "Gặp Linh và Lâm tiệc Việt Uc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0500",
+      "source_row": 500,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-150-T4N_0073.jpg",
+      "description": "Gặp lại Dũng ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0501",
+      "source_row": 501,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-151-T4N_0025.jpg",
+      "description": "Gặp Hoài ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0502",
+      "source_row": 502,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-152-zalo26.jpg",
+      "description": "Thăm gia đình Y Chúc ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0503",
+      "source_row": 503,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-153-A DENIS.jpg",
+      "description": "Trao bằng khen cho A Denis ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0504",
+      "source_row": 504,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-154-zalo44.jpg",
+      "description": "Gặp bố của Hưng ở Pleiku"
+    },
+    {
+      "asset_id": "ARCH_0505",
+      "source_row": 505,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-155-T4N_0726.jpg",
+      "description": "Chúc mừng các thành viên may mắn"
+    },
+    {
+      "asset_id": "ARCH_0506",
+      "source_row": 506,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-156-T4N_0856.jpg",
+      "description": "Gặp lại Mai ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0507",
+      "source_row": 507,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-158-4Z9A4116.jpg",
+      "description": "Gặp lại Hoán ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0508",
+      "source_row": 508,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-159-A HAI.jpg",
+      "description": "Trao bằng khen cho A Hải ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0509",
+      "source_row": 509,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-160-SIU KHam tien.jpg",
+      "description": "Trao bằng khen cho Siu Khăm Tiên ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0510",
+      "source_row": 510,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-162-T4N_0014.jpg",
+      "description": "Kim tặng Dad món quà lưu niệm"
+    },
+    {
+      "asset_id": "ARCH_0511",
+      "source_row": 511,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-163-T4N_0368.jpg",
+      "description": "Trao bằng khen cho Nam ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0512",
+      "source_row": 512,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-164-zalo17.jpg",
+      "description": "Thăm lớp dạy nhạc cụ dân tộc của Y Rưm"
+    },
+    {
+      "asset_id": "ARCH_0513",
+      "source_row": 513,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-166-4Z9A4855.JPG",
+      "description": "Gặp lại Tâm và Thảo ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0514",
+      "source_row": 514,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-167-T4N_9652.jpg",
+      "description": "Giây phút vui vẻ của Bình và Thúy"
+    },
+    {
+      "asset_id": "ARCH_0515",
+      "source_row": 515,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-168-4Z9A4597.JPG",
+      "description": "Ký , Độ và Tâm chúc mừng Dad "
+    },
+    {
+      "asset_id": "ARCH_0516",
+      "source_row": 516,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-169-zalo47.jpg",
+      "description": "Gặp lại Linh ở Đà Nẵng"
+    },
+    {
+      "asset_id": "ARCH_0517",
+      "source_row": 517,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-170-zalo25.jpg",
+      "description": "Thế Anh và Chức ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0518",
+      "source_row": 518,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-171-T4N_0294.jpg",
+      "description": "Minh cùng mẹ ở buổi tiệc Viet Uc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0519",
+      "source_row": 519,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-172-4Z9A4351.JPG",
+      "description": "Bố mẹ Thành tại buổi lễ phát bằng khen ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0520",
+      "source_row": 520,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-174-4Z9A3942.jpg",
+      "description": "Gặp lại Linh MC tại tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0521",
+      "source_row": 521,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-175-4Z9A4430.JPG",
+      "description": "Trao bằng khen cho Thế Anh , Phương , Toàn và Thành ở Hà Nội "
+    },
+    {
+      "asset_id": "ARCH_0522",
+      "source_row": 522,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-176-T4N_0018.jpg",
+      "description": "Gặp lại ba chị em Kim, Phú, Ân ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0523",
+      "source_row": 523,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-178-T4N_9936.jpg",
+      "description": "Gặp lại Hoàn ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0524",
+      "source_row": 524,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-179-T4N_0717.jpg",
+      "description": "Ly Wis giới thiệu tên của mình"
+    },
+    {
+      "asset_id": "ARCH_0525",
+      "source_row": 525,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-181-T4N_0171.jpg",
+      "description": "Yến đảm nhiệm MC dẫn chương trình ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0526",
+      "source_row": 526,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-182-4Z9A3903.jpg",
+      "description": "Gặp lại bố mẹ Thành và Đạt ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0527",
+      "source_row": 527,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-183-4Z9A4127.jpg",
+      "description": "Thế Anh chụp hình lưu niệm với Dad"
+    },
+    {
+      "asset_id": "ARCH_0528",
+      "source_row": 528,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-184-T4N_0058.jpg",
+      "description": "Gặp lại Cường ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0529",
+      "source_row": 529,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-185-T4N_0531.jpg",
+      "description": "Các thành viên Viet Uc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0530",
+      "source_row": 530,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-186-4Z9A3897.jpg",
+      "description": "Gặp lại Lợi ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0531",
+      "source_row": 531,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-187-T4N_0062.jpg",
+      "description": "Gặp lại Yến ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0532",
+      "source_row": 532,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-188-4Z9A4105.jpg",
+      "description": "Gặp lại Hưng ở tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0533",
+      "source_row": 533,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-189-zalo34.jpg",
+      "description": "Thăm gia đình A Quang, A An , Y Khia  ở Kon Tum "
+    },
+    {
+      "asset_id": "ARCH_0534",
+      "source_row": 534,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-190-4Z9A4004.jpg",
+      "description": "Thành viên Việt Úc và Mr Hà từ Phú Thái CAT"
+    },
+    {
+      "asset_id": "ARCH_0535",
+      "source_row": 535,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-192-add2.jpg",
+      "description": "Thăm gia đình Toán , Tình ở Nam Định "
+    },
+    {
+      "asset_id": "ARCH_0536",
+      "source_row": 536,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-193-T4N_9638.jpg",
+      "description": "Gặp Hào ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0537",
+      "source_row": 537,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-194-4Z9A4623.JPG",
+      "description": "Vợ chồng Quân - Thanh dự tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0538",
+      "source_row": 538,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-195-T4N_9780.jpg",
+      "description": "Gặp lại Thức ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0539",
+      "source_row": 539,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-196-4Z9A4128.jpg",
+      "description": "Welcome Mr Thông tham dự tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0540",
+      "source_row": 540,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-197-T4N_0287.jpg",
+      "description": "Chú Huy Nam và anh Sơn tham dự tiệc Viet uc ở TP.HCM"
+    },
+    {
+      "asset_id": "ARCH_0541",
+      "source_row": 541,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-198-4Z9A4071.jpg",
+      "description": "Gặp lại Thư ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0542",
+      "source_row": 542,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-199-4Z9A3919.jpg",
+      "description": "Độ , Huyền và Hiên tặng hoa cho Dad "
+    },
+    {
+      "asset_id": "ARCH_0543",
+      "source_row": 543,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-200-T4N_0035.jpg",
+      "description": "Gặp lại A Sầu ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0544",
+      "source_row": 544,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-201-T4N_0114.jpg",
+      "description": "Gặp lại Tuấn sau nhiều năm ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0545",
+      "source_row": 545,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-202-4Z9A3912.jpg",
+      "description": "Gặp lại Tráng ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0546",
+      "source_row": 546,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-203-4Z9A4240.jpg",
+      "description": "Ms Nhung từ Phú Thái CAT tham dự tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0547",
+      "source_row": 547,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-204-4Z9A3909.jpg",
+      "description": "Gặp lại Phương ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0548",
+      "source_row": 548,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-205-4Z9A4625.JPG",
+      "description": "Nhắc lại kỷ niệm gặp Vân Hằng lần đầu"
+    },
+    {
+      "asset_id": "ARCH_0549",
+      "source_row": 549,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-206-4Z9A4317.jpg",
+      "description": "Toàn và mẹ tại buổi lễ phát bằng khen ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0550",
+      "source_row": 550,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-207-4Z9A4824.JPG",
+      "description": "Gặp lại Thắng và Vương ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0551",
+      "source_row": 551,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-209-T4N_0457.jpg",
+      "description": "Tiệc Viet Uc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0552",
+      "source_row": 552,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-211-T4N_0104.jpg",
+      "description": "Gặp Tuấn ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0553",
+      "source_row": 553,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-213-4Z9A4448.JPG",
+      "description": "Phúc tặng hoa cho Dad ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0554",
+      "source_row": 554,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-214-4Z9A4176.jpg",
+      "description": "Chia sẻ với vợ chồng Quân và Thanh"
+    },
+    {
+      "asset_id": "ARCH_0555",
+      "source_row": 555,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-215-4Z9A4498.JPG",
+      "description": "Gặp lại Đởn và Tuấn ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0556",
+      "source_row": 556,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-216-zalo50.jpg",
+      "description": "Gặp Hưng ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0557",
+      "source_row": 557,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-217-zalo45.jpg",
+      "description": "Đám cưới Thêu ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0558",
+      "source_row": 558,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-218-4Z9A4821.JPG",
+      "description": "Gặp lại Chuyền , Vương và Thắng ở Hà Nội "
+    },
+    {
+      "asset_id": "ARCH_0559",
+      "source_row": 559,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-219-4Z9A4153.jpg",
+      "description": "Gặp lại Kiên ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0560",
+      "source_row": 560,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-220-T4N_9679.jpg",
+      "description": "Y Uy và Y Linh tham dự tiệc Việt Úc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0561",
+      "source_row": 561,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-221-T4N_9996.jpg",
+      "description": "Chụp hình lưu niệm cùng Nam"
+    },
+    {
+      "asset_id": "ARCH_0562",
+      "source_row": 562,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-222-T4N_9978.jpg",
+      "description": "Khoảng khắc vui vẻ của Dad"
+    },
+    {
+      "asset_id": "ARCH_0563",
+      "source_row": 563,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-223-T4N_0495.jpg",
+      "description": "Tiệc Viet uc family ỏ HCMC"
+    },
+    {
+      "asset_id": "ARCH_0564",
+      "source_row": 564,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-224-T4N_9810.jpg",
+      "description": "Y Linh, Y Uy, Ly Bloy  tham dự tiệc Việt Úc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0565",
+      "source_row": 565,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-225-4Z9A4110.jpg",
+      "description": "Gặp lại Hoán ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0566",
+      "source_row": 566,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-226-T4N_0005.jpg",
+      "description": "Gặp lại Phú ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0567",
+      "source_row": 567,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-227-T4N_0051.jpg",
+      "description": "Gặp lại Nguyện cùng thành viên mới công ty SDT&S"
+    },
+    {
+      "asset_id": "ARCH_0568",
+      "source_row": 568,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-228-add7.jpg",
+      "description": "Thăm gia đình Đức ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0569",
+      "source_row": 569,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-229-4Z9A4192.jpg",
+      "description": "Gặp lại Phúc và Cam ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0570",
+      "source_row": 570,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-230-T4N_9985.jpg",
+      "description": "Gặp lại Lan ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0571",
+      "source_row": 571,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-231-T4N_0449.jpg",
+      "description": "Thức và Cường giao lưu cùng các vị khách"
+    },
+    {
+      "asset_id": "ARCH_0572",
+      "source_row": 572,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-232-zalo4.jpg",
+      "description": "Thăm gia đình Thế Anh ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0573",
+      "source_row": 573,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-233-4Z9A4515.JPG",
+      "description": "Gặp Kiên và Phúc tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0574",
+      "source_row": 574,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-235-4Z9A4909.JPG",
+      "description": "Chụp hình lưu niệm Tiện với Dad"
+    },
+    {
+      "asset_id": "ARCH_0575",
+      "source_row": 575,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-236-T4N_0160.jpg",
+      "description": "Anh Sơn cùng gia đình tại buổi tiệc Việt Úc HCMC"
+    },
+    {
+      "asset_id": "ARCH_0576",
+      "source_row": 576,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-237-T4N_0814.jpg",
+      "description": "Kết nối và gắn kết Viet Uc family"
+    },
+    {
+      "asset_id": "ARCH_0577",
+      "source_row": 577,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-238-4Z9A4119.jpg",
+      "description": "Thế Anh và mẹ tại buổi lễ trao bằng khen ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0578",
+      "source_row": 578,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-239-T4N_0067.jpg",
+      "description": "Gặp lại Hoài ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0579",
+      "source_row": 579,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-240-T4N_9955.jpg",
+      "description": "Gặp lại Nga sau nhiều năm ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0580",
+      "source_row": 580,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-242-4Z9A4023.jpg",
+      "description": "Gặp lại Thái ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0581",
+      "source_row": 581,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-243-A QUANG.jpg",
+      "description": "Trao bằng khen cho A Quang ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0582",
+      "source_row": 582,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-244-zalo19.jpg",
+      "description": "Thăm gia đình  KaLy Tran ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0583",
+      "source_row": 583,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-245-4Z9A4547.JPG",
+      "description": "Gặp lại Thịnh ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0584",
+      "source_row": 584,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-246-T4N_0082.jpg",
+      "description": "Gặp lại Hậu ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0585",
+      "source_row": 585,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-247-4Z9A4033.jpg",
+      "description": "Welcom Mr Tiệp tham dự tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0586",
+      "source_row": 586,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-248-4Z9A4486.JPG",
+      "description": "Gia đình Thế Anh tại lễ trao bằng khen ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0587",
+      "source_row": 587,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-250-T4N_0748.jpg",
+      "description": "Chúc mừng Hưng với phần quà may mắn"
+    },
+    {
+      "asset_id": "ARCH_0588",
+      "source_row": 588,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-252-T4N_9643.jpg",
+      "description": "Gặp lại Thức sau nhiều năm ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0589",
+      "source_row": 589,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-254-4Z9A4738.JPG",
+      "description": "Gặp lại Ký , Độ và Tường ở Hà Nội "
+    },
+    {
+      "asset_id": "ARCH_0590",
+      "source_row": 590,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-255-4Z9A4539.JPG",
+      "description": "Thành viên Việt Úc Yên Trị dự tiệc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0591",
+      "source_row": 591,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-256-T4N_0118.jpg",
+      "description": "Gặp lại Tuân ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0592",
+      "source_row": 592,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-257-T4N_9582.jpg",
+      "description": "Anh em Hoàng và Hà ở tiệc Việt Úc HCMC"
+    },
+    {
+      "asset_id": "ARCH_0593",
+      "source_row": 593,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-262-T4N_0416.jpg",
+      "description": "Tất cả thành viên chụp hình kỷ niệm ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0594",
+      "source_row": 594,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-264-T4N_0803.jpg",
+      "description": "Khoảng khắc cùng nhau hát Nối vòng tay lớn"
+    },
+    {
+      "asset_id": "ARCH_0595",
+      "source_row": 595,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-265-T4N_0010.jpg",
+      "description": "Kim chụp hình lưu niệm cùng anh Cung"
+    },
+    {
+      "asset_id": "ARCH_0596",
+      "source_row": 596,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-266-T4N_0893.jpg",
+      "description": "Các thành viên thanh dự tiệc Việt Úc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0597",
+      "source_row": 597,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-267-4Z9A4814.JPG",
+      "description": "Gặp lại Linh và Việt ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0598",
+      "source_row": 598,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-268-4Z9A4131.jpg",
+      "description": "Nhóm nhạc ở tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0599",
+      "source_row": 599,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-269-4Z9A3955.jpg",
+      "description": "Chào mừng Mr Hà dự tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0600",
+      "source_row": 600,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-270-4Z9A4537.JPG",
+      "description": "Tiện , Phương và Huệ ở tiệc Việt Úc Hà Nội "
+    },
+    {
+      "asset_id": "ARCH_0601",
+      "source_row": 601,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-271-T4N_0891.jpg",
+      "description": "Gặp Lan và Hằng ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0602",
+      "source_row": 602,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-273-zalo3.jpg",
+      "description": "Gặp lại Dr Hiền ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0603",
+      "source_row": 603,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-274-4Z9A3970.jpg",
+      "description": "Nhóm nhạc và ca sĩ tại tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0604",
+      "source_row": 604,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-275-T4N_9941.jpg",
+      "description": "Gặp Lan ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0605",
+      "source_row": 605,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-276-4Z9A4037.jpg",
+      "description": "Welcome Mr Tiệp dự Việt Úc party Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0606",
+      "source_row": 606,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-277-T4N_0007.jpg",
+      "description": "Gặp Hoàng ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0607",
+      "source_row": 607,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-279-T4N_9763.jpg",
+      "description": "Gặp Thúy, Yến và Bình ở TPHCM"
+    },
+    {
+      "asset_id": "ARCH_0608",
+      "source_row": 608,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-280-zalo38.jpg",
+      "description": "Thăm gia đình Y Phương ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0609",
+      "source_row": 609,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-281-T4N_9799.jpg",
+      "description": "Gặp Hải ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0610",
+      "source_row": 610,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-282-4Z9A3906.jpg",
+      "description": "Gặp lại Chuyền ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0611",
+      "source_row": 611,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-283-add5.jpg",
+      "description": "Thăm gia đình Tuyền ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0612",
+      "source_row": 612,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-284-4Z9A4216.jpg",
+      "description": "Gặp lại Tuyên ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0613",
+      "source_row": 613,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-285-T4N_9825.jpg",
+      "description": "Gặp lại Hải ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0614",
+      "source_row": 614,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-286-T4N_0111.jpg",
+      "description": "Chụp hình lưu niệm cùng Hà"
+    },
+    {
+      "asset_id": "ARCH_0615",
+      "source_row": 615,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-287-T4N_0384.jpg",
+      "description": "Trao bằng khen cho Y Linh ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0616",
+      "source_row": 616,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-289-4Z9A4521.JPG",
+      "description": "Gặp Dương và Đặng ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0617",
+      "source_row": 617,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-290-zalo42.jpg",
+      "description": "Thăm gia đình Ước ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0618",
+      "source_row": 618,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-291-T4N_0865.jpg",
+      "description": "Con trai của Hưng và Loan (Cả 2 đều là thành viên Việt Úc)"
+    },
+    {
+      "asset_id": "ARCH_0619",
+      "source_row": 619,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-292-4Z9A4525.JPG",
+      "description": "Nhóm Viêt Úc Thanh Hóa tham dự meeting ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0620",
+      "source_row": 620,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-293-T4N_9672.jpg",
+      "description": "Y Uy và Y Linh nhận áo đồng phục việt úc"
+    },
+    {
+      "asset_id": "ARCH_0621",
+      "source_row": 621,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-294-T4N_9580.jpg",
+      "description": "Hà chụp hình lưu niệm ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0622",
+      "source_row": 622,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-295-4Z9A4093.jpg",
+      "description": "Gặp lại Thảo ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0623",
+      "source_row": 623,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-296-4Z9A4685.JPG",
+      "description": "Linh với vợ chồng Quân - Thanh ở tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0624",
+      "source_row": 624,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-298-T4N_0042.jpg",
+      "description": "Gặp lại Tùng ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0625",
+      "source_row": 625,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-299-4Z9A4505.JPG",
+      "description": "Chụp hình lưu niệm với mẹ Toàn"
+    },
+    {
+      "asset_id": "ARCH_0626",
+      "source_row": 626,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-300-4Z9A3914.jpg",
+      "description": "Gặp lại Ất ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0627",
+      "source_row": 627,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-301-4Z9A4509.JPG",
+      "description": "Chúc mừng Toàn tốt nghiệp"
+    },
+    {
+      "asset_id": "ARCH_0628",
+      "source_row": 628,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-302-T4N_0312.jpg",
+      "description": "Khánh Tâm dịch cho Dad ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0629",
+      "source_row": 629,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-304-zalo22.jpg",
+      "description": "Thăm gia đình Ri Ta ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0630",
+      "source_row": 630,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-305-T4N_0844.jpg",
+      "description": "Gặp lại Hà và Nam ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0631",
+      "source_row": 631,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-306-4Z9A4428.JPG",
+      "description": "Trao bằng khen tốt nghiệp cho Toàn"
+    },
+    {
+      "asset_id": "ARCH_0632",
+      "source_row": 632,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-307-T4N_0540.jpg",
+      "description": "Chúc mừng ngày họp mặt Viet Uc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0633",
+      "source_row": 633,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-308-T4N_0528.jpg",
+      "description": "Chúc mừng ngày họp mặt Viet Uc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0634",
+      "source_row": 634,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-309-4Z9A3921.jpg",
+      "description": "Gặp lại  Độ , Huyền và Hiên ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0635",
+      "source_row": 635,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-310-4Z9A4158.jpg",
+      "description": "Gặp lại Phúc tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0636",
+      "source_row": 636,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-311-4Z9A4490.JPG",
+      "description": "Chụp hình lưu niệm với Quân và Thanh"
+    },
+    {
+      "asset_id": "ARCH_0637",
+      "source_row": 637,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-312-T4N_0084.jpg",
+      "description": "Trò chuyện cùng Nguyện và Cường tại tiệc Viet Uc HCMC"
+    },
+    {
+      "asset_id": "ARCH_0638",
+      "source_row": 638,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-313-4Z9A4224.jpg",
+      "description": "Việt Úc meeting in Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0639",
+      "source_row": 639,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-314-T4N_0764.jpg",
+      "description": "Anh Cung trao quà cho con gái Khánh Tâm"
+    },
+    {
+      "asset_id": "ARCH_0640",
+      "source_row": 640,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-315-T4N_9899.jpg",
+      "description": "Gặp lại hai chị em Ngọc Anh và Ngọc Ánh ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0641",
+      "source_row": 641,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-316-4Z9A4675.JPG",
+      "description": "Khiêu vũ với ca sỹ Hải Anh in Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0642",
+      "source_row": 642,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-320-T4N_0439.jpg",
+      "description": "Chúc mừng ngày họp mặt ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0643",
+      "source_row": 643,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-321-zalo37.jpg",
+      "description": "Thăm A Khách ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0644",
+      "source_row": 644,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-322-4Z9A3950.jpg",
+      "description": "Gặp Việt ở tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0645",
+      "source_row": 645,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-323-zalo29.jpg",
+      "description": "Thăm gia đình Siu Liêm ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0646",
+      "source_row": 646,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-324-zalo39.jpg",
+      "description": "Thăm Y Liên và A Phi ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0647",
+      "source_row": 647,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-326-zalo21.jpg",
+      "description": "Thăm gia đình A Lis ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0648",
+      "source_row": 648,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-327-zalo15.jpg",
+      "description": "Gặp lại A Nhật ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0649",
+      "source_row": 649,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-328-4Z9A4641.JPG",
+      "description": "Mr Hà và Mr Thông tại tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0650",
+      "source_row": 650,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-329-zalo12.jpg",
+      "description": "Chức và Thế Anh thăm Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0651",
+      "source_row": 651,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-330-T4N_0769.jpg",
+      "description": "Chúc mừng con gái anh Cung với phần quà may mắn"
+    },
+    {
+      "asset_id": "ARCH_0652",
+      "source_row": 652,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-331-T4N_0130.jpg",
+      "description": "Chúc mừng Y Linh và Nam tại buổi lễ trao bằng khen Việt Uc HCM"
+    },
+    {
+      "asset_id": "ARCH_0653",
+      "source_row": 653,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-332-T4N_9917.jpg",
+      "description": "Gặp lại Trình ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0654",
+      "source_row": 654,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-333-zalo5.jpg",
+      "description": "Thăm gia đình Đặng khám bệnh cho baby Nhân ở Singapore"
+    },
+    {
+      "asset_id": "ARCH_0655",
+      "source_row": 655,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-334-T4N_0075.jpg",
+      "description": "Gặp lại Dũng ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0656",
+      "source_row": 656,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-335-4Z9A3924.jpg",
+      "description": "Gặp lại Mừng và Chuyền ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0657",
+      "source_row": 657,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-336-zalo10.jpg",
+      "description": "Thăm gia đình Siu Toại ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0658",
+      "source_row": 658,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-337-T4N_0682.jpg",
+      "description": "Chúc mừng sinh nhật Thanh An ở tiệc Việt Úc HCMC"
+    },
+    {
+      "asset_id": "ARCH_0659",
+      "source_row": 659,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-338-T4N_0680.jpg",
+      "description": "Chúc mừng sinh nhật Thanh An ở tiệc Việt Úc HCMC"
+    },
+    {
+      "asset_id": "ARCH_0660",
+      "source_row": 660,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-339-4Z9A4913.JPG",
+      "description": "Phương chụp hình lưu niệm với Dad ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0661",
+      "source_row": 661,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-340-zalo27.jpg",
+      "description": "Thăm gia đình Y Chúc ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0662",
+      "source_row": 662,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-341-4Z9A4282.jpg",
+      "description": "Việt Úc meeting ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0663",
+      "source_row": 663,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-342-T4N_0886.jpg",
+      "description": "Gặp thành viên Việt Úc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0664",
+      "source_row": 664,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-343-T4N_9721.jpg",
+      "description": "Gặp lại Kiên ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0665",
+      "source_row": 665,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-345-T4N_9923.jpg",
+      "description": "Nhiên có lần đầu tham dự tiệc họp mặt Viet Uc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0666",
+      "source_row": 666,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-346-add1.jpg",
+      "description": "Thăm mẹ Huy ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0667",
+      "source_row": 667,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-347-T4N_0176.jpg",
+      "description": "Anh Mai Sơn, một người bạn thân của Viet Uc"
+    },
+    {
+      "asset_id": "ARCH_0668",
+      "source_row": 668,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-349-T4N_0079.jpg",
+      "description": "Gặp lại Thắng ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0669",
+      "source_row": 669,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-350-add3.jpg",
+      "description": "Thăm gia đình Tuyền ở Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0670",
+      "source_row": 670,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-351-4Z9A3932.jpg",
+      "description": "Gặp lại Hiên và Huyền ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0671",
+      "source_row": 671,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-352-4Z9A4422.JPG",
+      "description": "Trao bằng khen cho Thành ở Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0672",
+      "source_row": 672,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-354-zalo23.jpg",
+      "description": "Thăm gia đình Toàn ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0673",
+      "source_row": 673,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-355-4Z9A3968.jpg",
+      "description": " Tâm , Huệ và Phương gặp mặt tại Hà Nội "
+    },
+    {
+      "asset_id": "ARCH_0674",
+      "source_row": 674,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-356-T4N_9977.jpg",
+      "description": "Các anh chị em Việt Úc cùng quê Nam Định"
+    },
+    {
+      "asset_id": "ARCH_0675",
+      "source_row": 675,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-357-zalo6.jpg",
+      "description": "Thăm gia đình Siu Nhung ở Kon Tum"
+    },
+    {
+      "asset_id": "ARCH_0676",
+      "source_row": 676,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-358-T4N_0710.jpg",
+      "description": "Chúc mừng các thành viên được nhận quà may mắn"
+    },
+    {
+      "asset_id": "ARCH_0677",
+      "source_row": 677,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-359-T4N_0092.jpg",
+      "description": "Gặp lại Yến và Vũ ở tiệc Việt Úc HCMC"
+    },
+    {
+      "asset_id": "ARCH_0678",
+      "source_row": 678,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-360-4Z9A4701.JPG",
+      "description": "Trang , Ánh và Huệ dự tiệc Việt Úc ở Hà Nội "
+    },
+    {
+      "asset_id": "ARCH_0679",
+      "source_row": 679,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-361-T4N_9659.jpg",
+      "description": "Bình, Hưng và Thúy hỗ trợ tặng Áo Việt Úc"
+    },
+    {
+      "asset_id": "ARCH_0680",
+      "source_row": 680,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-362-4Z9A4661.JPG",
+      "description": "Mr Hà và Mr Thông dự tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0681",
+      "source_row": 681,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-363-4Z9A4091.jpg",
+      "description": "Mr Tiệp và bố của Thành tại tiệc Việt Úc Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0682",
+      "source_row": 682,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-364-T4N_0879.jpg",
+      "description": "Gặp thành viên Việt Úc ở HCMC"
+    },
+    {
+      "asset_id": "ARCH_0683",
+      "source_row": 683,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/2026-365-T4N_9929.jpg",
+      "description": "Gặp lại Hùng ở tiệc Việt Úc HCMC"
+    },
+    {
+      "asset_id": "ARCH_0684",
+      "source_row": 684,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/1234.jpg",
+      "description": "Thăm gia đình Ngọc Ánh ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0685",
+      "source_row": 685,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/101234.jpg",
+      "description": "Thăm gia đình Thà , Huy ở Thanh Hóa "
+    },
+    {
+      "asset_id": "ARCH_0686",
+      "source_row": 686,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/10122.jpg",
+      "description": "Thăm gia đình Đặng ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0687",
+      "source_row": 687,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/10121.jpg",
+      "description": "Thăm gia đình Ngọc Ánh ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0688",
+      "source_row": 688,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/10123.jpg",
+      "description": "Thăm gia đình Đặng ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0689",
+      "source_row": 689,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/101211.jpg",
+      "description": "Thăm gia đình Trang ở Thanh Hóa"
+    },
+    {
+      "asset_id": "ARCH_0690",
+      "source_row": 690,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/1012322.jpg",
+      "description": "Đám cưới Nguyễn Hà ở Đồng Nai"
+    },
+    {
+      "asset_id": "ARCH_0691",
+      "source_row": 691,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/123.jpg",
+      "description": "Buổi tối chơi trung thu của Gia đình Toàn ở Vĩnh Long"
+    },
+    {
+      "asset_id": "ARCH_0692",
+      "source_row": 692,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/a123.jpg",
+      "description": "Hai mẹ con Phúc ở vườn hoa Hà Nội"
+    },
+    {
+      "asset_id": "ARCH_0693",
+      "source_row": 693,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Xuyen family in Ho Chi Minh city.jpg",
+      "description": "Xuyen family in Ho Chi Minh city"
+    },
+    {
+      "asset_id": "ARCH_0694",
+      "source_row": 694,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Y Gon family in KonTum.jpg",
+      "description": "Y Gon family in KonTum"
+    },
+    {
+      "asset_id": "ARCH_0695",
+      "source_row": 695,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Thuy family in Quang Nam.jpg",
+      "description": "Thuy family in Quang Nam"
+    },
+    {
+      "asset_id": "ARCH_0696",
+      "source_row": 696,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Toan from Vinh Long celebrated Mid-Autumn Festival with his family.jpg",
+      "description": "Toan from Vinh Long celebrated Mid-Autumn Festival with his family"
+    },
+    {
+      "asset_id": "ARCH_0697",
+      "source_row": 697,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Linh family in Nam Dinh.jpg",
+      "description": "Linh family in Nam Dinh"
+    },
+    {
+      "asset_id": "ARCH_0698",
+      "source_row": 698,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Mai visited her mother and paternal grandmother in Thanh Hoa.jpg",
+      "description": "Mai visited her mother and paternal grandmother in Thanh Hoa"
+    },
+    {
+      "asset_id": "ARCH_0699",
+      "source_row": 699,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Quynh family in Ha Noi.jpg",
+      "description": "Quynh family in Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0700",
+      "source_row": 700,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Siu Liem Family in Kontum.jpg",
+      "description": "Siu Liem Family in Kontum"
+    },
+    {
+      "asset_id": "ARCH_0701",
+      "source_row": 701,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Oanh is currenly living in Ha Noi.jpg",
+      "description": "Oanh is currenly living in Ha Noi"
+    },
+    {
+      "asset_id": "ARCH_0702",
+      "source_row": 702,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Linh family is currenly living in Hai Phong.jpg",
+      "description": "Linh family is currenly living in Hai Phong"
+    },
+    {
+      "asset_id": "ARCH_0703",
+      "source_row": 703,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Nhung visited Mang Den - KonTum.jpg",
+      "description": "Nhung visited Mang Den - KonTum"
+    },
+    {
+      "asset_id": "ARCH_0704",
+      "source_row": 704,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Doctor Kieu is currenly working in Nghe An.jpg",
+      "description": "Doctor Kieu is currenly working in Nghe An"
+    },
+    {
+      "asset_id": "ARCH_0705",
+      "source_row": 705,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Chuc family in Nam Dinh.jpg",
+      "description": "Chuc family in Nam Dinh"
+    },
+    {
+      "asset_id": "ARCH_0706",
+      "source_row": 706,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Hao family in Tam Dao - Vinh Phuc.jpg",
+      "description": "Hao family in Tam Dao - Vinh Phuc"
+    },
+    {
+      "asset_id": "ARCH_0707",
+      "source_row": 707,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Chanh played games after working time in Singapore.jpg",
+      "description": "Chanh played games after working time in Singapore"
+    },
+    {
+      "asset_id": "ARCH_0708",
+      "source_row": 708,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Doctor Tham visited Da Nang.jpg",
+      "description": "Doctor Tham visited Da Nang"
+    },
+    {
+      "asset_id": "ARCH_0709",
+      "source_row": 709,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/A Hen family in Kontum.jpg",
+      "description": "A Hen family in Kontum"
+    },
+    {
+      "asset_id": "ARCH_0710",
+      "source_row": 710,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Dad visisted Phuc and Phu in Ho Chi Minh city.jpg",
+      "description": "Dad visisted Phuc and Phu in Ho Chi Minh city"
+    },
+    {
+      "asset_id": "ARCH_0711",
+      "source_row": 711,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Happy Tet from Son family in Thanh Hoa -2025.jpg",
+      "description": "Happy Tet from Son family in Thanh Hoa -2025"
+    },
+    {
+      "asset_id": "ARCH_0712",
+      "source_row": 712,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Congratulations to Nen on welcoming a new baby.jpg",
+      "description": "Congratulations to Nen on welcoming a new baby"
+    },
+    {
+      "asset_id": "ARCH_0713",
+      "source_row": 713,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Dad visisted A Bao family in Kontum.jpg",
+      "description": "Dad visisted A Bao family in Kontum"
+    },
+    {
+      "asset_id": "ARCH_0714",
+      "source_row": 714,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/A Thanh Long family in Kontum.jpg",
+      "description": "A Thanh Long family in Kontum"
+    },
+    {
+      "asset_id": "ARCH_0715",
+      "source_row": 715,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Dad visited E Lis family in Kontum.jpg",
+      "description": "Dad visited E Lis family in Kontum"
+    },
+    {
+      "asset_id": "ARCH_0716",
+      "source_row": 716,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Phuong family trip to Japan.jpg",
+      "description": "Phuong family’s trip to Japan"
+    },
+    {
+      "asset_id": "ARCH_0717",
+      "source_row": 717,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Mai family Christmas event Ho Chi Minh City.jpg",
+      "description": "Mai family Christmas event – Ho Chi Minh City"
+    },
+    {
+      "asset_id": "ARCH_0718",
+      "source_row": 718,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Lai family went to church  USA.jpg",
+      "description": "Lai family went to church - USA"
+    },
+    {
+      "asset_id": "ARCH_0719",
+      "source_row": 719,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Teacher Thuy is currenly living in Vinh city Nghe An.jpg",
+      "description": "Teacher Thuy is currenly living in Vinh city - Nghe An"
+    },
+    {
+      "asset_id": "ARCH_0720",
+      "source_row": 720,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Nhung visited Mang Den  KonTum.jpg",
+      "description": "Nhung visited Mang Den - KonTum"
+    },
+    {
+      "asset_id": "ARCH_0721",
+      "source_row": 721,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Hao family in Tam Dao Vinh Phuc.jpg",
+      "description": "Hao family in Tam Dao - Vinh Phuc"
+    },
+    {
+      "asset_id": "ARCH_0722",
+      "source_row": 722,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Happy Tet from Son family in Thanh Hoa 2025.jpg",
+      "description": "Happy Tet from Son family in Thanh Hoa -2025"
+    },
+    {
+      "asset_id": "ARCH_0723",
+      "source_row": 723,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Celebrating Phuong father 70th birthday in Thanh Hoa.jpg",
+      "description": "Celebrating Phuong father’s 70th birthday in Thanh Hoa"
+    },
+    {
+      "asset_id": "ARCH_0724",
+      "source_row": 724,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Chanh played games after working time in Singapore copy.jpg",
+      "description": "Chanh played games after working time in Singapore"
+    },
+    {
+      "asset_id": "ARCH_0725",
+      "source_row": 725,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Congratulations to Nen on welcoming a new baby copy.jpg",
+      "description": "Congratulations to Nen on welcoming a new baby"
+    },
+    {
+      "asset_id": "ARCH_0726",
+      "source_row": 726,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Thuy family in Quang Nam copy.jpg",
+      "description": "Thuy family in Quang Nam"
+    },
+    {
+      "asset_id": "ARCH_0727",
+      "source_row": 727,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Linh family is currenly living in Hai Phong copy.jpg",
+      "description": "Linh family is currenly living in Hai Phong"
+    },
+    {
+      "asset_id": "ARCH_0728",
+      "source_row": 728,
+      "image_url": "https://api.vietucfamily.org/storage/v1/object/public/VUF/images/Linh family Christmas event Bao Loc City copy.jpg",
+      "description": "Linh family Christmas event Bao Loc City"
+    }
+  ]
+}

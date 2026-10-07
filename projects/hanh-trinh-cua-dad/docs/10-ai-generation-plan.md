@@ -1,94 +1,158 @@
-# 10 — AI Generation Plan v01
+# 10 — AI Generation Plan v03
 
-## Principle
+## Production principle
 
-AI supports the edit. It does not invent Dad's biography.
+The archive is now rich enough that **AI should not carry the factual history**.
 
-## Asset preparation before generation
+AI is used where it adds controlled visual value:
+- fictional comedy;
+- motion support;
+- transitions;
+- subtle animation of approved Dad photos.
 
-Required:
-1. approved Dad portrait(s);
-2. any younger-Dad photos if available;
-3. approved family/project images;
-4. real Vietnam-context images if available;
-5. real website capture;
-6. optional Dad voice recording.
+## Available asset layers
 
-## Shot routing
+### Dad references
 
-### Real-photo / documentary shots
+`assets/dad/reference-manifest.json`
 
-S01_SH01, S03_SH02, S04_SH01, S04_SH02:
-- real photo/footage first;
-- subtle I2V only if needed;
-- low motion complexity;
-- preserve Dad's face.
+- DAD_REF_02 = primary face identity reference.
+- DAD_REF_01 = primary cutout/upper-body reference.
 
-### Motion-graphics shots
+### Archive catalog
 
-S01_SH02, S01_SH04, S01_SH05, S03_SH03:
-- After Effects/Resolve/Fusion/ComfyUI-assisted still elements;
-- AI video not required.
+728 image URLs:
+- `assets/catalog/image_urls_descriptions.csv`
+- `assets/catalog/image_catalog.json`
 
-### Comedy AI/collage shots
+### Archive-to-shot plan
 
-S01_SH03, S02_SH03:
-- create approved still frame first;
-- use Dad face reference/cutout;
-- stylized kangaroo/buffalo;
-- animate minimally;
-- 5–8 second sources.
+`docs/13-asset-to-shot-map.md`
 
-Do not generate a realistic fistfight.
+## Render routing by shot
 
-### Vietnam montage
+### S01_SH01 — Dad hero
 
-S02_SH02, S03_SH01:
-priority:
-1. real project footage;
-2. licensed stock;
-3. AI only for non-factual atmospheric inserts clearly not presented as historical documentation.
+Preferred:
+- real still + motion graphics.
 
-### Final talking-head
+Optional:
+- very subtle I2V breathing/head micro-motion only if face remains stable.
 
-S04_SH03:
-1. live recording;
-2. real photo + real voice;
-3. lip-sync fallback.
+Do not synthesize speech.
 
-## Dad identity QC
+### S01_SH02 — kangaroo
 
-A generation fails if:
-- Dad becomes a different person;
-- face changes mid-clip;
-- age changes without narrative intent/reference;
-- eyes/teeth/mouth become distracting;
-- facial shape is over-beautified.
+Preferred:
+- build one approved still composition first;
+- Dad as real cutout;
+- kangaroo stylized;
+- animate layers in editor or I2V.
 
-## Humor-generation rule
+Source duration: 5–8s.
 
-For fictional gags, add graphic labels such as:
+Avoid:
+- realistic punching;
+- complex hand interaction;
+- photoreal violence.
 
-**TÁI HIỆN KHÔNG ĐÁNG TIN**
+### S01_SH03 — buffalo
 
-or
+Same strategy:
+- stylized still first;
+- motion minimal;
+- fight never happens.
 
-**PHIÊN BẢN ĐIỆN ẢNH**
+Source duration: 5–10s.
 
-This protects the film's documentary credibility.
+### S02–S05 factual history
 
-## Model selection
+Primary tools:
+- real archive;
+- maps;
+- typography;
+- timeline;
+- diagrams;
+- 2.5D parallax.
 
-Do not lock vendor yet.
+AI-generated photoreal reenactment is **not needed**.
 
-When generating:
-- verify current duration/reference/first-last-frame capabilities;
-- use 5–10 second modular sources where appropriate;
-- record model/version/prompt/reference/attempt ID;
-- store selected attempt through `SELECT.json`.
+## Dad likeness acceptance
+
+Reject if:
+- glasses disappear/change shape substantially;
+- face becomes narrower/wider;
+- eyes become inconsistent;
+- age shifts;
+- teeth/mouth artifacts become prominent;
+- skin becomes plastic;
+- identity changes between frames.
+
+If I2V fails:
+1. use static photo;
+2. add editor-driven parallax;
+3. animate background/text only;
+4. do not keep regenerating just to force face motion.
+
+## Prompt package — fictional kangaroo
+
+Model-neutral intent:
+
+```
+A deliberately stylized editorial collage. Use the supplied Dad reference as a clean recognizable photo cutout on the left, wearing his formal suit. On the right, a kangaroo posed like an exaggerated boxing contender. Flat paper layers, bold sports-poster composition, playful but respectful, clearly fictional. Minimal motion only: slight paper bounce, kangaroo shifts weight, small camera push. No punches, no injury, no face transformation.
+```
+
+## Prompt package — fictional buffalo
+
+```
+A playful retro-game editorial collage set in a stylized Vietnam-inspired graphic landscape, not a documentary reconstruction. Use the supplied Dad photo cutout, recognizable face and glasses, facing a calm buffalo introduced like a humorous final boss. Dad adjusts imaginary boxing gloves. The buffalo slowly turns its head. Freeze before any fight. Minimal camera motion, strong readable composition, clearly fictional.
+```
+
+## Image-to-video rule
+
+If the input image already contains Dad/composition:
+- prompt motion, not appearance;
+- keep camera simple;
+- one primary action;
+- do not restate Dad's face in ways that compete with the reference.
+
+## Generation metadata
+
+Every attempt records:
+- shot_id;
+- attempt_id;
+- model/version;
+- mode;
+- source reference IDs;
+- prompt;
+- duration;
+- aspect;
+- seed if exposed;
+- output URI;
+- QC result.
+
+## Archive download
+
+The catalog URLs are acquisition sources.
+
+Before final edit:
+- download selected archive images into canonical project media storage;
+- hash them;
+- store durable artifact URIs;
+- do not depend on website API URLs forever.
 
 ## Website
 
-Never ask an image/video model to reproduce the website.
+Capture the real website.
 
-Capture actual website/browser when it is available.
+Never generate fake UI/text with an image model.
+
+## Status
+
+**AI concept generation can begin.**
+
+**Final video rendering should wait until:**
+- durable media storage is configured;
+- selected archive images are fetched/QC'd;
+- Dad refs are uploaded to durable storage;
+- exact target AI/video model is chosen.

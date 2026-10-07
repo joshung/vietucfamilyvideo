@@ -3,60 +3,93 @@
 **Project ID:** VUF_DAD_001  
 **Working title:** *Dad Stevenson: định chinh phục Việt Nam, rồi Việt Nam chinh phục lại Dad*  
 **Format:** 2-minute editorial mini-documentary / visual essay  
-**Language:** Vietnamese narration, optional English subtitles  
+**Language:** Vietnamese  
 **Target runtime:** 120 seconds  
-**Primary format:** 16:9 master; safe composition for later 9:16 adaptation  
-**Current stage:** SCRIPT v02 / PRE-PRODUCTION  
+**Primary format:** 16:9 master; safe composition for 9:16 adaptation  
+**Current stage:** READY_FOR_ANIMATIC  
 **Approved master:** none  
 **Media storage root:** not configured yet
 
-## Creative promise
+## Current creative lock
 
-A warm, fast, funny introduction to Dad Stevenson that starts like an absurd Australia-vs-Vietnam adventure and then reveals the real story: an idea formed in Adelaide became a scholarship program in Vietnam that grew through relationships, trust, and long-term support.
+The film opens with a clearly fictional kangaroo/buffalo action-movie gag, then at 0:24 pivots into the factual history of Dad Stevenson's scholarship idea and Viet Uc Family.
 
-## Factual spine now available
+The real spine is:
 
-First-party website content supplied by the project owner establishes:
-- Dad Stevenson was living and working in Adelaide when he discussed helping disadvantaged Vietnamese students with Sơ Nien, a lecturer at the University of Adelaide.
-- In 1996, Đoàn Minh Nam met Dad during a tour through Northeast Vietnam, Cao Bằng, Bắc Cạn, Lạng Sơn and Hạ Long.
-- In 1997, Dad returned to Vietnam; Dad and anh Nam discussed the scholarship plan at the SunWay Hotel in Hà Nội.
-- The first supported group was 8 students.
-- The program initially used the name **Stevenson Scholarship Programme**.
-- From 1997–2006 the number of supported students expanded.
-- In 2006, anh Đoàn Minh Nam transferred the work to anh Nguyễn Hoàng Cung, and the program adopted the name **Viet Uc Family**.
-- Core principles include financial support, confidence and hope; no repayment obligation; and the motto **Dream – Believe – Do / Ước mơ – Tin tưởng – Thực hiện**.
+```
+Adelaide
+→ 1996 Dad meets Đoàn Minh Nam
+→ 1997 Dad returns and scholarship plan becomes concrete
+→ first 8 students
+→ Stevenson Scholarship Programme
+→ growth 1997–2006
+→ 2006 Viet Uc Family
+→ Dream – Believe – Do
+```
 
-## Future-dated website claim
+## Available project assets
 
-The supplied page says: **“Đến năm 2027 đã có trên 1000 sinh viên...”**.
+### Dad references
 
-Current project date is 2026-10-07, so this line is treated as **future-dated / not yet usable as a present-day fact** unless the owner confirms that the page is intended to state a projected or already-updated 2027 figure.
+Two approved Dad portraits are registered:
 
-## Comedy truth rule
+`assets/dad/reference-manifest.json`
 
-The kangaroo fight and buffalo-conquest beats are deliberate fictional gags.
+- DAD_REF_02 = primary face reference
+- DAD_REF_01 = primary editorial cutout
 
-They must be signaled visually as exaggeration and never narrated as real biography.
+### Archive
 
-## Dad likeness rule
+Owner supplied a dataset containing **728 image URLs + descriptions**.
 
-Documentary/present-day shots should use approved real photographs or footage of Dad.
+Preserved at:
+- `assets/catalog/image_urls_descriptions.csv`
+- `assets/catalog/image_catalog.json`
 
-For AI-assisted shots:
-- use approved Dad reference images;
-- preserve facial identity as a QC target;
-- prefer subtle image-to-video motion for real-photo moments;
-- keep fantasy gags clearly stylized/collage-like;
-- do not let an AI-generated face replace the authoritative real Dad reference.
+Editorial discovery:
+- `docs/12-image-asset-catalog.md`
+- `docs/13-asset-to-shot-map.md`
 
-## Entry points
+## Truth hold
 
-- Brief: `docs/00-brief.md`
-- Research/fact status: `docs/01-research.md`
-- Beat sheet: `docs/02-beat-sheet.md`
-- Script: `docs/03-screenplay.md`
-- Director treatment: `docs/04-directors-treatment.md`
-- Shot list: `docs/05-shot-list.md`
-- AI generation plan: `docs/10-ai-generation-plan.md`
-- QC report: `docs/11-qc-report.md`
-- Current synthesis: `docs/FINAL-DIRECTOR-PACK.md`
+Do not use the website's statement **“by 2027 over 1000 students”** as a present fact until clarified, because current project date is 2026-10-07.
+
+## Production status
+
+Ready now:
+- storyboard;
+- animatic;
+- temp VO;
+- archive shortlist;
+- comedy still comps;
+- motion-graphics build.
+
+Not ready yet:
+- unattended final render;
+- final master.
+
+Remaining infrastructure:
+- durable media storage;
+- selected archive download/hashes;
+- website capture;
+- narrator/voice decision;
+- exact AI model selection.
+
+## Core docs
+
+- `docs/00-brief.md`
+- `docs/01-research.md`
+- `docs/02-beat-sheet.md`
+- `docs/03-screenplay.md`
+- `docs/04-directors-treatment.md`
+- `docs/05-shot-list.md`
+- `docs/06-shot-cards.md`
+- `docs/07-continuity-bible.md`
+- `docs/08-paper-edit.md`
+- `docs/09-sound-plan.md`
+- `docs/10-ai-generation-plan.md`
+- `docs/11-qc-report.md`
+- `docs/12-image-asset-catalog.md`
+- `docs/13-asset-to-shot-map.md`
+- `docs/14-production-readiness.md`
+- `docs/FINAL-DIRECTOR-PACK.md`

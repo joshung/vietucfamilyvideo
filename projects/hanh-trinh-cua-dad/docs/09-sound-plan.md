@@ -1,64 +1,103 @@
-# 09 — Sound Plan
+# 09 — Sound Plan v03
 
-## Overall shape
+## Narrative sound arc
 
-### 0:00–0:36
-Mock-serious documentary score with playful interruptions.
+### 0:00–0:24 — mock action documentary
 
-### 0:36–1:08
-Travel pulse builds.
-
-### 1:08–1:52
-Music warms and simplifies.
-
-### 1:52–2:00
-Music ducks under Dad's real voice.
-
-## Signature SFX
-
-Use sparingly:
+Sound:
+- restrained “serious” bed;
 - record scratch;
 - boxing bell;
-- fake crowd swell;
-- map whoosh;
-- retro-game boss sting;
-- coffee pour;
-- small typography ticks.
+- tiny fake crowd;
+- retro game boss sting.
 
-Do not add a whoosh to every graphic.
+Comedy depends on contrast and silence, not constant SFX.
 
-## Punchline silence
+### 0:24–0:51 — reality enters
 
-Silence is part of the humor.
+At Adelaide:
+- strip away most gag effects;
+- introduce clean warm pulse;
+- subtle map/percussion ticks.
 
-Examples:
-- after "Kangaroo."
-- after "Không ai biết ai thắng."
-- immediately after buffalo bell before coffee sound.
+The sonic pivot should tell the audience:
+**now the real story begins.**
 
-## Vietnam ambience
+### 0:51–1:20 — plan → first 8
 
-Prefer real project-owned/location audio when available:
-- cafe;
-- street;
-- home;
-- countryside.
+Build gentle forward rhythm.
 
-Avoid a generic "Asian" sound palette.
+For the counter to 8:
+- soft ticks 1–7;
+- slightly fuller resolved hit at 8;
+- brief breathing room after narrator says “Tám.”
 
-## Dad final voice
+### 1:20–1:51 — network growth
 
-Preferred:
-- Dad records the line himself.
+Layer:
+- light rhythmic pulse;
+- subtle paper/photo movement;
+- no “whoosh per image”.
 
-Record:
-- clean room;
-- phone or mic near mouth;
-- 48 kHz if possible;
-- 2–3 natural takes.
+As archive density increases, music can widen emotionally.
 
-Lip-sync is optional fallback, not first choice.
+### 1:51–2:00 — values / motto
 
-## Music rights
+Music simplifies.
 
-Use original/licensed music. Do not imitate or lift another publisher's recognizable theme.
+At “không có nghĩa vụ trả nợ”:
+- reduce arrangement so statement lands.
+
+Final 2 seconds:
+- optional real Dad voice: “Dream. Believe. Do.”
+- otherwise narrator + clean end chord.
+
+## Narration performance
+
+Vietnamese VO:
+- confident;
+- warm;
+- dry on jokes;
+- never sentimental too early;
+- factual names/years clearly articulated.
+
+Micro-pauses:
+- after “Kangaroo.”
+- after “Con trâu.”
+- before “câu chuyện thật hay hơn nhiều.”
+- after “Tám.”
+- before final motto.
+
+## Name pronunciation check
+
+Before final VO, confirm preferred pronunciation for:
+- Stevenson;
+- Sơ Nien;
+- Đoàn Minh Nam;
+- Nguyễn Hoàng Cung;
+- SunWay;
+- place names.
+
+## Dad voice
+
+Best use is short and authentic.
+
+Preferred final recording:
+**“Dream. Believe. Do.”**
+
+No need for a long scripted CTA if Dad's natural delivery is stronger.
+
+## Archive audio
+
+Still photos do not require fake event audio.
+
+Avoid inventing applause/church/student-room ambience under historical stills unless clearly used as general editorial texture.
+
+## Rights
+
+Music and SFX must be:
+- original;
+- properly licensed;
+- or from sources with documented commercial rights.
+
+Do not mimic another publisher's signature music package.

@@ -1,139 +1,182 @@
-# FINAL DIRECTOR PACK — Working v02
+# FINAL DIRECTOR PACK — Working v03
+
+## Status
+
+**READY FOR ANIMATIC**
+
+Not yet final-render ready.
 
 ## Film
 
-**Title:** Dad Stevenson: định chinh phục Việt Nam, rồi Việt Nam chinh phục lại Dad  
-**Runtime:** 2:00  
-**Format:** editorial visual essay / mini-documentary  
-**Tone:** witty → purposeful → warm  
+**Working title:** Dad Stevenson: định chinh phục Việt Nam, rồi Việt Nam chinh phục lại Dad  
+**Runtime:** ~2:00  
+**Format:** editorial mini-documentary / visual essay  
+**Style:** modern explanatory graphics, maps, archive and dry humor  
 **Language:** Vietnamese
 
-## One-sentence story
-
-Dad Stevenson appears to be heading from Australia to Vietnam for an absurd kangaroo-to-buffalo adventure, but the real journey is bigger: an idea formed in Adelaide becomes a scholarship program that starts with 8 students and grows into Viet Uc Family.
-
-## Story spine
+## Final story spine
 
 ```
-DAD / AUSTRALIA
+REAL DAD
 ↓
-fictional kangaroo gag
+fictional kangaroo
 ↓
-fictional buffalo gag
+fictional buffalo
 ↓
-ADELAIDE — real idea
+“câu chuyện thật hay hơn”
 ↓
-1996 — Dad meets Đoàn Minh Nam
+Adelaide: idea to help students
 ↓
-1997 — Dad returns; scholarship plan is defined
+1996: Dad meets Đoàn Minh Nam
+↓
+1997: Dad returns; scholarship plan becomes concrete
 ↓
 first 8 students
 ↓
 Stevenson Scholarship Programme
 ↓
-1997–2006 growth
+1997–2006: network grows
 ↓
-2006 — Viet Uc Family
+2006: handoff + Viet Uc Family
+↓
+financial support / trust / hope / no repayment
 ↓
 Dream – Believe – Do
 ```
 
-## Directing principle
+## Directing lock
 
-The first 24 seconds earn attention.
+**First 24 seconds = hook.**
 
-The remaining 96 seconds earn trust.
+**Remaining 96 seconds = evidence and meaning.**
 
-Do not let the comedy consume the documentary.
+Animal gags end permanently when Adelaide begins.
 
-## Central joke
+## Truth lock
 
-Dad's imaginary plan:
-- survive kangaroo;
-- travel to Vietnam;
-- conquer buffalo.
+Fiction:
+- kangaroo fight;
+- buffalo conquest;
+- action-hero framing.
 
-The reality:
-he ends up confronting a much bigger question — how to help students continue studying.
-
-## Factual anchors
-
-Approved from supplied first-party site content:
+Facts from first-party source:
 - Adelaide;
-- Sơ Nien / University of Adelaide;
-- 1996 meeting with Đoàn Minh Nam;
-- 1997 return;
-- SunWay Hotel discussion in Hà Nội;
-- first 8 students;
+- Sơ Nien;
+- 1996 / Đoàn Minh Nam;
+- 1997 / SunWay planning;
+- first 8;
 - Stevenson Scholarship Programme;
 - 1997–2006 growth;
-- 2006 handover to Nguyễn Hoàng Cung and renaming;
-- unconditional support/no repayment;
-- Dream – Believe – Do.
+- 2006 handoff / Viet Uc Family;
+- no repayment;
+- motto.
 
-## Do not use yet
+Held:
+- 2027 / 1000+.
 
-**“By 2027 over 1000 students”**
+## Dad visual lock
 
-Reason:
-current project date is 2026-10-07 and the source line is future-dated.
+References:
+- **DAD_REF_02** = face identity.
+- **DAD_REF_01** = upper-body/cutout.
 
-## Best humor line
+Real Dad remains visually authoritative.
+
+No synthetic younger Dad unless a verified younger reference is supplied.
+
+## Archive lock
+
+Owner supplied:
+**728 image URLs + descriptions.**
+
+Canonical:
+- `assets/catalog/image_urls_descriptions.csv`
+- `assets/catalog/image_catalog.json`
+
+Usage:
+- `docs/12-image-asset-catalog.md`
+- `docs/13-asset-to-shot-map.md`
+
+Archive proves community/impact; it does not automatically prove historical capture dates.
+
+## Key lines
+
+### Humor
 
 > “Lúc đó, anh Nam là hướng dẫn viên du lịch. Một năm sau, công việc bắt đầu hơi... vượt khỏi mô tả tuyển dụng.”
 
-This is safer and more connected to the real story than adding more animal jokes.
+### Concrete impact
 
-## Best emotional line
+> “Nhóm đầu tiên Dad hỗ trợ: tám sinh viên. Không phải tám nghìn. Tám.”
+
+### Meaning
 
 > “Không còn là một ý tưởng trong một cuộc trò chuyện nữa. Nó đã thành một chương trình.”
 
-## Best visual transition
+### Ending
 
-Buffalo fight bell → hard cut to Adelaide / scholarship question.
+> “Dream. Believe. Do.”
 
-The action-movie myth stops.
+## Visual highlights
 
-The actual mission begins.
+### Best cold-open
+Real Dad → serious Australia → kangaroo interruption.
 
-## Dad face strategy
+### Best transition
+Buffalo fight bell → freeze → Adelaide map.
 
-Authoritative identity:
-- real Dad photos/video.
+### Best information graphic
+Counter to **8**.
 
-Fantasy layer:
-- Dad photo cutout;
-- stylized graphic/collage body;
-- no fake photoreal younger Dad without a reference.
+### Best archive section
+1997–2006 network growth + present-day/community outcome montage.
 
-## Archive strategy
+### Best end frame
+Dad real portrait + vietucfamily.org + Dream Believe Do.
 
-The historical middle should prioritize:
-1. real photos from the website/archive;
-2. maps/timelines;
-3. typography;
-4. diagrams;
-5. AI only as non-factual visual support.
+## Production routing
 
-## Generation readiness
+**Real archive / photo motion**
+- factual people;
+- Dad;
+- students;
+- events;
+- impact.
 
-**READY FOR ANIMATIC / NOT READY FOR FINAL RENDER**
+**Motion graphics**
+- maps;
+- timeline;
+- years;
+- criteria;
+- network;
+- number 8;
+- program rename.
 
-Need:
-- Dad reference images;
-- early program archive;
-- website assets;
-- optional Dad voice.
+**AI/collage**
+- kangaroo;
+- buffalo;
+- optional subtle Dad I2V only when identity passes.
 
-## Production order
+## Next execution
 
-1. ingest Dad/archive assets;
-2. map each real image to factual beats;
-3. build 120s animatic;
-4. record temp VO;
-5. test pacing;
-6. create kangaroo/buffalo graphic gags;
-7. replace placeholders with real archive;
-8. record final VO/Dad motto;
-9. generate only the shots that benefit from AI;
-10. final edit + sound + QC.
+1. configure storage;
+2. fetch shortlist from archive;
+3. visually QC/select 8–15 images;
+4. build still animatic;
+5. record temp VO;
+6. time to ~120 seconds;
+7. create kangaroo/buffalo comps;
+8. capture website;
+9. record final VO / optional Dad motto;
+10. render only necessary AI shots;
+11. edit, sound, QC, master.
+
+## Release gate
+
+Do not call the video final until:
+- selected media is durable;
+- website is real capture;
+- voice is approved;
+- archive identities are checked;
+- animatic timing passes;
+- final QC has no blocker.
