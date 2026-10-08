@@ -30,6 +30,7 @@
     "vox_v2_supervision": "docs/32-VOX-V2-supervision-report.md",
     "vox_v2_24_shot_prompts": "docs/33-VOX-V2-24-shot-prompts.md",
     "vox_v2_master_prompt": "docs/34-VOX-V2-MASTER-IMPLEMENTATION-PROMPT.md",
+    "vox_v2_full_execution_prompt": "docs/35-VOX-V2-FULL-EXECUTION-AGENT-PROMPT.md",
     "director_pack": "docs/FINAL-DIRECTOR-PACK.md"
   },
   "assets": {

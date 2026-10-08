@@ -58,6 +58,7 @@ Read in this order:
 9. `production/vox-v2/frame-index.json`
 10. `production/vox-v2/frame-manifest.jsonl`
 11. `docs/34-VOX-V2-MASTER-IMPLEMENTATION-PROMPT.md`
+12. `docs/35-VOX-V2-FULL-EXECUTION-AGENT-PROMPT.md`
 
 The machine-readable frame manifest contains exactly one record for every frame:
 
