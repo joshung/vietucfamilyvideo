@@ -1,4 +1,6 @@
-# 27 — Exact Prompt / Per-Frame Remotion Agent Handoff
+# 27 — Exact Prompt / Per-Frame Remotion Agent Handoff — LEGACY V1
+
+> **SUPERSEDED.** V2 agents use `docs/34-VOX-V2-MASTER-IMPLEMENTATION-PROMPT.md` and `production/vox-v2/frame-manifest.jsonl`.
 
 ```text
 You are the deterministic frame implementation agent for VUF_DAD_001.
