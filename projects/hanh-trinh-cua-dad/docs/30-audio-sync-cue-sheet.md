@@ -1,4 +1,7 @@
-# 30 — Audio Sync & Cue Sheet v02
+# 30 — Audio Sync & Cue Sheet v02 — LEGACY V1
+
+> V2 uses `production/vox-v2/audio-cues.json` with 24 shot-window cues. The 35-cue system below remains as V1 history.
+
 
 ## Root cause addressed
 

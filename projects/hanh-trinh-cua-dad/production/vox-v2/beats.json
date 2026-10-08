@@ -1,0 +1,1078 @@
+{
+  "schema_version": "2.0",
+  "project": "hanh-trinh-cua-dad-vox-v2",
+  "project_id": "VUF_DAD_001",
+  "topic": "Dad Stevenson and the origin of Viet Uc Family",
+  "language": "vi",
+  "aspect": "16:9",
+  "fps": 24,
+  "duration_seconds": 120,
+  "duration_in_frames": 2880,
+  "style": "collage",
+  "provider": "manual_prompt_pack",
+  "theme": "humanist-newsprint-v2",
+  "arc": "origin",
+  "mode": "hybrid_croll_editorial",
+  "motion_style": "punchy_to_calm",
+  "constraints": "strict",
+  "text_policy": "compositor_overlay_only",
+  "face_policy": "photographic_sticker_pixel_faithful",
+  "music": "warm editorial documentary score; dry light percussion in opening, restrained pulse through factual middle, gentle emotional lift at end; instrumental, no vocals",
+  "captions": false,
+  "watermark": null,
+  "facts": [
+    "Dad Stevenson is Australian / người Úc.",
+    "Scholarship-origin context is Adelaide, South Australia.",
+    "Never establish Dad as American, from America, USA, United States, Mỹ or Hoa Kỳ.",
+    "Do not invent historical photographs or unverified real-person portraits.",
+    "The 2027 / 1000+ website statement is not used as a current 2026 fact."
+  ],
+  "beats": [
+    {
+      "id": 1,
+      "title": "MỘT NGƯỜI ÚC. MỘT CÂU HỎI.",
+      "hook": "pattern_interrupt",
+      "bg": "archival cream + charcoal + yellow",
+      "feel": "dry, witty, authoritative",
+      "narration_a": "Đây là Dad Stevenson, một người Úc sống và làm việc ở Adelaide.",
+      "narration_b": "Và không, câu chuyện này không bắt đầu bằng kangaroo.",
+      "shots": [
+        {
+          "id": "1a",
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "push_in",
+          "scene": "DAD_REF_01 as a real photographic sticker on the right; accurate Australia SVG on the left; Adelaide marked by one yellow dot; a blank torn-paper headline strip at upper-left; tiny typed location label beneath.",
+          "overlay_text": [
+            "MỘT NGƯỜI ÚC.",
+            "ADELAIDE — SOUTH AUSTRALIA"
+          ],
+          "refs": [
+            "DAD_REF_01",
+            "SVG_AUSTRALIA"
+          ],
+          "element_motion": "Dad card settles in two paper poses; Australia layer slides up slightly; Adelaide marker stamps once; yellow underline grows beneath the hook.",
+          "transition_out": "yellow underline stretches rightward and becomes the baseline that carries the kangaroo card into shot 1b",
+          "entrance_action": "Dad photographic sticker enters from lower-right and settles; Australia paper silhouette rises from left.",
+          "primary_action": "Headline strip appears; compositor reveals “MỘT NGƯỜI ÚC.”; Adelaide dot stamps on map.",
+          "secondary_action": "Small Adelaide label and one thin route tick appear; paper scraps settle.",
+          "hold_action": "Hold Dad + Australia + Adelaide with only tiny paper jitter; face fully stable.",
+          "fact_tags": [
+            "FACT_DAD_AUSTRALIAN",
+            "FACT_ADELAIDE"
+          ],
+          "dur": 5,
+          "global_start_frame": 0,
+          "global_end_frame": 119,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B01_A_V01",
+            "motion": "VOXV2_MOTION_B01_A_V01"
+          }
+        },
+        {
+          "id": "1b",
+          "title": false,
+          "shot_size": "MEDIUM",
+          "camera_move": "parallax",
+          "scene": "same Dad/Australia collage carried over; one playful handcrafted kangaroo paper cutout enters from the right; a yellow diagonal paper strike crosses a tiny kangaroo note; no boxing ring and no fight.",
+          "overlay_text": [
+            "KHÔNG PHẢI KANGAROO."
+          ],
+          "refs": [
+            "DAD_REF_01",
+            "SVG_AUSTRALIA",
+            "KANGAROO_PAPER_ASSET"
+          ],
+          "element_motion": "Kangaroo slides in on twos and settles; yellow paper strike slaps across the joke note; map and Dad drift at different shallow paper depths.",
+          "transition_out": "yellow strike exits left and straightens into the underline of the Adelaide question card in beat 2",
+          "entrance_action": "Hard-cut tighter into existing Dad/Australia layout; kangaroo card enters from screen-right in four stepped poses.",
+          "primary_action": "Compositor reveals “KHÔNG PHẢI KANGAROO.” on a small paper note; yellow strike crosses it.",
+          "secondary_action": "Australia and Dad remain fixed while the kangaroo gives one rigid-paper bob and stops.",
+          "hold_action": "Hold the joke for readability; Dad face remains frozen and factual Australia geography stays visible.",
+          "fact_tags": [
+            "FACT_DAD_AUSTRALIAN"
+          ],
+          "dur": 5,
+          "global_start_frame": 120,
+          "global_end_frame": 239,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B01_B_V01",
+            "motion": "VOXV2_MOTION_B01_B_V01"
+          }
+        }
+      ],
+      "narration": "Đây là Dad Stevenson, một người Úc sống và làm việc ở Adelaide. Và không, câu chuyện này không bắt đầu bằng kangaroo.",
+      "narration_cues": [
+        {
+          "id": "B01_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Đây là Dad Stevenson, một người Úc sống và làm việc ở Adelaide."
+        },
+        {
+          "id": "B01_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Và không, câu chuyện này không bắt đầu bằng kangaroo."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "MỘT CÂU HỎI Ở ADELAIDE",
+      "hook": "direct_question",
+      "bg": "warm cream + mustard yellow + charcoal",
+      "feel": "human, curious, serious pivot",
+      "narration_a": "Ở Adelaide, Dad trao đổi với Sơ Nien về một câu hỏi rất thật.",
+      "narration_b": "Làm sao để sinh viên giỏi không phải dừng học vì thiếu tiền?",
+      "shots": [
+        {
+          "id": "2a",
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "pan",
+          "scene": "South Australia / Adelaide SVG fills the frame as layered paper geography; DAD_REF_02 appears as a small real photo card; Sơ Nien is represented by a type-only name card, not an invented portrait; a blank question strip spans the center.",
+          "overlay_text": [
+            "MỘT CÂU HỎI Ở ADELAIDE",
+            "DAD ↔ SƠ NIEN"
+          ],
+          "refs": [
+            "DAD_REF_02",
+            "SVG_SOUTH_AUSTRALIA"
+          ],
+          "element_motion": "Map pieces assemble from left to right; Adelaide pin stamps; Dad card and Sơ Nien name card slide toward a shared question strip.",
+          "transition_out": "question-strip underline extends downward and becomes the baseline of the student problem diagram in shot 2b",
+          "entrance_action": "South Australia paper layers slide into place; Adelaide pin lands; Dad card and Sơ Nien type-card settle.",
+          "primary_action": "Headline and location label appear in compositor; connector between Dad and Sơ Nien grows.",
+          "secondary_action": "Blank central question strip opens like folded paper; one yellow highlight appears underneath.",
+          "hold_action": "Hold the factual Adelaide setup; no invented conversation photo.",
+          "fact_tags": [
+            "FACT_ADELAIDE",
+            "FACT_SO_NIEN_CONVERSATION"
+          ],
+          "dur": 5,
+          "global_start_frame": 240,
+          "global_end_frame": 359,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B02_A_V01",
+            "motion": "VOXV2_MOTION_B02_A_V01"
+          }
+        },
+        {
+          "id": "2b",
+          "title": false,
+          "shot_size": "CLOSE",
+          "camera_move": "static",
+          "scene": "close editorial diagram: neutral student-card silhouette at center, paper label NĂNG LỰC on left, THIẾU TIỀN on right, and NGUY CƠ DỪNG HỌC beneath; no invented face; one yellow highlight under the financial barrier.",
+          "overlay_text": [
+            "NĂNG LỰC",
+            "THIẾU TIỀN",
+            "NGUY CƠ DỪNG HỌC"
+          ],
+          "refs": [],
+          "element_motion": "Three rigid paper labels stamp in sequentially; a thin connector shows the conflict; yellow highlight grows under THIẾU TIỀN.",
+          "transition_out": "the bottom connector extends horizontally and becomes the route line of the 1996 northern Vietnam map",
+          "entrance_action": "Hard cut to a close neutral student-card diagram; central silhouette pops into place.",
+          "primary_action": "NĂNG LỰC and THIẾU TIỀN labels stamp in from opposite sides.",
+          "secondary_action": "NGUY CƠ DỪNG HỌC drops beneath; one connector links the three concepts.",
+          "hold_action": "Static payoff hold; only paper-shadow breathing, no camera motion.",
+          "fact_tags": [
+            "FACT_STUDENT_FINANCIAL_HARDSHIP"
+          ],
+          "dur": 5,
+          "global_start_frame": 360,
+          "global_end_frame": 479,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B02_B_V01",
+            "motion": "VOXV2_MOTION_B02_B_V01"
+          }
+        }
+      ],
+      "narration": "Ở Adelaide, Dad trao đổi với Sơ Nien về một câu hỏi rất thật. Làm sao để sinh viên giỏi không phải dừng học vì thiếu tiền?",
+      "narration_cues": [
+        {
+          "id": "B02_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Ở Adelaide, Dad trao đổi với Sơ Nien về một câu hỏi rất thật."
+        },
+        {
+          "id": "B02_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Làm sao để sinh viên giỏi không phải dừng học vì thiếu tiền?"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "1996 — GẶP ANH NAM",
+      "hook": "timeline",
+      "bg": "muted federal blue + cream + charcoal",
+      "feel": "travel, discovery, factual",
+      "narration_a": "Năm 1996, Dad đi qua Cao Bằng, Bắc Cạn, Lạng Sơn và Hạ Long.",
+      "narration_b": "Ở đó, Dad gặp Đoàn Minh Nam, khi ấy là hướng dẫn viên.",
+      "shots": [
+        {
+          "id": "3a",
+          "title": true,
+          "shot_size": "EST_WIDE",
+          "camera_move": "parallax",
+          "scene": "accurate northern Vietnam SVG on muted blue paper; huge cream 1996 date card; route markers for Cao Bằng, Bắc Cạn, Lạng Sơn, Hạ Long; no AI-drawn geography; tiny travel-ticket scraps.",
+          "overlay_text": [
+            "1996",
+            "CAO BẰNG",
+            "BẮC CẠN",
+            "LẠNG SƠN",
+            "HẠ LONG"
+          ],
+          "refs": [
+            "SVG_NORTHERN_VIETNAM"
+          ],
+          "element_motion": "Route draws in stepped segments; city labels stamp as the line reaches them; travel-ticket scraps drift at shallow depths.",
+          "transition_out": "Hạ Long endpoint enlarges into the white border of Nam’s portrait/name card in shot 3b",
+          "entrance_action": "Northern Vietnam paper map settles; 1996 card drops from above.",
+          "primary_action": "Route begins at Cao Bằng and advances through Bắc Cạn and Lạng Sơn.",
+          "secondary_action": "Route reaches Hạ Long; each city label stamps once on arrival.",
+          "hold_action": "Hold completed route with 1996 dominant; no scenic fake archive.",
+          "fact_tags": [
+            "FACT_1996_ROUTE"
+          ],
+          "dur": 5,
+          "global_start_frame": 480,
+          "global_end_frame": 599,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B03_A_V01",
+            "motion": "VOXV2_MOTION_B03_A_V01"
+          }
+        },
+        {
+          "id": "3b",
+          "title": false,
+          "shot_size": "MEDIUM",
+          "camera_move": "push_in",
+          "scene": "Dad photo card at left and a reserved verified portrait-card slot for Đoàn Minh Nam at right; if no confirmed portrait is available, use a neutral tour-guide pictogram with a name card; a paper travel-ticket motif joins them.",
+          "overlay_text": [
+            "ĐOÀN MINH NAM",
+            "HƯỚNG DẪN VIÊN"
+          ],
+          "refs": [
+            "DAD_REF_01",
+            "NAM_PORTRAIT_OPTIONAL"
+          ],
+          "element_motion": "Nam card or pictogram slides in; one hand-drawn yellow annotation circle appears; travel-ticket stub pivots between Dad and Nam.",
+          "transition_out": "travel-ticket stub flips and its reverse side reads 1997, becoming shot 4a’s active year card",
+          "entrance_action": "Hard cut from route endpoint into Nam card frame; Dad card remains smaller on left.",
+          "primary_action": "Name card and HƯỚNG DẪN VIÊN label stamp in; annotation circle draws around verified portrait or icon.",
+          "secondary_action": "Travel-ticket paper strip pivots between Dad and Nam; no invented facial details.",
+          "hold_action": "Hold on relationship recognition; camera push remains gentle.",
+          "fact_tags": [
+            "FACT_MEET_NAM_1996"
+          ],
+          "dur": 5,
+          "global_start_frame": 600,
+          "global_end_frame": 719,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B03_B_V01",
+            "motion": "VOXV2_MOTION_B03_B_V01"
+          }
+        }
+      ],
+      "narration": "Năm 1996, Dad đi qua Cao Bằng, Bắc Cạn, Lạng Sơn và Hạ Long. Ở đó, Dad gặp Đoàn Minh Nam, khi ấy là hướng dẫn viên.",
+      "narration_cues": [
+        {
+          "id": "B03_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Năm 1996, Dad đi qua Cao Bằng, Bắc Cạn, Lạng Sơn và Hạ Long."
+        },
+        {
+          "id": "B03_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Ở đó, Dad gặp Đoàn Minh Nam, khi ấy là hướng dẫn viên."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "1997 — BIẾN Ý TƯỞNG THÀNH HỆ THỐNG",
+      "hook": "timeline",
+      "bg": "muted brick red + cream + charcoal",
+      "feel": "decisive, practical, organized",
+      "narration_a": "Một năm sau, Dad quay lại Việt Nam.",
+      "narration_b": "Tại SunWay, Hà Nội, họ bàn: giúp ai, bao nhiêu, chọn thế nào.",
+      "shots": [
+        {
+          "id": "4a",
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "pan",
+          "scene": "large 1997 paper card on left; Australia and Vietnam SVG cards connected by a flat route arrow; DAD_REF_01 as a small photographic sticker riding the transition; one clean Hanoi pin.",
+          "overlay_text": [
+            "1997",
+            "QUAY LẠI VIỆT NAM"
+          ],
+          "refs": [
+            "DAD_REF_01",
+            "SVG_AUSTRALIA",
+            "SVG_VIETNAM"
+          ],
+          "element_motion": "1997 card snaps into place; route arrow extends Australia to Vietnam; Hanoi marker stamps; Dad sticker remains frozen while the card moves.",
+          "transition_out": "1997 card folds down and becomes the notebook tab at the top of shot 4b",
+          "entrance_action": "1997 card flips from the ticket carried from beat 3; map cards settle.",
+          "primary_action": "Headline appears; route arrow grows from Australia toward Vietnam.",
+          "secondary_action": "Hanoi pin drops; Dad sticker shifts as one rigid card with the route.",
+          "hold_action": "Hold the completed return path; camera pan ends cleanly.",
+          "fact_tags": [
+            "FACT_1997_RETURN"
+          ],
+          "dur": 5,
+          "global_start_frame": 720,
+          "global_end_frame": 839,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B04_A_V01",
+            "motion": "VOXV2_MOTION_B04_A_V01"
+          }
+        },
+        {
+          "id": "4b",
+          "title": false,
+          "shot_size": "CLOSE",
+          "camera_move": "tilt",
+          "scene": "top-down paper notebook composition labeled SunWay — Hà Nội; three index cards: GIÚP AI?, BAO NHIÊU?, CHỌN THẾ NÀO?; smaller tags CẦN CÙ, HỌC LỰC, TƯ CÁCH; no fake meeting photograph.",
+          "overlay_text": [
+            "SUNWAY — HÀ NỘI",
+            "GIÚP AI?",
+            "BAO NHIÊU?",
+            "CHỌN THẾ NÀO?"
+          ],
+          "refs": [],
+          "element_motion": "Three criteria cards land one after another; active underline moves to each card; small criteria tags appear under the third card.",
+          "transition_out": "the three index cards shrink toward their centers and become the first three network nodes of beat 5",
+          "entrance_action": "Notebook page rises into frame; 1997 tab remains visible at top edge.",
+          "primary_action": "Three large question cards drop into a row on twos.",
+          "secondary_action": "Small tags CẦN CÙ / HỌC LỰC / TƯ CÁCH stamp beneath CHỌN THẾ NÀO?.",
+          "hold_action": "Hold the full selection logic; no invented people or hotel scene.",
+          "fact_tags": [
+            "FACT_SUNWAY_1997",
+            "FACT_SELECTION_CRITERIA"
+          ],
+          "dur": 5,
+          "global_start_frame": 840,
+          "global_end_frame": 959,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B04_B_V01",
+            "motion": "VOXV2_MOTION_B04_B_V01"
+          }
+        }
+      ],
+      "narration": "Một năm sau, Dad quay lại Việt Nam. Tại SunWay, Hà Nội, họ bàn: giúp ai, bao nhiêu, chọn thế nào.",
+      "narration_cues": [
+        {
+          "id": "B04_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Một năm sau, Dad quay lại Việt Nam."
+        },
+        {
+          "id": "B04_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Tại SunWay, Hà Nội, họ bàn: giúp ai, bao nhiêu, chọn thế nào."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "NHỮNG KẾT NỐI ĐẦU TIÊN",
+      "hook": "how_it_works",
+      "bg": "charcoal newsprint + cream + yellow",
+      "feel": "systemic, human, connected",
+      "narration_a": "Sơ Nien và Cha Nguyễn Văn Tuyến giúp kết nối sinh viên khó khăn.",
+      "narration_b": "Anh Nam phiên dịch, ghi lại chuyện học, gia đình, quê quán, dự định.",
+      "shots": [
+        {
+          "id": "5a",
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "parallax",
+          "scene": "paper network diagram with text-only nodes for Sơ Nien and Cha Nguyễn Văn Tuyến, Nam node, and a neutral student cluster; connectors are hand-drawn paper lines; no invented portraits.",
+          "overlay_text": [
+            "NHỮNG KẾT NỐI ĐẦU TIÊN",
+            "SƠ NIEN",
+            "CHA NGUYỄN VĂN TUYẾN",
+            "ANH NAM",
+            "SINH VIÊN"
+          ],
+          "refs": [],
+          "element_motion": "Nodes pop into place in narration order; connectors grow only after endpoints exist; one yellow active connector advances toward the students.",
+          "transition_out": "Nam node expands into a notebook card that fills shot 5b",
+          "entrance_action": "Three notebook cards from beat 4 shrink into network positions; additional labels settle around them.",
+          "primary_action": "Headline appears; Sơ Nien and Cha Tuyến connectors grow toward student cluster.",
+          "secondary_action": "Nam node joins from right; active yellow line reaches student cluster.",
+          "hold_action": "Hold the completed network with one highlighted path; no face invention.",
+          "fact_tags": [
+            "FACT_SO_NIEN",
+            "FACT_CHA_TUYEN"
+          ],
+          "dur": 5,
+          "global_start_frame": 960,
+          "global_end_frame": 1079,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B05_A_V01",
+            "motion": "VOXV2_MOTION_B05_A_V01"
+          }
+        },
+        {
+          "id": "5b",
+          "title": false,
+          "shot_size": "DETAIL",
+          "camera_move": "static",
+          "scene": "top-down close detail of Nam’s paper notebook: four clean note slips labeled HỌC TẬP, GIA ĐÌNH, QUÊ QUÁN, DỰ ĐỊNH; a translator tag and small pencil/tape scraps; no handwriting that invents personal details.",
+          "overlay_text": [
+            "PHIÊN DỊCH",
+            "HỌC TẬP",
+            "GIA ĐÌNH",
+            "QUÊ QUÁN",
+            "DỰ ĐỊNH"
+          ],
+          "refs": [],
+          "element_motion": "Notebook opens; four note slips appear one by one; translator tag stamps; pencil pivots once and stops.",
+          "transition_out": "the four note slips stack, duplicate outward, and become the neutral student-card deck of beat 6",
+          "entrance_action": "Hard cut into Nam notebook detail; translator tag slides into upper corner.",
+          "primary_action": "Four information labels stamp in sequentially with clean compositor typography.",
+          "secondary_action": "A pencil or card pointer moves between labels once; tape corners settle.",
+          "hold_action": "Static readable hold; no fabricated student facts.",
+          "fact_tags": [
+            "FACT_NAM_TRANSLATION_NOTES"
+          ],
+          "dur": 5,
+          "global_start_frame": 1080,
+          "global_end_frame": 1199,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B05_B_V01",
+            "motion": "VOXV2_MOTION_B05_B_V01"
+          }
+        }
+      ],
+      "narration": "Sơ Nien và Cha Nguyễn Văn Tuyến giúp kết nối sinh viên khó khăn. Anh Nam phiên dịch, ghi lại chuyện học, gia đình, quê quán, dự định.",
+      "narration_cues": [
+        {
+          "id": "B05_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Sơ Nien và Cha Nguyễn Văn Tuyến giúp kết nối sinh viên khó khăn."
+        },
+        {
+          "id": "B05_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Anh Nam phiên dịch, ghi lại chuyện học, gia đình, quê quán, dự định."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "8 SINH VIÊN",
+      "hook": "surprising_stat",
+      "bg": "mustard yellow + charcoal + cream",
+      "feel": "memorable, warm, concrete",
+      "narration_a": "Nhóm đầu tiên có tám sinh viên. Không phải tám nghìn. Tám.",
+      "narration_b": "Một con số nhỏ, nhưng đủ để biến một ý tưởng thành việc thật.",
+      "shots": [
+        {
+          "id": "6a",
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "push_in",
+          "scene": "eight neutral student paper cards arranged as a clean 2x4 physical grid around one huge compositor numeral 8; no invented faces; yellow field behind the number.",
+          "overlay_text": [
+            "8",
+            "SINH VIÊN ĐẦU TIÊN"
+          ],
+          "refs": [],
+          "element_motion": "Student cards pop-settle one by one until eight; central 8 scales from 0.9 to 1; final card lands with a stronger paper impact.",
+          "transition_out": "central 8 enlarges and becomes the crop window into one representative neutral student card in shot 6b",
+          "entrance_action": "Student-card deck from beat 5 fans into a 2x4 grid.",
+          "primary_action": "Count advances 1 through 8 as cards settle; compositor numeral updates discretely.",
+          "secondary_action": "8 SINH VIÊN ĐẦU TIÊN appears; yellow block grows behind the 8.",
+          "hold_action": "Hold on exactly eight cards; no faces and no extra count.",
+          "fact_tags": [
+            "FACT_FIRST_8"
+          ],
+          "dur": 5,
+          "global_start_frame": 1200,
+          "global_end_frame": 1319,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B06_A_V01",
+            "motion": "VOXV2_MOTION_B06_A_V01"
+          }
+        },
+        {
+          "id": "6b",
+          "title": false,
+          "shot_size": "CLOSE",
+          "camera_move": "pull_out",
+          "scene": "one neutral student card large in foreground, with simple non-identifying fields HỌC, GIA ĐÌNH, DỰ ĐỊNH; seven other cards sit smaller behind, proving the group without inventing identities.",
+          "overlay_text": [
+            "MỘT Ý TƯỞNG → VIỆC THẬT"
+          ],
+          "refs": [],
+          "element_motion": "Foreground card comes into focus as rigid paper; seven background cards recede; small arrow strip points from idea note to student deck.",
+          "transition_out": "foreground card folds into a support-category card that opens beat 7",
+          "entrance_action": "Hard cut through the numeral-8 crop into one representative neutral card.",
+          "primary_action": "Three generic fields appear without personal data; seven background cards remain visible.",
+          "secondary_action": "A small ý tưởng → việc thật paper arrow slides beneath the card.",
+          "hold_action": "Hold intimate detail while camera slowly pulls out to reveal the eight-card context.",
+          "fact_tags": [
+            "FACT_FIRST_8"
+          ],
+          "dur": 5,
+          "global_start_frame": 1320,
+          "global_end_frame": 1439,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B06_B_V01",
+            "motion": "VOXV2_MOTION_B06_B_V01"
+          }
+        }
+      ],
+      "narration": "Nhóm đầu tiên có tám sinh viên. Không phải tám nghìn. Tám. Một con số nhỏ, nhưng đủ để biến một ý tưởng thành việc thật.",
+      "narration_cues": [
+        {
+          "id": "B06_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Nhóm đầu tiên có tám sinh viên. Không phải tám nghìn. Tám."
+        },
+        {
+          "id": "B06_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Một con số nhỏ, nhưng đủ để biến một ý tưởng thành việc thật."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "HỖ TRỢ LÀ GÌ?",
+      "hook": "how_it_works",
+      "bg": "muted teal-blue + cream + yellow",
+      "feel": "practical, compassionate, clear",
+      "narration_a": "Hỗ trợ không chỉ là học phí.",
+      "narration_b": "Có thể là chỗ ở, sách, đi lại, y tế, hoặc giúp gia đình.",
+      "shots": [
+        {
+          "id": "7a",
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "element",
+          "scene": "central paper label HỖ TRỢ with separate rigid icon cards for tuition, accommodation, books, travel, medical help and family crisis; icons are simple paper objects, not software UI.",
+          "overlay_text": [
+            "HỖ TRỢ LÀ GÌ?",
+            "HỌC PHÍ"
+          ],
+          "refs": [],
+          "element_motion": "Support-category cards pop around the center in a radial but orderly arrangement; tuition appears first and gets the yellow accent.",
+          "transition_out": "yellow tuition card slides aside and reveals the other support categories as shot 7b begins",
+          "entrance_action": "The folded student card from beat 6 opens into a central HỖ TRỢ card.",
+          "primary_action": "Headline appears; tuition icon or card lands as the first category.",
+          "secondary_action": "Accommodation, books, travel, medical and family-crisis cards appear around the center.",
+          "hold_action": "Hold the complete support spectrum with tuition highlighted only once.",
+          "fact_tags": [
+            "FACT_SUPPORT_TYPES"
+          ],
+          "dur": 5,
+          "global_start_frame": 1440,
+          "global_end_frame": 1559,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B07_A_V01",
+            "motion": "VOXV2_MOTION_B07_A_V01"
+          }
+        },
+        {
+          "id": "7b",
+          "title": false,
+          "shot_size": "DETAIL",
+          "camera_move": "pan",
+          "scene": "close lateral strip of practical support objects as paper cutouts: key or room card, books, travel ticket, medical cross card, family-emergency envelope; each object isolated with its own shadow.",
+          "overlay_text": [
+            "CHỖ Ở",
+            "SÁCH",
+            "ĐI LẠI",
+            "Y TẾ",
+            "BIẾN CỐ GIA ĐÌNH"
+          ],
+          "refs": [],
+          "element_motion": "Camera pans across the support strip while each rigid paper object receives one small placement motion; yellow highlight travels once, never flashing.",
+          "transition_out": "all support cards stack into one cream title card whose face reveals the program name in beat 8",
+          "entrance_action": "Hard cut to an over-wide support strip; leftmost room or key card already visible.",
+          "primary_action": "Pan reveals books and travel ticket; their labels stamp beneath.",
+          "secondary_action": "Pan continues to medical and family-emergency envelope; one highlight follows narration.",
+          "hold_action": "End with all support cards visible and settled before stacking.",
+          "fact_tags": [
+            "FACT_SUPPORT_TYPES"
+          ],
+          "dur": 5,
+          "global_start_frame": 1560,
+          "global_end_frame": 1679,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B07_B_V01",
+            "motion": "VOXV2_MOTION_B07_B_V01"
+          }
+        }
+      ],
+      "narration": "Hỗ trợ không chỉ là học phí. Có thể là chỗ ở, sách, đi lại, y tế, hoặc giúp gia đình.",
+      "narration_cues": [
+        {
+          "id": "B07_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Hỗ trợ không chỉ là học phí."
+        },
+        {
+          "id": "B07_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Có thể là chỗ ở, sách, đi lại, y tế, hoặc giúp gia đình."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "STEVENSON SCHOLARSHIP PROGRAMME",
+      "hook": "origin",
+      "bg": "archival cream + deep brick + charcoal",
+      "feel": "institutional but human, confident",
+      "narration_a": "Tên đầu tiên là Stevenson Scholarship Programme.",
+      "narration_b": "Dad ở Australia. Anh Nam ở Việt Nam. Cây cầu ấy bắt đầu chạy.",
+      "shots": [
+        {
+          "id": "8a",
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "parallax",
+          "scene": "large physical archival program-name card assembled from cream paper bands, subtle document border, one yellow underline and small Australia/Vietnam map scraps behind; no invented logo.",
+          "overlay_text": [
+            "STEVENSON SCHOLARSHIP PROGRAMME",
+            "TÊN GỌI BAN ĐẦU"
+          ],
+          "refs": [],
+          "element_motion": "Paper bands assemble into a clean title plaque; document border and yellow underline settle; map scraps drift at shallow depth.",
+          "transition_out": "title plaque folds horizontally and becomes the bridge deck connecting Australia and Vietnam in shot 8b",
+          "entrance_action": "Support cards from beat 7 stack and square up into one archival title plaque.",
+          "primary_action": "Compositor renders the exact program name in three controlled lines.",
+          "secondary_action": "Australia and Vietnam map scraps appear behind as quiet support context.",
+          "hold_action": "Hold the original program name cleanly and legibly.",
+          "fact_tags": [
+            "FACT_FIRST_PROGRAM_NAME"
+          ],
+          "dur": 5,
+          "global_start_frame": 1680,
+          "global_end_frame": 1799,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B08_A_V01",
+            "motion": "VOXV2_MOTION_B08_A_V01"
+          }
+        },
+        {
+          "id": "8b",
+          "title": false,
+          "shot_size": "MEDIUM",
+          "camera_move": "push_in",
+          "scene": "split paper geography: Australia left with Dad photographic sticker, Vietnam right with Nam text or verified portrait card and small student stack; a yellow bridge or connector spans the center.",
+          "overlay_text": [
+            "AUSTRALIA ↔ VIỆT NAM"
+          ],
+          "refs": [
+            "DAD_REF_01",
+            "SVG_AUSTRALIA",
+            "SVG_VIETNAM",
+            "NAM_PORTRAIT_OPTIONAL"
+          ],
+          "element_motion": "Bridge line grows left to right; Dad and Nam cards settle at opposite ends; small student stack appears behind Nam.",
+          "transition_out": "bridge line extends beyond the right edge and becomes the baseline of the 1997–2006 timeline in beat 9",
+          "entrance_action": "Folded title plaque opens into two map fields; Dad card lands left, Nam card lands right.",
+          "primary_action": "Yellow connector grows between Australia and Vietnam.",
+          "secondary_action": "Student-card stack appears behind Nam; all human faces remain source-based only.",
+          "hold_action": "Hold the operational bridge with subtle depth parallax.",
+          "fact_tags": [
+            "FACT_AUSTRALIA_VIETNAM_COLLAB"
+          ],
+          "dur": 5,
+          "global_start_frame": 1800,
+          "global_end_frame": 1919,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B08_B_V01",
+            "motion": "VOXV2_MOTION_B08_B_V01"
+          }
+        }
+      ],
+      "narration": "Tên đầu tiên là Stevenson Scholarship Programme. Dad ở Australia. Anh Nam ở Việt Nam. Cây cầu ấy bắt đầu chạy.",
+      "narration_cues": [
+        {
+          "id": "B08_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Tên đầu tiên là Stevenson Scholarship Programme."
+        },
+        {
+          "id": "B08_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Dad ở Australia. Anh Nam ở Việt Nam. Cây cầu ấy bắt đầu chạy."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "1997 → 2006",
+      "hook": "timeline",
+      "bg": "federal blue + cream + muted brick",
+      "feel": "steady growth, credible, cumulative",
+      "narration_a": "Từ 1997 đến 2006, số sinh viên được hỗ trợ tăng dần.",
+      "narration_b": "Mạng lưới mở rộng qua bạn bè, cộng đồng, sinh viên và đại học.",
+      "shots": [
+        {
+          "id": "9a",
+          "title": true,
+          "shot_size": "EST_WIDE",
+          "camera_move": "pan",
+          "scene": "long horizontal paper timeline from 1997 to 2006; student-card stacks grow modestly along the line; optional real archive cards ARCH_0411, ARCH_0471, ARCH_0527 sit above as continuation evidence with a clear HÀNH TRÌNH TIẾP TỤC label.",
+          "overlay_text": [
+            "1997 → 2006",
+            "HÀNH TRÌNH TIẾP TỤC"
+          ],
+          "refs": [
+            "ARCH_0411",
+            "ARCH_0471",
+            "ARCH_0527"
+          ],
+          "element_motion": "Timeline advances left to right; card stacks accumulate; archive cards enter as clearly later impact or continuation evidence rather than period photography.",
+          "transition_out": "2006 tick stays behind while other years slide away; it becomes the handoff year card in beat 10",
+          "entrance_action": "Bridge line from beat 8 continues as the timeline baseline; 1997 tick stamps at left.",
+          "primary_action": "Timeline and student-card stacks advance toward 2006 with restrained growth.",
+          "secondary_action": "Real archive cards place above the line with HÀNH TRÌNH TIẾP TỤC label to preserve chronology.",
+          "hold_action": "Hold the completed 1997–2006 span; no claim of exact yearly counts.",
+          "fact_tags": [
+            "FACT_GROWTH_1997_2006"
+          ],
+          "dur": 5,
+          "global_start_frame": 1920,
+          "global_end_frame": 2039,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B09_A_V01",
+            "motion": "VOXV2_MOTION_B09_A_V01"
+          }
+        },
+        {
+          "id": "9b",
+          "title": false,
+          "shot_size": "CLOSE",
+          "camera_move": "static",
+          "scene": "close network expansion diagram: one central student cluster with outward paper labels BẠN BÈ, CỘNG ĐỒNG, TỔ CHỨC SINH VIÊN, TRƯỜNG ĐẠI HỌC; no social-media UI styling.",
+          "overlay_text": [
+            "BẠN BÈ",
+            "CỘNG ĐỒNG",
+            "TỔ CHỨC SINH VIÊN",
+            "TRƯỜNG ĐẠI HỌC"
+          ],
+          "refs": [],
+          "element_motion": "Four referral labels pop outward from the central cluster; connectors grow once; all settle into a calm network.",
+          "transition_out": "network connectors retract toward the 2006 corner, forming a single handoff arrow into beat 10",
+          "entrance_action": "Hard cut to a close student-cluster node carried from the timeline.",
+          "primary_action": "Four referral labels appear one by one around the cluster.",
+          "secondary_action": "Connectors grow from center to labels; one muted red node accent appears.",
+          "hold_action": "Static hold emphasizes organic network growth rather than hype.",
+          "fact_tags": [
+            "FACT_REFERRAL_GROWTH"
+          ],
+          "dur": 5,
+          "global_start_frame": 2040,
+          "global_end_frame": 2159,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B09_B_V01",
+            "motion": "VOXV2_MOTION_B09_B_V01"
+          }
+        }
+      ],
+      "narration": "Từ 1997 đến 2006, số sinh viên được hỗ trợ tăng dần. Mạng lưới mở rộng qua bạn bè, cộng đồng, sinh viên và đại học.",
+      "narration_cues": [
+        {
+          "id": "B09_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Từ 1997 đến 2006, số sinh viên được hỗ trợ tăng dần."
+        },
+        {
+          "id": "B09_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Mạng lưới mở rộng qua bạn bè, cộng đồng, sinh viên và đại học."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "2006 — VIET UC FAMILY",
+      "hook": "timeline",
+      "bg": "deep brick + cream + charcoal",
+      "feel": "continuity, stewardship, renewal",
+      "narration_a": "Năm 2006, anh Nam chuyển giao công việc cho Nguyễn Hoàng Cung.",
+      "narration_b": "Cùng năm đó, chương trình mang tên Viet Uc Family.",
+      "shots": [
+        {
+          "id": "10a",
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "push_in",
+          "scene": "large 2006 year card at top; left name card for Đoàn Minh Nam, right name card for Nguyễn Hoàng Cung; portraits only if owner-confirmed; a physical folder or arrow moves left to right.",
+          "overlay_text": [
+            "2006",
+            "CHUYỂN GIAO"
+          ],
+          "refs": [
+            "NAM_PORTRAIT_OPTIONAL",
+            "ARCH_0476_OPTIONAL",
+            "ARCH_0479_OPTIONAL"
+          ],
+          "element_motion": "2006 card stamps; Nam and Cung name cards settle; folder or arrow slides left to right and stops at Cung.",
+          "transition_out": "handoff arrow stretches into a yellow underline that carries the new program name into shot 10b",
+          "entrance_action": "2006 tick from beat 9 enlarges into the year card; two name cards appear at opposite sides.",
+          "primary_action": "CHUYỂN GIAO label stamps above the physical folder or arrow.",
+          "secondary_action": "Folder or arrow travels left to right in stepped paper poses; no unverified portrait is invented.",
+          "hold_action": "Hold after the handoff reaches Cung; camera push ends.",
+          "fact_tags": [
+            "FACT_2006_HANDOFF"
+          ],
+          "dur": 5,
+          "global_start_frame": 2160,
+          "global_end_frame": 2279,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B10_A_V01",
+            "motion": "VOXV2_MOTION_B10_A_V01"
+          }
+        },
+        {
+          "id": "10b",
+          "title": false,
+          "shot_size": "MEDIUM",
+          "camera_move": "parallax",
+          "scene": "old Stevenson Scholarship Programme label becomes smaller archival paper at upper-left; large blank central title strip reserved for compositor text VIET UC FAMILY; Australia and Vietnam paper silhouettes connect behind.",
+          "overlay_text": [
+            "VIET UC FAMILY"
+          ],
+          "refs": [
+            "SVG_AUSTRALIA",
+            "SVG_VIETNAM"
+          ],
+          "element_motion": "Old title slides upward and shrinks; new title strip settles center; Australia and Vietnam silhouettes move closer with one yellow connector.",
+          "transition_out": "Viet Uc Family title strip lifts upward to reveal the principle card KHÔNG PHẢI TRẢ NỢ in beat 11",
+          "entrance_action": "Hard cut with the handoff underline already present; old program label sits small at upper-left.",
+          "primary_action": "New central title strip grows and compositor reveals VIET UC FAMILY.",
+          "secondary_action": "Australia/Vietnam silhouettes slide closer; yellow connector locks between them.",
+          "hold_action": "Hold the new name cleanly with restrained parallax.",
+          "fact_tags": [
+            "FACT_VUF_RENAME_2006"
+          ],
+          "dur": 5,
+          "global_start_frame": 2280,
+          "global_end_frame": 2399,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B10_B_V01",
+            "motion": "VOXV2_MOTION_B10_B_V01"
+          }
+        }
+      ],
+      "narration": "Năm 2006, anh Nam chuyển giao công việc cho Nguyễn Hoàng Cung. Cùng năm đó, chương trình mang tên Viet Uc Family.",
+      "narration_cues": [
+        {
+          "id": "B10_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Năm 2006, anh Nam chuyển giao công việc cho Nguyễn Hoàng Cung."
+        },
+        {
+          "id": "B10_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Cùng năm đó, chương trình mang tên Viet Uc Family."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "KHÔNG PHẢI TRẢ NỢ",
+      "hook": "payoff",
+      "bg": "charcoal + cream + highlighter yellow",
+      "feel": "clear, principled, emotionally grounded",
+      "narration_a": "Quan trọng nhất: hỗ trợ vô điều kiện, không phải trả nợ.",
+      "narration_b": "Không phân biệt tôn giáo, dân tộc, ngành học hay giới.",
+      "shots": [
+        {
+          "id": "11a",
+          "title": true,
+          "shot_size": "CLOSE",
+          "camera_move": "static",
+          "scene": "single large cream paper principle card centered on charcoal background; huge compositor phrase KHÔNG PHẢI TRẢ NỢ; smaller label HỖ TRỢ VÔ ĐIỀU KIỆN; one wide yellow highlight; no decorative clutter.",
+          "overlay_text": [
+            "KHÔNG PHẢI TRẢ NỢ",
+            "HỖ TRỢ VÔ ĐIỀU KIỆN"
+          ],
+          "refs": [],
+          "element_motion": "Principle card lands once; yellow highlight wipes underneath; everything else stays still so the statement lands.",
+          "transition_out": "yellow highlight splits into four narrow strips that lead to the non-discrimination labels in shot 11b",
+          "entrance_action": "Viet Uc Family title from beat 10 slides upward, revealing the principle card beneath.",
+          "primary_action": "Compositor reveals KHÔNG PHẢI TRẢ NỢ in one clean block.",
+          "secondary_action": "Small HỖ TRỢ VÔ ĐIỀU KIỆN label appears; yellow highlight completes one pass.",
+          "hold_action": "Absolute hold; static camera signals the payoff.",
+          "fact_tags": [
+            "FACT_NO_REPAYMENT",
+            "FACT_UNCONDITIONAL_SUPPORT"
+          ],
+          "dur": 5,
+          "global_start_frame": 2400,
+          "global_end_frame": 2519,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B11_A_V01",
+            "motion": "VOXV2_MOTION_B11_A_V01"
+          }
+        },
+        {
+          "id": "11b",
+          "title": false,
+          "shot_size": "DETAIL",
+          "camera_move": "pull_out",
+          "scene": "four simple physical label cards arranged evenly: TÔN GIÁO, DÂN TỘC, NGÀNH HỌC, GIỚI; each crossed by the same neutral equality mark, not red X marks; central small label KHÔNG PHÂN BIỆT.",
+          "overlay_text": [
+            "KHÔNG PHÂN BIỆT",
+            "TÔN GIÁO",
+            "DÂN TỘC",
+            "NGÀNH HỌC",
+            "GIỚI"
+          ],
+          "refs": [],
+          "element_motion": "Four labels appear from center outward; thin equality connectors link them; camera slowly pulls out to show the balanced set.",
+          "transition_out": "four equality connectors curve forward and become a circular help-forward arrow entering beat 12",
+          "entrance_action": "Hard cut to central KHÔNG PHÂN BIỆT card; first two labels appear.",
+          "primary_action": "Remaining two labels settle symmetrically; equality marks appear.",
+          "secondary_action": "Thin connectors unify all four categories without ranking them.",
+          "hold_action": "Hold balanced set while camera gently pulls out.",
+          "fact_tags": [
+            "FACT_NON_DISCRIMINATION"
+          ],
+          "dur": 5,
+          "global_start_frame": 2520,
+          "global_end_frame": 2639,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B11_B_V01",
+            "motion": "VOXV2_MOTION_B11_B_V01"
+          }
+        }
+      ],
+      "narration": "Quan trọng nhất: hỗ trợ vô điều kiện, không phải trả nợ. Không phân biệt tôn giáo, dân tộc, ngành học hay giới.",
+      "narration_cues": [
+        {
+          "id": "B11_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Quan trọng nhất: hỗ trợ vô điều kiện, không phải trả nợ."
+        },
+        {
+          "id": "B11_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Không phân biệt tôn giáo, dân tộc, ngành học hay giới."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "DREAM. BELIEVE. DO.",
+      "hook": "payoff",
+      "bg": "warm cream + charcoal + muted gold-yellow",
+      "feel": "warm, humane, final",
+      "narration_a": "Và khi có thể, người đi trước lại giúp người đi sau.",
+      "narration_b": "Đó là tinh thần Dad để lại: Dream. Believe. Do.",
+      "shots": [
+        {
+          "id": "12a",
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "parallax",
+          "scene": "real impact/archive collage using approved photos such as ARCH_0407, ARCH_0448, ARCH_0460 and ARCH_0428; Dad and community remain real photographic prints; a circular paper arrow suggests graduates helping others; no claim about 2027 totals.",
+          "overlay_text": [
+            "NGƯỜI ĐI TRƯỚC → NGƯỜI ĐI SAU"
+          ],
+          "refs": [
+            "ARCH_0407",
+            "ARCH_0448",
+            "ARCH_0460",
+            "ARCH_0428"
+          ],
+          "element_motion": "Archive photo prints tape into place one by one; circular help-forward arrow draws around them; tiny photo drift only, faces unchanged.",
+          "transition_out": "archive cards slide toward the edges while DAD_REF_02 appears center, forming the clean end card in shot 12b",
+          "entrance_action": "Equality connectors from beat 11 bend into a circular help-forward arrow; first archive photo lands.",
+          "primary_action": "Additional approved archive cards tape into place; compositor reveals the help-forward phrase.",
+          "secondary_action": "Circular arrow completes; archive cards breathe with tiny paper-depth parallax.",
+          "hold_action": "Hold the impact collage warmly; no 2027 or 1000+ current-fact claim.",
+          "fact_tags": [
+            "FACT_GRADUATES_ENCOURAGED_TO_HELP_OTHERS"
+          ],
+          "dur": 5,
+          "global_start_frame": 2640,
+          "global_end_frame": 2759,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B12_A_V01",
+            "motion": "VOXV2_MOTION_B12_A_V01"
+          }
+        },
+        {
+          "id": "12b",
+          "title": false,
+          "shot_size": "CLOSE",
+          "camera_move": "static",
+          "scene": "DAD_REF_02 as the dominant unchanged real portrait on a clean warm paper field; small domain vietucfamily.org; large compositor motto DREAM. BELIEVE. DO. with one yellow underline; all other archive cards recede to edges.",
+          "overlay_text": [
+            "vietucfamily.org",
+            "DREAM. BELIEVE. DO."
+          ],
+          "refs": [
+            "DAD_REF_02"
+          ],
+          "element_motion": "Dad portrait remains frozen; motto words appear one by one with restrained paper placement; yellow underline settles under the final phrase.",
+          "transition_out": "end on an absolute still frame with Dad, domain and motto legible",
+          "entrance_action": "Archive cards from shot 12a slide outward, revealing Dad portrait centered.",
+          "primary_action": "Compositor reveals DREAM. then BELIEVE. then DO. as separate paper-word placements.",
+          "secondary_action": "Domain appears small beneath; one yellow underline completes.",
+          "hold_action": "Absolute final hold; no jitter on Dad face and no new elements.",
+          "fact_tags": [
+            "FACT_MOTTO"
+          ],
+          "dur": 5,
+          "global_start_frame": 2760,
+          "global_end_frame": 2879,
+          "prompt_ids": {
+            "image": "VOXV2_KF_B12_B_V01",
+            "motion": "VOXV2_MOTION_B12_B_V01"
+          }
+        }
+      ],
+      "narration": "Và khi có thể, người đi trước lại giúp người đi sau. Đó là tinh thần Dad để lại: Dream. Believe. Do.",
+      "narration_cues": [
+        {
+          "id": "B12_VO_A",
+          "local_start_frame": 0,
+          "local_end_frame_exclusive": 112,
+          "text": "Và khi có thể, người đi trước lại giúp người đi sau."
+        },
+        {
+          "id": "B12_VO_B",
+          "local_start_frame": 120,
+          "local_end_frame_exclusive": 232,
+          "text": "Đó là tinh thần Dad để lại: Dream. Believe. Do."
+        }
+      ]
+    }
+  ]
+}

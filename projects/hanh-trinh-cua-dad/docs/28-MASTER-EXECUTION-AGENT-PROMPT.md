@@ -1,4 +1,7 @@
-# 28 — MASTER EXECUTION AGENT PROMPT
+# 28 — MASTER EXECUTION AGENT PROMPT — LEGACY V1
+
+> **SUPERSEDED.** New implementation agents must use `docs/34-VOX-V2-MASTER-IMPLEMENTATION-PROMPT.md`. Do not execute this V1 prompt for a new render.
+
 
 > This is the single master handoff prompt for implementing VUF_DAD_001.
 > Give this file to the execution agent and tell it to execute the prompt completely.

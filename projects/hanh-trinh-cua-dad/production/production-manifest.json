@@ -1,37 +1,24 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "2.0",
   "project_id": "VUF_DAD_001",
-  "status": "PREPRODUCTION_LOCKED_RENDER_DEFERRED",
+  "status": "VOX_V2_PREPRODUCTION_LOCKED_RENDER_DEFERRED",
+  "active_preproduction_system": "vox-v2",
   "source_of_truth": {
     "director_pack": "docs/FINAL-DIRECTOR-PACK.md",
-    "screenplay": "docs/03-screenplay.md",
-    "voiceover": "docs/17-voiceover-lock.md",
-    "animatic": "production/animatic/animatic.json",
-    "archive_selection": "assets/catalog/selected_for_animatic.json",
-    "reference_style": "docs/21-reference-style-breakdown.md",
-    "frame_by_frame": "docs/22-frame-by-frame-paper-stop-motion.md",
-    "remotion_style_system": "/docs/editorial-remotion-style-system.md",
-    "remotion_scene_plan": "production/remotion/scene-plan.json",
-    "remotion_style_tokens": "production/remotion/style-tokens.json",
-    "remotion_agent_prompt": "docs/23-remotion-implementation-handoff-prompt.md",
-    "image_generation_prompts": "docs/24-image-generation-prompts.md",
-    "frame_prompt_contract": "docs/25-frame-prompt-contract.md",
-    "image_generation_agent_prompt": "docs/26-image-generation-agent-handoff-prompt.md",
-    "exact_prompt_remotion_handoff": "docs/27-exact-prompt-remotion-handoff.md",
-    "master_execution_prompt": "docs/28-MASTER-EXECUTION-AGENT-PROMPT.md",
-    "fact_lock_regression": "docs/29-fact-lock-and-regression.md",
-    "audio_sync_cue_sheet": "docs/30-audio-sync-cue-sheet.md",
+    "research": "docs/01-research.md",
     "fact_lock": "production/facts/fact-lock.json",
-    "voiceover_cues": "production/audio/voiceover-cues.json",
-    "image_generation_manifest": "production/remotion/image-generation-manifest.json",
-    "hero_frame_prompts": "production/remotion/hero-frame-prompts.json",
-    "frame_actions": "production/remotion/frame-actions.json",
-    "frame_prompt_manifest": "production/remotion/frame-prompt-manifest.jsonl",
-    "frame_prompt_index": "production/remotion/frame-prompt-index.json",
-    "model_routing": "docs/18-model-routing.md",
-    "render_execution": "docs/19-render-execution-pipeline.md",
-    "render_plan": "production/render/render-plan.json",
-    "render_agent_prompt": "docs/20-render-agent-handoff-prompt.md"
+    "vox_v2_story_theme_motion": "docs/31-VOX-V2-story-theme-motion.md",
+    "vox_v2_supervision": "docs/32-VOX-V2-supervision-report.md",
+    "vox_v2_source": "production/vox-v2/vox-v2-source.json",
+    "vox_v2_theme": "production/vox-v2/theme.json",
+    "vox_v2_beats": "production/vox-v2/beats.json",
+    "vox_v2_audio_cues": "production/vox-v2/audio-cues.json",
+    "vox_v2_shot_prompts": "production/vox-v2/shot-prompts.json",
+    "vox_v2_frame_actions": "production/vox-v2/frame-actions.json",
+    "vox_v2_frame_manifest": "production/vox-v2/frame-manifest.jsonl",
+    "vox_v2_frame_index": "production/vox-v2/frame-index.json",
+    "vox_v2_master_prompt": "docs/34-VOX-V2-MASTER-IMPLEMENTATION-PROMPT.md",
+    "archive_selection": "assets/catalog/selected_for_animatic.json"
   },
   "master_timeline": {
     "width": 1920,
@@ -40,7 +27,34 @@
     "duration_in_frames": 2880,
     "duration_seconds": 120,
     "master_compositor": "Remotion",
-    "paper_stop_motion_cadence_frames": 2
+    "paper_stop_motion_cadence_frames": 2,
+    "beats": 12,
+    "shots": 24,
+    "frames_per_shot": 120,
+    "action_ranges": 168
+  },
+  "creative_contract": {
+    "theme": "humanist-newsprint-v2",
+    "arc": "origin",
+    "hook": "Dad is Australian; the story is not about kangaroos; it begins with a question in Adelaide.",
+    "real_people": "photographic stickers only; no AI-painted faces",
+    "critical_text": "compositor overlay only",
+    "factual_maps": "deterministic SVG only",
+    "ai_video_required": false
+  },
+  "audio": {
+    "cue_manifest": "production/vox-v2/audio-cues.json",
+    "cue_count": 24,
+    "sample_rate_hz": 48000,
+    "global_audio_offset_frames": 0,
+    "overflow_policy": "fail/regenerate only the offending cue; never shift later cues"
+  },
+  "validation": {
+    "build": "node scripts/build-vox-v2.mjs",
+    "phase_a": "node scripts/validate-vox-v2.mjs A",
+    "phase_b": "node scripts/validate-vox-v2.mjs B",
+    "phase_c": "node scripts/validate-vox-v2.mjs C",
+    "status": "PASS"
   },
   "deliverables_planned": {
     "master": "final/masters/hanh-trinh-cua-dad_MASTER_v01.mp4",
@@ -51,26 +65,26 @@
   },
   "render_execution": {
     "deferred_by_owner": true,
-    "specification_complete": true,
     "worker_implemented": false,
     "remotion_implementation_complete": false,
-    "enabled_ai_shots": ["S01_SH02", "S01_SH03"],
-    "ai_video_required_for_master": false,
-    "primary_provider": "runway",
-    "fallback_provider": "veo",
     "auto_select": false,
     "auto_publish": false
+  },
+  "legacy_v1": {
+    "status": "SUPERSEDED_FOR_NEW_IMPLEMENTATION",
+    "root": "production/remotion/"
   },
   "storage": {
     "configured": false,
     "config_template": "/.env.example"
   },
   "fact_holds": [
+    "Dad is Australian / người Úc; Adelaide, South Australia is the origin anchor.",
     "Do not present the future-dated 2027 / over-1000-students statement as a current 2026 fact."
   ],
   "person_confirmation_holds": [
-    "Confirm ARCH_0476/ARCH_0479 subject is Nguyễn Hoàng Cung before using his name on screen.",
     "Use an approved portrait of Đoàn Minh Nam before showing his face with a name caption.",
-    "Use an approved portrait of Sơ Nien before showing her face with a name caption."
+    "Confirm ARCH_0476/ARCH_0479 subject is Nguyễn Hoàng Cung before using his face with a name caption.",
+    "Use a text/name card for Sơ Nien unless an approved portrait is supplied."
   ]
 }

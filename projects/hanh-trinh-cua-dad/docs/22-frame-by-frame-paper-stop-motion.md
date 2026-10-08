@@ -1,4 +1,7 @@
-# 22 — Frame-by-Frame Paper Stop-Motion Blueprint
+# 22 — Frame-by-Frame Paper Stop-Motion Blueprint — LEGACY V1
+
+> **SUPERSEDED FOR NEW IMPLEMENTATION.** Use `production/vox-v2/frame-manifest.jsonl` and `docs/31-VOX-V2-story-theme-motion.md`. This V1 document remains only for audit/rollback.
+
 
 > Version: 1.0  
 > Master: 1920×1080 / 24fps / 2880 frames / 120s  

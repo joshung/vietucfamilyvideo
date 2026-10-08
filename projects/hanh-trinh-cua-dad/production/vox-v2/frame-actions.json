@@ -1,0 +1,1688 @@
+{
+  "schema_version": "2.0",
+  "project_id": "VUF_DAD_001",
+  "fps": 24,
+  "total_frames": 2880,
+  "action_ranges": [
+    {
+      "beat_id": 1,
+      "shot_id": "1a",
+      "start_frame": 0,
+      "end_frame": 11,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the archival cream + charcoal + yellow paper field and base geometry for: DAD_REF_01 as a real photographic sticker on the right; accurate Australia SVG on the left; Adelaide marked by one yellow dot; a blank torn-paper headline strip at upper-left; tiny typed location label beneath."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1a",
+      "start_frame": 12,
+      "end_frame": 27,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Dad photographic sticker enters from lower-right and settles; Australia paper silhouette rises from left."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1a",
+      "start_frame": 28,
+      "end_frame": 47,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Headline strip appears; compositor reveals “MỘT NGƯỜI ÚC.”; Adelaide dot stamps on map."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1a",
+      "start_frame": 48,
+      "end_frame": 71,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Small Adelaide label and one thin route tick appear; paper scraps settle."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1a",
+      "start_frame": 72,
+      "end_frame": 95,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes push_in; element choreography: Dad card settles in two paper poses; Australia layer slides up slightly; Adelaide marker stamps once; yellow underline grows beneath the hook."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1a",
+      "start_frame": 96,
+      "end_frame": 103,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold Dad + Australia + Adelaide with only tiny paper jitter; face fully stable."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1a",
+      "start_frame": 104,
+      "end_frame": 119,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: yellow underline stretches rightward and becomes the baseline that carries the kangaroo card into shot 1b"
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1b",
+      "start_frame": 120,
+      "end_frame": 131,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the archival cream + charcoal + yellow paper field and base geometry for: same Dad/Australia collage carried over; one playful handcrafted kangaroo paper cutout enters from the right; a yellow diagonal paper strike crosses a tiny kangaroo note; no boxing ring and no fight."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1b",
+      "start_frame": 132,
+      "end_frame": 147,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Hard-cut tighter into existing Dad/Australia layout; kangaroo card enters from screen-right in four stepped poses."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1b",
+      "start_frame": 148,
+      "end_frame": 167,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Compositor reveals “KHÔNG PHẢI KANGAROO.” on a small paper note; yellow strike crosses it."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1b",
+      "start_frame": 168,
+      "end_frame": 191,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Australia and Dad remain fixed while the kangaroo gives one rigid-paper bob and stops."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1b",
+      "start_frame": 192,
+      "end_frame": 215,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes parallax; element choreography: Kangaroo slides in on twos and settles; yellow paper strike slaps across the joke note; map and Dad drift at different shallow paper depths."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1b",
+      "start_frame": 216,
+      "end_frame": 223,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the joke for readability; Dad face remains frozen and factual Australia geography stays visible."
+    },
+    {
+      "beat_id": 1,
+      "shot_id": "1b",
+      "start_frame": 224,
+      "end_frame": 239,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: yellow strike exits left and straightens into the underline of the Adelaide question card in beat 2"
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2a",
+      "start_frame": 240,
+      "end_frame": 251,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the warm cream + mustard yellow + charcoal paper field and base geometry for: South Australia / Adelaide SVG fills the frame as layered paper geography; DAD_REF_02 appears as a small real photo card; Sơ Nien is represented by a type-only name card, not an invented portrait; a blank question strip spans the center."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2a",
+      "start_frame": 252,
+      "end_frame": 267,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "South Australia paper layers slide into place; Adelaide pin lands; Dad card and Sơ Nien type-card settle."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2a",
+      "start_frame": 268,
+      "end_frame": 287,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Headline and location label appear in compositor; connector between Dad and Sơ Nien grows."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2a",
+      "start_frame": 288,
+      "end_frame": 311,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Blank central question strip opens like folded paper; one yellow highlight appears underneath."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2a",
+      "start_frame": 312,
+      "end_frame": 335,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes pan; element choreography: Map pieces assemble from left to right; Adelaide pin stamps; Dad card and Sơ Nien name card slide toward a shared question strip."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2a",
+      "start_frame": 336,
+      "end_frame": 343,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the factual Adelaide setup; no invented conversation photo."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2a",
+      "start_frame": 344,
+      "end_frame": 359,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: question-strip underline extends downward and becomes the baseline of the student problem diagram in shot 2b"
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2b",
+      "start_frame": 360,
+      "end_frame": 371,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the warm cream + mustard yellow + charcoal paper field and base geometry for: close editorial diagram: neutral student-card silhouette at center, paper label NĂNG LỰC on left, THIẾU TIỀN on right, and NGUY CƠ DỪNG HỌC beneath; no invented face; one yellow highlight under the financial barrier."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2b",
+      "start_frame": 372,
+      "end_frame": 387,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Hard cut to a close neutral student-card diagram; central silhouette pops into place."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2b",
+      "start_frame": 388,
+      "end_frame": 407,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "NĂNG LỰC and THIẾU TIỀN labels stamp in from opposite sides."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2b",
+      "start_frame": 408,
+      "end_frame": 431,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "NGUY CƠ DỪNG HỌC drops beneath; one connector links the three concepts."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2b",
+      "start_frame": 432,
+      "end_frame": 455,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes static; element choreography: Three rigid paper labels stamp in sequentially; a thin connector shows the conflict; yellow highlight grows under THIẾU TIỀN."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2b",
+      "start_frame": 456,
+      "end_frame": 463,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Static payoff hold; only paper-shadow breathing, no camera motion."
+    },
+    {
+      "beat_id": 2,
+      "shot_id": "2b",
+      "start_frame": 464,
+      "end_frame": 479,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: the bottom connector extends horizontally and becomes the route line of the 1996 northern Vietnam map"
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3a",
+      "start_frame": 480,
+      "end_frame": 491,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the muted federal blue + cream + charcoal paper field and base geometry for: accurate northern Vietnam SVG on muted blue paper; huge cream 1996 date card; route markers for Cao Bằng, Bắc Cạn, Lạng Sơn, Hạ Long; no AI-drawn geography; tiny travel-ticket scraps."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3a",
+      "start_frame": 492,
+      "end_frame": 507,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Northern Vietnam paper map settles; 1996 card drops from above."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3a",
+      "start_frame": 508,
+      "end_frame": 527,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Route begins at Cao Bằng and advances through Bắc Cạn and Lạng Sơn."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3a",
+      "start_frame": 528,
+      "end_frame": 551,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Route reaches Hạ Long; each city label stamps once on arrival."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3a",
+      "start_frame": 552,
+      "end_frame": 575,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes parallax; element choreography: Route draws in stepped segments; city labels stamp as the line reaches them; travel-ticket scraps drift at shallow depths."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3a",
+      "start_frame": 576,
+      "end_frame": 583,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold completed route with 1996 dominant; no scenic fake archive."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3a",
+      "start_frame": 584,
+      "end_frame": 599,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: Hạ Long endpoint enlarges into the white border of Nam’s portrait/name card in shot 3b"
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3b",
+      "start_frame": 600,
+      "end_frame": 611,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the muted federal blue + cream + charcoal paper field and base geometry for: Dad photo card at left and a reserved verified portrait-card slot for Đoàn Minh Nam at right; if no confirmed portrait is available, use a neutral tour-guide pictogram with a name card; a paper travel-ticket motif joins them."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3b",
+      "start_frame": 612,
+      "end_frame": 627,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Hard cut from route endpoint into Nam card frame; Dad card remains smaller on left."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3b",
+      "start_frame": 628,
+      "end_frame": 647,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Name card and HƯỚNG DẪN VIÊN label stamp in; annotation circle draws around verified portrait or icon."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3b",
+      "start_frame": 648,
+      "end_frame": 671,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Travel-ticket paper strip pivots between Dad and Nam; no invented facial details."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3b",
+      "start_frame": 672,
+      "end_frame": 695,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes push_in; element choreography: Nam card or pictogram slides in; one hand-drawn yellow annotation circle appears; travel-ticket stub pivots between Dad and Nam."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3b",
+      "start_frame": 696,
+      "end_frame": 703,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold on relationship recognition; camera push remains gentle."
+    },
+    {
+      "beat_id": 3,
+      "shot_id": "3b",
+      "start_frame": 704,
+      "end_frame": 719,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: travel-ticket stub flips and its reverse side reads 1997, becoming shot 4a’s active year card"
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4a",
+      "start_frame": 720,
+      "end_frame": 731,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the muted brick red + cream + charcoal paper field and base geometry for: large 1997 paper card on left; Australia and Vietnam SVG cards connected by a flat route arrow; DAD_REF_01 as a small photographic sticker riding the transition; one clean Hanoi pin."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4a",
+      "start_frame": 732,
+      "end_frame": 747,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "1997 card flips from the ticket carried from beat 3; map cards settle."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4a",
+      "start_frame": 748,
+      "end_frame": 767,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Headline appears; route arrow grows from Australia toward Vietnam."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4a",
+      "start_frame": 768,
+      "end_frame": 791,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Hanoi pin drops; Dad sticker shifts as one rigid card with the route."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4a",
+      "start_frame": 792,
+      "end_frame": 815,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes pan; element choreography: 1997 card snaps into place; route arrow extends Australia to Vietnam; Hanoi marker stamps; Dad sticker remains frozen while the card moves."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4a",
+      "start_frame": 816,
+      "end_frame": 823,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the completed return path; camera pan ends cleanly."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4a",
+      "start_frame": 824,
+      "end_frame": 839,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: 1997 card folds down and becomes the notebook tab at the top of shot 4b"
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4b",
+      "start_frame": 840,
+      "end_frame": 851,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the muted brick red + cream + charcoal paper field and base geometry for: top-down paper notebook composition labeled SunWay — Hà Nội; three index cards: GIÚP AI?, BAO NHIÊU?, CHỌN THẾ NÀO?; smaller tags CẦN CÙ, HỌC LỰC, TƯ CÁCH; no fake meeting photograph."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4b",
+      "start_frame": 852,
+      "end_frame": 867,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Notebook page rises into frame; 1997 tab remains visible at top edge."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4b",
+      "start_frame": 868,
+      "end_frame": 887,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Three large question cards drop into a row on twos."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4b",
+      "start_frame": 888,
+      "end_frame": 911,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Small tags CẦN CÙ / HỌC LỰC / TƯ CÁCH stamp beneath CHỌN THẾ NÀO?."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4b",
+      "start_frame": 912,
+      "end_frame": 935,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes tilt; element choreography: Three criteria cards land one after another; active underline moves to each card; small criteria tags appear under the third card."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4b",
+      "start_frame": 936,
+      "end_frame": 943,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the full selection logic; no invented people or hotel scene."
+    },
+    {
+      "beat_id": 4,
+      "shot_id": "4b",
+      "start_frame": 944,
+      "end_frame": 959,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: the three index cards shrink toward their centers and become the first three network nodes of beat 5"
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5a",
+      "start_frame": 960,
+      "end_frame": 971,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the charcoal newsprint + cream + yellow paper field and base geometry for: paper network diagram with text-only nodes for Sơ Nien and Cha Nguyễn Văn Tuyến, Nam node, and a neutral student cluster; connectors are hand-drawn paper lines; no invented portraits."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5a",
+      "start_frame": 972,
+      "end_frame": 987,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Three notebook cards from beat 4 shrink into network positions; additional labels settle around them."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5a",
+      "start_frame": 988,
+      "end_frame": 1007,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Headline appears; Sơ Nien and Cha Tuyến connectors grow toward student cluster."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5a",
+      "start_frame": 1008,
+      "end_frame": 1031,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Nam node joins from right; active yellow line reaches student cluster."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5a",
+      "start_frame": 1032,
+      "end_frame": 1055,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes parallax; element choreography: Nodes pop into place in narration order; connectors grow only after endpoints exist; one yellow active connector advances toward the students."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5a",
+      "start_frame": 1056,
+      "end_frame": 1063,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the completed network with one highlighted path; no face invention."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5a",
+      "start_frame": 1064,
+      "end_frame": 1079,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: Nam node expands into a notebook card that fills shot 5b"
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5b",
+      "start_frame": 1080,
+      "end_frame": 1091,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the charcoal newsprint + cream + yellow paper field and base geometry for: top-down close detail of Nam’s paper notebook: four clean note slips labeled HỌC TẬP, GIA ĐÌNH, QUÊ QUÁN, DỰ ĐỊNH; a translator tag and small pencil/tape scraps; no handwriting that invents personal details."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5b",
+      "start_frame": 1092,
+      "end_frame": 1107,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Hard cut into Nam notebook detail; translator tag slides into upper corner."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5b",
+      "start_frame": 1108,
+      "end_frame": 1127,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Four information labels stamp in sequentially with clean compositor typography."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5b",
+      "start_frame": 1128,
+      "end_frame": 1151,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "A pencil or card pointer moves between labels once; tape corners settle."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5b",
+      "start_frame": 1152,
+      "end_frame": 1175,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes static; element choreography: Notebook opens; four note slips appear one by one; translator tag stamps; pencil pivots once and stops."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5b",
+      "start_frame": 1176,
+      "end_frame": 1183,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Static readable hold; no fabricated student facts."
+    },
+    {
+      "beat_id": 5,
+      "shot_id": "5b",
+      "start_frame": 1184,
+      "end_frame": 1199,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: the four note slips stack, duplicate outward, and become the neutral student-card deck of beat 6"
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6a",
+      "start_frame": 1200,
+      "end_frame": 1211,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the mustard yellow + charcoal + cream paper field and base geometry for: eight neutral student paper cards arranged as a clean 2x4 physical grid around one huge compositor numeral 8; no invented faces; yellow field behind the number."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6a",
+      "start_frame": 1212,
+      "end_frame": 1227,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Student-card deck from beat 5 fans into a 2x4 grid."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6a",
+      "start_frame": 1228,
+      "end_frame": 1247,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Count advances 1 through 8 as cards settle; compositor numeral updates discretely."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6a",
+      "start_frame": 1248,
+      "end_frame": 1271,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "8 SINH VIÊN ĐẦU TIÊN appears; yellow block grows behind the 8."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6a",
+      "start_frame": 1272,
+      "end_frame": 1295,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes push_in; element choreography: Student cards pop-settle one by one until eight; central 8 scales from 0.9 to 1; final card lands with a stronger paper impact."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6a",
+      "start_frame": 1296,
+      "end_frame": 1303,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold on exactly eight cards; no faces and no extra count."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6a",
+      "start_frame": 1304,
+      "end_frame": 1319,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: central 8 enlarges and becomes the crop window into one representative neutral student card in shot 6b"
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6b",
+      "start_frame": 1320,
+      "end_frame": 1331,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the mustard yellow + charcoal + cream paper field and base geometry for: one neutral student card large in foreground, with simple non-identifying fields HỌC, GIA ĐÌNH, DỰ ĐỊNH; seven other cards sit smaller behind, proving the group without inventing identities."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6b",
+      "start_frame": 1332,
+      "end_frame": 1347,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Hard cut through the numeral-8 crop into one representative neutral card."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6b",
+      "start_frame": 1348,
+      "end_frame": 1367,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Three generic fields appear without personal data; seven background cards remain visible."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6b",
+      "start_frame": 1368,
+      "end_frame": 1391,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "A small ý tưởng → việc thật paper arrow slides beneath the card."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6b",
+      "start_frame": 1392,
+      "end_frame": 1415,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes pull_out; element choreography: Foreground card comes into focus as rigid paper; seven background cards recede; small arrow strip points from idea note to student deck."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6b",
+      "start_frame": 1416,
+      "end_frame": 1423,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold intimate detail while camera slowly pulls out to reveal the eight-card context."
+    },
+    {
+      "beat_id": 6,
+      "shot_id": "6b",
+      "start_frame": 1424,
+      "end_frame": 1439,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: foreground card folds into a support-category card that opens beat 7"
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7a",
+      "start_frame": 1440,
+      "end_frame": 1451,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the muted teal-blue + cream + yellow paper field and base geometry for: central paper label HỖ TRỢ with separate rigid icon cards for tuition, accommodation, books, travel, medical help and family crisis; icons are simple paper objects, not software UI."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7a",
+      "start_frame": 1452,
+      "end_frame": 1467,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "The folded student card from beat 6 opens into a central HỖ TRỢ card."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7a",
+      "start_frame": 1468,
+      "end_frame": 1487,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Headline appears; tuition icon or card lands as the first category."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7a",
+      "start_frame": 1488,
+      "end_frame": 1511,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Accommodation, books, travel, medical and family-crisis cards appear around the center."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7a",
+      "start_frame": 1512,
+      "end_frame": 1535,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes element; element choreography: Support-category cards pop around the center in a radial but orderly arrangement; tuition appears first and gets the yellow accent."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7a",
+      "start_frame": 1536,
+      "end_frame": 1543,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the complete support spectrum with tuition highlighted only once."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7a",
+      "start_frame": 1544,
+      "end_frame": 1559,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: yellow tuition card slides aside and reveals the other support categories as shot 7b begins"
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7b",
+      "start_frame": 1560,
+      "end_frame": 1571,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the muted teal-blue + cream + yellow paper field and base geometry for: close lateral strip of practical support objects as paper cutouts: key or room card, books, travel ticket, medical cross card, family-emergency envelope; each object isolated with its own shadow."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7b",
+      "start_frame": 1572,
+      "end_frame": 1587,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Hard cut to an over-wide support strip; leftmost room or key card already visible."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7b",
+      "start_frame": 1588,
+      "end_frame": 1607,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Pan reveals books and travel ticket; their labels stamp beneath."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7b",
+      "start_frame": 1608,
+      "end_frame": 1631,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Pan continues to medical and family-emergency envelope; one highlight follows narration."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7b",
+      "start_frame": 1632,
+      "end_frame": 1655,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes pan; element choreography: Camera pans across the support strip while each rigid paper object receives one small placement motion; yellow highlight travels once, never flashing."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7b",
+      "start_frame": 1656,
+      "end_frame": 1663,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "End with all support cards visible and settled before stacking."
+    },
+    {
+      "beat_id": 7,
+      "shot_id": "7b",
+      "start_frame": 1664,
+      "end_frame": 1679,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: all support cards stack into one cream title card whose face reveals the program name in beat 8"
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8a",
+      "start_frame": 1680,
+      "end_frame": 1691,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the archival cream + deep brick + charcoal paper field and base geometry for: large physical archival program-name card assembled from cream paper bands, subtle document border, one yellow underline and small Australia/Vietnam map scraps behind; no invented logo."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8a",
+      "start_frame": 1692,
+      "end_frame": 1707,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Support cards from beat 7 stack and square up into one archival title plaque."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8a",
+      "start_frame": 1708,
+      "end_frame": 1727,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Compositor renders the exact program name in three controlled lines."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8a",
+      "start_frame": 1728,
+      "end_frame": 1751,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Australia and Vietnam map scraps appear behind as quiet support context."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8a",
+      "start_frame": 1752,
+      "end_frame": 1775,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes parallax; element choreography: Paper bands assemble into a clean title plaque; document border and yellow underline settle; map scraps drift at shallow depth."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8a",
+      "start_frame": 1776,
+      "end_frame": 1783,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the original program name cleanly and legibly."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8a",
+      "start_frame": 1784,
+      "end_frame": 1799,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: title plaque folds horizontally and becomes the bridge deck connecting Australia and Vietnam in shot 8b"
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8b",
+      "start_frame": 1800,
+      "end_frame": 1811,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the archival cream + deep brick + charcoal paper field and base geometry for: split paper geography: Australia left with Dad photographic sticker, Vietnam right with Nam text or verified portrait card and small student stack; a yellow bridge or connector spans the center."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8b",
+      "start_frame": 1812,
+      "end_frame": 1827,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Folded title plaque opens into two map fields; Dad card lands left, Nam card lands right."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8b",
+      "start_frame": 1828,
+      "end_frame": 1847,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Yellow connector grows between Australia and Vietnam."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8b",
+      "start_frame": 1848,
+      "end_frame": 1871,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Student-card stack appears behind Nam; all human faces remain source-based only."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8b",
+      "start_frame": 1872,
+      "end_frame": 1895,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes push_in; element choreography: Bridge line grows left to right; Dad and Nam cards settle at opposite ends; small student stack appears behind Nam."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8b",
+      "start_frame": 1896,
+      "end_frame": 1903,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the operational bridge with subtle depth parallax."
+    },
+    {
+      "beat_id": 8,
+      "shot_id": "8b",
+      "start_frame": 1904,
+      "end_frame": 1919,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: bridge line extends beyond the right edge and becomes the baseline of the 1997–2006 timeline in beat 9"
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9a",
+      "start_frame": 1920,
+      "end_frame": 1931,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the federal blue + cream + muted brick paper field and base geometry for: long horizontal paper timeline from 1997 to 2006; student-card stacks grow modestly along the line; optional real archive cards ARCH_0411, ARCH_0471, ARCH_0527 sit above as continuation evidence with a clear HÀNH TRÌNH TIẾP TỤC label."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9a",
+      "start_frame": 1932,
+      "end_frame": 1947,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Bridge line from beat 8 continues as the timeline baseline; 1997 tick stamps at left."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9a",
+      "start_frame": 1948,
+      "end_frame": 1967,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Timeline and student-card stacks advance toward 2006 with restrained growth."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9a",
+      "start_frame": 1968,
+      "end_frame": 1991,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Real archive cards place above the line with HÀNH TRÌNH TIẾP TỤC label to preserve chronology."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9a",
+      "start_frame": 1992,
+      "end_frame": 2015,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes pan; element choreography: Timeline advances left to right; card stacks accumulate; archive cards enter as clearly later impact or continuation evidence rather than period photography."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9a",
+      "start_frame": 2016,
+      "end_frame": 2023,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the completed 1997–2006 span; no claim of exact yearly counts."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9a",
+      "start_frame": 2024,
+      "end_frame": 2039,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: 2006 tick stays behind while other years slide away; it becomes the handoff year card in beat 10"
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9b",
+      "start_frame": 2040,
+      "end_frame": 2051,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the federal blue + cream + muted brick paper field and base geometry for: close network expansion diagram: one central student cluster with outward paper labels BẠN BÈ, CỘNG ĐỒNG, TỔ CHỨC SINH VIÊN, TRƯỜNG ĐẠI HỌC; no social-media UI styling."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9b",
+      "start_frame": 2052,
+      "end_frame": 2067,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Hard cut to a close student-cluster node carried from the timeline."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9b",
+      "start_frame": 2068,
+      "end_frame": 2087,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Four referral labels appear one by one around the cluster."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9b",
+      "start_frame": 2088,
+      "end_frame": 2111,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Connectors grow from center to labels; one muted red node accent appears."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9b",
+      "start_frame": 2112,
+      "end_frame": 2135,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes static; element choreography: Four referral labels pop outward from the central cluster; connectors grow once; all settle into a calm network."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9b",
+      "start_frame": 2136,
+      "end_frame": 2143,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Static hold emphasizes organic network growth rather than hype."
+    },
+    {
+      "beat_id": 9,
+      "shot_id": "9b",
+      "start_frame": 2144,
+      "end_frame": 2159,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: network connectors retract toward the 2006 corner, forming a single handoff arrow into beat 10"
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10a",
+      "start_frame": 2160,
+      "end_frame": 2171,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the deep brick + cream + charcoal paper field and base geometry for: large 2006 year card at top; left name card for Đoàn Minh Nam, right name card for Nguyễn Hoàng Cung; portraits only if owner-confirmed; a physical folder or arrow moves left to right."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10a",
+      "start_frame": 2172,
+      "end_frame": 2187,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "2006 tick from beat 9 enlarges into the year card; two name cards appear at opposite sides."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10a",
+      "start_frame": 2188,
+      "end_frame": 2207,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "CHUYỂN GIAO label stamps above the physical folder or arrow."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10a",
+      "start_frame": 2208,
+      "end_frame": 2231,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Folder or arrow travels left to right in stepped paper poses; no unverified portrait is invented."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10a",
+      "start_frame": 2232,
+      "end_frame": 2255,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes push_in; element choreography: 2006 card stamps; Nam and Cung name cards settle; folder or arrow slides left to right and stops at Cung."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10a",
+      "start_frame": 2256,
+      "end_frame": 2263,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold after the handoff reaches Cung; camera push ends."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10a",
+      "start_frame": 2264,
+      "end_frame": 2279,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: handoff arrow stretches into a yellow underline that carries the new program name into shot 10b"
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10b",
+      "start_frame": 2280,
+      "end_frame": 2291,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the deep brick + cream + charcoal paper field and base geometry for: old Stevenson Scholarship Programme label becomes smaller archival paper at upper-left; large blank central title strip reserved for compositor text VIET UC FAMILY; Australia and Vietnam paper silhouettes connect behind."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10b",
+      "start_frame": 2292,
+      "end_frame": 2307,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Hard cut with the handoff underline already present; old program label sits small at upper-left."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10b",
+      "start_frame": 2308,
+      "end_frame": 2327,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "New central title strip grows and compositor reveals VIET UC FAMILY."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10b",
+      "start_frame": 2328,
+      "end_frame": 2351,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Australia/Vietnam silhouettes slide closer; yellow connector locks between them."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10b",
+      "start_frame": 2352,
+      "end_frame": 2375,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes parallax; element choreography: Old title slides upward and shrinks; new title strip settles center; Australia and Vietnam silhouettes move closer with one yellow connector."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10b",
+      "start_frame": 2376,
+      "end_frame": 2383,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the new name cleanly with restrained parallax."
+    },
+    {
+      "beat_id": 10,
+      "shot_id": "10b",
+      "start_frame": 2384,
+      "end_frame": 2399,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: Viet Uc Family title strip lifts upward to reveal the principle card KHÔNG PHẢI TRẢ NỢ in beat 11"
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11a",
+      "start_frame": 2400,
+      "end_frame": 2411,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the charcoal + cream + highlighter yellow paper field and base geometry for: single large cream paper principle card centered on charcoal background; huge compositor phrase KHÔNG PHẢI TRẢ NỢ; smaller label HỖ TRỢ VÔ ĐIỀU KIỆN; one wide yellow highlight; no decorative clutter."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11a",
+      "start_frame": 2412,
+      "end_frame": 2427,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Viet Uc Family title from beat 10 slides upward, revealing the principle card beneath."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11a",
+      "start_frame": 2428,
+      "end_frame": 2447,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Compositor reveals KHÔNG PHẢI TRẢ NỢ in one clean block."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11a",
+      "start_frame": 2448,
+      "end_frame": 2471,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Small HỖ TRỢ VÔ ĐIỀU KIỆN label appears; yellow highlight completes one pass."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11a",
+      "start_frame": 2472,
+      "end_frame": 2495,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes static; element choreography: Principle card lands once; yellow highlight wipes underneath; everything else stays still so the statement lands."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11a",
+      "start_frame": 2496,
+      "end_frame": 2503,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Absolute hold; static camera signals the payoff."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11a",
+      "start_frame": 2504,
+      "end_frame": 2519,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: yellow highlight splits into four narrow strips that lead to the non-discrimination labels in shot 11b"
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11b",
+      "start_frame": 2520,
+      "end_frame": 2531,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the charcoal + cream + highlighter yellow paper field and base geometry for: four simple physical label cards arranged evenly: TÔN GIÁO, DÂN TỘC, NGÀNH HỌC, GIỚI; each crossed by the same neutral equality mark, not red X marks; central small label KHÔNG PHÂN BIỆT."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11b",
+      "start_frame": 2532,
+      "end_frame": 2547,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Hard cut to central KHÔNG PHÂN BIỆT card; first two labels appear."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11b",
+      "start_frame": 2548,
+      "end_frame": 2567,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Remaining two labels settle symmetrically; equality marks appear."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11b",
+      "start_frame": 2568,
+      "end_frame": 2591,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Thin connectors unify all four categories without ranking them."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11b",
+      "start_frame": 2592,
+      "end_frame": 2615,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes pull_out; element choreography: Four labels appear from center outward; thin equality connectors link them; camera slowly pulls out to show the balanced set."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11b",
+      "start_frame": 2616,
+      "end_frame": 2623,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold balanced set while camera gently pulls out."
+    },
+    {
+      "beat_id": 11,
+      "shot_id": "11b",
+      "start_frame": 2624,
+      "end_frame": 2639,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: four equality connectors curve forward and become a circular help-forward arrow entering beat 12"
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12a",
+      "start_frame": 2640,
+      "end_frame": 2651,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the warm cream + charcoal + muted gold-yellow paper field and base geometry for: real impact/archive collage using approved photos such as ARCH_0407, ARCH_0448, ARCH_0460 and ARCH_0428; Dad and community remain real photographic prints; a circular paper arrow suggests graduates helping others; no claim about 2027 totals."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12a",
+      "start_frame": 2652,
+      "end_frame": 2667,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Equality connectors from beat 11 bend into a circular help-forward arrow; first archive photo lands."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12a",
+      "start_frame": 2668,
+      "end_frame": 2687,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Additional approved archive cards tape into place; compositor reveals the help-forward phrase."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12a",
+      "start_frame": 2688,
+      "end_frame": 2711,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Circular arrow completes; archive cards breathe with tiny paper-depth parallax."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12a",
+      "start_frame": 2712,
+      "end_frame": 2735,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes parallax; element choreography: Archive photo prints tape into place one by one; circular help-forward arrow draws around them; tiny photo drift only, faces unchanged."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12a",
+      "start_frame": 2736,
+      "end_frame": 2743,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Hold the impact collage warmly; no 2027 or 1000+ current-fact claim."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12a",
+      "start_frame": 2744,
+      "end_frame": 2759,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "STEP2",
+      "action": "Transition preparation only: archive cards slide toward the edges while DAD_REF_02 appears center, forming the clean end card in shot 12b"
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12b",
+      "start_frame": 2760,
+      "end_frame": 2771,
+      "local_start_frame": 0,
+      "local_end_frame": 11,
+      "cadence": "HOLD",
+      "action": "Establish the warm cream + charcoal + muted gold-yellow paper field and base geometry for: DAD_REF_02 as the dominant unchanged real portrait on a clean warm paper field; small domain vietucfamily.org; large compositor motto DREAM. BELIEVE. DO. with one yellow underline; all other archive cards recede to edges."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12b",
+      "start_frame": 2772,
+      "end_frame": 2787,
+      "local_start_frame": 12,
+      "local_end_frame": 27,
+      "cadence": "STEP2",
+      "action": "Archive cards from shot 12a slide outward, revealing Dad portrait centered."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12b",
+      "start_frame": 2788,
+      "end_frame": 2807,
+      "local_start_frame": 28,
+      "local_end_frame": 47,
+      "cadence": "STEP2",
+      "action": "Compositor reveals DREAM. then BELIEVE. then DO. as separate paper-word placements."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12b",
+      "start_frame": 2808,
+      "end_frame": 2831,
+      "local_start_frame": 48,
+      "local_end_frame": 71,
+      "cadence": "STEP2",
+      "action": "Domain appears small beneath; one yellow underline completes."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12b",
+      "start_frame": 2832,
+      "end_frame": 2855,
+      "local_start_frame": 72,
+      "local_end_frame": 95,
+      "cadence": "MIXED",
+      "action": "Camera executes static; element choreography: Dad portrait remains frozen; motto words appear one by one with restrained paper placement; yellow underline settles under the final phrase."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12b",
+      "start_frame": 2856,
+      "end_frame": 2863,
+      "local_start_frame": 96,
+      "local_end_frame": 103,
+      "cadence": "HOLD",
+      "action": "Absolute final hold; no jitter on Dad face and no new elements."
+    },
+    {
+      "beat_id": 12,
+      "shot_id": "12b",
+      "start_frame": 2864,
+      "end_frame": 2879,
+      "local_start_frame": 104,
+      "local_end_frame": 119,
+      "cadence": "HOLD",
+      "action": "Absolute final hold: Dad portrait, domain and motto remain completely still and legible."
+    }
+  ]
+}

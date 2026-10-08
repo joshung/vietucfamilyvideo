@@ -1,4 +1,9 @@
-# FINAL DIRECTOR PACK — Working v03
+# FINAL DIRECTOR PACK — Working v04
+
+> **VOX V2 OVERRIDE (2026-10-08):** For all new implementation, the canonical creative/frame package is `docs/31-VOX-V2-story-theme-motion.md` + `production/vox-v2/` + `docs/34-VOX-V2-MASTER-IMPLEMENTATION-PROMPT.md`.
+>
+> The older 19-scene / buffalo / V1 frame instructions below are retained only for audit and provenance. If any V1 instruction conflicts with VOX V2, **VOX V2 wins**. Factual research, Dad references, archive catalog and truth holds remain valid unless explicitly superseded.
+
 
 ## Status
 

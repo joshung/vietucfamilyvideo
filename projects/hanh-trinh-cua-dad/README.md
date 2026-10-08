@@ -1,217 +1,223 @@
 # Hành Trình Của Dad
 
-**Project ID:** VUF_DAD_001  
-**Working title:** *Dad Stevenson: định chinh phục Việt Nam, rồi Việt Nam chinh phục lại Dad*  
-**Format:** 2-minute editorial mini-documentary / paper-stop-motion visual essay  
-**Language:** Vietnamese  
-**Target runtime:** 120 seconds  
-**Master timeline:** 1920×1080 / 24fps / 2880 frames / 16:9  
-**Current stage:** PREPRODUCTION_LOCKED_RENDER_DEFERRED  
+**Project ID:** VUF_DAD_001
+**Format:** 2-minute editorial mini-documentary / paper-collage explainer
+**Language:** Vietnamese
+**Master:** 1920×1080 / 24fps / 2880 frames / 16:9
+**Current stage:** VOX_V2_PREPRODUCTION_LOCKED_RENDER_DEFERRED
 **Approved master:** none
 
-## Visual production model
+## Active creative system: VOX Director V2
 
-This project is now locked as:
+The active pre-render package was rebuilt from the installed repository skill:
 
-**Remotion editorial documentary + deterministic paper stop-motion.**
+`.agents/skills/vox-director/SKILL.md`
 
-The rule is:
+The V2 package supersedes the previous 19-scene creative/frame plan for **new implementation**.
 
-```
-design the still
-→ define paper layers
-→ define exact poses/keyframes
-→ animate stepped paper motion
-→ compose in Remotion
-→ insert optional AI motion only where useful
-```
+Old V1 docs remain in Git for audit/rollback only.
 
-AI does not control the timeline.
-
-## What is locked
-
-- factual story spine;
-- 2-minute screenplay;
-- locked narration;
-- directing treatment;
-- 19-scene animatic;
-- exact 2880-frame master timeline;
-- frame-by-frame paper-motion blueprint;
-- transition chain between every adjacent scene;
-- Remotion style tokens;
-- Dad identity references;
-- 728-image archive catalog;
-- 12-image visually QC'd shortlist;
-- sound plan;
-- model routing;
-- render execution architecture;
-- Remotion implementation handoff prompt;
-- storage/env contract;
-- QC and truth holds;
-- hard fact-lock regression gates for Dad = Australian / Adelaide;
-- frame-locked narration cue sheet with 35 independent WAV cues.
-
-## Primary frame-by-frame spec
-
-Read this before implementing motion:
-
-`docs/22-frame-by-frame-paper-stop-motion.md`
-
-It accounts for the complete frame range:
-
-`F0000 → F2879`
-
-and specifies:
-- exact layer actions;
-- coordinates;
-- frame ranges;
-- stepped cadence;
-- holds;
-- transitions;
-- hero frames.
-
-## Paper stop-motion system
-
-Repository-wide rule:
-
-`/docs/editorial-remotion-style-system.md`
-
-Reference breakdown:
-
-`docs/21-reference-style-breakdown.md`
-
-Machine-readable tokens:
-
-`production/remotion/style-tokens.json`
-
-Scene timeline:
-
-`production/remotion/scene-plan.json`
-
-Implementation-agent prompt:
-
-`docs/23-remotion-implementation-handoff-prompt.md`
-
-Exact prompt layer:
-
-- `docs/24-image-generation-prompts.md`
-- `docs/25-frame-prompt-contract.md`
-- `docs/26-image-generation-agent-handoff-prompt.md`
-- `docs/27-exact-prompt-remotion-handoff.md`
-- `production/remotion/image-generation-manifest.json`
-- `production/remotion/hero-frame-prompts.json`
-- `production/remotion/frame-actions.json`
-- `production/remotion/frame-prompt-manifest.jsonl`
-- `production/remotion/frame-prompt-index.json`
-
-The exact frame manifest contains one prompt record for every frame `F0000 → F2879`. Regenerate it with `node scripts/build-frame-prompt-manifest.mjs` and validate with `node scripts/validate-frame-prompts.mjs`.
-
-Before any preview/master also run:
-
-- `node scripts/validate-audio-cues.mjs`
-- `node scripts/validate-fact-lock.mjs`
-
-Fact/audio contracts:
-
-- `docs/29-fact-lock-and-regression.md`
-- `docs/30-audio-sync-cue-sheet.md`
-- `production/facts/fact-lock.json`
-- `production/audio/voiceover-cues.json`
-
-## Story lock
+### V2 design
 
 ```
-Dad / Australia
-→ fictional kangaroo
-→ fictional buffalo
-→ Adelaide scholarship idea
-→ 1996 meet Đoàn Minh Nam
-→ 1997 return / scholarship planning
+origin story
+→ 12 narrative beats
+→ 2 shots per beat
+→ 24 shots
+→ 5 seconds / 120 frames per shot
+→ 168 exact action ranges
+→ 2880 deterministic frame records
+```
+
+Theme:
+
+`humanist-newsprint-v2`
+
+Visual language:
+- premium newsprint/editorial paper collage;
+- Swiss information hierarchy;
+- real people as photographic stickers;
+- strong negative space;
+- one highlighter-yellow accent;
+- paper motion on twos;
+- one flat-safe camera move per shot;
+- deterministic compositor typography.
+
+## Canonical V2 source of truth
+
+Read in this order:
+
+1. `docs/31-VOX-V2-story-theme-motion.md`
+2. `docs/32-VOX-V2-supervision-report.md`
+3. `production/vox-v2/theme.json`
+4. `production/vox-v2/beats.json`
+5. `production/vox-v2/audio-cues.json`
+6. `docs/33-VOX-V2-24-shot-prompts.md`
+7. `production/vox-v2/shot-prompts.json`
+8. `production/vox-v2/frame-actions.json`
+9. `production/vox-v2/frame-index.json`
+10. `production/vox-v2/frame-manifest.jsonl`
+11. `docs/34-VOX-V2-MASTER-IMPLEMENTATION-PROMPT.md`
+
+The machine-readable frame manifest contains exactly one record for every frame:
+
+`VOXV2_F0000 → VOXV2_F2879`
+
+## A → B → C validation
+
+The rewrite is gated in three supervised passes:
+
+### A — Story / beats
+
+```bash
+node scripts/validate-vox-v2.mjs A
+```
+
+Checks:
+- facts;
+- 12-beat story;
+- 24-shot timing;
+- narration density;
+- hook;
+- camera anti-monotony.
+
+### B — Prompts / theme
+
+```bash
+node scripts/validate-vox-v2.mjs B
+```
+
+Checks:
+- one locked style block;
+- 24 image prompts;
+- 24 motion prompts;
+- C-roll face locks;
+- transition handoffs;
+- prompt structure.
+
+### C — Every frame
+
+```bash
+node scripts/validate-vox-v2.mjs C
+```
+
+Checks:
+- 168 action ranges;
+- 2880 unique frames;
+- exact frame coverage;
+- exact camera state;
+- deterministic paper pose;
+- prompt references;
+- opening fact lock;
+- final motto.
+
+Regenerate all V2 machine files with:
+
+```bash
+node scripts/build-vox-v2.mjs
+```
+
+## New story spine
+
+```
+Dad / Australia / Adelaide
+→ “the story is not about kangaroos”
+→ Dad + Sơ Nien / the student-finance question
+→ 1996 Dad meets Đoàn Minh Nam
+→ 1997 return / SunWay planning
+→ first connection network
 → first 8 students
+→ what support actually covers
 → Stevenson Scholarship Programme
+→ Australia ↔ Vietnam operating bridge
 → growth 1997–2006
-→ 2006 Viet Uc Family
-→ support / belief / hope / no repayment
-→ Dream – Believe – Do
+→ 2006 handoff + Viet Uc Family
+→ unconditional / no repayment / no discrimination
+→ help-forward principle
+→ Dream. Believe. Do.
 ```
+
+The old buffalo detour has been removed from V2 because it consumed hook time without advancing the factual spine.
+
+## Fact lock
+
+Dad Stevenson:
+- Australian / người Úc;
+- scholarship-origin context: Adelaide, South Australia.
+
+Never establish Dad as:
+- American;
+- from America / USA / United States;
+- Mỹ / Hoa Kỳ.
+
+The website's future-dated 2027 / 1000+ statement is still held and must not be narrated as a current 2026 fact.
 
 ## Dad references
 
 `assets/dad/reference-manifest.json`
 
 - DAD_REF_02 = primary facial identity
-- DAD_REF_01 = upper-body/editorial cutout
+- DAD_REF_01 = primary upper-body/editorial cutout
+
+V2 rule:
+
+**Dad is a photographic sticker, not an AI-painted character.**
 
 ## Archive
 
-Complete owner-supplied catalog:
+Full catalog:
 - `assets/catalog/image_urls_descriptions.csv`
 - `assets/catalog/image_catalog.json`
 
-Visual-QC shortlist:
+Approved/QC shortlist:
 - `assets/catalog/selected_for_animatic.json`
 - `docs/15-archive-shortlist-qc.md`
 
-## Render execution
+Recent archive may illustrate continuation/impact but must not be represented as period photography from 1996, 1997 or 2006.
 
-General:
-- `/docs/render-execution-pipeline.md`
+## Audio
 
-AI-shot execution:
-- `docs/19-render-execution-pipeline.md`
-- `docs/20-render-agent-handoff-prompt.md`
+V2 audio contract:
 
-Remotion master assembly:
-- `docs/23-remotion-implementation-handoff-prompt.md`
+`production/vox-v2/audio-cues.json`
 
-Only S01_SH02 and S01_SH03 may use optional AI-video source layers.
-
-The master must render without AI video.
-
-## Truth hold
-
-Do not present **“by 2027 over 1000 students”** as a current 2026 fact until clarified.
+- 24 independent narration cues;
+- one cue per 5-second shot window;
+- 48kHz mono PCM WAV target;
+- global offset = 0;
+- overflow fails only that cue;
+- later cues never shift to compensate.
 
 ## Render status
 
-Creative and deterministic motion specifications are prepared.
+The user asked to finish pre-render creative planning first.
+
+Prepared:
+- story;
+- beat map;
+- theme;
+- motion grammar;
+- 24 exact keyframe prompts;
+- 24 exact motion prompts;
+- transition grammar;
+- 24 narration cues;
+- 168 frame-action ranges;
+- 2880 exact frame records;
+- specialist supervision report;
+- implementation master prompt.
 
 Deferred:
-- Remotion implementation code;
-- provider API execution;
-- final media assembly/export.
+- image generation;
+- Remotion implementation;
+- TTS synthesis;
+- provider API calls;
+- video rendering;
+- final assembly.
 
-## Core docs
+## Legacy V1
 
-- `docs/00-brief.md`
-- `docs/01-research.md`
-- `docs/02-beat-sheet.md`
-- `docs/03-screenplay.md`
-- `docs/04-directors-treatment.md`
-- `docs/05-shot-list.md`
-- `docs/06-shot-cards.md`
-- `docs/07-continuity-bible.md`
-- `docs/08-paper-edit.md`
-- `docs/09-sound-plan.md`
-- `docs/10-ai-generation-plan.md`
-- `docs/11-qc-report.md`
-- `docs/12-image-asset-catalog.md`
-- `docs/13-asset-to-shot-map.md`
-- `docs/14-production-readiness.md`
-- `docs/15-archive-shortlist-qc.md`
-- `docs/16-storyboard-animatic-spec.md`
-- `docs/17-voiceover-lock.md`
-- `docs/18-model-routing.md`
-- `docs/19-render-execution-pipeline.md`
-- `docs/20-render-agent-handoff-prompt.md`
-- `docs/21-reference-style-breakdown.md`
-- `docs/22-frame-by-frame-paper-stop-motion.md`
-- `docs/23-remotion-implementation-handoff-prompt.md`
-- `docs/24-image-generation-prompts.md`
-- `docs/25-frame-prompt-contract.md`
-- `docs/26-image-generation-agent-handoff-prompt.md`
-- `docs/27-exact-prompt-remotion-handoff.md`
-- `docs/28-MASTER-EXECUTION-AGENT-PROMPT.md`
-- `docs/29-fact-lock-and-regression.md`
-- `docs/30-audio-sync-cue-sheet.md`
-- `docs/FINAL-DIRECTOR-PACK.md`
+Docs 00–30 and `production/remotion/` remain for provenance.
+
+When V1 and V2 conflict, **V2 wins for all new implementation**.
+
+The factual research/catalog material from V1 remains valid unless explicitly superseded.

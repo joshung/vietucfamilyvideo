@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.0",
+  "project_id": "VUF_DAD_001",
+  "theme_id": "humanist-newsprint-v2",
+  "based_on_vox_director": [
+    "newsprint-editorial",
+    "swiss-modern",
+    "C-roll photographic-sticker discipline"
+  ],
+  "medium": "mixed-media hand-cut paper collage + photographic stickers + deterministic compositor typography",
+  "movement_era": "mid-century editorial news feature filtered through contemporary Swiss information design",
+  "composition": "modular asymmetric grid, strong negative space, foreground-midground-background paper depth, wide-to-detail coverage",
+  "palette": {
+    "archival_cream": "#F1E7D2",
+    "charcoal_ink": "#171717",
+    "muted_blue": "#557083",
+    "muted_brick": "#A84A3A",
+    "highlighter_yellow": "#F2CE32",
+    "warm_gray": "#8B8376"
+  },
+  "typography": {
+    "headline": "bold condensed grotesque, all caps, compositor-rendered",
+    "body_labels": "clean grotesque/sans, compositor-rendered",
+    "dates_numbers": "heavy block sans or slab-like numeral treatment",
+    "rule": "max two font families; all Vietnamese glyphs must be supported"
+  },
+  "finish": [
+    "aged newsprint",
+    "light halftone",
+    "subtle riso misregistration",
+    "paper fiber",
+    "soft real drop shadows"
+  ],
+  "face_policy": "real people are photographic stickers; never AI-painted",
+  "text_policy": "all critical text is compositor overlay; generated keyframes reserve blank torn-paper title regions",
+  "motion_default": "paper elements move on twos at 24fps; camera may move smoothly; rigid flat paper only",
+  "prohibited": [
+    "glossy CGI",
+    "corporate 3D infographic",
+    "glassmorphism",
+    "neon tech UI",
+    "random B-roll",
+    "AI-generated factual faces",
+    "US origin imagery",
+    "face morphing",
+    "smooth floating-everything motion"
+  ],
+  "style_block": "Mixed-media hand-cut PAPER COLLAGE for a premium editorial documentary. Clearly separated physical layers with visible scissor-cut or lightly torn paper edges, tape corners, soft real-paper drop shadows, restrained halftone dots, newsprint scraps, paper-stencil shapes, subtle print misregistration and tactile paper grain. Human subjects that are real people remain PHOTOGRAPHIC paper stickers from approved source images; their faces are pixel-faithful and never repainted, beautified, de-aged or stylized. Composition follows Swiss editorial hierarchy: strong negative space, one dominant idea, one focal subject, one secondary explanatory system, bold condensed-grotesque headline area, small clean labels, dates and numbers as block typography. Palette is warm archival cream, charcoal ink, muted federal blue, muted brick red and one highlighter-yellow accent; one dominant accent per frame. Straight-on scanned-flat framing, upper-left soft studio light, crisp paper shadows, printed texture, NOT glossy CGI, NOT corporate 3D, NOT a smooth vector infographic."
+}
